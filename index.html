@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mes albums</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  /* — palette tirée de style.py — */
+  --cp: #e94560;          /* primary accent */
+  --ca: #a8c0ff;          /* secondary accent */
+  --cf: #0e0e16;          /* base background */
+  --s1: #16161f;          /* cards / panels  (+8) */
+  --s2: #1e1e2a;          /* hover           (+16) */
+  --s3: #292938;          /* pressed         (+28) */
+  --t1: #f0f0f8;          /* primary text */
+  --t2: #9098b0;          /* muted text */
+  --t3: #50586a;          /* very muted */
+  --cs: #3a3a6a;          /* selection */
+  --yt: #e94560;          /* YouTube reprend l'accent */
+  --red: #e94560;
+  --r: 10px; --rs: 6px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Cantarell',sans-serif;background:var(--cf);color:var(--t1);min-height:100vh;font-size:14px}
+
+/* scrollbar fine comme dans style.py */
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--s3);border-radius:2px}
+::-webkit-scrollbar-thumb:hover{background:var(--t3)}
+
+header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
+.site-title{
+  font-size:2.6rem;line-height:1;letter-spacing:-.02em;margin-bottom:.25rem;font-weight:700;
+  background:linear-gradient(90deg,var(--cp),var(--ca));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.site-sub{font-size:12px;color:var(--t3);margin-bottom:1.75rem;letter-spacing:.04em;text-transform:uppercase}
+
+.main{max-width:1200px;margin:0 auto;padding:1.5rem 2rem 0}
+
+/* toolbar */
+.toolbar{display:flex;gap:8px;align-items:center;margin-bottom:1.25rem}
+.search-wrap{flex:1;position:relative}
+.search-wrap svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:15px;height:15px;stroke:var(--t3);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+#search{
+  width:100%;height:38px;border:1px solid var(--s2);border-radius:var(--r);
+  padding:0 14px 0 36px;font-size:13px;font-family:'Cantarell',sans-serif;
+  background:var(--s1);color:var(--t1);outline:none;transition:border-color .15s,background .15s;
+}
+#search::placeholder{color:var(--t3)}
+#search:focus{border-color:var(--cp);background:var(--s2)}
+
+.add-btn{
+  height:38px;padding:0 16px;border:none;border-radius:var(--r);
+  font-family:'Cantarell',sans-serif;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap;
+  background:linear-gradient(135deg,var(--cp),var(--ca));color:#fff;
+  transition:opacity .15s;
+}
+.add-btn:hover{opacity:.85}
+.sort-select{
+  height:38px;padding:0 10px;
+  border:1px solid var(--s2);border-radius:var(--r);
+  background:var(--s1);color:var(--t2);
+  font-family:'Cantarell',sans-serif;font-size:12px;
+  cursor:pointer;outline:none;transition:border-color .15s;
+  appearance:none;-webkit-appearance:none;
+  padding-right:28px;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolyline points='6 9 12 15 18 9' stroke='%239098b0' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 8px center;background-size:14px;
+}
+.sort-select:hover{border-color:var(--s3);color:var(--t1)}
+.sort-select option{background:var(--s1);color:var(--t1)}
+.icon-btn{
+  width:38px;height:38px;flex-shrink:0;display:flex;align-items:center;justify-content:center;
+  border:1px solid var(--s2);border-radius:var(--r);background:var(--s1);cursor:pointer;
+  transition:border-color .15s,background .15s;
+}
+.icon-btn:hover{border-color:var(--s3);background:var(--s2)}
+.icon-btn svg{width:15px;height:15px;stroke:var(--t2);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.icon-btn:hover svg{stroke:var(--ca)}
+
+/* filters */
+.filters-block{margin-bottom:1.25rem}
+/* genre pills row */
+.genre-row{display:flex;align-items:baseline;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+.filter-group-label{font-size:10px;color:var(--t3);font-weight:700;letter-spacing:.08em;text-transform:uppercase;min-width:52px;flex-shrink:0}
+.tags{display:flex;gap:5px;flex-wrap:wrap}
+.tag{
+  font-size:11px;padding:3px 10px;border-radius:999px;
+  border:1px solid var(--s2);background:var(--s1);color:var(--t2);
+  cursor:pointer;transition:all .12s;user-select:none;font-family:'Cantarell',sans-serif;
+}
+.tag:hover{border-color:var(--s3);color:var(--t1);background:var(--s2)}
+.tag.on-genre  {background:rgba(233,69,96,.18);border-color:rgba(233,69,96,.4);color:#f08090;font-weight:700}
+.tag-more{border-style:dashed;color:var(--t3)}
+.tag-more:hover{color:var(--t1)}
+/* dropdown row */
+.dropdown-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:4px}
+.dd-wrap{position:relative}
+.dd-btn{
+  height:30px;padding:0 12px;
+  border:1px solid var(--s2);border-radius:var(--rs);
+  background:var(--s1);color:var(--t2);
+  font-family:'Cantarell',sans-serif;font-size:12px;
+  cursor:pointer;display:flex;align-items:center;gap:6px;
+  transition:all .12s;white-space:nowrap;
+}
+.dd-btn:hover{border-color:var(--s3);color:var(--t1)}
+.dd-btn.has-active{border-color:rgba(168,192,255,.4);background:rgba(168,192,255,.1);color:var(--ca)}
+.dd-btn svg{width:11px;height:11px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;transition:transform .15s}
+.dd-btn.open svg{transform:rotate(180deg)}
+.dd-badge{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-width:16px;height:16px;padding:0 4px;
+  background:var(--cp);color:#fff;border-radius:999px;font-size:10px;font-weight:700;
+}
+.dd-panel{
+  display:none;position:absolute;top:calc(100% + 5px);left:0;z-index:50;
+  background:var(--s1);border:1px solid var(--s2);border-radius:var(--r);
+  min-width:200px;max-width:280px;
+  box-shadow:0 8px 24px rgba(0,0,0,.4);
+}
+.dd-panel.open{display:block}
+.dd-search{
+  width:100%;height:32px;border:none;border-bottom:1px solid var(--s2);
+  background:transparent;color:var(--t1);
+  font-family:'Cantarell',sans-serif;font-size:12px;
+  padding:0 10px;outline:none;
+}
+.dd-search::placeholder{color:var(--t3)}
+.dd-list{max-height:220px;overflow-y:auto;padding:4px}
+.dd-item{
+  display:flex;align-items:center;gap:8px;
+  padding:6px 8px;border-radius:6px;
+  font-size:12px;color:var(--t2);cursor:pointer;
+  transition:background .1s,color .1s;
+}
+.dd-item:hover{background:var(--s2);color:var(--t1)}
+.dd-item.on{color:var(--ca);font-weight:700}
+.dd-item .dd-check{
+  width:14px;height:14px;border-radius:3px;border:1px solid var(--s3);
+  flex-shrink:0;display:flex;align-items:center;justify-content:center;
+}
+.dd-item.on .dd-check{background:var(--ca);border-color:var(--ca)}
+.dd-item.on .dd-check::after{content:'';display:block;width:8px;height:5px;border-left:2px solid #000;border-bottom:2px solid #000;transform:rotate(-45deg) translateY(-1px)}
+.dd-empty{font-size:11px;color:var(--t3);padding:10px 8px;text-align:center}
+.dd-clear{
+  display:block;width:100%;padding:6px;border:none;border-top:1px solid var(--s2);
+  background:transparent;color:var(--t3);font-family:'Cantarell',sans-serif;font-size:11px;
+  cursor:pointer;text-align:center;transition:color .1s;
+}
+.dd-clear:hover{color:var(--cp)}
+/* active filter chips below dropdowns */
+.active-chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px;margin-bottom:2px;min-height:0}
+.chip{
+  display:inline-flex;align-items:center;gap:4px;
+  font-size:11px;padding:2px 8px 2px 10px;border-radius:999px;
+  font-family:'Cantarell',sans-serif;cursor:default;
+}
+.chip-genre  {background:rgba(233,69,96,.15);color:#f08090}
+.chip-country{background:rgba(100,180,255,.15);color:#90c8ff}
+.chip-artist {background:rgba(168,192,255,.12);color:#c0d4ff}
+.chip-year   {background:rgba(253,240,220,.12);color:#c8a86a}
+.chip-x{cursor:pointer;opacity:.7;font-size:13px;line-height:1}
+.chip-x:hover{opacity:1}
+.tag.on-year   {background:rgba(168,192,255,.14);border-color:rgba(168,192,255,.35);color:var(--ca);font-weight:700}
+.tag.on-country{background:rgba(100,180,255,.12);border-color:rgba(100,180,255,.3);color:#90c8ff;font-weight:700}
+.tag.on-artist {background:rgba(168,192,255,.10);border-color:rgba(168,192,255,.25);color:#c0d4ff;font-weight:700}
+
+.count-bar{font-size:11px;color:var(--t3);margin-bottom:1rem;letter-spacing:.04em}
+
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:14px}
+.card{
+  background:var(--s1);border:1px solid var(--s2);border-radius:var(--r);
+  overflow:hidden;transition:border-color .15s,transform .15s,box-shadow .15s;
+}
+.card:hover{border-color:var(--s3);transform:translateY(-3px);box-shadow:0 8px 28px rgba(0,0,0,.4)}
+.cover-wrap{position:relative;width:100%;aspect-ratio:1}
+.cover-img{width:100%;height:100%;object-fit:cover;display:block}
+.cover-fallback{
+  width:100%;height:100%;display:flex;align-items:center;justify-content:center;
+  font-size:34px;font-weight:700;letter-spacing:-1px;color:var(--t3);
+}
+.card-body{padding:9px 11px 11px;border-top:1px solid var(--s2)}
+.card-title{font-size:13px;font-weight:700;line-height:1.3;margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--t1)}
+.card-artist{font-size:11px;color:var(--ca);margin-bottom:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card-foot{display:flex;align-items:center;justify-content:space-between;gap:5px}
+.card-pills{display:flex;gap:3px;flex-wrap:wrap;flex:1;min-width:0}
+.pill{font-size:10px;padding:2px 6px;border-radius:999px;font-weight:700}
+.pill-g{background:rgba(233,69,96,.18);color:#f08090}
+.pill-y{background:rgba(168,192,255,.14);color:var(--ca)}
+.pill-release{opacity:.55;font-size:9px;font-weight:400}
+.rating-btns{display:flex;gap:6px;flex-wrap:wrap}
+.rating-opt{
+  height:32px;padding:0 12px;
+  border:1px solid var(--s2);border-radius:var(--rs);
+  background:transparent;color:var(--t2);
+  font-family:'Cantarell',sans-serif;font-size:12px;cursor:pointer;
+  transition:all .12s;
+}
+.rating-opt:hover{border-color:var(--s3);color:var(--t1)}
+.rating-opt.selected{border-color:rgba(168,192,255,.4);background:rgba(168,192,255,.12);color:var(--ca);font-weight:700}
+.card-rating{position:absolute;top:7px;right:7px;font-size:18px;line-height:1;filter:drop-shadow(0 1px 3px rgba(0,0,0,.6))}
+.pill-c{background:rgba(100,180,255,.12);color:#90c8ff}
+.card-actions{display:flex;gap:3px;flex-shrink:0}
+.yt-btn{display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:var(--cp);text-decoration:none;border:none;cursor:pointer;transition:opacity .15s}
+.yt-btn:hover{opacity:.8}
+.yt-btn svg{width:13px;height:13px;fill:#fff}
+.edit-btn,.del-btn{display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:transparent;border:1px solid var(--s2);cursor:pointer;transition:all .12s}
+.edit-btn svg,.del-btn svg{width:12px;height:12px;stroke:var(--t2);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.edit-btn:hover{background:rgba(168,192,255,.12);border-color:rgba(168,192,255,.3)}
+.edit-btn:hover svg{stroke:var(--ca)}
+.del-btn:hover{background:rgba(233,69,96,.12);border-color:rgba(233,69,96,.3)}
+.del-btn:hover svg{stroke:var(--cp)}
+
+.empty{grid-column:1/-1;text-align:center;padding:4rem 1rem;color:var(--t3);font-size:13px}
+.empty strong{display:block;font-size:1.3rem;font-weight:700;color:var(--t2);margin-bottom:6px}
+
+/* pagination */
+.pagination{display:flex;align-items:center;justify-content:space-between;padding:1.5rem 0 3rem;gap:12px;flex-wrap:wrap}
+.page-info{font-size:11px;color:var(--t3)}
+.page-nav{display:flex;align-items:center;gap:4px}
+.page-btn{
+  min-width:30px;height:30px;padding:0 6px;
+  border:1px solid var(--s2);border-radius:var(--rs);
+  background:var(--s1);color:var(--t2);
+  font-family:'Cantarell',sans-serif;font-size:12px;cursor:pointer;transition:all .12s;
+}
+.page-btn:hover:not(:disabled){border-color:var(--s3);background:var(--s2);color:var(--t1)}
+.page-btn:disabled{opacity:.3;cursor:default}
+.page-btn.active{background:linear-gradient(135deg,var(--cp),var(--ca));border-color:transparent;color:#fff;font-weight:700;cursor:default}
+.page-dots{font-size:12px;color:var(--t3);padding:0 4px}
+
+/* modal */
+.overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:100;align-items:center;justify-content:center;padding:1rem;backdrop-filter:blur(3px)}
+.overlay.open{display:flex}
+.modal{background:var(--s1);border-radius:var(--r);border:1px solid var(--s2);padding:1.5rem;width:100%;max-width:460px;max-height:90vh;overflow-y:auto}
+.modal-title{font-size:1.25rem;font-weight:700;margin-bottom:1.25rem;color:var(--t1)}
+.field{margin-bottom:12px}
+.field label{display:block;font-size:11px;color:var(--t2);margin-bottom:4px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.field input{
+  width:100%;height:36px;border:1px solid var(--s2);border-radius:var(--rs);
+  padding:0 10px;font-size:13px;font-family:'Cantarell',sans-serif;
+  background:var(--cf);color:var(--t1);outline:none;transition:border-color .15s,background .15s;
+}
+.field input::placeholder{color:var(--t3)}
+.field input:focus{border-color:var(--cp);background:var(--s2)}
+.field .hint{font-size:10px;color:var(--t3);margin-top:4px}
+.form-row{display:flex;gap:10px}
+.form-row .field{flex:1}
+.form-err{font-size:11px;color:var(--cp);min-height:16px;margin-bottom:8px}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end}
+.btn-cancel{height:36px;padding:0 14px;border:1px solid var(--s2);border-radius:var(--rs);background:transparent;color:var(--t2);font-family:'Cantarell',sans-serif;font-size:13px;cursor:pointer;transition:all .12s}
+.btn-cancel:hover{border-color:var(--s3);background:var(--s2);color:var(--t1)}
+.btn-save{height:36px;padding:0 18px;border:none;border-radius:var(--rs);background:linear-gradient(135deg,var(--cp),var(--ca));color:#fff;font-family:'Cantarell',sans-serif;font-size:13px;font-weight:700;cursor:pointer;transition:opacity .15s}
+.btn-save:hover{opacity:.85}
+.modal-tip{font-size:10px;color:var(--t3);line-height:1.6;margin-top:1rem;border-top:1px solid var(--s2);padding-top:1rem}
+.modal-tip a{color:var(--ca)}
+
+.toast{position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%);background:var(--s3);color:var(--t1);border:1px solid var(--s2);font-family:'Cantarell',sans-serif;font-size:13px;padding:9px 18px;border-radius:var(--r);opacity:0;pointer-events:none;transition:opacity .2s;z-index:200;white-space:nowrap}
+.toast.show{opacity:1}
+
+@media(max-width:480px){
+  header{padding:1.5rem 1rem 0}
+  .main{padding:0 1rem}
+  .site-title{font-size:2rem}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}
+}
+</style>
+</head>
+<body>
+
+<div class="toast" id="toast"></div>
+
+<header>
+  <h1 class="site-title">Mes albums</h1>
+  <p class="site-sub">Une sélection personnelle</p>
+</header>
+
+<main class="main">
+  <div class="toolbar">
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="search" placeholder="Rechercher un album, un artiste…">
+    </div>
+    <button class="icon-btn" id="btn-import" title="Importer JSON">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+    </button>
+    <button class="icon-btn" id="btn-export" title="Exporter JSON">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+    </button>
+    <button class="add-btn" id="btn-add">+ Ajouter</button>
+    <select class="sort-select" id="sort-select">
+      <option value="title">Titre A→Z</option>
+      <option value="title-desc">Titre Z→A</option>
+      <option value="year-asc">Année ↑</option>
+      <option value="year-desc">Année ↓</option>
+      <option value="artist">Artiste A→Z</option>
+    </select>
+  </div>
+  <input type="file" id="import-input" accept=".json" style="display:none">
+
+  <div class="filters-block" id="filters"></div>
+  <div class="count-bar" id="count"></div>
+  <div class="grid" id="grid"></div>
+  <div class="pagination" id="pagination"></div>
+</main>
+
+<div class="overlay" id="overlay">
+  <div class="modal">
+    <div class="modal-title" id="modal-title">Ajouter un album</div>
+    <div class="form-row">
+      <div class="field"><label>Titre *</label><input id="f-title" placeholder="Kind of Blue"></div>
+      <div class="field"><label>Année de sortie *</label><input id="f-year" type="number" placeholder="1959"></div>
+    </div>
+    <div class="field">
+      <label>Année d'enregistrement</label>
+      <input id="f-recorded" placeholder="1955  ou  1970-1972">
+      <div class="hint">Optionnel. Année simple : <em>1955</em> — Plage : <em>1969-1979</em> — Années distinctes : <em>1982, 1985</em></div>
+    </div>
+    <div class="field">
+      <label>Artiste(s) *</label>
+      <input id="f-artist" placeholder="Miles Davis, John Coltrane">
+      <div class="hint">Plusieurs artistes ? Sépare-les par une virgule.</div>
+    </div>
+    <div class="form-row">
+      <div class="field"><label>Genre(s) *</label><input id="f-genre" placeholder="Jazz, Soul">
+        <div class="hint">Plusieurs genres ? Sépare-les par une virgule.</div>
+      </div>
+      <div class="field"><label>Pays</label><input id="f-country" placeholder="Allemagne, Portugal">
+        <div class="hint">Plusieurs pays ? Sépare-les par une virgule.</div>
+      </div>
+    </div>
+    <div class="field">
+      <label>Appréciation</label>
+      <div class="rating-btns" id="f-rating">
+        <button type="button" class="rating-opt" data-value="">— Bon</button>
+        <button type="button" class="rating-opt" data-value="star">⭐ Très bon</button>
+        <button type="button" class="rating-opt" data-value="crown">👑 Incontournable</button>
+      </div>
+    </div>
+    <div class="field">
+      <label>URL pochette</label>
+      <input id="f-cover" placeholder="https://…/cover.jpg">
+    </div>
+    <div class="field">
+      <label>Lien YouTube</label>
+      <input id="f-yt" placeholder="https://youtube.com/…">
+    </div>
+    <div class="form-err" id="form-err"></div>
+    <div class="modal-actions">
+      <button class="btn-cancel" id="btn-cancel">Annuler</button>
+      <button class="btn-save" id="btn-save">Ajouter</button>
+    </div>
+    <div class="modal-tip">
+      Astuce pochette : cherche sur <a href="https://www.discogs.com" target="_blank">Discogs</a> ou <a href="https://musicbrainz.org" target="_blank">MusicBrainz</a>, clic droit → "Copier l'adresse de l'image".
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  const PAGE_SIZE = 24;
+  const COLORS = [
+    ['#D4E8F5','#0D3B5E'],['#E2DAF5','#2A1668'],['#D4EFE3','#0C3D22'],
+    ['#FAE5D0','#5C2400'],['#FBE9C8','#4A2D00'],['#F5DAEA','#5C0D35'],
+    ['#D9EFC5','#1F4000'],['#E2E0DC','#2C2B28'],
+  ];
+
+  let albums = [];
+  let currentPage = 1;
+  let editingId = null;
+  let activeGenres   = new Set();
+  let activeYears    = new Set();
+  let activeArtists  = new Set();
+  let activeCountries = new Set();
+  let activeRatings  = new Set();
+  let toastTimer = null;
+
+  const FLAG_MAP = {
+    'allemagne':'🇩🇪','états-unis':'🇺🇸','etats-unis':'🇺🇸','royaume-uni':'🇬🇧','france':'🇫🇷',
+    'japon':'🇯🇵','canada':'🇨🇦','australie':'🇦🇺','italie':'🇮🇹','suède':'🇸🇪','suede':'🇸🇪',
+    'norvège':'🇳🇴','norvege':'🇳🇴','danemark':'🇩🇰','finlande':'🇫🇮','pays-bas':'🇳🇱',
+    'belgique':'🇧🇪','suisse':'🇨🇭','espagne':'🇪🇸','portugal':'🇵🇹','pologne':'🇵🇱',
+    'irlande':'🇮🇪','islande':'🇮🇸','grèce':'🇬🇷','grece':'🇬🇷','autriche':'🇦🇹',
+    'hongrie':'🇭🇺','tchéquie':'🇨🇿','tcheque':'🇨🇿','russie':'🇷🇺','ukraine':'🇺🇦',
+    'brésil':'🇧🇷','bresil':'🇧🇷','argentine':'🇦🇷','mexique':'🇲🇽','chili':'🇨🇱',
+    'afrique du sud':'🇿🇦','nigeria':'🇳🇬','éthiopie':'🇪🇹','ethiopie':'🇪🇹',
+    'inde':'🇮🇳','chine':'🇨🇳','corée du sud':'🇰🇷','coree du sud':'🇰🇷',
+    'iran':'🇮🇷','turquie':'🇹🇷','jamaïque':'🇯🇲','jamaique':'🇯🇲','cuba':'🇨🇺',
+    'nouvelle-zélande':'🇳🇿','nouvelle-zelande':'🇳🇿',
+  };
+  function countryFlag(name) {
+    return FLAG_MAP[name.toLowerCase()] || '';
+  }
+
+  /* ── STORAGE ── */
+  function migrateAlbum(a) {
+    // title case
+    if (a.title) a.title = toTitleCase(a.title);
+    // artists title case
+    if (Array.isArray(a.artists)) a.artists = a.artists.map(x => toTitleCase(x));
+    // genres → array, normalized
+    if (!a.genres && a.genre)              a.genres = a.genre.split(',').map(x => capitalize(x.trim())).filter(Boolean);
+    else if (typeof a.genres === 'string') a.genres = a.genres.split(',').map(x => capitalize(x.trim())).filter(Boolean);
+    else if (Array.isArray(a.genres))      a.genres = a.genres.map(x => capitalize(x.trim()));
+    else                                   a.genres = [];
+    // countries → array
+    if (typeof a.countries === 'string')   a.countries = a.countries ? a.countries.split(',').map(x => x.trim()).filter(Boolean) : [];
+    else if (!Array.isArray(a.countries))  a.countries = a.country ? [a.country] : [];
+    delete a.genre; delete a.country;
+    return a;
+  }
+
+  /* ── HELPERS ── */
+  function colorFor(id) { return COLORS[(id - 1) % COLORS.length]; }
+  function initials(t)  { return t.split(' ').map(w => w[0]).slice(0,2).join('').toUpperCase(); }
+  const LOWERCASE_WORDS = new Set(['a','an','the','and','but','or','for','nor','on','at','to','by','in','of','up','as','is','it']);
+  function toTitleCase(str) {
+    return str.trim().split(/\s+/).map((word, i) => {
+      const low = word.toLowerCase();
+      return (i === 0 || !LOWERCASE_WORDS.has(low))
+        ? low.charAt(0).toUpperCase() + low.slice(1)
+        : low;
+    }).join(' ');
+  }
+  function capitalize(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1).toLowerCase() : ''; }
+  function parseTags(s) {
+    return s.split(',').map(x => toTitleCase(x.trim())).filter(Boolean);
+  }
+  const ARRAY_KEYS = new Set(['artists','genres','countries']);
+
+  const EDIT_KEY = 'mes-albums-edits-v1'; // localStorage = éditions locales non encore pushées
+
+  async function load() {
+    // 1. D'abord on essaie le localStorage (éditions locales en attente)
+    try {
+      const raw = localStorage.getItem(EDIT_KEY);
+      if (raw) { albums = JSON.parse(raw).map(migrateAlbum); return; }
+    } catch {}
+    // 2. Sinon on charge albums.json depuis le repo
+    try {
+      const res = await fetch('albums.json?v=' + Date.now());
+      if (!res.ok) throw new Error();
+      const data = await res.json();
+      albums = data.map(migrateAlbum);
+    } catch {
+      albums = defaultAlbums();
+    }
+  }
+
+  function persist() {
+    localStorage.setItem(EDIT_KEY, JSON.stringify(albums));
+    updateEditBadge();
+  }
+
+  function clearLocalEdits() {
+    localStorage.removeItem(EDIT_KEY);
+  }
+
+  function defaultAlbums() {
+    return [
+      {id:1,title:'Kind of Blue',artists:['Miles Davis'],year:1959,genres:['Jazz'],countries:['États-Unis'],cover:'',yt:'https://www.youtube.com/watch?v=ylXk1LBvIqU'},
+      {id:2,title:'Blue',artists:['Joni Mitchell'],year:1971,genres:['Folk'],countries:['Canada'],cover:'',yt:''},
+      {id:3,title:'Thriller',artists:['Michael Jackson'],year:1982,genres:['Pop','R&b'],countries:['États-Unis'],cover:'',yt:''},
+      {id:4,title:'Illmatic',artists:['Nas'],year:1994,genres:['Hip-hop'],countries:['États-Unis'],cover:'',yt:''},
+    ];
+  }
+
+  function uniq(key) {
+    const all = [];
+    albums.forEach(a => {
+      let val;
+      if (key === 'year') {
+        const years = recordedYears(a);
+        years.forEach(y => { if (!all.includes(y)) all.push(y); });
+        return;
+      } else {
+        val = a[key];
+      }
+      if (!val) return;
+      const items = ARRAY_KEYS.has(key) ? val : [val];
+      items.forEach(x => { if (!all.includes(x)) all.push(x); });
+    });
+    return key === 'year' ? all.sort((a,b) => a-b) : all.sort();
+  }
+
+  let currentSort = 'title';
+
+  // Parse "1982, 1985" → [1982,1985]  |  "1969-1979" → [1969,1979]  |  "1955" → [1955]
+  function recordedYears(a) {
+    if (!a.recorded) return [a.year];
+    const str = String(a.recorded);
+    // virgules : "1982, 1985"
+    if (str.includes(',')) return str.split(',').map(x => parseInt(x.trim())).filter(Boolean);
+    // plage : "1969-1979"
+    const range = str.match(/^(\d{4})\s*[-–]\s*(\d{4})$/);
+    if (range) {
+      const s = parseInt(range[1]), e = parseInt(range[2]);
+      return [s, e];
+    }
+    // année simple
+    const m = str.match(/\d{4}/);
+    return m ? [parseInt(m[0])] : [a.year];
+  }
+
+  function firstYear(a) {
+    return recordedYears(a)[0];
+  }
+
+  // Affichage lisible sur la card : [1982,1985] → "1982, 1985"  |  [1969,1979] → "1969-1979"
+  function recordedDisplay(a) {
+    if (!a.recorded) return null;
+    return String(a.recorded).trim();
+  }
+
+  function getSorted(arr) {
+    return [...arr].sort((a, b) => {
+      const ya = firstYear(a);
+      const yb = firstYear(b);
+      switch (currentSort) {
+        case 'title':      return a.title.localeCompare(b.title, 'fr', {sensitivity:'base'});
+        case 'title-desc': return b.title.localeCompare(a.title, 'fr', {sensitivity:'base'});
+        case 'year-asc':   return ya - yb;
+        case 'year-desc':  return yb - ya;
+        case 'artist':     return a.artists[0].localeCompare(b.artists[0], 'fr', {sensitivity:'base'});
+        default:           return 0;
+      }
+    });
+  }
+
+  function getFiltered() {
+    const q = document.getElementById('search').value.toLowerCase().trim();
+    const filtered = albums.filter(a => {
+      if (activeGenres.size    && !a.genres.some(x => activeGenres.has(x)))       return false;
+      if (activeCountries.size && !a.countries.some(x => activeCountries.has(x))) return false;
+      if (activeYears.size     && !recordedYears(a).some(y => activeYears.has(y)))  return false;
+      if (activeRatings.size   && !activeRatings.has(a.rating || ''))              return false;
+      if (activeArtists.size   && !a.artists.some(x => activeArtists.has(x)))      return false;
+      if (q && !a.title.toLowerCase().includes(q) && !a.artists.join(' ').toLowerCase().includes(q)) return false;
+      return true;
+    });
+    return getSorted(filtered);
+  }
+
+  function showToast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => t.classList.remove('show'), 2500);
+  }
+
+  /* ── SVG ── */
+  const SVG = {
+    yt:    '<svg viewBox="0 0 24 24"><path d="M19.59 7a2.4 2.4 0 0 0-1.69-1.7C16.54 5 12 5 12 5s-4.54 0-5.9.3A2.4 2.4 0 0 0 4.41 7 25 25 0 0 0 4 12a25 25 0 0 0 .41 5 2.4 2.4 0 0 0 1.69 1.7C7.46 19 12 19 12 19s4.54 0 5.9-.3A2.4 2.4 0 0 0 19.59 17 25 25 0 0 0 20 12a25 25 0 0 0-.41-5zM10 15V9l5.2 3z"/></svg>',
+    edit:  '<svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>',
+    trash: '<svg viewBox="0 0 24 24"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6M14 11v6"/><path d="M9 6V4h6v2"/></svg>',
+  };
+
+  /* ── RENDER ── */
+  let openDropdown = null;
+
+  function closeAllDropdowns() {
+    document.querySelectorAll('.dd-panel.open').forEach(p => p.classList.remove('open'));
+    document.querySelectorAll('.dd-btn.open').forEach(b => b.classList.remove('open'));
+    openDropdown = null;
+  }
+
+  function makeDropdown(label, key, cls, set) {
+    const items = uniq(key);
+    if (!items.length) return null;
+    const wrap = document.createElement('div');
+    wrap.className = 'dd-wrap';
+
+    const btn = document.createElement('button');
+    btn.className = 'dd-btn' + (set.size ? ' has-active' : '');
+    const chevron = '<svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>';
+    const badge = set.size ? `<span class="dd-badge">${set.size}</span>` : '';
+    btn.innerHTML = `${label}${badge}${chevron}`;
+
+    const panel = document.createElement('div');
+    panel.className = 'dd-panel';
+
+    const searchInput = document.createElement('input');
+    searchInput.className = 'dd-search';
+    searchInput.placeholder = `Chercher un ${label.toLowerCase()}…`;
+    searchInput.addEventListener('input', () => renderList(searchInput.value.toLowerCase()));
+    searchInput.addEventListener('click', e => e.stopPropagation());
+
+    const list = document.createElement('div');
+    list.className = 'dd-list';
+
+    const clearBtn = document.createElement('button');
+    clearBtn.className = 'dd-clear';
+    clearBtn.textContent = 'Tout effacer';
+    clearBtn.addEventListener('click', e => { e.stopPropagation(); set.clear(); closeAllDropdowns(); currentPage = 1; render(); });
+
+    panel.appendChild(searchInput);
+    panel.appendChild(list);
+    panel.appendChild(clearBtn);
+
+    function renderList(q = '') {
+      list.innerHTML = '';
+      const filtered = q ? items.filter(v => String(v).toLowerCase().includes(q)) : items;
+      if (!filtered.length) {
+        const e = document.createElement('div'); e.className = 'dd-empty'; e.textContent = 'Aucun résultat';
+        list.appendChild(e); return;
+      }
+      filtered.forEach(val => {
+        const item = document.createElement('div');
+        item.className = 'dd-item' + (set.has(val) ? ' on' : '');
+        item.innerHTML = `<span class="dd-check"></span><span>${val}</span>`;
+        item.addEventListener('click', e => {
+          e.stopPropagation();
+          set.has(val) ? set.delete(val) : set.add(val);
+          currentPage = 1;
+          render();
+        });
+        list.appendChild(item);
+      });
+    }
+
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const isOpen = panel.classList.contains('open');
+      closeAllDropdowns();
+      if (!isOpen) {
+        panel.classList.add('open');
+        btn.classList.add('open');
+        openDropdown = panel;
+        searchInput.value = '';
+        renderList();
+        setTimeout(() => searchInput.focus(), 50);
+      }
+    });
+
+    renderList();
+    wrap.appendChild(btn);
+    wrap.appendChild(panel);
+    return wrap;
+  }
+
+  function renderChips() {
+    const el = document.getElementById('active-chips');
+    if (!el) return;
+    el.innerHTML = '';
+    const groups = [
+      {set: activeGenres,    cls:'chip-genre'},
+      {set: activeCountries, cls:'chip-country'},
+      {set: activeArtists,   cls:'chip-artist'},
+      {set: activeYears,     cls:'chip-year'},
+    ];
+    groups.forEach(({set, cls}) => {
+      set.forEach(val => {
+        const chip = document.createElement('span');
+        chip.className = `chip ${cls}`;
+        chip.innerHTML = `${val}<span class="chip-x" title="Retirer">×</span>`;
+        chip.querySelector('.chip-x').addEventListener('click', () => {
+          set.delete(val); currentPage = 1; render();
+        });
+        el.appendChild(chip);
+      });
+    });
+  }
+
+  function renderFilters() {
+    const f = document.getElementById('filters');
+    f.innerHTML = '';
+    if (!albums.length) return;
+
+    // Tous les filtres en dropdowns
+    const ddRow = document.createElement('div'); ddRow.className = 'dropdown-row';
+    [
+      {label:'Genre',   key:'genres',    set:activeGenres},
+      {label:'Pays',    key:'countries', set:activeCountries},
+      {label:'Artiste', key:'artists',   set:activeArtists},
+      {label:'Année',   key:'year',      set:activeYears},
+    ].forEach(({label, key, set}) => {
+      const dd = makeDropdown(label, key, null, set);
+      if (dd) ddRow.appendChild(dd);
+    });
+
+    // Appréciation : boutons directs (3 valeurs seulement)
+    const RATING_LABELS = {'':'— Bon', 'star':'⭐ Très bon', 'crown':'👑 Incontournable'};
+    Object.entries(RATING_LABELS).forEach(([val, lbl]) => {
+      const btn = document.createElement('button');
+      btn.className = 'dd-btn' + (activeRatings.has(val) ? ' has-active' : '');
+      btn.textContent = lbl;
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        activeRatings.has(val) ? activeRatings.delete(val) : activeRatings.add(val);
+        currentPage = 1; render();
+      });
+      ddRow.appendChild(btn);
+    });
+    f.appendChild(ddRow);
+
+    // Chips des filtres actifs
+    const chips = document.createElement('div');
+    chips.className = 'active-chips'; chips.id = 'active-chips';
+    f.appendChild(chips);
+    renderChips();
+  }
+
+  function renderGrid(page) {
+    const g = document.getElementById('grid');
+    g.innerHTML = '';
+    if (!page.length) {
+      const e = document.createElement('div');
+      e.className = 'empty';
+      e.innerHTML = albums.length
+        ? '<strong>Aucun résultat</strong>Essaie un autre filtre ou une autre recherche.'
+        : '<strong>Ta collection est vide</strong>Clique sur "+ Ajouter" pour commencer.';
+      g.appendChild(e);
+      return;
+    }
+    page.forEach(a => {
+      const [bg, fg] = colorFor(a.id);
+      const artistStr = a.artists.join(', ');
+      const card = document.createElement('div');
+      card.className = 'card';
+      const ratingBadge = a.rating === 'crown' ? '👑' : a.rating === 'star' ? '⭐' : '';
+      const coverHtml = a.cover
+        ? `<div class="cover-wrap"><img class="cover-img" src="${a.cover}" alt="${a.title}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="cover-fallback" style="display:none;background:${bg};color:${fg}">${initials(a.title)}</div>${ratingBadge ? `<span class="card-rating">${ratingBadge}</span>` : ''}</div>`
+        : `<div class="cover-wrap"><div class="cover-fallback" style="background:${bg};color:${fg}">${initials(a.title)}</div>${ratingBadge ? `<span class="card-rating">${ratingBadge}</span>` : ''}</div>`;
+      const genreList = Array.isArray(a.genres) ? a.genres : (a.genres ? [a.genres] : []);
+      const ytBtn = a.yt ? `<a class="yt-btn" href="${a.yt}" target="_blank" title="Écouter sur YouTube">${SVG.yt}</a>` : '';
+      card.innerHTML = `${coverHtml}
+        <div class="card-body">
+          <div class="card-title" title="${a.title}">${a.title}</div>
+          <div class="card-artist" title="${artistStr}">${artistStr}</div>
+          <div class="card-foot">
+            <div class="card-pills">
+              ${genreList.map(g => `<span class="pill pill-g">${g}</span>`).join('')}
+              ${a.recorded
+                ? `<span class="pill pill-y">${a.recorded}<span class="pill-release"> · éd. ${a.year}</span></span>`
+                : `<span class="pill pill-y">${a.year}</span>`}
+              ${a.countries.length ? `<span class="pill pill-c">${a.countries.map(c => (countryFlag(c) ? countryFlag(c)+'\u00a0' : '') + c).join(' · ')}</span>` : ''}
+            </div>
+            <div class="card-actions">
+              ${ytBtn}
+              <button class="edit-btn" title="Modifier">${SVG.edit}</button>
+              <button class="del-btn"  title="Supprimer">${SVG.trash}</button>
+            </div>
+          </div>
+        </div>`;
+      card.querySelector('.edit-btn').addEventListener('click', () => openModal(a.id));
+      card.querySelector('.del-btn').addEventListener('click', () => {
+        if (confirm(`Supprimer "${a.title}" ?`)) {
+          albums = albums.filter(x => x.id !== a.id);
+          persist();
+          render();
+        }
+      });
+      g.appendChild(card);
+    });
+  }
+
+  function renderPagination(total, totalPages) {
+    const el = document.getElementById('pagination');
+    el.innerHTML = '';
+    if (totalPages <= 1) return;
+    const start = (currentPage - 1) * PAGE_SIZE + 1;
+    const end   = Math.min(currentPage * PAGE_SIZE, total);
+    const info  = document.createElement('span');
+    info.className = 'page-info';
+    info.textContent = `${start}–${end} sur ${total}`;
+    el.appendChild(info);
+    const nav = document.createElement('div');
+    nav.className = 'page-nav';
+    const mkBtn = (html, disabled, onClick) => {
+      const b = document.createElement('button');
+      b.className = 'page-btn'; b.innerHTML = html; b.disabled = disabled;
+      if (!disabled) b.addEventListener('click', () => { onClick(); window.scrollTo({top:0,behavior:'smooth'}); });
+      return b;
+    };
+    nav.appendChild(mkBtn('&#8592;', currentPage === 1, () => { currentPage--; render(); }));
+    const pages = [...new Set([1, totalPages, currentPage, currentPage-1, currentPage+1].filter(p => p>=1 && p<=totalPages))].sort((a,b)=>a-b);
+    let prev = null;
+    pages.forEach(p => {
+      if (prev !== null && p - prev > 1) { const d = document.createElement('span'); d.className='page-dots'; d.textContent='…'; nav.appendChild(d); }
+      const b = document.createElement('button');
+      b.className = 'page-btn' + (p === currentPage ? ' active' : '');
+      b.textContent = p;
+      if (p !== currentPage) b.addEventListener('click', () => { currentPage = p; render(); window.scrollTo({top:0,behavior:'smooth'}); });
+      nav.appendChild(b);
+      prev = p;
+    });
+    nav.appendChild(mkBtn('&#8594;', currentPage === totalPages, () => { currentPage++; render(); }));
+    el.appendChild(nav);
+  }
+
+  function render() {
+    updateEditBadge();
+    renderFilters();
+    const results    = getFiltered();
+    const total      = results.length;
+    const totalPages = Math.ceil(total / PAGE_SIZE) || 1;
+    currentPage      = Math.min(currentPage, totalPages);
+    document.getElementById('count').textContent = total + ' album' + (total > 1 ? 's' : '');
+    const start = (currentPage - 1) * PAGE_SIZE;
+    renderGrid(results.slice(start, start + PAGE_SIZE));
+    renderPagination(total, totalPages);
+  }
+
+  /* ── MODAL ── */
+  function openModal(id) {
+    editingId = (id !== undefined) ? id : null;
+    const isEdit = editingId !== null;
+    document.getElementById('modal-title').textContent = isEdit ? "Modifier l'album" : 'Ajouter un album';
+    document.getElementById('btn-save').textContent    = isEdit ? 'Enregistrer' : 'Ajouter';
+    document.getElementById('form-err').textContent   = '';
+    if (isEdit) {
+      const a = albums.find(x => x.id === editingId);
+      document.getElementById('f-title').value   = a.title;
+      document.getElementById('f-artist').value   = a.artists.join(', ');
+      document.getElementById('f-year').value     = a.year;
+      document.getElementById('f-recorded').value  = a.recorded || '';
+      document.getElementById('f-genre').value    = a.genres.join(', ');
+      document.getElementById('f-country').value  = a.countries.join(', ');
+      document.getElementById('f-cover').value   = a.cover || '';
+      document.getElementById('f-yt').value      = a.yt || '';
+      setRating(a.rating || '');
+    } else {
+      ['f-title','f-artist','f-year','f-recorded','f-genre','f-country','f-cover','f-yt']
+        .forEach(fid => { document.getElementById(fid).value = ''; });
+      setRating('');
+    }
+    document.getElementById('overlay').classList.add('open');
+    document.getElementById('f-title').focus();
+  }
+
+  function setRating(val) {
+    document.querySelectorAll('.rating-opt').forEach(b => {
+      b.classList.toggle('selected', b.dataset.value === val);
+    });
+  }
+
+  function closeModal() {
+    editingId = null;
+    document.getElementById('overlay').classList.remove('open');
+  }
+
+  function submitModal() {
+    const title     = toTitleCase(document.getElementById('f-title').value);
+    const artists   = parseTags(document.getElementById('f-artist').value);
+    const year      = parseInt(document.getElementById('f-year').value);
+    const recorded  = document.getElementById('f-recorded').value.trim() || null;
+    const genres    = parseTags(document.getElementById('f-genre').value);
+    const countries = parseTags(document.getElementById('f-country').value);
+    const cover     = document.getElementById('f-cover').value.trim();
+    const yt        = document.getElementById('f-yt').value.trim();
+    const rating    = document.querySelector('.rating-opt.selected')?.dataset.value || '';
+    if (!title || !artists.length || !year || !genres.length) {
+      document.getElementById('form-err').textContent = 'Titre, artiste(s), année et genre sont requis.';
+      return;
+    }
+    if (editingId !== null) {
+      albums = albums.map(a => a.id === editingId ? {...a, title, artists, year, recorded, genres, countries, cover, yt, rating} : a);
+    } else {
+      const id = albums.length ? Math.max(...albums.map(a => a.id)) + 1 : 1;
+      albums.unshift({id, title, artists, year, recorded, genres, countries, cover, yt, rating});
+    }
+    persist();
+    closeModal();
+    render();
+  }
+
+  function updateEditBadge() {
+    const btn = document.getElementById('btn-export');
+    const hasPending = !!localStorage.getItem(EDIT_KEY);
+    btn.title = hasPending ? 'Exporter albums.json (modifications non pushées)' : 'Exporter albums.json';
+    btn.style.borderColor = hasPending ? 'rgba(233,69,96,.5)' : '';
+    btn.style.color = hasPending ? 'var(--cp)' : '';
+  }
+  function exportJSON() {
+    const blob   = new Blob([JSON.stringify(albums, null, 2)], {type:'application/json'});
+    const url    = URL.createObjectURL(blob);
+    const anchor = document.createElement('a');
+    anchor.href = url; anchor.download = 'albums.json'; anchor.click();
+    URL.revokeObjectURL(url);
+    // Propose de vider les éditions locales après export
+    setTimeout(() => {
+      if (localStorage.getItem(EDIT_KEY) && confirm('Éditions locales exportées ✓\n\nVider le brouillon local ? (recommandé après avoir pushé albums.json sur GitHub)')) {
+        clearLocalEdits();
+        showToast('Brouillon local vidé — le site relit albums.json');
+      } else {
+        showToast(`${albums.length} albums exportés → albums.json`);
+      }
+    }, 300);
+  }
+
+  function importJSON(file) {
+    const reader = new FileReader();
+    reader.onload = e => {
+      try {
+        const data = JSON.parse(e.target.result);
+        if (!Array.isArray(data)) throw new Error();
+        if (!confirm(`Importer ${data.length} albums ? Cela remplacera ta collection actuelle (${albums.length} albums).`)) return;
+        albums = data;
+        persist();
+        render();
+        showToast(`${albums.length} albums importés ✓`);
+      } catch { alert('Fichier JSON invalide.'); }
+    };
+    reader.readAsText(file);
+  }
+
+  /* ── EVENTS ── */
+  document.querySelectorAll('.rating-opt').forEach(btn => {
+    btn.addEventListener('click', () => setRating(btn.dataset.value));
+  });
+  document.getElementById('btn-add').addEventListener('click', () => openModal());
+  document.getElementById('btn-cancel').addEventListener('click', closeModal);
+  document.getElementById('btn-save').addEventListener('click', submitModal);
+  document.getElementById('btn-export').addEventListener('click', exportJSON);
+  document.getElementById('btn-import').addEventListener('click', () => document.getElementById('import-input').click());
+  document.getElementById('import-input').addEventListener('change', e => {
+    if (e.target.files[0]) importJSON(e.target.files[0]);
+    e.target.value = '';
+  });
+  document.getElementById('overlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('overlay')) closeModal();
+  });
+  document.getElementById('sort-select').addEventListener('change', e => { currentSort = e.target.value; currentPage = 1; render(); });
+  document.getElementById('search').addEventListener('input', () => { currentPage = 1; render(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeModal(); closeAllDropdowns(); } });
+  document.addEventListener('click', () => closeAllDropdowns());
+
+  /* ── INIT ── */
+  load().then(() => render());
+})();
+</script>
+</body>
+</html>
