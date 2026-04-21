@@ -447,7 +447,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     } catch {}
     // 2. Sinon on charge albums.json depuis le repo
     try {
-      const res = await fetch('albums.json?v=' + Date.now());
+      const res = await fetch('mes-albums.json?v=' + Date.now());
       if (!res.ok) throw new Error();
       const data = await res.json();
       albums = data.map(migrateAlbum);
