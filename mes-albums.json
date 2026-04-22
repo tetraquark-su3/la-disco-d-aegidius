@@ -1,5 +1,1684 @@
 [
   {
+    "id": 605,
+    "title": "The Book of Souls",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "year": 2015,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal",
+      "Progressive Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1b/Iron_Maiden_-_The_Book_of_Souls.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 604,
+    "title": "Live After Death",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "year": 1985,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c9/Iron_Maiden_-_Live_After_Death.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 603,
+    "title": "Brave New World",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "year": 2000,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal",
+      "Progressive Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/03/Iron_Maiden_-_Brave_New_World.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 602,
+    "title": "Seventh Son of a Seventh Son",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "year": 1988,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal",
+      "Progressive Metal",
+      "Synth Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c0/Iron_Maiden_-_Seventh_Son_Of_A_Seventh_Son.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 601,
+    "title": "Somewhere in Time",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "year": 1986,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/9b/Iron_Maiden_-_Somewhere_in_Time.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 600,
+    "title": "Powerslave",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "year": 1984,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1c/Iron_Maiden_-_Powerslave.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 599,
+    "title": "Piece of Mind",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "year": 1983,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/85/Iron_Maiden_-_Piece_Of_Mind.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 598,
+    "title": "The Number of the Beast",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "year": 1982,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/32/IronMaiden_NumberOfBeast.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 597,
+    "title": "Killers",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "year": 1981,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b4/Iron_Maiden_Killers.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 596,
+    "title": "Iron Maiden",
+    "artists": [
+      "Iron Maiden"
+    ],
+    "year": 1980,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/7c/Iron_Maiden_%28album%29_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 595,
+    "title": "Polygondwanaland",
+    "artists": [
+      "King Gizzard & the Lizard Wizard"
+    ],
+    "year": 2017,
+    "recorded": null,
+    "genres": [
+      "Progressive Rock",
+      "Psychedelic Rock"
+    ],
+    "countries": [
+      "Australie"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Polygondwanaland.jpg/250px-Polygondwanaland.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 594,
+    "title": "Petrodragonic Apocalypse; Or, Dawn of Eternal Night: an Annihilation of Planet Earth and the Beginning of Merciless Damnation",
+    "artists": [
+      "King Gizzard & the Lizard Wizard"
+    ],
+    "year": 2023,
+    "recorded": null,
+    "genres": [
+      "Thrash Metal",
+      "Progressive Metal"
+    ],
+    "countries": [
+      "Australie"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/07/PetroDragonic_Apocalypse_cover.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 593,
+    "title": "Ice, Death, Planets, Lungs, Mushrooms and Lava",
+    "artists": [
+      "King Gizzard & the Lizard Wizard"
+    ],
+    "year": 2022,
+    "recorded": null,
+    "genres": [
+      "Jazz Fusion",
+      "Psychedelic Rock",
+      "Progressive Rock",
+      "Jazz-funk"
+    ],
+    "countries": [
+      "Australie"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/6d/King_Gizzard_%26_the_Lizard_Wizard_%E2%80%93_Ice_Death_Planets.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 592,
+    "title": "Live at Field of Vision '25",
+    "artists": [
+      "King Gizzard and the Lizard Wizard"
+    ],
+    "year": 2025,
+    "recorded": null,
+    "genres": [
+      "Psychedelic Rock"
+    ],
+    "countries": [
+      "Australie"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/17/Live_at_Field_of_Vision_%2725%2C_cover.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 591,
+    "title": "Live at Red Rocks '22",
+    "artists": [
+      "King Gizzard & the Lizard Wizard"
+    ],
+    "year": 2023,
+    "recorded": "2022",
+    "genres": [
+      "Rock"
+    ],
+    "countries": [
+      "Australie"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/04/Live_at_Red_Rocks_%2722.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 590,
+    "title": "Live in Chicago '23",
+    "artists": [
+      "King Gizzard & the Lizard Wizard"
+    ],
+    "year": 2023,
+    "recorded": null,
+    "genres": [
+      "Psychedelic Rock",
+      "Thrash Rock"
+    ],
+    "countries": [
+      "Australie"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/08/Live_in_Chicago_23.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 589,
+    "title": "Sun",
+    "artists": [
+      "Λδλμ"
+    ],
+    "year": 2020,
+    "recorded": null,
+    "genres": [
+      "Alternative Metal",
+      "Alternative Rock",
+      "Grunge",
+      "Psychedelic Rock",
+      "Rock",
+      "Stoner Rock"
+    ],
+    "countries": [
+      "Grèce"
+    ],
+    "cover": "https://f4.bcbits.com/img/a3385226953_10.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 588,
+    "title": "No Quarter: Jimmy Page and Robert Plant Unledded",
+    "artists": [
+      "Page and Plant"
+    ],
+    "year": 1994,
+    "recorded": null,
+    "genres": [
+      "Hard Rock",
+      "Folk Rock",
+      "Symphonic Rock",
+      "World Music",
+      "Blues Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/19/Page_%26_Plant_-_No_Quarter.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 587,
+    "title": "Unplugged",
+    "artists": [
+      "Eric Clapton"
+    ],
+    "year": 1992,
+    "recorded": null,
+    "genres": [
+      "Acoustic Rock",
+      "Acoustic Blues"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/99/Eric_Clapton_Unplugged.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 586,
+    "title": "Perfect Strangers",
+    "artists": [
+      "Deep Purple"
+    ],
+    "year": 1984,
+    "recorded": null,
+    "genres": [
+      "Hard Rockheavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/54/Perfect_Strangers_%28Deep_Purple_album_-_cover_art%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 585,
+    "title": "Copenhagen 1972",
+    "artists": [
+      "Deep Purple"
+    ],
+    "year": 2014,
+    "recorded": "1972",
+    "genres": [
+      "Hard Rock",
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://i.discogs.com/OSnulU3B5sHyAFRWrEAlGGKQ72ii_c1tfjeViv-e9SM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxMjc1/ODYtMTQxMjA3NDk3/Ny04OTcwLmpwZWc.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 584,
+    "title": "Live in Stockholm 1970",
+    "artists": [
+      "Deep Purple"
+    ],
+    "year": 2014,
+    "recorded": "1970",
+    "genres": [
+      "Hard Rock",
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://i.discogs.com/G9S48OxguZZN0SDf2c4_Los_LOGUZR0q1s1p0TCIEGA/rs:fit/g:sm/q:90/h:542/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2NDk2/MzctMTY4MjIwMjkz/NS0yNjIxLmpwZWc.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 583,
+    "title": "Live in Paris 1975",
+    "artists": [
+      "Deep Purple"
+    ],
+    "year": 2012,
+    "recorded": "1975",
+    "genres": [
+      "Hard Rock",
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://i.discogs.com/-MBYcwO7Zvp3O0dIIZ5Iji6hAVjyAt8DkaLuYMFewBw/rs:fit/g:sm/q:90/h:539/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzNDk3/NjItMTY4Mjk5MDM3/Mi00MjU3LmpwZWc.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 582,
+    "title": "Live in Europe 1993",
+    "artists": [
+      "Deep Purple"
+    ],
+    "year": 2006,
+    "recorded": "1993",
+    "genres": [
+      "Hard Rock",
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/ac/On_Tour_MCMXCIII.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 581,
+    "title": "The Soundboard Series",
+    "artists": [
+      "Deep Purple"
+    ],
+    "year": 2001,
+    "recorded": null,
+    "genres": [
+      "Hard Rock",
+      "Blues Rock",
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/33/The_Soundboard_Series.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 580,
+    "title": "Live at the Olympia '96",
+    "artists": [
+      "Deep Purple"
+    ],
+    "year": 1997,
+    "recorded": "1996",
+    "genres": [
+      "Hard Rock",
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/67/Live_At_The_Olympia_%2796.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 579,
+    "title": "Live in London",
+    "artists": [
+      "Deep Purple"
+    ],
+    "year": 1982,
+    "recorded": "1974",
+    "genres": [
+      "Hard Rock",
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/6f/Live_in_London_%28Deep_Purple_album%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 578,
+    "title": "Royal Albert Hall London May 2-3-5-6, 2005",
+    "artists": [
+      "Cream"
+    ],
+    "year": 2005,
+    "recorded": null,
+    "genres": [
+      "Blues-rock",
+      "Psychedelic Rock",
+      "Hard Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/Creamreunion.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 577,
+    "title": "Live Cream Volume Ii",
+    "artists": [
+      "Cream"
+    ],
+    "year": 1972,
+    "recorded": "1968",
+    "genres": [
+      "Blues Rock",
+      "Psychedelic Rock",
+      "Hard Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/da/Livecreamii.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 576,
+    "title": "Live Cream",
+    "artists": [
+      "Cream"
+    ],
+    "year": 1970,
+    "recorded": "1967-1968",
+    "genres": [
+      "Blues Rock",
+      "Psychedelic Rock",
+      "Hard Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c6/Livecream.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 575,
+    "title": "Goodbye",
+    "artists": [
+      "Cream"
+    ],
+    "year": 1969,
+    "recorded": null,
+    "genres": [
+      "Hard Rock",
+      "Blues Rock",
+      "Psychedelic Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b4/Goodbye_album.PNG",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 574,
+    "title": "Wheels of Fire",
+    "artists": [
+      "Cream"
+    ],
+    "year": 1968,
+    "recorded": null,
+    "genres": [
+      "Psychedelic Rock",
+      "Blues Rock",
+      "Hard Rock",
+      "Proto-metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a8/Creamwheelsoffire.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 573,
+    "title": "Disraeli Gears",
+    "artists": [
+      "Cream"
+    ],
+    "year": 1967,
+    "recorded": null,
+    "genres": [
+      "Psychedelic Rock",
+      "Blues Rock",
+      "Hard Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/cb/DisraeliGears.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 572,
+    "title": "Fresh Cream",
+    "artists": [
+      "Cream"
+    ],
+    "year": 1966,
+    "recorded": null,
+    "genres": [
+      "Blues Rock",
+      "Psychedelic Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/20/Fresh_cream.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 571,
+    "title": "What's Going On: Live at the Isle of Wight",
+    "artists": [
+      "Taste"
+    ],
+    "year": 2005,
+    "recorded": "1970",
+    "genres": [
+      "Blues Rock"
+    ],
+    "countries": [
+      "Irlande"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/2e/What%27s_Going_On_%28Taste_album%29.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 570,
+    "title": "Wheels Within Wheels",
+    "artists": [
+      "Rory Gallagher"
+    ],
+    "year": 2003,
+    "recorded": "1974-1994",
+    "genres": [
+      "Blues",
+      "Folk"
+    ],
+    "countries": [
+      "Irlande"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f6/Rorygallagherwww.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 569,
+    "title": "Live at Montreux",
+    "artists": [
+      "Rory Gallagher"
+    ],
+    "year": 2006,
+    "recorded": "1975, 1977, 1979, 1985",
+    "genres": [
+      "Blues Rock"
+    ],
+    "countries": [
+      "Irlande"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/e5/Live_at_Montreux_%28Rory_Gallagher%29.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 568,
+    "title": "Fresh Evidence",
+    "artists": [
+      "Rory Gallagher"
+    ],
+    "year": 1990,
+    "recorded": null,
+    "genres": [
+      "Blues Rock"
+    ],
+    "countries": [
+      "Irlande"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/e0/Fresh_Evidence_-_Rory_Gallagher.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 567,
+    "title": "Top Priority",
+    "artists": [
+      "Rory Gallagher"
+    ],
+    "year": 1979,
+    "recorded": null,
+    "genres": [
+      "Hard Rock",
+      "Blues Rock"
+    ],
+    "countries": [
+      "Irlande"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/d7/Toppriority.JPG",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 566,
+    "title": "Photo-finish",
+    "artists": [
+      "Rory Gallagher"
+    ],
+    "year": 1978,
+    "recorded": null,
+    "genres": [
+      "Hard Rock",
+      "Blues Rock"
+    ],
+    "countries": [
+      "Irlande"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f7/Photo-Finish_-_Rory_Gallagher.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 565,
+    "title": "Calling Card",
+    "artists": [
+      "Rory Gallagher"
+    ],
+    "year": 1976,
+    "recorded": null,
+    "genres": [
+      "Blues Rock",
+      "Hard Rock",
+      "Folk Rock"
+    ],
+    "countries": [
+      "Irlande"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0d/Calling_Card.JPG",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 564,
+    "title": "Against the Grain",
+    "artists": [
+      "Rory Gallagher"
+    ],
+    "year": 1975,
+    "recorded": null,
+    "genres": [
+      "Blues-rock"
+    ],
+    "countries": [
+      "Irlande"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f9/Against_the_Grain_-_Rory_Gallagher_%28Alternative_Cover%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 563,
+    "title": "Irish Tour '74",
+    "artists": [
+      "Rory Gallagher"
+    ],
+    "year": 1974,
+    "recorded": null,
+    "genres": [
+      "Blues-rock"
+    ],
+    "countries": [
+      "Irlande"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/9/99/Irish_Tour_%2774_-_Rory_Gallagher.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 562,
+    "title": "Tattoo",
+    "artists": [
+      "Rory Gallagher"
+    ],
+    "year": 1973,
+    "recorded": null,
+    "genres": [
+      "Blues Rock"
+    ],
+    "countries": [
+      "Irlande"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b0/Tattoo6xi.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 561,
+    "title": "Blueprint",
+    "artists": [
+      "Rory Gallagher"
+    ],
+    "year": 1973,
+    "recorded": null,
+    "genres": [
+      "Blues Rock"
+    ],
+    "countries": [
+      "Irlande"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/3f/Rory_Gallagher_-_Blueprint.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 560,
+    "title": "Live! in Europe",
+    "artists": [
+      "Rory Gallagher"
+    ],
+    "year": 1972,
+    "recorded": null,
+    "genres": [
+      "Blues Rock"
+    ],
+    "countries": [
+      "Irlande"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/ff/Rory-live.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 559,
+    "title": "Deuce",
+    "artists": [
+      "Rory Gallagher"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Blues Rock"
+    ],
+    "countries": [
+      "Irlande"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/aa/Deucecov.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 558,
+    "title": "Rory Gallagher",
+    "artists": [
+      "Rory Gallagher"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Blues Rock"
+    ],
+    "countries": [
+      "Irlande"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/16/Rory_Gallagher_-_Rory_Gallagher.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 557,
+    "title": "Eazy-duz-it",
+    "artists": [
+      "Eazy-e"
+    ],
+    "year": 1988,
+    "recorded": null,
+    "genres": [
+      "West Coast Hip Hop",
+      "Gangsta Rap"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Eazy-E_Eazy-Duz-It.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 556,
+    "title": "In the Land of Grey and Pink",
+    "artists": [
+      "Caravan"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Progressive Rock",
+      "Psychedelic Rock",
+      "Canterbury Scene"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/ef/LandOfGrayAndPink.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 555,
+    "title": "If I Could Do it All Over Again, I'd Do it All Over You",
+    "artists": [
+      "Caravan"
+    ],
+    "year": 1970,
+    "recorded": null,
+    "genres": [
+      "Progressive Rock",
+      "Canterbury Scene"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/33/Car-IfI.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 554,
+    "title": "The Snow Goose",
+    "artists": [
+      "Camel"
+    ],
+    "year": 1975,
+    "recorded": null,
+    "genres": [
+      "Progressive Rock",
+      "Instrumental Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/db/Camel_TheSnowGoose.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 553,
+    "title": "Mirage",
+    "artists": [
+      "Camel"
+    ],
+    "year": 1974,
+    "recorded": null,
+    "genres": [
+      "Progressive Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/89/Camel-Mirage.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 552,
+    "title": "Bundles",
+    "artists": [
+      "Soft Machine"
+    ],
+    "year": 1975,
+    "recorded": null,
+    "genres": [
+      "Jazz Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/9a/Soft_Machine_-_Bundles.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 551,
+    "title": "Fourth",
+    "artists": [
+      "Soft Machine"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Jazz Fusion",
+      "Free Jazz"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1f/Soft_machine-fourth.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 550,
+    "title": "Third",
+    "artists": [
+      "Soft Machine"
+    ],
+    "year": 1970,
+    "recorded": null,
+    "genres": [
+      "Jazz Rock",
+      "Progressive Rock",
+      "Electronic"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/2c/Soft_Machine_Third.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 549,
+    "title": "Volume Two",
+    "artists": [
+      "Soft Machine"
+    ],
+    "year": 1969,
+    "recorded": null,
+    "genres": [
+      "Canterbury Scene",
+      "Progressive Rock",
+      "Jazz Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/01/Soft_Machine-Volume_Two-Cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 548,
+    "title": "The Soft Machine",
+    "artists": [
+      "Soft Machine"
+    ],
+    "year": 1968,
+    "recorded": null,
+    "genres": [
+      "Canterbury Scene",
+      "Psychedelic Rock",
+      "Jazz Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Soft_Machine-album.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 547,
+    "title": "Random Access Memories",
+    "artists": [
+      "Daft Punk"
+    ],
+    "year": 2013,
+    "recorded": null,
+    "genres": [
+      "Disco",
+      "Funk",
+      "Electronic",
+      "Soft Rock",
+      "Progressive Pop"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/26/Daft_Punk_-_Random_Access_Memories.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 546,
+    "title": "The Mirror Conspiracy",
+    "artists": [
+      "Thievery Corporation"
+    ],
+    "year": 2000,
+    "recorded": null,
+    "genres": [
+      "Lounge",
+      "Trip Hop",
+      "Chillout"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/44/The_Mirror_Conspiracy.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 545,
+    "title": "Everything Must Change",
+    "artists": [
+      "Orange Blossom"
+    ],
+    "year": 2005,
+    "recorded": null,
+    "genres": [
+      "Trip Hop"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://i.discogs.com/gShGFSBPOfRew59_Sf5BiZsqHHA5jC9mOFMDK3glmnI/rs:fit/g:sm/q:90/h:577/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxNzA5/NzgtMTM1NzU5NTQx/MS0zODU2LmpwZWc.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 544,
+    "title": "Roseland Nyc Live",
+    "artists": [
+      "Portishead"
+    ],
+    "year": 1998,
+    "recorded": null,
+    "genres": [
+      "Trip Hop",
+      "Psychedelic Rock",
+      "Acid Jazz"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/cd/Pnyc.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 543,
+    "title": "Portishead",
+    "artists": [
+      "Portishead"
+    ],
+    "year": 1997,
+    "recorded": null,
+    "genres": [
+      "Trip Hop",
+      "Acid Jazz"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/dc/Portishead_-_Portishead.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 542,
+    "title": "Dummy",
+    "artists": [
+      "Portishead"
+    ],
+    "year": 1994,
+    "recorded": null,
+    "genres": [
+      "Trip Hop"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/6b/Portishead_-_Dummy.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 541,
+    "title": "Angels With Dirty Faces",
+    "artists": [
+      "Tricky"
+    ],
+    "year": 1998,
+    "recorded": null,
+    "genres": [
+      "Rock",
+      "Trip Hop"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/eb/Tricky_-_Angels_With_Dirty_Faces.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 540,
+    "title": "Nearly God",
+    "artists": [
+      "Tricky"
+    ],
+    "year": 1996,
+    "recorded": null,
+    "genres": [
+      "Trip Hop",
+      "Experimental",
+      "Lo-fi"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/eb/Tricky_-_Nearly_God.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 539,
+    "title": "Maxinquaye",
+    "artists": [
+      "Tricky"
+    ],
+    "year": 1995,
+    "recorded": null,
+    "genres": [
+      "Trip Hop",
+      "Experimental",
+      "Electronic",
+      "R&b",
+      "Dub",
+      "Post-rock",
+      "British Hip Hop",
+      "Sampledelia"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/7b/Tricky_-_Maxinquaye.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 538,
+    "title": "Psyence Fiction",
+    "artists": [
+      "Unkle"
+    ],
+    "year": 1998,
+    "recorded": null,
+    "genres": [
+      "Trip Hop",
+      "Alternative Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b4/Unklepsyencefiction.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 537,
+    "title": "Mezzanine",
+    "artists": [
+      "Massive Attack"
+    ],
+    "year": 1998,
+    "recorded": null,
+    "genres": [
+      "Trip Hop",
+      "Electronica"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/e9/Massive_Attack_-_Mezzanine.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 536,
+    "title": "Protection",
+    "artists": [
+      "Massive Attack"
+    ],
+    "year": 1994,
+    "recorded": null,
+    "genres": [
+      "Trip Hop"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a1/MassiveAttackProtection.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 535,
+    "title": "Blue Lines",
+    "artists": [
+      "Trip Hop"
+    ],
+    "year": 1991,
+    "recorded": null,
+    "genres": [
+      "Trip Hop"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a7/MassiveAttackBlueLines.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 534,
+    "title": "Regulate... G Funk Era",
+    "artists": [
+      "Warren G"
+    ],
+    "year": 1994,
+    "recorded": null,
+    "genres": [
+      "West Coast Hip-hop",
+      "Gangsta Rap",
+      "G-funk"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/5b/Regulate_G_Funk_Era.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 533,
+    "title": "Straight Outta Compton",
+    "artists": [
+      "N. W. A."
+    ],
+    "year": 1989,
+    "recorded": null,
+    "genres": [
+      "West Coast Hip-hop",
+      "Gangsta Rap"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/84/StraightOuttaComptonN.W.A..jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 532,
+    "title": "Doggystyle",
+    "artists": [
+      "Snoop Dogg"
+    ],
+    "year": 1993,
+    "recorded": null,
+    "genres": [
+      "West Coast Hip-hop",
+      "Gangsta Rap",
+      "G-funk"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/63/SnoopDoggyDoggDoggystyle.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 531,
+    "title": "2001",
+    "artists": [
+      "Dr. Dre"
+    ],
+    "year": 1999,
+    "recorded": null,
+    "genres": [
+      "West Coast Hip-hop",
+      "Gangsta Rap",
+      "G-funk",
+      "Hardcore Hip-hop"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/56/DrDre-2001.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 530,
+    "title": "The Chronic",
+    "artists": [
+      "Dr. Dre"
+    ],
+    "year": 1992,
+    "recorded": null,
+    "genres": [
+      "West Coast Hip-hop",
+      "Gangsta Rap",
+      "G-funk"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/19/Dr.DreTheChronic.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 529,
+    "title": "Good Kid, M.a.a.d City",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "year": 2012,
+    "recorded": null,
+    "genres": [
+      "West Coast Hip-hop",
+      "Gangsta Rap",
+      "Hardcore Hip-hop"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/93/KendrickGKMC.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 528,
+    "title": "To Pimp a Butterfly",
+    "artists": [
+      "Kendrick Lamar"
+    ],
+    "year": 2015,
+    "recorded": null,
+    "genres": [
+      "Experimental Hip-hop",
+      "Progressive Rap",
+      "Conscious Hip-hop",
+      "Jazz Rap",
+      "G-funk",
+      "Neo Soul"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f6/Kendrick_Lamar_-_To_Pimp_a_Butterfly.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 527,
+    "title": "Guru's Jazzmatazz, Vol. 1",
+    "artists": [
+      "Guru"
+    ],
+    "year": 1993,
+    "recorded": null,
+    "genres": [
+      "Jazz Rap"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/83/GuRuJazzMatt1.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 526,
+    "title": "Done by the Forces of Nature",
+    "artists": [
+      "Jungle Brothers"
+    ],
+    "year": 1989,
+    "recorded": null,
+    "genres": [
+      "Hip-hop",
+      "Golden Age Hip-hop"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/2f/JungleBrothersDoneBytheForcesofNature.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 525,
+    "title": "Straight Out the Jungle",
+    "artists": [
+      "Jungle Brothers"
+    ],
+    "year": 1988,
+    "recorded": null,
+    "genres": [
+      "Hip Hop"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/bd/Straightoutthejungle.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 524,
+    "title": "Buhloone Mindstate",
+    "artists": [
+      "De La Soul"
+    ],
+    "year": 1993,
+    "recorded": null,
+    "genres": [
+      "Hip Hop",
+      "Jazz Rap"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1b/Buhloone_Mindstate.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 523,
+    "title": "De La Soul is Dead",
+    "artists": [
+      "De La Soul"
+    ],
+    "year": 1991,
+    "recorded": null,
+    "genres": [
+      "East Coast Hip Hop",
+      "Alternative Hip Hop"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b3/De_La_Soul_Is_Dead.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 522,
+    "title": "3 Feet High and Rising",
+    "artists": [
+      "De La Soul"
+    ],
+    "year": 1989,
+    "recorded": null,
+    "genres": [
+      "Art Ra",
+      "Progressive Rap",
+      "Jazz Rap",
+      "Psychedelic Hip Hop",
+      "Sampledelia"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/De_La_Soul_-_3_Feet_High_and_Rising_Cover.jpeg/250px-De_La_Soul_-_3_Feet_High_and_Rising_Cover.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 521,
+    "title": "Midnight Marauders",
+    "artists": [
+      "A Tribe Called Quest"
+    ],
+    "year": 1993,
+    "recorded": null,
+    "genres": [
+      "East Coast Hip-hop",
+      "Jazz Rap",
+      "Alternative Hip-hop",
+      "Boom Bap"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/16/ATCQMidnightMarauders.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 520,
+    "title": "The Low End Theory",
+    "artists": [
+      "A Tribe Called Quest"
+    ],
+    "year": 1991,
+    "recorded": null,
+    "genres": [
+      "East Coast Hip-hop",
+      "Alternative Hip-hop",
+      "Boom Bap",
+      "Jazz Rap"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/ATribeCalledQuestTheLowEndtheory.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 519,
+    "title": "People's Instinctive Travels and the Paths of Rhythm",
+    "artists": [
+      "A Tribe Called Quest"
+    ],
+    "year": 1990,
+    "recorded": null,
+    "genres": [
+      "East Coast Hip-hop",
+      "Alternative Hip-hop",
+      "Progressive Rap",
+      "Jazz Rap"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f3/ATCQPeople%27sInstinctTravels.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
     "id": 518,
     "title": "Dark Magus",
     "artists": [
