@@ -1,5 +1,153 @@
 [
   {
+    "id": 414,
+    "title": "Stop Making Sense",
+    "artists": [
+      "Talking Heads"
+    ],
+    "year": 1984,
+    "recorded": null,
+    "genres": [
+      "New Wave",
+      "Post-punk"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/e0/Stop_Making_Sense_-_Talking_Heads.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 413,
+    "title": "Speaking in Tongues",
+    "artists": [
+      "Talking Heads"
+    ],
+    "year": 1983,
+    "recorded": null,
+    "genres": [
+      "New Wave",
+      "Funk Rock",
+      "Art Rock",
+      "Funk"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/3e/Talking_Heads_-_Speaking_in_Tongues.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 412,
+    "title": "The Name of This Band is Talking Heads",
+    "artists": [
+      "Talking Heads"
+    ],
+    "year": 1982,
+    "recorded": null,
+    "genres": [
+      "New Wave",
+      "Funk",
+      "Art Punk"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/d1/The_Name_of_This_Band_Is_Talking_Heads.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 411,
+    "title": "Remain in Light",
+    "artists": [
+      "Talking Heads"
+    ],
+    "year": 1980,
+    "recorded": null,
+    "genres": [
+      "New Wave",
+      "Art Rock",
+      "Funk Rock",
+      "Post-punk",
+      "Dance-rocka",
+      "Frofunk",
+      "Worldbeat",
+      "Psychedelic Funk"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/2d/TalkingHeadsRemaininLight.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 410,
+    "title": "Fear of Music",
+    "artists": [
+      "Talking Heads"
+    ],
+    "year": 1979,
+    "recorded": null,
+    "genres": [
+      "New Wave",
+      "Post-punk",
+      "Art Rock",
+      "Psychedelic Funk"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Fear_of_Music_the_Talking_Heads.jpg/250px-Fear_of_Music_the_Talking_Heads.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 409,
+    "title": "More Songs About Buildings and Food",
+    "artists": [
+      "Talking Heads"
+    ],
+    "year": 1978,
+    "recorded": null,
+    "genres": [
+      "New Wave",
+      "Art Punk",
+      "Avant-pop",
+      "Post-punk",
+      "Psychedelic Funk"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/75/TalkingHeadsMoreSongsAboutBuildingsandFood.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 408,
+    "title": "Talking Heads: 77",
+    "artists": [
+      "Talking Heads"
+    ],
+    "year": 1977,
+    "recorded": null,
+    "genres": [
+      "New Wave",
+      "Art Rock",
+      "Art Punk"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Talkingheads77.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
     "id": 407,
     "title": "The Complete Matrix Tapes",
     "artists": [
@@ -8,10 +156,10 @@
     "year": 2015,
     "recorded": "1969",
     "genres": [
-      "Art Rock",
+      "Art rock",
       "Proto-punk",
-      "Pop Rock",
-      "Experimental Rock"
+      "Pop rock",
+      "Experimental rock"
     ],
     "countries": [
       "États-unis"
@@ -49,7 +197,7 @@
     "year": 1969,
     "recorded": null,
     "genres": [
-      "Folk Rock",
+      "Folk rock",
       "Pop",
       "Rock"
     ],
@@ -69,11 +217,11 @@
     "year": 1968,
     "recorded": null,
     "genres": [
-      "Noise Rock",
+      "Noise rock",
       "Proto-punk",
-      "Art Rock",
-      "Experimental Rock",
-      "Acid Rock"
+      "Art rock",
+      "Experimental rock",
+      "Acid rock"
     ],
     "countries": [
       "États-unis"
@@ -92,11 +240,11 @@
     "year": 1967,
     "recorded": null,
     "genres": [
-      "Art Rock",
+      "Art rock",
       "Proto-pun",
-      "Kexperimental Rock",
+      "Kexperimental rock",
       "Avant-pop",
-      "Garage Rock"
+      "Garage rock"
     ],
     "countries": [
       "États-unis",
@@ -115,8 +263,8 @@
     "year": 1967,
     "recorded": null,
     "genres": [
-      "Psychedelic Rock",
-      "Art Rock",
+      "Psychedelic rock",
+      "Art rock",
       "Psychedelia"
     ],
     "countries": [
@@ -135,8 +283,8 @@
     "year": 1971,
     "recorded": null,
     "genres": [
-      "Blues Rock",
-      "Psychedelic Rock"
+      "Blues rock",
+      "Psychedelic rock"
     ],
     "countries": [
       "États-unis"
@@ -154,7 +302,7 @@
     "year": 1970,
     "recorded": null,
     "genres": [
-      "Blues Rock",
+      "Blues rock",
       "Psychedelia",
       "R&b"
     ],
@@ -174,9 +322,9 @@
     "year": 1967,
     "recorded": null,
     "genres": [
-      "Psychedelic Rock",
-      "Acid Rock",
-      "Psychedelic Pop"
+      "Psychedelic rock",
+      "Acid rock",
+      "Psychedelic pop"
     ],
     "countries": [
       "États-unis"
@@ -429,7 +577,7 @@
     "recorded": null,
     "genres": [
       "R&b",
-      "Instrumental Rock"
+      "Instrumental rock"
     ],
     "countries": [
       "États-unis"
@@ -447,7 +595,7 @@
     "year": 1967,
     "recorded": null,
     "genres": [
-      "Southern Soul"
+      "Southern soul"
     ],
     "countries": [
       "États-unis"
@@ -466,7 +614,7 @@
     "recorded": null,
     "genres": [
       "R&b",
-      "Instrumental Rock"
+      "Instrumental rock"
     ],
     "countries": [
       "États-unis"
@@ -485,9 +633,9 @@
     "recorded": null,
     "genres": [
       "Soul-funk",
-      "Soul Jazz",
+      "Soul jazz",
       "R&b",
-      "Instrumental Rock"
+      "Instrumental rock"
     ],
     "countries": [
       "États-unis"
@@ -561,7 +709,7 @@
     "year": 1967,
     "recorded": null,
     "genres": [
-      "Electric Blues"
+      "Electric blues"
     ],
     "countries": [
       "États-unis"
@@ -597,10 +745,10 @@
     "year": 2003,
     "recorded": "1969-1973, 1975, 1979",
     "genres": [
-      "Hard Rock",
-      "Heavy Metal",
-      "Blues Rock",
-      "Folk Rock"
+      "Hard rock",
+      "Heavy metal",
+      "Blues rock",
+      "Folk rock"
     ],
     "countries": [
       "Royaume-uni"
@@ -636,7 +784,7 @@
     "year": 2006,
     "recorded": "1985",
     "genres": [
-      "Electric Blues"
+      "Electric blues"
     ],
     "countries": [
       "États-unis"
@@ -654,8 +802,8 @@
     "year": 2001,
     "recorded": "1982, 1985",
     "genres": [
-      "Electric Blues",
-      "Blues Rock",
+      "Electric blues",
+      "Blues rock",
       "Jazz"
     ],
     "countries": [
@@ -693,9 +841,9 @@
     "year": 1997,
     "recorded": "1984",
     "genres": [
-      "Texas Blues",
-      "Blues Rock",
-      "Electric Blues"
+      "Texas blues",
+      "Blues rock",
+      "Electric blues"
     ],
     "countries": [
       "États-unis"
@@ -713,7 +861,7 @@
     "year": 1992,
     "recorded": "1980",
     "genres": [
-      "Electric Blues"
+      "Electric blues"
     ],
     "countries": [
       "États-unis"
@@ -731,8 +879,8 @@
     "year": 1991,
     "recorded": "1984-1989",
     "genres": [
-      "Texas Blues",
-      "Electric Blues"
+      "Texas blues",
+      "Electric blues"
     ],
     "countries": [
       "États-unis"
@@ -750,8 +898,8 @@
     "year": 1989,
     "recorded": null,
     "genres": [
-      "Blues Rock",
-      "Jazz Blues",
+      "Blues rock",
+      "Jazz blues",
       "R&b"
     ],
     "countries": [
@@ -770,9 +918,9 @@
     "year": 1985,
     "recorded": null,
     "genres": [
-      "Texas Blues",
+      "Texas blues",
       "Blues-rock",
-      "Electric Blues"
+      "Electric blues"
     ],
     "countries": [
       "États-unis"
@@ -790,7 +938,7 @@
     "year": 1984,
     "recorded": null,
     "genres": [
-      "Texas Blues",
+      "Texas blues",
       "Blues-rock"
     ],
     "countries": [
@@ -809,8 +957,8 @@
     "year": 1983,
     "recorded": null,
     "genres": [
-      "Texas Blues",
-      "Electric Blues"
+      "Texas blues",
+      "Electric blues"
     ],
     "countries": [
       "États-unis"
@@ -828,7 +976,7 @@
     "year": 1969,
     "recorded": null,
     "genres": [
-      "Rock Progressif"
+      "Rock progressif"
     ],
     "countries": [
       "France"
@@ -847,7 +995,7 @@
     "recorded": null,
     "genres": [
       "Zeuhl",
-      "Rock Progressif",
+      "Rock progressif",
       "Rock"
     ],
     "countries": [
@@ -866,7 +1014,7 @@
     "year": 1996,
     "recorded": null,
     "genres": [
-      "Chanson Française"
+      "Chanson française"
     ],
     "countries": [
       "France"
@@ -923,10 +1071,10 @@
     "year": 2019,
     "recorded": null,
     "genres": [
-      "Folk Rock",
-      "Experimental Rock",
-      "Stoner Rock",
-      "Psychedelic Rock"
+      "Folk rock",
+      "Experimental rock",
+      "Stoner rock",
+      "Psychedelic rock"
     ],
     "countries": [
       "Grèce"
@@ -944,9 +1092,9 @@
     "year": 1976,
     "recorded": null,
     "genres": [
-      "Progressive Rock",
-      "Symphonic Rock",
-      "Folk Rock"
+      "Progressive rock",
+      "Symphonic rock",
+      "Folk rock"
     ],
     "countries": [
       "Allemagne"
@@ -964,8 +1112,8 @@
     "year": 1981,
     "recorded": null,
     "genres": [
-      "Space Rock",
-      "Progressive Rock"
+      "Space rock",
+      "Progressive rock"
     ],
     "countries": [
       "Allemagne"
@@ -983,8 +1131,8 @@
     "year": 1977,
     "recorded": null,
     "genres": [
-      "Progressive Rock",
-      "Space Rock",
+      "Progressive rock",
+      "Space rock",
       "Krautrock"
     ],
     "countries": [
@@ -1003,9 +1151,9 @@
     "year": 1973,
     "recorded": null,
     "genres": [
-      "Jazz Fusion",
-      "Progressive Rock",
-      "Experimental Rock"
+      "Jazz fusion",
+      "Progressive rock",
+      "Experimental rock"
     ],
     "countries": [
       "Italie"
@@ -1023,7 +1171,7 @@
     "year": 1973,
     "recorded": null,
     "genres": [
-      "Progressive Rock"
+      "Progressive rock"
     ],
     "countries": [
       "Italie"
@@ -1169,7 +1317,7 @@
     "year": 1974,
     "recorded": null,
     "genres": [
-      "Progressive Rock"
+      "Progressive rock"
     ],
     "countries": [
       "Italie"
