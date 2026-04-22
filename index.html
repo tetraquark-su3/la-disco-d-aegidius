@@ -265,6 +265,34 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .toast{position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%);background:var(--s3);color:var(--t1);border:1px solid var(--s2);font-family:'Cantarell',sans-serif;font-size:13px;padding:9px 18px;border-radius:var(--r);opacity:0;pointer-events:none;transition:opacity .2s;z-index:200;white-space:nowrap}
 .toast.show{opacity:1}
 
+/* ── REVIEW MODE ── */
+.review-modal{max-width:520px}
+.review-header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:1.25rem;gap:1rem}
+.review-progress{font-size:12px;color:var(--t3);margin-top:4px}
+.review-phase{font-size:11px;color:var(--cp);font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:2px}
+.review-card{display:flex;gap:1rem;align-items:flex-start;padding:1rem;background:var(--s1);border:1px solid var(--s2);border-radius:var(--r);margin-bottom:1rem}
+.review-cover{width:90px;height:90px;flex-shrink:0;border-radius:8px;object-fit:cover}
+.review-cover-fb{width:90px;height:90px;flex-shrink:0;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:700;color:var(--t3)}
+.review-info{flex:1;min-width:0}
+.review-album{font-size:15px;font-weight:700;color:var(--t1);margin-bottom:3px}
+.review-artist{font-size:13px;color:var(--ca);margin-bottom:6px}
+.review-meta{display:flex;gap:5px;flex-wrap:wrap}
+.review-actions{display:flex;flex-direction:column;gap:10px}
+.review-yt-row{display:flex;gap:8px}
+.review-yt-input{flex:1;height:36px;border:1px solid var(--s2);border-radius:var(--rs);padding:0 10px;font-size:13px;font-family:'Cantarell',sans-serif;background:var(--cf);color:var(--t1);outline:none;transition:border-color .15s}
+.review-yt-input:focus{border-color:var(--cp)}
+.review-yt-input::placeholder{color:var(--t3)}
+.review-rating-row{display:flex;gap:6px;flex-wrap:wrap}
+.review-btns{display:flex;gap:8px;justify-content:flex-end;margin-top:4px}
+.btn-skip{height:36px;padding:0 14px;border:1px solid var(--s2);border-radius:var(--rs);background:transparent;color:var(--t3);font-family:'Cantarell',sans-serif;font-size:13px;cursor:pointer}
+.btn-skip:hover{color:var(--t2);border-color:var(--s3)}
+.btn-next{height:36px;padding:0 18px;border:none;border-radius:var(--rs);background:linear-gradient(135deg,var(--cp),var(--ca));color:#fff;font-family:'Cantarell',sans-serif;font-size:13px;font-weight:700;cursor:pointer}
+.btn-next:hover{opacity:.85}
+.review-done{text-align:center;padding:2rem 0}
+.review-done-icon{font-size:2.5rem;margin-bottom:.5rem}
+.review-done-title{font-size:1.1rem;font-weight:700;color:var(--t1);margin-bottom:.3rem}
+.review-done-sub{font-size:13px;color:var(--t3)}
+
 @media(max-width:480px){
   header{padding:1.5rem 1rem 0}
   .main{padding:0 1rem}
@@ -295,6 +323,9 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
     </button>
     <button class="add-btn" id="btn-add">+ Ajouter</button>
+    <button class="icon-btn" id="btn-review" title="Mode révision">
+      <svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+    </button>
     <select class="sort-select" id="sort-select">
       <option value="title">Titre A→Z</option>
       <option value="title-desc">Titre Z→A</option>
@@ -310,6 +341,20 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   <div class="grid" id="grid"></div>
   <div class="pagination" id="pagination"></div>
 </main>
+
+<div class="overlay" id="review-overlay">
+  <div class="modal review-modal">
+    <div class="review-header">
+      <div>
+        <div class="modal-title" id="review-title">Mode révision</div>
+        <div class="review-progress" id="review-progress"></div>
+      </div>
+      <button class="btn-cancel" id="review-close">✕ Fermer</button>
+    </div>
+    <div id="review-card-wrap"></div>
+    <div class="review-actions" id="review-actions"></div>
+  </div>
+</div>
 
 <div class="overlay" id="overlay">
   <div class="modal">
@@ -914,7 +959,154 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     reader.readAsText(file);
   }
 
+  /* ── REVIEW MODE ── */
+  let reviewQueue = [];
+  let reviewIndex = 0;
+  let reviewPhase = 'yt'; // 'yt' then 'rating'
+  let reviewRating = '';
+
+  function buildReviewQueue() {
+    const noYt     = albums.filter(a => !a.yt);
+    const noRating = albums.filter(a => !a.rating);
+    return { yt: noYt, rating: noRating };
+  }
+
+  function openReview() {
+    const q = buildReviewQueue();
+    if (!q.yt.length && !q.rating.length) {
+      showToast('Tout est complet — rien à réviser !'); return;
+    }
+    reviewPhase = q.yt.length ? 'yt' : 'rating';
+    reviewQueue = reviewPhase === 'yt' ? q.yt : q.rating;
+    reviewIndex = 0;
+    document.getElementById('review-overlay').classList.add('open');
+    renderReviewCard();
+  }
+
+  function closeReview() {
+    document.getElementById('review-overlay').classList.remove('open');
+  }
+
+  function renderReviewCard() {
+    const wrap    = document.getElementById('review-card-wrap');
+    const actions = document.getElementById('review-actions');
+    const title   = document.getElementById('review-title');
+    const progress= document.getElementById('review-progress');
+
+    if (reviewIndex >= reviewQueue.length) {
+      // Phase YT terminée → passer aux notations ?
+      if (reviewPhase === 'yt') {
+        const noRating = albums.filter(a => !a.rating);
+        if (noRating.length) {
+          wrap.innerHTML = `<div class="review-done"><div class="review-done-icon">✅</div><div class="review-done-title">YouTube terminé !</div><div class="review-done-sub">${reviewQueue.length - albums.filter(a=>!a.yt).length} liens ajoutés</div></div>`;
+          actions.innerHTML = '';
+          const nextBtn = document.createElement('button');
+          nextBtn.className = 'btn-next'; nextBtn.style.width='100%'; nextBtn.style.marginTop='8px';
+          nextBtn.textContent = `Passer aux notations (${noRating.length} albums) →`;
+          nextBtn.addEventListener('click', () => {
+            reviewPhase = 'rating'; reviewQueue = noRating; reviewIndex = 0; renderReviewCard();
+          });
+          actions.appendChild(nextBtn);
+          return;
+        }
+      }
+      // Tout terminé
+      wrap.innerHTML = `<div class="review-done"><div class="review-done-icon">🎉</div><div class="review-done-title">Révision terminée !</div><div class="review-done-sub">Pense à exporter et pusher ton JSON.</div></div>`;
+      actions.innerHTML = `<button class="btn-next" style="width:100%" onclick="closeReview()">Fermer</button>`;
+      return;
+    }
+
+    const a = reviewQueue[reviewIndex];
+    const [bg, fg] = colorFor(a.id);
+    const phaseLabel = reviewPhase === 'yt' ? 'YouTube manquants' : 'Notations manquantes';
+    title.textContent = 'Mode révision';
+    document.getElementById('review-phase-label') && (document.getElementById('review-phase-label').textContent = phaseLabel);
+    progress.innerHTML = `<span style="color:var(--cp);font-weight:700;font-size:10px;letter-spacing:.06em;text-transform:uppercase">${phaseLabel}</span> — ${reviewIndex + 1} / ${reviewQueue.length}`;
+
+    const coverHtml = a.cover
+      ? `<img class="review-cover" src="${a.cover}" alt="${a.title}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="review-cover-fb" style="display:none;background:${bg};color:${fg}">${initials(a.title)}</div>`
+      : `<div class="review-cover-fb" style="background:${bg};color:${fg}">${initials(a.title)}</div>`;
+
+    const genreList = Array.isArray(a.genres) ? a.genres : [];
+
+    wrap.innerHTML = `
+      <div class="review-card">
+        ${coverHtml}
+        <div class="review-info">
+          <div class="review-album">${a.title}</div>
+          <div class="review-artist">${a.artists.join(', ')}</div>
+          <div class="review-meta">
+            ${genreList.map(g=>`<span class="pill pill-g">${g}</span>`).join('')}
+            <span class="pill pill-y">${a.recorded || a.year}</span>
+            ${a.countries.length ? `<span class="pill pill-c">${a.countries.map(c=>(countryFlag(c)?countryFlag(c)+'\u00a0':'')+c).join(' · ')}</span>` : ''}
+          </div>
+        </div>
+      </div>`;
+
+    actions.innerHTML = '';
+
+    if (reviewPhase === 'yt') {
+      reviewRating = '';
+      const ytRow = document.createElement('div'); ytRow.className = 'review-yt-row';
+      const inp = document.createElement('input');
+      inp.className = 'review-yt-input'; inp.placeholder = 'https://youtube.com/…'; inp.type = 'url';
+      inp.addEventListener('keydown', e => { if (e.key === 'Enter') saveAndNext(); });
+      ytRow.appendChild(inp);
+      actions.appendChild(ytRow);
+
+      const btns = document.createElement('div'); btns.className = 'review-btns';
+      const skip = document.createElement('button'); skip.className = 'btn-skip'; skip.textContent = 'Passer →';
+      skip.addEventListener('click', () => { reviewIndex++; renderReviewCard(); });
+      const save = document.createElement('button'); save.className = 'btn-next'; save.textContent = 'Enregistrer →';
+      save.addEventListener('click', () => saveAndNext());
+      btns.appendChild(skip); btns.appendChild(save);
+      actions.appendChild(btns);
+      setTimeout(() => inp.focus(), 50);
+
+      function saveAndNext() {
+        const url = inp.value.trim();
+        if (url) {
+          albums = albums.map(x => x.id === a.id ? {...x, yt: url} : x);
+          persist();
+        }
+        reviewIndex++; renderReviewCard();
+      }
+
+    } else {
+      // Rating phase
+      reviewRating = a.rating || '';
+      const ratingRow = document.createElement('div'); ratingRow.className = 'review-rating-row';
+      [['','— Bon'],['star','⭐ Très bon'],['crown','👑 Incontournable']].forEach(([val, lbl]) => {
+        const btn = document.createElement('button');
+        btn.className = 'rating-opt' + (reviewRating === val ? ' selected' : '');
+        btn.textContent = lbl;
+        btn.addEventListener('click', () => {
+          reviewRating = val;
+          ratingRow.querySelectorAll('.rating-opt').forEach(b => b.classList.toggle('selected', b.textContent === lbl));
+        });
+        ratingRow.appendChild(btn);
+      });
+      actions.appendChild(ratingRow);
+
+      const btns = document.createElement('div'); btns.className = 'review-btns';
+      const skip = document.createElement('button'); skip.className = 'btn-skip'; skip.textContent = 'Passer →';
+      skip.addEventListener('click', () => { reviewIndex++; renderReviewCard(); });
+      const save = document.createElement('button'); save.className = 'btn-next'; save.textContent = 'Enregistrer →';
+      save.addEventListener('click', () => {
+        albums = albums.map(x => x.id === a.id ? {...x, rating: reviewRating} : x);
+        persist(); reviewIndex++; renderReviewCard();
+      });
+      btns.appendChild(skip); btns.appendChild(save);
+      actions.appendChild(btns);
+    }
+  }
+
   /* ── EVENTS ── */
+  document.getElementById('btn-review').addEventListener('click', openReview);
+  document.getElementById('review-close').addEventListener('click', closeReview);
+  document.getElementById('review-overlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('review-overlay')) closeReview();
+  });
   document.querySelectorAll('.rating-opt').forEach(btn => {
     btn.addEventListener('click', () => setRating(btn.dataset.value));
   });
