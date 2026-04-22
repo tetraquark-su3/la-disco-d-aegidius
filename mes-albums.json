@@ -1,5 +1,317 @@
 [
   {
+    "id": 430,
+    "title": "The Last Waltz",
+    "artists": [
+      "The Band"
+    ],
+    "year": 1978,
+    "recorded": null,
+    "genres": [
+      "Rock"
+    ],
+    "countries": [
+      "Canada",
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/aa/LastWaltzCover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 429,
+    "title": "Northern Lights – Southern Cross",
+    "artists": [
+      "The Band"
+    ],
+    "year": 1975,
+    "recorded": null,
+    "genres": [
+      "Roots Rock",
+      "Folk Rock",
+      "Country Rock",
+      "Americana"
+    ],
+    "countries": [
+      "Canada",
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/cd/NorthernLightsCover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 428,
+    "title": "Rock of Ages",
+    "artists": [
+      "The Band"
+    ],
+    "year": 1972,
+    "recorded": null,
+    "genres": [
+      "Roots Rock"
+    ],
+    "countries": [
+      "Canada",
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Rock_of_Ages_%28The_Band_album_-_cover_art%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 427,
+    "title": "Cahoots",
+    "artists": [
+      "The Band"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Roots Rock",
+      "Folk Rock",
+      "Country Rock",
+      "Americana"
+    ],
+    "countries": [
+      "Canada",
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/d0/Cahoots_%28The_Band_album_-_cover_art%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 426,
+    "title": "Stage Fright",
+    "artists": [
+      "The Band"
+    ],
+    "year": 1970,
+    "recorded": null,
+    "genres": [
+      "Roots Rock"
+    ],
+    "countries": [
+      "Canada",
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/14/StageFright.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 425,
+    "title": "The Band",
+    "artists": [
+      "The Band"
+    ],
+    "year": 1969,
+    "recorded": null,
+    "genres": [
+      "Roots Rock",
+      "Folk Rock",
+      "Country Rock",
+      "Americana"
+    ],
+    "countries": [
+      "Canada",
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/74/The_Band_%28album%29_coverart.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 424,
+    "title": "Music From Big Pink",
+    "artists": [
+      "The Band"
+    ],
+    "year": 1968,
+    "recorded": null,
+    "genres": [
+      "Americana",
+      "Roots Rock",
+      "Country Rock"
+    ],
+    "countries": [
+      "Canada",
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a9/Bigpink.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 423,
+    "title": "True Stories",
+    "artists": [
+      "Talking Heads"
+    ],
+    "year": 1986,
+    "recorded": null,
+    "genres": [
+      "New Wave",
+      "Pop Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "s.svg/250px-Talking_Heads_-_True_Stories.svg.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 422,
+    "title": "Theusz Hamtaahk - Trilogie Au Trianon",
+    "artists": [
+      "Magma"
+    ],
+    "year": 2001,
+    "recorded": null,
+    "genres": [
+      "Zeuhl"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/41/Theusz_Hamtaakh-cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 421,
+    "title": "Akt Ix: Opéra De Reims, 1976",
+    "artists": [
+      "Magma"
+    ],
+    "year": 1996,
+    "recorded": "1976",
+    "genres": [
+      "Zeuhl"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://i.discogs.com/0wXAeIM6PQSZiR5CqQT7Lq_w6yH9fr6nunuJHy2uEHI/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTA3/NS0xMzYzNDQyMzU2/LTM1NzguanBlZw.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 420,
+    "title": "Theatre Du Taur Concert, 1975",
+    "artists": [
+      "Magma"
+    ],
+    "year": 1994,
+    "recorded": "1975",
+    "genres": [
+      "Zeuhl"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/5e/Theatre_Du_Taur_Concert%2C_1975_Cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 419,
+    "title": "Waiting for Columbus",
+    "artists": [
+      "Little Feat"
+    ],
+    "year": 1978,
+    "recorded": null,
+    "genres": [
+      "Swamp Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/7e/Little_Feat_-_Waiting_for_Columbus.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 418,
+    "title": "Feats Don't Fail Me Now",
+    "artists": [
+      "Little Feat"
+    ],
+    "year": 1974,
+    "recorded": null,
+    "genres": [
+      "Country-funk",
+      "Rock and Roll"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b3/Little_Feat_-_Feats_Don%27t_Fail_Me_Now.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 417,
+    "title": "Dixie Chicken",
+    "artists": [
+      "Little Feat"
+    ],
+    "year": 1973,
+    "recorded": null,
+    "genres": [
+      "Swamp Rock",
+      "Funk Rock",
+      "New Orleans R&b"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1c/Little_Feat_-_Dixie_Chicken.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 416,
+    "title": "Sailin' Shoes",
+    "artists": [
+      "Little Feat"
+    ],
+    "year": 1972,
+    "recorded": null,
+    "genres": [
+      "Swamp Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/24/Little_Feat_-_Sailin%27_Shoes.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 415,
+    "title": "Little Feat",
+    "artists": [
+      "Little Feat"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Rock and Roll",
+      "Country Rock",
+      "Roots Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/35/Littlefeatalbum.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
     "id": 414,
     "title": "Stop Making Sense",
     "artists": [
@@ -8,7 +320,7 @@
     "year": 1984,
     "recorded": null,
     "genres": [
-      "New Wave",
+      "New wave",
       "Post-punk"
     ],
     "countries": [
@@ -27,9 +339,9 @@
     "year": 1983,
     "recorded": null,
     "genres": [
-      "New Wave",
-      "Funk Rock",
-      "Art Rock",
+      "New wave",
+      "Funk rock",
+      "Art rock",
       "Funk"
     ],
     "countries": [
@@ -48,9 +360,9 @@
     "year": 1982,
     "recorded": null,
     "genres": [
-      "New Wave",
+      "New wave",
       "Funk",
-      "Art Punk"
+      "Art punk"
     ],
     "countries": [
       "États-unis"
@@ -68,14 +380,14 @@
     "year": 1980,
     "recorded": null,
     "genres": [
-      "New Wave",
-      "Art Rock",
-      "Funk Rock",
+      "New wave",
+      "Art rock",
+      "Funk rock",
       "Post-punk",
       "Dance-rocka",
       "Frofunk",
       "Worldbeat",
-      "Psychedelic Funk"
+      "Psychedelic funk"
     ],
     "countries": [
       "États-unis"
@@ -93,10 +405,10 @@
     "year": 1979,
     "recorded": null,
     "genres": [
-      "New Wave",
+      "New wave",
       "Post-punk",
-      "Art Rock",
-      "Psychedelic Funk"
+      "Art rock",
+      "Psychedelic funk"
     ],
     "countries": [
       "États-unis"
@@ -114,11 +426,11 @@
     "year": 1978,
     "recorded": null,
     "genres": [
-      "New Wave",
-      "Art Punk",
+      "New wave",
+      "Art punk",
       "Avant-pop",
       "Post-punk",
-      "Psychedelic Funk"
+      "Psychedelic funk"
     ],
     "countries": [
       "États-unis"
@@ -136,9 +448,9 @@
     "year": 1977,
     "recorded": null,
     "genres": [
-      "New Wave",
-      "Art Rock",
-      "Art Punk"
+      "New wave",
+      "Art rock",
+      "Art punk"
     ],
     "countries": [
       "États-unis"
