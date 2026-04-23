@@ -1,5 +1,1938 @@
 [
   {
+    "id": 708,
+    "title": "Offering: Live at Temple University",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 2014,
+    "recorded": "1966",
+    "genres": [
+      "Free Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/e5/John_Coltrane_-_Offering.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 707,
+    "title": "Live at the Half Note: One Down, One up",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 2005,
+    "recorded": "1965",
+    "genres": [
+      "Avant-garde Jazz",
+      "Free Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/31/Live_at_the_Half_Note_One_Down_One_Up.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 706,
+    "title": "A Love Supreme: Live in Seattle",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 2021,
+    "recorded": "1965",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/e2/John_Coltrane_-_A_Love_Supreme_Live_in_Seattle.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 705,
+    "title": "At Carnegie Hall",
+    "artists": [
+      "Thelonious Monk",
+      "John Coltrane"
+    ],
+    "year": 2005,
+    "recorded": "1957",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0e/MonkQuartetWithColtraneCarnegie.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 704,
+    "title": "New Thing at Newport",
+    "artists": [
+      "John Coltrane",
+      "Archie Shepp"
+    ],
+    "year": 1966,
+    "recorded": "1965",
+    "genres": [
+      "Avant-garde Jazz",
+      "Free Jazz",
+      "Hard Bop"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/08/New_Thing_At_Newport.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 703,
+    "title": "Live Trane: the European Tours",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 2001,
+    "recorded": "1961-1963",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/65/Coltrane_Live_Trane_European_Tours_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 702,
+    "title": "Live in Japan",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1991,
+    "recorded": "1966",
+    "genres": [
+      "Free Jazz",
+      "Avant-garde Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/4b/Live_in_Japan_%28John_Coltrane_album%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 701,
+    "title": "Newport '63",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1993,
+    "recorded": "1961, 1963",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b4/Newport_%2763.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 700,
+    "title": "Afro Blue Impressions",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1977,
+    "recorded": "1963",
+    "genres": [
+      "Hard Bop",
+      "Modal Jazz",
+      "Avant-garde Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/90/Afro_Blue_Impressions.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 699,
+    "title": "Live at the Village Vanguard Again!",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1966,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/d8/John_Coltrane_-_Live_at_the_Village_Vanguard_Again.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 698,
+    "title": "The Complete 1961 Village Vanguard Recordings",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1997,
+    "recorded": "1961",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/4a/Completelive1961.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 697,
+    "title": "Tenor Conclave",
+    "artists": [
+      "John Coltrane",
+      "Hank Mobley",
+      "Al Cohn",
+      "Zoot Sims"
+    ],
+    "year": 1957,
+    "recorded": "1956",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/99/Tenor_Conclave.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 696,
+    "title": "Bags & Trane",
+    "artists": [
+      "Milt Jackson",
+      "John Coltrane"
+    ],
+    "year": 1961,
+    "recorded": null,
+    "genres": [
+      "Jazz",
+      "Hard Bop"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b4/Bags%26trane.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 695,
+    "title": "Coltrane",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1962,
+    "recorded": null,
+    "genres": [
+      "Modal Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a7/Coltrane_Impulse_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 694,
+    "title": "Interstellar Space",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1974,
+    "recorded": "1967",
+    "genres": [
+      "Free Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/26/John_Coltrane_Interstellar_Space.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 693,
+    "title": "First Meditations (for Quartet)",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1977,
+    "recorded": "1965",
+    "genres": [
+      "Avant-garde Jazz",
+      "Free Jazz",
+      "Modal Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/4a/Coltrane1stMeditationsLP.JPG",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 692,
+    "title": "Sun Ship",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1971,
+    "recorded": "1965",
+    "genres": [
+      "Avant-garde Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/bc/John_Coltrane_-_Sun_Ship.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 691,
+    "title": "Transition",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1970,
+    "recorded": "1965",
+    "genres": [
+      "Avant-garde Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/57/Transition_%28John_Coltrane_album%29.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 690,
+    "title": "The John Coltrane Quartet Plays",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1965,
+    "recorded": null,
+    "genres": [
+      "Post-bop",
+      "Modal Jazz",
+      "Avant-garde Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/67/The_John_Coltrane_Quartet_Plays.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 689,
+    "title": "Kulu Sé Mama",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1967,
+    "recorded": "1965",
+    "genres": [
+      "Avant-garde Jazz",
+      "Free Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/5a/Kulu_Se_Mama.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 688,
+    "title": "Expression",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1967,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/25/ColtraneExpression.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 687,
+    "title": "Meditations",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1965,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/71/ColtraneMeditationsCover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 686,
+    "title": "Ascension",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1966,
+    "recorded": "1965",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b8/Ascension_album.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 685,
+    "title": "A Love Supreme",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1965,
+    "recorded": "1964",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/9a/John_Coltrane_-_A_Love_Supreme.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 684,
+    "title": "Crescent",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1964,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/7a/John_Coltrane_-_Crescent.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 683,
+    "title": "Live at Birdland",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1964,
+    "recorded": "1963",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0e/Coltrane_Live_at_Birdland.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 682,
+    "title": "Impressions",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1963,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/5c/Impressions_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 681,
+    "title": "John Coltrane and Johnny Hartman",
+    "artists": [
+      "John Coltrane",
+      "Johnny Hartman"
+    ],
+    "year": 1963,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/12/John_Coltrane_and_Johnny_Hartman_%28album%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 680,
+    "title": "Ballads",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1963,
+    "recorded": "1961-1962",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0a/Coltraneballads.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 679,
+    "title": "Duke Ellington & John Coltrane",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1963,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/2a/Duke_Ellington_%26_John_Coltrane.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 678,
+    "title": "Africa/brass",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1961,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/de/ColtraneAfricaBrassCover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 677,
+    "title": "The Avant-garde",
+    "artists": [
+      "Don Cherry",
+      "John Coltrane"
+    ],
+    "year": 1966,
+    "recorded": "1960",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/66/The_Avant-Garde.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 676,
+    "title": "Coltrane's Sound",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1964,
+    "recorded": "1960",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f1/Coltranes_Sound.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 675,
+    "title": "Coltrane Plays the Blues",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1962,
+    "recorded": "1960",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/93/Coltraneplaystheblues.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 674,
+    "title": "Olé Coltrane",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1961,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/e8/John_Coltrane_-_Ol%C3%A9_Coltrane.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 673,
+    "title": "My Favorite Things",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1961,
+    "recorded": "1960",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/9b/My_Favorite_Things.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 672,
+    "title": "Coltrane Jazz",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1961,
+    "recorded": "1959-1960",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/10/Coltrane_jazz.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 671,
+    "title": "Blue Train",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1958,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/John_Coltrane_-_Blue_Train.jpg/250px-John_Coltrane_-_Blue_Train.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 670,
+    "title": "The Cats",
+    "artists": [
+      "Tommy Flanagan"
+    ],
+    "year": 1959,
+    "recorded": "1958",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/85/The_Cats_%28album%29.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 669,
+    "title": "Kenny Burrell & John Coltrane",
+    "artists": [
+      "Kenny Burrell",
+      "John Coltrane"
+    ],
+    "year": 1963,
+    "recorded": "1958",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/af/Kenny_Burrell_and_John_Coltrane.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 668,
+    "title": "Lush Life",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1961,
+    "recorded": "1957-1958",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/37/John_Coltrane_-_Lush_Life.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 667,
+    "title": "Soultrane",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1958,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Coltrane_Soultrane.jpg/250px-Coltrane_Soultrane.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 666,
+    "title": "John Coltrane With the Red Garland Trio",
+    "artists": [
+      "John Coltrane",
+      "Red Garland"
+    ],
+    "year": 1958,
+    "recorded": "1957",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/59/John_Coltrane_with_the_Red_Garland_Trio.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 665,
+    "title": "Coltrane",
+    "artists": [
+      "John Coltrane"
+    ],
+    "year": 1957,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/be/John_Coltrane_-_Coltrane.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 664,
+    "title": "Live at Woodstock",
+    "artists": [
+      "Jimi Hendrix"
+    ],
+    "year": 1999,
+    "recorded": "1969",
+    "genres": [
+      "Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/26/Live_at_Woodstock.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 663,
+    "title": "Winterland",
+    "artists": [
+      "The Jimi Hendrix Experience"
+    ],
+    "year": 2011,
+    "recorded": "1968",
+    "genres": [
+      "Rock"
+    ],
+    "countries": [
+      "Royaume-uni",
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/7d/TheJHEWinterland.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 662,
+    "title": "Live at Berkeley",
+    "artists": [
+      "Https://upload.wikimedia.org/wikipedia/en/c/c3/jimi_hendrix_live_at_berkeley.jpg"
+    ],
+    "year": 2003,
+    "recorded": "1970",
+    "genres": [
+      "Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c3/Jimi_Hendrix_Live_At_Berkeley.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 661,
+    "title": "Machine Gun: the Fillmore East First Show",
+    "artists": [
+      "Jimi Hendrix"
+    ],
+    "year": 2016,
+    "recorded": "1969",
+    "genres": [
+      "Rock",
+      "Funk",
+      "Funk Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/13/Machine_Gun_The_Fillmore_East_First_Show_album_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 660,
+    "title": "Los Angeles Forum: April 26, 1969",
+    "artists": [
+      "The Jimi Hendrix Experience"
+    ],
+    "year": 2022,
+    "recorded": "1969",
+    "genres": [
+      "Rock"
+    ],
+    "countries": [
+      "Royaume-uni",
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/9e/Los_Angeles_Forum%2C_April_26%2C_1969.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 659,
+    "title": "Live at Monterey",
+    "artists": [
+      "The Jimi Hendrix Experience"
+    ],
+    "year": 2007,
+    "recorded": "1967",
+    "genres": [
+      "Rock"
+    ],
+    "countries": [
+      "Royaume-uni",
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/6d/Live_at_Monterey_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 658,
+    "title": "Hendrix in the West",
+    "artists": [
+      "Jimi Hendrix"
+    ],
+    "year": 1972,
+    "recorded": "1969-1970",
+    "genres": [
+      "Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Hendrix_in_the_west.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 657,
+    "title": "Rainbow Bridge",
+    "artists": [
+      "Jimi Hendrix"
+    ],
+    "year": 1971,
+    "recorded": "1968-1970",
+    "genres": [
+      "Blues",
+      "Psychedelia"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/7e/Rainbow_bridge_1971.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 656,
+    "title": "The Cry of Love",
+    "artists": [
+      "Jimi Hendrix"
+    ],
+    "year": 1971,
+    "recorded": "1968-1970",
+    "genres": [
+      "Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/56/Jimi_Hendrix_-The_Cry_Of_Love.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 655,
+    "title": "Band of Gypsys",
+    "artists": [
+      "Jimi Hendrix"
+    ],
+    "year": 1970,
+    "recorded": null,
+    "genres": [
+      "Rock",
+      "Psychedelic Funk",
+      "Funk Rock",
+      "Psychedelic Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/5c/Band_of_Gypsys_album.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 654,
+    "title": "Electric Ladyland",
+    "artists": [
+      "The Jimi Hendrix Experience"
+    ],
+    "year": 1968,
+    "recorded": null,
+    "genres": [
+      "Psychedelic Rock",
+      "Acid Rock",
+      "Hard Rock",
+      "Blues Rock",
+      "Funk",
+      "Psychedelic Soul"
+    ],
+    "countries": [
+      "Royaume-uni",
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f2/Jimi_Hendrix_-_Electric_Ladyland.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 653,
+    "title": "Axis: Bold as Love",
+    "artists": [
+      "The Jimi Hendrix Experience"
+    ],
+    "year": 1967,
+    "recorded": null,
+    "genres": [
+      "Psychedelic Rock",
+      "Pop Rock",
+      "Funk Rock"
+    ],
+    "countries": [
+      "Royaume-uni",
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/85/Axiscover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 652,
+    "title": "Are You Experienced",
+    "artists": [
+      "The Jimi Hendrix Experience"
+    ],
+    "year": 1967,
+    "recorded": null,
+    "genres": [
+      "Psychedelic Rock",
+      "Hard Rock",
+      "Acid Rock",
+      "Blues"
+    ],
+    "countries": [
+      "Royaume-uni",
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/17/AreyouexpUK.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 651,
+    "title": "L'aigle Noir",
+    "artists": [
+      "Barbara"
+    ],
+    "year": 1970,
+    "recorded": null,
+    "genres": [
+      "Chanson Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 650,
+    "title": "Le Soleil Noir",
+    "artists": [
+      "Barbara"
+    ],
+    "year": 1968,
+    "recorded": null,
+    "genres": [
+      "Chanson Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 649,
+    "title": "Madame",
+    "artists": [
+      "Barbara"
+    ],
+    "year": 1970,
+    "recorded": null,
+    "genres": [
+      "Chanson Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 648,
+    "title": "Ma Plus Belle Histoire D'amour",
+    "artists": [
+      "Barbara"
+    ],
+    "year": 1967,
+    "recorded": null,
+    "genres": [
+      "Chanson Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 647,
+    "title": "Le Mal De Vivre",
+    "artists": [
+      "Barbara"
+    ],
+    "year": 1965,
+    "recorded": null,
+    "genres": [
+      "Chanson Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 646,
+    "title": "Barbara Chante Barbara",
+    "artists": [
+      "Barbara"
+    ],
+    "year": 1964,
+    "recorded": null,
+    "genres": [
+      "Chanson Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 645,
+    "title": "Unknown Soldier",
+    "artists": [
+      "Fela Ransome-kuti and the Afrika 70"
+    ],
+    "year": 1979,
+    "recorded": null,
+    "genres": [
+      "Afrobeat"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/19/Unknown_Soldier_%28Fela_Kuti_album%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 644,
+    "title": "Beasts of No Nation",
+    "artists": [
+      "Fela Ransome-kuti and the Africa '80"
+    ],
+    "year": 1989,
+    "recorded": null,
+    "genres": [
+      "Afrobeat"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1c/Beasts_of_No_Nation_%28album%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 643,
+    "title": "Teacher Don't Teach Me Nonsense",
+    "artists": [
+      "Fela Ransome-kuti and the Africa '80"
+    ],
+    "year": 1986,
+    "recorded": null,
+    "genres": [
+      "Afrobeat"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/68/TDTMN_Cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 642,
+    "title": "No Agreement",
+    "artists": [
+      "Fela Ransome-kuti and the Africa '70"
+    ],
+    "year": 1977,
+    "recorded": null,
+    "genres": [
+      "Afrobeat"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/ef/No_Agreement.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 641,
+    "title": "Zombie",
+    "artists": [
+      "Fela Ransome-kuti and the Africa '70"
+    ],
+    "year": 1976,
+    "recorded": null,
+    "genres": [
+      "Afrobeat"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f5/FelaZombie.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 640,
+    "title": "Expensive Shit",
+    "artists": [
+      "Fela Ransome-kuti and the Afrika 70"
+    ],
+    "year": 1975,
+    "recorded": null,
+    "genres": [
+      "Afro Beat"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/37/ExpensiveFelaKuti.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 639,
+    "title": "Confusion",
+    "artists": [
+      "Fela Ransome-kuti and the Africa 70"
+    ],
+    "year": 1975,
+    "recorded": null,
+    "genres": [
+      "Afrobeat"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/9e/Confusion_-_Fela_Kuti.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 638,
+    "title": "Gentleman",
+    "artists": [
+      "Fela Ransome-kuti and the Afrika 70"
+    ],
+    "year": 1973,
+    "recorded": null,
+    "genres": [
+      "Afrobeat"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/d1/Gentleman_-_Fela_Kuti.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 637,
+    "title": "Afrodisiac",
+    "artists": [
+      "Fela Ransome-kuti and the Africa '70"
+    ],
+    "year": 1973,
+    "recorded": null,
+    "genres": [
+      "Afrobeat"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/65/Afrodisiac_%28Fela_Kuti_album%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 636,
+    "title": "Roforofo Fight",
+    "artists": [
+      "Fela Ransome-kuti and the Africa '70"
+    ],
+    "year": 1972,
+    "recorded": null,
+    "genres": [
+      "Afrobeat"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c6/Roforofo_Fight.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 635,
+    "title": "Shakara",
+    "artists": [
+      "Fela Ransome-kuti and the Africa '70"
+    ],
+    "year": 1972,
+    "recorded": null,
+    "genres": [
+      "Afrobeat"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/8d/Shakara_%28album%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 634,
+    "title": "Open & Close",
+    "artists": [
+      "Fela Ransome-kuti and the Africa '70"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Afrobeat"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/dd/Open_%26_Close.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 633,
+    "title": "Na Poi",
+    "artists": [
+      "Fela Ransome-kuti and the Africa '70"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Afrobeat"
+    ],
+    "countries": [
+      "Nigeria",
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/dd/Na_Poi.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 632,
+    "title": "Why Black Man Dey Suffer",
+    "artists": [
+      "Fela Ransome-kuti and the Africa '70",
+      "Ginger Baker"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Afrobeat"
+    ],
+    "countries": [
+      "Nigeria",
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/cb/Why_Black_Man_Dey_Suffer.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 631,
+    "title": "Fela's London Scene",
+    "artists": [
+      "Fela Ransome-kuti and the Africa '70"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Afrobeat"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/00/Fela%27s_London_Scene.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 630,
+    "title": "Performing This Week... Live at Ronnie Scott's",
+    "artists": [
+      "Jeff Beck"
+    ],
+    "year": 2008,
+    "recorded": null,
+    "genres": [
+      "Blues-rock",
+      "Rock",
+      "Instrumental Rock",
+      "Jazz Fusion"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://i.discogs.com/1n6k3MheleUAzozKCJr0vfP8X6UkVQSTlfJyh9MesrU/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzNjI4/OTctMTI3OTYyNDc1/Mi5qcGVn.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 629,
+    "title": "Rough and Ready",
+    "artists": [
+      "The Jeff Beck Group"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Jazz Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/23/Jeff_Beck-Rough_and_Ready.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 628,
+    "title": "Beck-ola",
+    "artists": [
+      "The Jeff Beck Group"
+    ],
+    "year": 1969,
+    "recorded": null,
+    "genres": [
+      "Blues Rock",
+      "Hard Rock",
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1f/Jeff_Beck-Beck-Ola.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 627,
+    "title": "Truth",
+    "artists": [
+      "The Jeff Beck Group"
+    ],
+    "year": 1968,
+    "recorded": null,
+    "genres": [
+      "Blues Rock",
+      "Hard Rock",
+      "Heavy Metal"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/56/Jeff_Beck-Truth.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 626,
+    "title": "Loud Hailer",
+    "artists": [
+      "Jeff Beck"
+    ],
+    "year": 2016,
+    "recorded": null,
+    "genres": [
+      "Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/2a/Jeff_Beck_-_Loud_Hailer.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 625,
+    "title": "Emotion & Commotion",
+    "artists": [
+      "Jeff Beck"
+    ],
+    "year": 2010,
+    "recorded": null,
+    "genres": [
+      "Instrumental Rock",
+      "Blues Rock",
+      "Soul",
+      "Classical"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/96/Emotioncommotionbeck.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 624,
+    "title": "Wired",
+    "artists": [
+      "Jeff Beck"
+    ],
+    "year": 1976,
+    "recorded": null,
+    "genres": [
+      "Jazz Fusion",
+      "Funk",
+      "Instrumental Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/21/JeffBeckWired.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 623,
+    "title": "Blow by Blow",
+    "artists": [
+      "Jeff Beck"
+    ],
+    "year": 1975,
+    "recorded": null,
+    "genres": [
+      "Jazz Fusion",
+      "Instrumental Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/e0/Blow_by_blow.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 622,
+    "title": "Taormina",
+    "artists": [
+      "Jean-louis Murat"
+    ],
+    "year": 2006,
+    "recorded": null,
+    "genres": [
+      "Pop",
+      "Rock",
+      "Variété Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/6287_20886.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 621,
+    "title": "Muragostang",
+    "artists": [
+      "Jean-louis Murat"
+    ],
+    "year": 2000,
+    "recorded": null,
+    "genres": [
+      "Ambient",
+      "Chanson Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/6287_19389.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 620,
+    "title": "Mustango",
+    "artists": [
+      "Jean-louis Murat"
+    ],
+    "year": 1999,
+    "recorded": null,
+    "genres": [
+      "Chanson Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/6287_13948.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 619,
+    "title": "Dolorès",
+    "artists": [
+      "Jean-louis Murat"
+    ],
+    "year": 1996,
+    "recorded": null,
+    "genres": [
+      "Chanson Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/6287_16929.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 618,
+    "title": "Vénus",
+    "artists": [
+      "Jean-louis Murat"
+    ],
+    "year": 1993,
+    "recorded": null,
+    "genres": [
+      "Chanson Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/6287_16105.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 617,
+    "title": "Le Manteau De Pluie",
+    "artists": [
+      "Jean-louis Murat"
+    ],
+    "year": 1991,
+    "recorded": null,
+    "genres": [
+      "Chanson Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/6287_16090.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 616,
+    "title": "Cheyenne Autumn",
+    "artists": [
+      "Jean-louis Murat"
+    ],
+    "year": 1989,
+    "recorded": null,
+    "genres": [
+      "Chanson Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/6287_16085.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 615,
+    "title": "Bleu Pétrole",
+    "artists": [
+      "Alain Bashung"
+    ],
+    "year": 2008,
+    "recorded": null,
+    "genres": [
+      "Chanson Française",
+      "Rock"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/1136_10953.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 614,
+    "title": "L'imprudence",
+    "artists": [
+      "Alain Bashung"
+    ],
+    "year": 2002,
+    "recorded": null,
+    "genres": [
+      "Chanson",
+      "Art Pop"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/1136_2845.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 613,
+    "title": "Fantaisie Militaire",
+    "artists": [
+      "Alain Bashung"
+    ],
+    "year": 1998,
+    "recorded": null,
+    "genres": [
+      "Chanson Française",
+      "Rock",
+      "Trip Hop",
+      "Drum and Bass"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/1136_2843.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 612,
+    "title": "Chatterton",
+    "artists": [
+      "Alain Bashung"
+    ],
+    "year": 1994,
+    "recorded": null,
+    "genres": [
+      "Pop",
+      "Rock",
+      "Variété Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/1136_2841.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 611,
+    "title": "Osez Joséphine",
+    "artists": [
+      "Alain Bashung"
+    ],
+    "year": 1991,
+    "recorded": null,
+    "genres": [
+      "Pop",
+      "Rock",
+      "Variété Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/1136_2840.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 610,
+    "title": "Novice",
+    "artists": [
+      "Alain Bashung"
+    ],
+    "year": 1989,
+    "recorded": null,
+    "genres": [
+      "Pop",
+      "Rock",
+      "Variété Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/1136_2838.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 609,
+    "title": "Passé Le Rio Grande...",
+    "artists": [
+      "Alain Bashung"
+    ],
+    "year": 1986,
+    "recorded": null,
+    "genres": [
+      "Pop",
+      "Rock",
+      "Variété Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/1136_2837.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 608,
+    "title": "Live Tour 85",
+    "artists": [
+      "Alain Bashung"
+    ],
+    "year": 1985,
+    "recorded": null,
+    "genres": [
+      "Rock",
+      "Cold Wave",
+      "Chanson Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/1136_2836.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 607,
+    "title": "Figure Imposée",
+    "artists": [
+      "Alain Bashung"
+    ],
+    "year": 1983,
+    "recorded": null,
+    "genres": [
+      "Pop",
+      "Rock",
+      "Variété Française"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/1136_2835.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 606,
+    "title": "Play Blessures",
+    "artists": [
+      "Alain Bashung"
+    ],
+    "year": 1982,
+    "recorded": null,
+    "genres": [
+      "Cold Wave",
+      "New Wave"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://www.gutsofdarkness.com/images/pochettes_700/1136_2834.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
     "id": 605,
     "title": "The Book of Souls",
     "artists": [
@@ -9658,8 +11591,8 @@
     "year": 1984,
     "genres": [
       "Rock",
-      "Roots Rock",
-      "Blues Rock",
+      "Roots rock",
+      "Blues rock",
       "Jazz-rock"
     ],
     "countries": [
@@ -10189,11 +12122,11 @@
     "year": 1991,
     "genres": [
       "Shoegaze",
-      "Noise Pop",
-      "Dream Pop",
+      "Noise pop",
+      "Dream pop",
       "Avant-rock",
       "Neo-psychedelia",
-      "Noise Rock"
+      "Noise rock"
     ],
     "countries": [
       "Irlande"
