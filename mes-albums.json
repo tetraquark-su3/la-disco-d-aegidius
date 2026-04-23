@@ -1,5 +1,1861 @@
 [
   {
+    "id": 805,
+    "title": "Love Deluxe",
+    "artists": [
+      "Sade"
+    ],
+    "year": 1992,
+    "recorded": null,
+    "genres": [
+      "R&b",
+      "Ambient",
+      "Cool Jazz",
+      "Art Pop",
+      "Trip Hop",
+      "Chill-out"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/e9/Sade_-_Love_Deluxe.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 804,
+    "title": "Stronger Than Pride",
+    "artists": [
+      "Sade"
+    ],
+    "year": 1988,
+    "recorded": null,
+    "genres": [
+      "Soul",
+      "Funk"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/62/Sade_-_Stronger_Than_Pride.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 803,
+    "title": "Promise",
+    "artists": [
+      "Sade"
+    ],
+    "year": 1985,
+    "recorded": null,
+    "genres": [
+      "Soul",
+      "Jazz",
+      "Pop"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f7/Sade_-_Promise.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 802,
+    "title": "Diamond Life",
+    "artists": [
+      "Sade"
+    ],
+    "year": 1984,
+    "recorded": null,
+    "genres": [
+      "Smooth Soul",
+      "Sophisti-pop",
+      "Quiet Storm",
+      "Smooth Jazz"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/69/Sade_-_Diamond_Life.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 801,
+    "title": "Ensoulment",
+    "artists": [
+      "The the"
+    ],
+    "year": 2024,
+    "recorded": null,
+    "genres": [
+      "Post-punk"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/2d/1.-ENSOULMENT-Front-Cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 800,
+    "title": "Dusk",
+    "artists": [
+      "The the"
+    ],
+    "year": 1993,
+    "recorded": null,
+    "genres": [
+      "Alternative Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/7e/The_The_Dusk.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 799,
+    "title": "Mind Bomb",
+    "artists": [
+      "The the"
+    ],
+    "year": 1989,
+    "recorded": null,
+    "genres": [
+      "Alternative Rock",
+      "Dance-rock",
+      "College Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/d6/The_The_-_Mind_Bomb_CD_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 798,
+    "title": "Infected",
+    "artists": [
+      "The the"
+    ],
+    "year": 1986,
+    "recorded": null,
+    "genres": [
+      "Post-punk",
+      "Alternative Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f4/The_The_-_Infected_CD_album_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 797,
+    "title": "Burning Blue Soul",
+    "artists": [
+      "Matt Johnson"
+    ],
+    "year": 1981,
+    "recorded": null,
+    "genres": [
+      "Post-punk",
+      "Acid Folk",
+      "New Wave",
+      "Gothic Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/24/The_The_-_Burning_Blue_Soul_original_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 796,
+    "title": "Soul Mining",
+    "artists": [
+      "The the"
+    ],
+    "year": 1983,
+    "recorded": null,
+    "genres": [
+      "Pop",
+      "Post-punk",
+      "Synth-pop"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/bb/The_The_-_Soul_Mining_CD_album_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 795,
+    "title": "Friendly as a Hand Grenade",
+    "artists": [
+      "Tackhead"
+    ],
+    "year": 1989,
+    "recorded": null,
+    "genres": [
+      "Funk",
+      "Industrial"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/17/Tackhead_-_Friendly_as_a_Hand_Grenade.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 794,
+    "title": "Enter the Wu-tang (36 Chambers)",
+    "artists": [
+      "Wu-tang Clan"
+    ],
+    "year": 1993,
+    "recorded": null,
+    "genres": [
+      "East Coast Hip-hop",
+      "Hardcore Hip-hop",
+      "Boom Bap",
+      "Alternative Hip-hop"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/53/Wu-TangClanEntertheWu-Tangalbumcover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 793,
+    "title": "Ready to Die",
+    "artists": [
+      "The Notorious B.i.g."
+    ],
+    "year": 1994,
+    "recorded": null,
+    "genres": [
+      "East Coast Hip-hop"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/97/Ready_To_Die.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 792,
+    "title": "Klaus Nomi",
+    "artists": [
+      "Klaus Nomi"
+    ],
+    "year": 1981,
+    "recorded": null,
+    "genres": [
+      "New Wave",
+      "Art Pop",
+      "Rock",
+      "Classical Crossover"
+    ],
+    "countries": [
+      "Allemagne"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/28/KlausNomiAlbum%28vers2%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 791,
+    "title": "Orang-utan",
+    "artists": [
+      "Isao Suzuki Quartet"
+    ],
+    "year": 1975,
+    "recorded": null,
+    "genres": [
+      "Jazz",
+      "Funk"
+    ],
+    "countries": [
+      "Japon"
+    ],
+    "cover": "https://i.discogs.com/JDv4u_WAsFJBZ0AVrtQfcM7XZI7ZvrtwKTpyaPUvJyg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMDcx/NDQ5LTE3Mzg1MTk3/NjMtNjAyOS5qcGVn.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 790,
+    "title": "Afreaka!",
+    "artists": [
+      "Demon Fuzz"
+    ],
+    "year": 1970,
+    "recorded": null,
+    "genres": [
+      "Progressive Rock",
+      "Funk",
+      "Psychedelic Soul",
+      "Jazz Fusion"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/65/Afreaka%21_album_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 789,
+    "title": "Profile",
+    "artists": [
+      "Jan Akkerman"
+    ],
+    "year": 1972,
+    "recorded": "1969",
+    "genres": [
+      "Jazz",
+      "Pop",
+      "Rock"
+    ],
+    "countries": [
+      "Pays-bas"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/46/Profile_%28album%29_by_Jan_Akkerman.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 788,
+    "title": "Hamburger Concerto",
+    "artists": [
+      "Focus"
+    ],
+    "year": 1974,
+    "recorded": null,
+    "genres": [
+      "Progressive Rock",
+      "Jazz Fusion"
+    ],
+    "countries": [
+      "Pays-bas"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/7a/Focus_Hamburger_Concerto.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 787,
+    "title": "Focus 3",
+    "artists": [
+      "Focus"
+    ],
+    "year": 1972,
+    "recorded": null,
+    "genres": [
+      "Progressive Rock",
+      "Baroque Rock",
+      "Jazz Fusion"
+    ],
+    "countries": [
+      "Pays-bas"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/ca/Focus_3_album_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 786,
+    "title": "Moving Waves",
+    "artists": [
+      "Focus"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Progressive Rock",
+      "Jazz Fusion",
+      "Hard Rock"
+    ],
+    "countries": [
+      "Pays-bas"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a2/Focus_Moving_Waves_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 785,
+    "title": "Focus Plays Focus",
+    "artists": [
+      "Focus"
+    ],
+    "year": 1970,
+    "recorded": null,
+    "genres": [
+      "Progressive Rock"
+    ],
+    "countries": [
+      "Pays-bas"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/94/Focus_Plays_Focus.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 784,
+    "title": "Supersonic Megafauna Collision",
+    "artists": [
+      "Acid Mammoth"
+    ],
+    "year": 2024,
+    "recorded": null,
+    "genres": [
+      "Doom Metal",
+      "Psychedelic Rock",
+      "Stoner Rock"
+    ],
+    "countries": [
+      "Grèce"
+    ],
+    "cover": "https://i.discogs.com/fnthOFl5c2yQgrUs35tegGZxciPvUBlcrbTqmTF-vvE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMDg2/MzY0LTE3MTAzNDI2/MTktMzYwNy5qcGVn.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 783,
+    "title": "Caravan",
+    "artists": [
+      "Acid Mammoth"
+    ],
+    "year": 2021,
+    "recorded": null,
+    "genres": [
+      "Doom Metal"
+    ],
+    "countries": [
+      "Grèce"
+    ],
+    "cover": "https://i.discogs.com/8I2_kF15gev3ROo-7EzgxFSb9u2dFei-yjke1Tf-8y0/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3NTYy/MjY4LTE2MTQxNTc1/MDEtNzI1NS5qcGVn.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 782,
+    "title": "Under Acid Hoof",
+    "artists": [
+      "Acid Mammoth"
+    ],
+    "year": 2020,
+    "recorded": null,
+    "genres": [
+      "Doom Metal"
+    ],
+    "countries": [
+      "Grèce"
+    ],
+    "cover": "https://i.discogs.com/Q29hy0Ftrk8_46Ntsi_eDbC0m3MdY69A9BMgseMOj1s/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwODYx/MzE4LTE3NDU0ODIy/MjUtOTE0OS5qcGVn.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 781,
+    "title": "Clamor Luciferi",
+    "artists": [
+      "1782"
+    ],
+    "year": 2023,
+    "recorded": null,
+    "genres": [
+      "Stoner Rock",
+      "Doom Metal"
+    ],
+    "countries": [
+      "Italie"
+    ],
+    "cover": "https://i.discogs.com/NhbDJo77Hiq55_Iut0MCHsbjCarzxeskZ-IuOLx1AyM/rs:fit/g:sm/q:90/h:534/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NjYw/OTkzLTE3NDUwNTk0/MjMtNTcyNi5qcGVn.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 780,
+    "title": "From the Graveyard",
+    "artists": [
+      "1782"
+    ],
+    "year": 2021,
+    "recorded": null,
+    "genres": [
+      "Stoner Rock",
+      "Doom Metal"
+    ],
+    "countries": [
+      "Italie"
+    ],
+    "cover": "https://i.discogs.com/Yw0BF1Risa4WiwlzqbsC747BRDWgw_Oqzc2nql9CSu4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODU0/NzkyLTE2MTU4MjE1/MjUtMjU0MS5qcGVn.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 779,
+    "title": "1782",
+    "artists": [
+      "1782"
+    ],
+    "year": 2019,
+    "recorded": null,
+    "genres": [
+      "Doom Metal",
+      "Sludge Metal"
+    ],
+    "countries": [
+      "Italie"
+    ],
+    "cover": "https://i.discogs.com/Ws3yXtvLfoZ1JBvXdsvHcndMXOYiLKM9wYQjx_gYp_k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzIw/NDI0LTE1NTk3MTg1/NjEtNjExMS5wbmc.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 778,
+    "title": "Listen Now",
+    "artists": [
+      "Phil Manzanera",
+      "801"
+    ],
+    "year": 1977,
+    "recorded": null,
+    "genres": [
+      "Art Rock",
+      "Progressive Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/dc/Listen_Now_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 777,
+    "title": "801 Live",
+    "artists": [
+      "801"
+    ],
+    "year": 1976,
+    "recorded": null,
+    "genres": [
+      "Experimental Rock",
+      "Art Rock",
+      "Progressive Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/09/801_Live_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 776,
+    "title": "Utd. State 90",
+    "artists": [
+      "808 State"
+    ],
+    "year": 1990,
+    "recorded": null,
+    "genres": [
+      "808 State"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/8e/Utdstate90.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 775,
+    "title": "Quadrastate",
+    "artists": [
+      "808 State"
+    ],
+    "year": 1989,
+    "recorded": null,
+    "genres": [
+      "Acid House"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/8f/Quadrastate.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 774,
+    "title": "Newbuild",
+    "artists": [
+      "808 State"
+    ],
+    "year": 1988,
+    "recorded": null,
+    "genres": [
+      "Acid House"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/00/Newbuild_%28808_State_album_-_cover_art%29.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 773,
+    "title": "The Psychedelic Sounds of the 13th Floor Elevators",
+    "artists": [
+      "The 13th Floor Elevators"
+    ],
+    "year": 1966,
+    "recorded": null,
+    "genres": [
+      "Psychedelic Rock",
+      "Garage Rock",
+      "Acid Rock",
+      "R&b"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/ab/13th_Floor_Elevators-The_Psychedelic_Sounds_of_the_13th_Floor_Elevators_%28album_cover%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 772,
+    "title": "Moon Safari",
+    "artists": [
+      "Air"
+    ],
+    "year": 1998,
+    "recorded": null,
+    "genres": [
+      "Downtempo",
+      "Electronica",
+      "Lounge",
+      "Chill-out",
+      "Space Pop",
+      "Dream Pop",
+      "Psychedelia"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/ac/Air_-_Moon_Safari.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 771,
+    "title": "Two Pages",
+    "artists": [
+      "4hero"
+    ],
+    "year": 1998,
+    "recorded": null,
+    "genres": [
+      "Electronica",
+      "Nu Jazz",
+      "Drum and Bass",
+      "Broken Beat",
+      "Trip Hop"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/52/Two_Pages_1998_4hero_Album_Cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 770,
+    "title": "Pictures",
+    "artists": [
+      "Island"
+    ],
+    "year": 1977,
+    "recorded": null,
+    "genres": [
+      "Progressive Rock"
+    ],
+    "countries": [
+      "Suisse"
+    ],
+    "cover": "https://i.discogs.com/DJa7-fjk9SxTfPvoPXgzrehlV_OxKyFZPasaJDR76EY/rs:fit/g:sm/q:90/h:598/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMzAx/MjktMTMzNjY1NzY2/NS05MzAzLmpwZWc.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 769,
+    "title": "Thirteen",
+    "artists": [
+      "Megadeth"
+    ],
+    "year": 2011,
+    "recorded": null,
+    "genres": [
+      "Thrash Metal"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/5f/MegadethThirteen.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 768,
+    "title": "Dystopia",
+    "artists": [
+      "Megadeth"
+    ],
+    "year": 2016,
+    "recorded": null,
+    "genres": [
+      "Thrash Metal"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/93/MegadethDystopia.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 767,
+    "title": "The Sick, the Dying... and the Dead!",
+    "artists": [
+      "Megadeth"
+    ],
+    "year": 2022,
+    "recorded": null,
+    "genres": [
+      "Thrash Metal"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/ab/Megadeth_SickDyingDead.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 766,
+    "title": "The System Has Failed",
+    "artists": [
+      "Megadeth"
+    ],
+    "year": 2004,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal",
+      "Thrash Metal"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b8/Megadeth_-_The_System_Has_Failed.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 765,
+    "title": "Countdown to Extinction",
+    "artists": [
+      "Megadeth"
+    ],
+    "year": 1992,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal",
+      "Thrash Metal"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/00/Countdown_album_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 764,
+    "title": "Rust in Peace",
+    "artists": [
+      "Megadeth"
+    ],
+    "year": 1990,
+    "recorded": null,
+    "genres": [
+      "Thrash Metal"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/dc/Megadeth-RustInPeace.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 763,
+    "title": "Peace Sells... but Who's Buying?",
+    "artists": [
+      "Megadeth"
+    ],
+    "year": 1986,
+    "recorded": null,
+    "genres": [
+      "Thrash Metal"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/40/Megadeth_-_Peace_Sells..._But_Who%27s_Buying-.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 762,
+    "title": "In the Nightside Eclipse",
+    "artists": [
+      "Emperor"
+    ],
+    "year": 1994,
+    "recorded": null,
+    "genres": [
+      "Symphonic Black Metal"
+    ],
+    "countries": [
+      "Norvège"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/6a/Inthenightsideclipseemperor.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 761,
+    "title": "Danzig 4",
+    "artists": [
+      "Danzig"
+    ],
+    "year": 1994,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal",
+      "Blues-rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c0/Danzig4palbum.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 760,
+    "title": "Danzig Iii: How the Gods Kill",
+    "artists": [
+      "Danzig"
+    ],
+    "year": 1992,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal",
+      "Blues Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/6c/Danzig_III_How_the_Gods_Kill.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 759,
+    "title": "Danzig Ii: Lucifuge",
+    "artists": [
+      "Danzig"
+    ],
+    "year": 1990,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal",
+      "Blues Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/25/Danzig2na.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 758,
+    "title": "Danzig",
+    "artists": [
+      "Danzig"
+    ],
+    "year": 1988,
+    "recorded": null,
+    "genres": [
+      "Heavy Metal",
+      "Blues Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/7f/Danzig_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 757,
+    "title": "Into the Pandemonium",
+    "artists": [
+      "Celtic Frost"
+    ],
+    "year": 1987,
+    "recorded": null,
+    "genres": [
+      "Thrash Metal",
+      "Avant-garde Metal",
+      "Gothic Metal",
+      "Symphonic Metal"
+    ],
+    "countries": [
+      "Suisse"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Celtic_frost_into_pandemonium_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 756,
+    "title": "To Mega Therion",
+    "artists": [
+      "Celtic Frost"
+    ],
+    "year": 1985,
+    "recorded": null,
+    "genres": [
+      "Thrash Metal[2]black Metal",
+      "Doom Metal",
+      "Death Metal"
+    ],
+    "countries": [
+      "Suisse"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1d/To_Mega_Therion_-_Celtic_Frost.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 755,
+    "title": "Filosofem",
+    "artists": [
+      "Burzum"
+    ],
+    "year": 1996,
+    "recorded": "1993",
+    "genres": [
+      "Black Metal",
+      "Dark Ambient"
+    ],
+    "countries": [
+      "Norvège"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Filosofem.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 754,
+    "title": "Storm of the Light's Bane",
+    "artists": [
+      "Dissection"
+    ],
+    "year": 1995,
+    "recorded": null,
+    "genres": [
+      "Melodic Black Metal",
+      "Melodic Death Metal"
+    ],
+    "countries": [
+      "Suède"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/70/Dissection_stormofthelightsbane.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 753,
+    "title": "Supernature (cerrone Iii)",
+    "artists": [
+      "Cerrone"
+    ],
+    "year": 1977,
+    "recorded": null,
+    "genres": [
+      "Electronic",
+      "Disco"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/e3/Supernature_%28Cerrone_III%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 752,
+    "title": "Mystic Solar Dance",
+    "artists": [
+      "Bingo Miki & His Inner Galaxy Orchestra of America"
+    ],
+    "year": 1981,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "Japon"
+    ],
+    "cover": "https://i.discogs.com/jIASAbFvGN4plZ6tv6Z9cMKuzfiGMZbAU38DdsJl4mA/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExOTA5/Mjc3LTE1MjQ1NTcx/MzEtNDkyMC5qcGVn.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 751,
+    "title": "Thunder Live",
+    "artists": [
+      "Casiopea"
+    ],
+    "year": 1980,
+    "recorded": null,
+    "genres": [
+      "Jazz Fusion"
+    ],
+    "countries": [
+      "Japon"
+    ],
+    "cover": "https://i.discogs.com/jEwairaHZ-N8U179u_csX9lRZn-LBMZgR9mtNJKMcDg/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4OTQ5/NjUwLTE3MDAzMDMw/MTgtNjE2Ni5qcGVn.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 750,
+    "title": "Japanese Girl",
+    "artists": [
+      "Akiko Yano"
+    ],
+    "year": 1976,
+    "recorded": null,
+    "genres": [
+      "Jazz-funk",
+      "Psychedelic Rock",
+      "Pop Rock",
+      "Min'yō"
+    ],
+    "countries": [
+      "Japon"
+    ],
+    "cover": "https://i.discogs.com/SWJByNzeEtREM4hIMabksYAL8ANhZYa7P6iXJ_krKyE/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNDc2/NTgtMTUwMDc4Mzc3/MS0zMjIxLmpwZWc.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 749,
+    "title": "Mint Jams",
+    "artists": [
+      "Casiopea"
+    ],
+    "year": 1982,
+    "recorded": null,
+    "genres": [
+      "Jazz Fusion"
+    ],
+    "countries": [
+      "Japon"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a5/CasiopeaMintJamsalbumcover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 748,
+    "title": "Cross Point",
+    "artists": [
+      "Casiopea"
+    ],
+    "year": 1981,
+    "recorded": null,
+    "genres": [
+      "Jazz Fusion"
+    ],
+    "countries": [
+      "Japon"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/CasiopeaCrossPointalbumcover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 747,
+    "title": "Eyes of the Mind",
+    "artists": [
+      "Casiopea"
+    ],
+    "year": 1981,
+    "recorded": null,
+    "genres": [
+      "Jazz Fusion"
+    ],
+    "countries": [
+      "Japon"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1b/CasiopeaEyesofTheMindalbumcover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 746,
+    "title": "Make up City",
+    "artists": [
+      "Casiopea"
+    ],
+    "year": 1980,
+    "recorded": null,
+    "genres": [
+      "Jazz Fusion"
+    ],
+    "countries": [
+      "Japon"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/72/CasiopeaMakeUpCityalbumcover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 745,
+    "title": "Super Flight",
+    "artists": [
+      "Casiopea"
+    ],
+    "year": 1979,
+    "recorded": null,
+    "genres": [
+      "Jazz Fusion"
+    ],
+    "countries": [
+      "Japon"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/9b/CasiopeaSuperFlightalbumcover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 744,
+    "title": "Casiopea",
+    "artists": [
+      "Casiopea"
+    ],
+    "year": 1979,
+    "recorded": null,
+    "genres": [
+      "Jazz Fusion"
+    ],
+    "countries": [
+      "Japon"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/ca/CasiopeaSelfTitleAlbumCover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 743,
+    "title": "The Captain and Me",
+    "artists": [
+      "The Doobie Brothers"
+    ],
+    "year": 1973,
+    "recorded": null,
+    "genres": [
+      "Country Rock",
+      "Boogie Rock",
+      "Hard Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c9/The_Doobie_Brothers_-_The_Captain_and_Me.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 742,
+    "title": "Aja",
+    "artists": [
+      "Steely Dan"
+    ],
+    "year": 1977,
+    "recorded": null,
+    "genres": [
+      "Jazz Rock",
+      "Pop Rock",
+      "Blue-eyed Soul",
+      "Jazz Fusion"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/49/Aja_album_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 741,
+    "title": "The Royal Scam",
+    "artists": [
+      "Steely Dan"
+    ],
+    "year": 1976,
+    "recorded": null,
+    "genres": [
+      "Jazz-rock",
+      "Funk"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/ec/The_Royal_Scam_album_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 740,
+    "title": "Katy Lied",
+    "artists": [
+      "Steely Dan"
+    ],
+    "year": 1975,
+    "recorded": null,
+    "genres": [
+      "Jazz Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/7e/Steely_Dan-Katy_Lied.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 739,
+    "title": "Pretzel Logic",
+    "artists": [
+      "Steely Dan"
+    ],
+    "year": 1974,
+    "recorded": null,
+    "genres": [
+      "Jazz Roc",
+      "Pop Rock"
+    ],
+    "countries": [],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/cd/Pretzel_Logic_album.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 738,
+    "title": "Countdown to Ecstacy",
+    "artists": [
+      "Steely Dan"
+    ],
+    "year": 1973,
+    "recorded": null,
+    "genres": [
+      "Rock",
+      "Jazz Rock",
+      "Pop"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/7f/Steely_Dan-Countdown_to_Ecstacy.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 737,
+    "title": "Can't Buy a Thrill",
+    "artists": [
+      "Steely Dan"
+    ],
+    "year": 1972,
+    "recorded": null,
+    "genres": [
+      "Jazz Rock",
+      "Pop Rock",
+      "Soft Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b2/Cant_buy_a_tcant_buy_a_thrill.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 736,
+    "title": "Ride on Time",
+    "artists": [
+      "Tatsuro Yamashita"
+    ],
+    "year": 1980,
+    "recorded": null,
+    "genres": [
+      "City Pop",
+      "J-pop",
+      "Funk",
+      "Disco",
+      "R&b",
+      "Soul"
+    ],
+    "countries": [
+      "Japon"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/02/Rideontime_tatsyamashita.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 735,
+    "title": "For You",
+    "artists": [
+      "Tatsuro Yamashita"
+    ],
+    "year": 1982,
+    "recorded": null,
+    "genres": [
+      "City Pop",
+      "Funk",
+      "Soul",
+      "Pop",
+      "Ballad"
+    ],
+    "countries": [
+      "Japon"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/de/For_You_%28album_cover%29.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 734,
+    "title": "Variety",
+    "artists": [
+      "Mariya Takeuchi"
+    ],
+    "year": 1984,
+    "recorded": null,
+    "genres": [
+      "J-pop"
+    ],
+    "countries": [
+      "Japon"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/cb/Variety_%28Mariya_Takeuchi%29_cover.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 733,
+    "title": "Non-stop Erotic Cabaret",
+    "artists": [
+      "Soft Cell"
+    ],
+    "year": 1981,
+    "recorded": null,
+    "genres": [
+      "Synth-pop",
+      "New Waveel",
+      "Ectropop"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/2f/Soft_Cell_-_Non-Stop_Erotic_Cabaret.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 732,
+    "title": "A Secret Wish",
+    "artists": [
+      "Propaganda"
+    ],
+    "year": 1985,
+    "recorded": null,
+    "genres": [
+      "Synth-pop",
+      "New Wave",
+      "Avant-pop"
+    ],
+    "countries": [
+      "Allemagne"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a9/Propaganda_-_A_Secret_Wish.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 731,
+    "title": "Metamatic",
+    "artists": [
+      "John Foxx"
+    ],
+    "year": 1980,
+    "recorded": null,
+    "genres": [
+      "Synth-pop"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/3f/John_Foxx_-_Metamatic_-_LP_album_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 730,
+    "title": "Year Zero",
+    "artists": [
+      "Nine Inch Nails"
+    ],
+    "year": 2007,
+    "recorded": null,
+    "genres": [
+      "Industrial Rock",
+      "Electronic",
+      "Digital Hardcore",
+      "Electro-industrial"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/02/Nine_Inch_Nails_-_Year_Zero.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 729,
+    "title": "The Fragile",
+    "artists": [
+      "Nine Inch Nails"
+    ],
+    "year": 1999,
+    "recorded": null,
+    "genres": [
+      "Industrial Rock",
+      "Art Rock",
+      "Alternative Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/7c/Nine_Inch_Nails_-_The_Fragile.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 728,
+    "title": "The Downward Spiral",
+    "artists": [
+      "Nine Inch Nails"
+    ],
+    "year": 1994,
+    "recorded": null,
+    "genres": [
+      "Industrial Rock",
+      "Alternative Rock",
+      "Industrial Metal"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/3b/Official_Album_Cover_of_%22The_Downward_Spiral%22_by_Nine_Inch_Nails.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 727,
+    "title": "Pretty Hate Machine",
+    "artists": [
+      "Nine Inch Nails"
+    ],
+    "year": 1989,
+    "recorded": null,
+    "genres": [
+      "Industrial Rock",
+      "Electronic Rock",
+      "Synth-pop",
+      "Alternative Rock",
+      "Industrial Dance"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f1/Nine_Inch_Nails_-_Pretty_Hate_Machine.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 726,
+    "title": "Genius of Modern Music",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 2001,
+    "recorded": "1947-1948, 1951-1952",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a4/BLP_1510_Monk.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 725,
+    "title": "Thelonious Alone in San Francisco",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1959,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/eb/Thelonious_monk_live_at_the_jazz_workshop_original_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 724,
+    "title": "Live at the Jazz Workshop",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1982,
+    "recorded": "1964",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/eb/Thelonious_monk_live_at_the_jazz_workshop_original_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 723,
+    "title": "Live at the it Club",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1998,
+    "recorded": "1964",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c7/Live_At_The_It_Club.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 722,
+    "title": "Big Band and Quartet in Concert",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1964,
+    "recorded": "1963",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/ae/Big_Band_and_Quartet_in_Concert.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 721,
+    "title": "Monk in Tokyo",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1963,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/4b/Monk_in_Tokyo.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 720,
+    "title": "The Thelonious Monk Orchestra at Town Hall",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1959,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/4f/Orchestra_at_Town_Hall.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 719,
+    "title": "At the Blackhawk",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1960,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/60/Thelonious_Monk_at_the_Blackhawk.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 718,
+    "title": "Misterioso",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1958,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a8/Misterioso.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 717,
+    "title": "Underground",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1968,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c1/Thelonious_Monk-Underground_%28album_cover%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 716,
+    "title": "Criss-cross",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1963,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a8/Criss_Cross_Monk.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 715,
+    "title": "Monk's Dream",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1963,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/ed/Monks_Dream_by_Thelonious.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 714,
+    "title": "Mulligan Meets Monk",
+    "artists": [
+      "Gerry Mulligan",
+      "Thelonious Monk"
+    ],
+    "year": 1957,
+    "recorded": null,
+    "genres": [
+      "Bebop"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/07/Mulligan_Meets_Monk.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 713,
+    "title": "5 by Monk by 5",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1959,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/53/5_by_Monk_by_5.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 712,
+    "title": "Monk's Music",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1957,
+    "recorded": null,
+    "genres": [
+      "Hard Bop"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/3f/Monkmusic.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 711,
+    "title": "Brilliant Corners",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1957,
+    "recorded": "1956",
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/aa/BrilliantCornersTheloniousMonk.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 710,
+    "title": "Thelonious Himself",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1957,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/93/Thelonious_Himself_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 709,
+    "title": "The Unique Thelonious Monk",
+    "artists": [
+      "Thelonious Monk"
+    ],
+    "year": 1956,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/8c/Album-TheUniqueTheloniousMonk.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
     "id": 708,
     "title": "Offering: Live at Temple University",
     "artists": [
@@ -8,7 +1864,7 @@
     "year": 2014,
     "recorded": "1966",
     "genres": [
-      "Free Jazz"
+      "Free jazz"
     ],
     "countries": [
       "États-unis"
@@ -26,8 +1882,8 @@
     "year": 2005,
     "recorded": "1965",
     "genres": [
-      "Avant-garde Jazz",
-      "Free Jazz"
+      "Avant-garde jazz",
+      "Free jazz"
     ],
     "countries": [
       "États-unis"
@@ -83,9 +1939,9 @@
     "year": 1966,
     "recorded": "1965",
     "genres": [
-      "Avant-garde Jazz",
-      "Free Jazz",
-      "Hard Bop"
+      "Avant-garde jazz",
+      "Free jazz",
+      "Hard bop"
     ],
     "countries": [
       "États-unis"
@@ -121,8 +1977,8 @@
     "year": 1991,
     "recorded": "1966",
     "genres": [
-      "Free Jazz",
-      "Avant-garde Jazz"
+      "Free jazz",
+      "Avant-garde jazz"
     ],
     "countries": [
       "États-unis"
@@ -158,9 +2014,9 @@
     "year": 1977,
     "recorded": "1963",
     "genres": [
-      "Hard Bop",
-      "Modal Jazz",
-      "Avant-garde Jazz"
+      "Hard bop",
+      "Modal jazz",
+      "Avant-garde jazz"
     ],
     "countries": [
       "États-unis"
@@ -235,7 +2091,7 @@
     "recorded": null,
     "genres": [
       "Jazz",
-      "Hard Bop"
+      "Hard bop"
     ],
     "countries": [
       "États-unis"
@@ -253,7 +2109,7 @@
     "year": 1962,
     "recorded": null,
     "genres": [
-      "Modal Jazz"
+      "Modal jazz"
     ],
     "countries": [
       "États-unis"
@@ -271,7 +2127,7 @@
     "year": 1974,
     "recorded": "1967",
     "genres": [
-      "Free Jazz"
+      "Free jazz"
     ],
     "countries": [
       "États-unis"
@@ -289,9 +2145,9 @@
     "year": 1977,
     "recorded": "1965",
     "genres": [
-      "Avant-garde Jazz",
-      "Free Jazz",
-      "Modal Jazz"
+      "Avant-garde jazz",
+      "Free jazz",
+      "Modal jazz"
     ],
     "countries": [
       "États-unis"
@@ -309,7 +2165,7 @@
     "year": 1971,
     "recorded": "1965",
     "genres": [
-      "Avant-garde Jazz"
+      "Avant-garde jazz"
     ],
     "countries": [
       "États-unis"
@@ -327,7 +2183,7 @@
     "year": 1970,
     "recorded": "1965",
     "genres": [
-      "Avant-garde Jazz"
+      "Avant-garde jazz"
     ],
     "countries": [
       "États-unis"
@@ -346,8 +2202,8 @@
     "recorded": null,
     "genres": [
       "Post-bop",
-      "Modal Jazz",
-      "Avant-garde Jazz"
+      "Modal jazz",
+      "Avant-garde jazz"
     ],
     "countries": [
       "États-unis"
@@ -365,8 +2221,8 @@
     "year": 1967,
     "recorded": "1965",
     "genres": [
-      "Avant-garde Jazz",
-      "Free Jazz"
+      "Avant-garde jazz",
+      "Free jazz"
     ],
     "countries": [
       "États-unis"
@@ -877,7 +2733,7 @@
     "genres": [
       "Rock",
       "Funk",
-      "Funk Rock"
+      "Funk rock"
     ],
     "countries": [
       "États-unis"
@@ -989,9 +2845,9 @@
     "recorded": null,
     "genres": [
       "Rock",
-      "Psychedelic Funk",
-      "Funk Rock",
-      "Psychedelic Rock"
+      "Psychedelic funk",
+      "Funk rock",
+      "Psychedelic rock"
     ],
     "countries": [
       "États-unis"
@@ -1009,12 +2865,12 @@
     "year": 1968,
     "recorded": null,
     "genres": [
-      "Psychedelic Rock",
-      "Acid Rock",
-      "Hard Rock",
-      "Blues Rock",
+      "Psychedelic rock",
+      "Acid rock",
+      "Hard rock",
+      "Blues rock",
       "Funk",
-      "Psychedelic Soul"
+      "Psychedelic soul"
     ],
     "countries": [
       "Royaume-uni",
@@ -1033,9 +2889,9 @@
     "year": 1967,
     "recorded": null,
     "genres": [
-      "Psychedelic Rock",
-      "Pop Rock",
-      "Funk Rock"
+      "Psychedelic rock",
+      "Pop rock",
+      "Funk rock"
     ],
     "countries": [
       "Royaume-uni",
@@ -1054,9 +2910,9 @@
     "year": 1967,
     "recorded": null,
     "genres": [
-      "Psychedelic Rock",
-      "Hard Rock",
-      "Acid Rock",
+      "Psychedelic rock",
+      "Hard rock",
+      "Acid rock",
       "Blues"
     ],
     "countries": [
@@ -1076,7 +2932,7 @@
     "year": 1970,
     "recorded": null,
     "genres": [
-      "Chanson Française"
+      "Chanson française"
     ],
     "countries": [
       "France"
@@ -1094,7 +2950,7 @@
     "year": 1968,
     "recorded": null,
     "genres": [
-      "Chanson Française"
+      "Chanson française"
     ],
     "countries": [
       "France"
@@ -1112,7 +2968,7 @@
     "year": 1970,
     "recorded": null,
     "genres": [
-      "Chanson Française"
+      "Chanson française"
     ],
     "countries": [
       "France"
@@ -1130,7 +2986,7 @@
     "year": 1967,
     "recorded": null,
     "genres": [
-      "Chanson Française"
+      "Chanson française"
     ],
     "countries": [
       "France"
@@ -1148,7 +3004,7 @@
     "year": 1965,
     "recorded": null,
     "genres": [
-      "Chanson Française"
+      "Chanson française"
     ],
     "countries": [
       "France"
@@ -1166,7 +3022,7 @@
     "year": 1964,
     "recorded": null,
     "genres": [
-      "Chanson Française"
+      "Chanson française"
     ],
     "countries": [
       "France"
@@ -1274,7 +3130,7 @@
     "year": 1975,
     "recorded": null,
     "genres": [
-      "Afro Beat"
+      "Afro beat"
     ],
     "countries": [
       "Nigeria"
@@ -1459,8 +3315,8 @@
     "genres": [
       "Blues-rock",
       "Rock",
-      "Instrumental Rock",
-      "Jazz Fusion"
+      "Instrumental rock",
+      "Jazz fusion"
     ],
     "countries": [
       "Royaume-uni"
@@ -1478,7 +3334,7 @@
     "year": 1971,
     "recorded": null,
     "genres": [
-      "Jazz Rock"
+      "Jazz rock"
     ],
     "countries": [
       "Royaume-uni"
@@ -1496,9 +3352,9 @@
     "year": 1969,
     "recorded": null,
     "genres": [
-      "Blues Rock",
-      "Hard Rock",
-      "Heavy Metal"
+      "Blues rock",
+      "Hard rock",
+      "Heavy metal"
     ],
     "countries": [
       "Royaume-uni"
@@ -1516,9 +3372,9 @@
     "year": 1968,
     "recorded": null,
     "genres": [
-      "Blues Rock",
-      "Hard Rock",
-      "Heavy Metal"
+      "Blues rock",
+      "Hard rock",
+      "Heavy metal"
     ],
     "countries": [
       "Royaume-uni"
@@ -1554,8 +3410,8 @@
     "year": 2010,
     "recorded": null,
     "genres": [
-      "Instrumental Rock",
-      "Blues Rock",
+      "Instrumental rock",
+      "Blues rock",
       "Soul",
       "Classical"
     ],
@@ -1575,9 +3431,9 @@
     "year": 1976,
     "recorded": null,
     "genres": [
-      "Jazz Fusion",
+      "Jazz fusion",
       "Funk",
-      "Instrumental Rock"
+      "Instrumental rock"
     ],
     "countries": [
       "Royaume-uni"
@@ -1595,8 +3451,8 @@
     "year": 1975,
     "recorded": null,
     "genres": [
-      "Jazz Fusion",
-      "Instrumental Rock"
+      "Jazz fusion",
+      "Instrumental rock"
     ],
     "countries": [
       "Royaume-uni"
@@ -1616,7 +3472,7 @@
     "genres": [
       "Pop",
       "Rock",
-      "Variété Française"
+      "Variété française"
     ],
     "countries": [
       "France"
@@ -1635,7 +3491,7 @@
     "recorded": null,
     "genres": [
       "Ambient",
-      "Chanson Française"
+      "Chanson française"
     ],
     "countries": [
       "France"
@@ -1653,7 +3509,7 @@
     "year": 1999,
     "recorded": null,
     "genres": [
-      "Chanson Française"
+      "Chanson française"
     ],
     "countries": [
       "France"
@@ -1671,7 +3527,7 @@
     "year": 1996,
     "recorded": null,
     "genres": [
-      "Chanson Française"
+      "Chanson française"
     ],
     "countries": [
       "France"
@@ -1689,7 +3545,7 @@
     "year": 1993,
     "recorded": null,
     "genres": [
-      "Chanson Française"
+      "Chanson française"
     ],
     "countries": [
       "France"
@@ -1707,7 +3563,7 @@
     "year": 1991,
     "recorded": null,
     "genres": [
-      "Chanson Française"
+      "Chanson française"
     ],
     "countries": [
       "France"
@@ -1725,7 +3581,7 @@
     "year": 1989,
     "recorded": null,
     "genres": [
-      "Chanson Française"
+      "Chanson française"
     ],
     "countries": [
       "France"
@@ -1743,7 +3599,7 @@
     "year": 2008,
     "recorded": null,
     "genres": [
-      "Chanson Française",
+      "Chanson française",
       "Rock"
     ],
     "countries": [
@@ -1763,7 +3619,7 @@
     "recorded": null,
     "genres": [
       "Chanson",
-      "Art Pop"
+      "Art pop"
     ],
     "countries": [
       "France"
@@ -1781,10 +3637,10 @@
     "year": 1998,
     "recorded": null,
     "genres": [
-      "Chanson Française",
+      "Chanson française",
       "Rock",
-      "Trip Hop",
-      "Drum and Bass"
+      "Trip hop",
+      "Drum and bass"
     ],
     "countries": [
       "France"
@@ -1804,7 +3660,7 @@
     "genres": [
       "Pop",
       "Rock",
-      "Variété Française"
+      "Variété française"
     ],
     "countries": [
       "France"
@@ -1824,7 +3680,7 @@
     "genres": [
       "Pop",
       "Rock",
-      "Variété Française"
+      "Variété française"
     ],
     "countries": [
       "France"
@@ -1844,7 +3700,7 @@
     "genres": [
       "Pop",
       "Rock",
-      "Variété Française"
+      "Variété française"
     ],
     "countries": [
       "France"
@@ -1864,7 +3720,7 @@
     "genres": [
       "Pop",
       "Rock",
-      "Variété Française"
+      "Variété française"
     ],
     "countries": [
       "France"
@@ -1883,8 +3739,8 @@
     "recorded": null,
     "genres": [
       "Rock",
-      "Cold Wave",
-      "Chanson Française"
+      "Cold wave",
+      "Chanson française"
     ],
     "countries": [
       "France"
@@ -1904,7 +3760,7 @@
     "genres": [
       "Pop",
       "Rock",
-      "Variété Française"
+      "Variété française"
     ],
     "countries": [
       "France"
@@ -1922,8 +3778,8 @@
     "year": 1982,
     "recorded": null,
     "genres": [
-      "Cold Wave",
-      "New Wave"
+      "Cold wave",
+      "New wave"
     ],
     "countries": [
       "France"
