@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>La discographie d'Aegidius</title>
+<title>Mes albums</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
@@ -293,7 +293,31 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .review-done-title{font-size:1.1rem;font-weight:700;color:var(--t1);margin-bottom:.3rem}
 .review-done-sub{font-size:13px;color:var(--t3)}
 
-@media(max-width:480px){
+/* ── TABS ── */
+.tabs{display:flex;gap:2px;margin-bottom:1.5rem;border-bottom:1px solid var(--s2);padding-bottom:0}
+.tab-btn{height:36px;padding:0 18px;border:none;background:transparent;color:var(--t3);font-family:'Cantarell',sans-serif;font-size:13px;font-weight:700;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .15s,border-color .15s}
+.tab-btn:hover{color:var(--t2)}
+.tab-btn.active{color:var(--ca);border-bottom-color:var(--cp)}
+.tab-panel{display:none}
+.tab-panel.active{display:block}
+/* ── FAQ ── */
+.faq-intro{font-size:14px;color:var(--t2);line-height:1.7;margin-bottom:2rem;max-width:680px}
+.faq-list{max-width:680px}
+.faq-item{border-bottom:1px solid var(--s2)}
+.faq-q{width:100%;text-align:left;background:transparent;border:none;color:var(--t1);font-family:'Cantarell',sans-serif;font-size:14px;font-weight:700;padding:1rem 0;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.faq-q:hover{color:var(--ca)}
+.faq-chevron{font-size:12px;color:var(--t3);transition:transform .2s;flex-shrink:0}
+.faq-item.open .faq-chevron{transform:rotate(180deg)}
+.faq-a{display:none;font-size:13px;color:var(--t2);line-height:1.75;padding-bottom:1rem;max-width:620px}
+.faq-item.open .faq-a{display:block}
+.faq-a em{color:var(--ca);font-style:normal}
+/* ── ADMIN ── */
+.admin-btns{display:none}
+.admin-btns.visible{display:contents}
+.lock-btn{width:38px;height:38px;flex-shrink:0;display:flex;align-items:center;justify-content:center;border:1px solid var(--s2);border-radius:var(--r);background:var(--s1);cursor:pointer;transition:border-color .15s}
+.lock-btn:hover{border-color:var(--s3)}
+.lock-btn svg{width:15px;height:15px;stroke:var(--t3);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.lock-btn.unlocked svg{stroke:var(--ca)}
   header{padding:1.5rem 1rem 0}
   .main{padding:0 1rem}
   .site-title{font-size:2rem}
@@ -306,40 +330,59 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 <div class="toast" id="toast"></div>
 
 <header>
-  <h1 class="site-title">La discographie d'Aegidius</h1>
+  <h1 class="site-title">Mes albums</h1>
   <p class="site-sub">Une sélection personnelle</p>
 </header>
 
 <main class="main">
-  <div class="toolbar">
-    <div class="search-wrap">
-      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <input type="text" id="search" placeholder="Rechercher un album, un artiste…">
-    </div>
-    <button class="icon-btn" id="btn-import" title="Importer JSON">
-      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
-    </button>
-    <button class="icon-btn" id="btn-export" title="Exporter JSON">
-      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-    </button>
-    <button class="add-btn" id="btn-add">+ Ajouter</button>
-    <button class="icon-btn" id="btn-review" title="Mode révision">
-      <svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
-    </button>
-    <select class="sort-select" id="sort-select">
-      <option value="title">Titre A→Z</option>
-      <option value="title-desc">Titre Z→A</option>
-      <option value="year-asc">Année ↑</option>
-      <option value="year-desc">Année ↓</option>
-      <option value="artist">Artiste A→Z</option>
-    </select>
+  <!-- TABS -->
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="collection">Collection</button>
+    <button class="tab-btn" data-tab="faq">FAQ</button>
   </div>
-  <input type="file" id="import-input" accept=".json" style="display:none">
 
-  <div class="filters-block" id="filters"></div>
-  <div class="count-bar" id="count"></div>
-  <div class="grid" id="grid"></div>
-  <div class="pagination" id="pagination"></div>
+  <!-- COLLECTION TAB -->
+  <div class="tab-panel active" id="tab-collection">
+    <div class="toolbar">
+      <div class="search-wrap">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="search" placeholder="Rechercher un album, un artiste…">
+      </div>
+      <div class="admin-btns" id="admin-btns">
+        <button class="icon-btn" id="btn-import" title="Importer JSON">
+          <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        </button>
+        <button class="icon-btn" id="btn-export" title="Exporter JSON">
+          <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </button>
+        <button class="add-btn" id="btn-add">+ Ajouter</button>
+        <button class="icon-btn" id="btn-review" title="Mode révision">
+          <svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+        </button>
+      </div>
+      <button class="lock-btn" id="btn-lock" title="Mode admin">
+        <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+      </button>
+      <select class="sort-select" id="sort-select">
+        <option value="title">Titre A→Z</option>
+        <option value="title-desc">Titre Z→A</option>
+        <option value="year-asc">Année ↑</option>
+        <option value="year-desc">Année ↓</option>
+        <option value="artist">Artiste A→Z</option>
+      </select>
+    </div>
+    <input type="file" id="import-input" accept=".json" style="display:none">
+    <div class="filters-block" id="filters"></div>
+    <div class="count-bar" id="count"></div>
+    <div class="grid" id="grid"></div>
+    <div class="pagination" id="pagination"></div>
+  </div>
+
+  <!-- FAQ TAB -->
+  <div class="tab-panel" id="tab-faq">
+    <div class="faq-intro">C'est un site qui référence tous les albums que j'estime qu'il faut avoir écoutés. Si des gens s'ennuient, veulent explorer le vaste monde musical, je le propose comme témoignage de tout ce que j'ai écouté. Vous trouverez forcément chaussure à votre pied peu importe vos goûts musicaux, j'en suis certain.</div>
+    <div class="faq-list" id="faq-list"></div>
+  </div>
 </main>
 
 <div class="overlay" id="review-overlay">
@@ -440,7 +483,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     'afrique du sud':'🇿🇦','nigeria':'🇳🇬','éthiopie':'🇪🇹','ethiopie':'🇪🇹',
     'inde':'🇮🇳','chine':'🇨🇳','corée du sud':'🇰🇷','coree du sud':'🇰🇷',
     'iran':'🇮🇷','turquie':'🇹🇷','jamaïque':'🇯🇲','jamaique':'🇯🇲','cuba':'🇨🇺',
-    'nouvelle-zélande':'🇳🇿','nouvelle-zelande':'🇳🇿',
+    'arabie saoudite':'🇸🇦',
   };
   function countryFlag(name) {
     return FLAG_MAP[name.toLowerCase()] || '';
@@ -1101,12 +1144,92 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     }
   }
 
+  /* ── FAQ ── */
+  const FAQ = [
+    {
+      q: "À quoi correspondent les dates ?",
+      a: "Les dates sont en principe les dates de publication, sauf les cas avec la mention <em>éd.</em> : là c'est la date d'enregistrement. Cela afin d'avoir tous les Jimi Hendrix datés d'avant sa mort par exemple. Je ne rentre pas dans le détail pour de petits écarts — si un album est enregistré en 1972 et publié en 1973, je le date de 1973. En revanche s'il est enregistré en 1955 et publié en 2005, là j'indique bien l'année d'enregistrement. Je vais énormément dans le détail dans le jazz, où l'année même a son importance, surtout pour Miles Davis et John Coltrane, dont les discographies officielles rendent complexe l'ordonnancement chronologique."
+    },
+    {
+      q: "Que signifient ⭐ et 👑 ?",
+      a: "<em>⭐</em> désigne un album de qualité supérieure, mais pas assez exceptionnel pour le <em>👑</em>. La couronne, c'est le chef-d'œuvre à mes yeux — indispensable d'avoir écouté."
+    },
+    {
+      q: "Pourquoi plusieurs artistes sur un même album ?",
+      a: "Si un album est une collaboration entre A et B, je préfère le ranger à la fois dans la discographie de A et dans celle de B."
+    },
+    {
+      q: "Comment sont gérés les pays ?",
+      a: "Un pays par artiste, simplement."
+    },
+    {
+      q: "Pourquoi certains artistes ont beaucoup d'albums et d'autres non ?",
+      a: "Parce que j'en ai envie — mais aussi parce que c'est plus simple d'avoir beaucoup d'albums quand on en a publié plus d'une centaine que quand on n'en a publié qu'un seul !"
+    },
+    {
+      q: "C'est quoi ce site, pourquoi tu l'as fait ?",
+      a: "C'est un site qui référence tous les albums que j'estime qu'il faut avoir écoutés. Si des gens s'ennuient, veulent explorer le vaste monde musical, je le propose comme témoignage de tout ce que j'ai écouté. Vous trouverez forcément chaussure à votre pied peu importe vos goûts musicaux, j'en suis certain."
+    },
+  ];
+
+  function initFAQ() {
+    const list = document.getElementById('faq-list');
+    FAQ.forEach(({q, a}) => {
+      const item = document.createElement('div'); item.className = 'faq-item';
+      const btn  = document.createElement('button'); btn.className = 'faq-q';
+      btn.innerHTML = `${q}<span class="faq-chevron">▼</span>`;
+      const ans  = document.createElement('div'); ans.className = 'faq-a'; ans.innerHTML = a;
+      btn.addEventListener('click', () => item.classList.toggle('open'));
+      item.appendChild(btn); item.appendChild(ans); list.appendChild(item);
+    });
+  }
+
+  /* ── TABS ── */
+  function initTabs() {
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+      });
+    });
+  }
+
+  /* ── ADMIN LOCK ── */
+  const ADMIN_KEY  = 'mes-albums-admin';
+  const ADMIN_PASS = 'aegidius';
+  let adminUnlocked = false;
+
+  function setAdminMode(unlocked) {
+    adminUnlocked = unlocked;
+    const btns = document.getElementById('admin-btns');
+    const lock = document.getElementById('btn-lock');
+    btns.classList.toggle('visible', unlocked);
+    lock.classList.toggle('unlocked', unlocked);
+    lock.title = unlocked ? 'Mode admin actif (cliquer pour verrouiller)' : 'Mode admin (cliquer pour déverrouiller)';
+    // verrou ouvert vs fermé
+    lock.innerHTML = unlocked
+      ? '<svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>'
+      : '<svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>';
+    if (unlocked) sessionStorage.setItem(ADMIN_KEY, '1');
+    else          sessionStorage.removeItem(ADMIN_KEY);
+  }
+
+  function initAdmin() {
+    // Restaurer session
+    if (sessionStorage.getItem(ADMIN_KEY)) { setAdminMode(true); return; }
+    document.getElementById('btn-lock').addEventListener('click', () => {
+      if (adminUnlocked) { setAdminMode(false); return; }
+      const pw = prompt('Mot de passe admin :');
+      if (pw === ADMIN_PASS) setAdminMode(true);
+      else if (pw !== null) { showToast('Mot de passe incorrect'); }
+    });
+  }
+
   /* ── EVENTS ── */
   document.getElementById('btn-review').addEventListener('click', openReview);
   document.getElementById('review-close').addEventListener('click', closeReview);
-  document.getElementById('review-overlay').addEventListener('click', e => {
-    if (e.target === document.getElementById('review-overlay')) closeReview();
-  });
   document.querySelectorAll('.rating-opt').forEach(btn => {
     btn.addEventListener('click', () => setRating(btn.dataset.value));
   });
@@ -1128,6 +1251,9 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   document.addEventListener('click', () => closeAllDropdowns());
 
   /* ── INIT ── */
+  initFAQ();
+  initTabs();
+  initAdmin();
   load().then(() => render());
 })();
 </script>
