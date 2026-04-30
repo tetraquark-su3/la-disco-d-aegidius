@@ -1,5 +1,1980 @@
 [
   {
+    "id": 1107,
+    "title": "Pet Sounds",
+    "artists": [
+      "The Beach Boys"
+    ],
+    "year": 1966,
+    "recorded": null,
+    "genres": [
+      "Progressive Pop",
+      "Chamber Pop",
+      "Psychedelic Pop",
+      "Art Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Pet_Sounds_%28color_corrected%29.jpg/250px-Pet_Sounds_%28color_corrected%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1106,
+    "title": "Smiley Smile",
+    "artists": [
+      "The Beach Boys"
+    ],
+    "year": 1967,
+    "recorded": null,
+    "genres": [
+      "Lo-fi",
+      "Psychedelia[4][5]avant-garde",
+      "Bedroom Pop",
+      "Minimal"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/5d/Smileysmilebeachboys.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1105,
+    "title": "Surf's up",
+    "artists": [
+      "The Beach Boys"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Progressive Pop",
+      "Psychedelic Pop"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/ce/SurfsUpCover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1104,
+    "title": "Sunflower",
+    "artists": [
+      "The Beach Boys"
+    ],
+    "year": 1970,
+    "recorded": null,
+    "genres": [
+      "Soft Rock",
+      "Sunshine Pop"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0a/SunflowerCover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1103,
+    "title": "Hittin' the Note",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 2003,
+    "recorded": null,
+    "genres": [
+      "Southern Rock",
+      "Blues Rock",
+      "Jam Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/e4/Hittin%27_the_Note.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1102,
+    "title": "Warner Theatre, Erie, Pa 7-19-05",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 2020,
+    "recorded": "2005",
+    "genres": [
+      "Southern Rock",
+      "Blues Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/5c/Warner-Theatre-Erie-PA-7-19-05.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1101,
+    "title": "Manley Field House, Syracuse University, April 7, 1972",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 2024,
+    "recorded": null,
+    "genres": [
+      "Southern Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/5c/Allman-Brothers-Band-Manley-Field-House.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1100,
+    "title": "Final Concert 10-28-14",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 2024,
+    "recorded": "2014",
+    "genres": [
+      "Blues Rock",
+      "Southern Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1e/Final-Concert-10-28-14.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1099,
+    "title": "Play All Night: Live at the Beacon Theatre 1992",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 2014,
+    "recorded": "1992",
+    "genres": [
+      "Southern Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/57/PlayAllNight.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1098,
+    "title": "The Fox Box",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 2017,
+    "recorded": "2004",
+    "genres": [
+      "Southern Rock",
+      "Blues Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/22/The-Fox-Box.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1097,
+    "title": "Cream of the Crop 2003",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 2018,
+    "recorded": "2003",
+    "genres": [
+      "Southern Rock",
+      "Blues Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/70/Cream-of-the-Crop-2003.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1096,
+    "title": "Nassau Coliseum, Uniondale, Ny: 5/1/73",
+    "artists": [
+      "The Allman Brothers"
+    ],
+    "year": 1973,
+    "recorded": null,
+    "genres": [
+      "Southern Rock",
+      "Blues Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c4/Nassau_Coliseum%2C_Uniondale_album_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1095,
+    "title": "S.u.n.y. at Stonybrook: Stonybrook, Ny 9/19/71",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 2003,
+    "recorded": "1971",
+    "genres": [
+      "Southern Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/07/SUNYstonybrook.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1094,
+    "title": "Live at the Atlanta International Pop Festival: July 3 & 5, 1970",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 2003,
+    "recorded": "1970",
+    "genres": [
+      "Southern Rock",
+      "Blues Rock",
+      "Jam Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/69/AllmanBros-AtlPopFest.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1093,
+    "title": "Fillmore East, February 1970",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 1996,
+    "recorded": "1970",
+    "genres": [
+      "Southern Rock",
+      "Blues Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b5/ABBFillmoreEastFebruary1970.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1092,
+    "title": "Live at Ludlow Garage: 1970",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 1990,
+    "recorded": "1970",
+    "genres": [
+      "Southern Rock",
+      "Blues Rock",
+      "Jam Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/57/Liveatludlowgarage.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1091,
+    "title": "One Way Out",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 2004,
+    "recorded": "2003",
+    "genres": [
+      "Blues Rock",
+      "Southern Rock",
+      "Jam"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/08/Allmanbrothers04_gr.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1090,
+    "title": "40",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 2014,
+    "recorded": "2009",
+    "genres": [
+      "Southern Rock",
+      "Blues Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/48/40-ABB-DVD.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1089,
+    "title": "Brothers and Sisters",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 1973,
+    "recorded": null,
+    "genres": [
+      "Southern Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c1/Brothersandsistersallmanbrother.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1088,
+    "title": "Eat a Peach",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 1972,
+    "recorded": null,
+    "genres": [
+      "Southern Rock",
+      "Jam Band",
+      "Blues Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c3/Eat_a_Peach_%28James_Flournoy_Holmes_album_-_cover_art%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1087,
+    "title": "At Fillmore East",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Blues Rock",
+      "Southern Rock",
+      "Jam Band"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/2c/AllmanBrothersBandAtFillmoreEast.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1086,
+    "title": "Idlewild South",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 1970,
+    "recorded": null,
+    "genres": [
+      "Southern Rock",
+      "Electric Blues"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/d8/Idlewild_South_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1085,
+    "title": "The Allman Brothers Band",
+    "artists": [
+      "The Allman Brothers Band"
+    ],
+    "year": 1969,
+    "recorded": null,
+    "genres": [
+      "Blues Rock",
+      "Southern Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/22/TheAllmanBrothersBandTheAllmanBrothersBand.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1084,
+    "title": "Gimme Back My Bullets",
+    "artists": [
+      "Lynyrd Skynyrd"
+    ],
+    "year": 1976,
+    "recorded": null,
+    "genres": [
+      "Southern Rock",
+      "Hard Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/4b/GimmeBackMyBullets_LynyrdSkynyrdalbum.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1083,
+    "title": "Nuthin' Fancy",
+    "artists": [
+      "Lynyrd Skynyrd"
+    ],
+    "year": 1975,
+    "recorded": null,
+    "genres": [
+      "Southern Rock",
+      "Blues Rock",
+      "Boogie Rock",
+      "Hard Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c9/Nuthin%27_Fancy_%28Lynyrd_Skynyrd_album_-_cover_art%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1082,
+    "title": "Street Survivors",
+    "artists": [
+      "Lynyrd Skynyrd"
+    ],
+    "year": 1977,
+    "recorded": null,
+    "genres": [
+      "Southern Rock",
+      "Boogie Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/bf/StreetSurvivorsFlames.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1081,
+    "title": "One More From the Road",
+    "artists": [
+      "Lynyrd Skynyrd"
+    ],
+    "year": 1976,
+    "recorded": null,
+    "genres": [
+      "Southern Rock",
+      "Boogie Rock",
+      "Blues Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c5/OneMoreFromTheRoad_LynyrdSkynyrdalbum.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1080,
+    "title": "Second Helping",
+    "artists": [
+      "Lynyrd Skynyrd"
+    ],
+    "year": 1974,
+    "recorded": null,
+    "genres": [
+      "Southern Rock",
+      "Blues Rock",
+      "Boogie Rock",
+      "Hard Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c5/SecondHelpingLynyrdSkynyrd.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1079,
+    "title": "(pronounced 'lĕh-'nérd 'skin-'nérd)",
+    "artists": [
+      "Lynyrd Skynyrd"
+    ],
+    "year": 1973,
+    "recorded": null,
+    "genres": [
+      "Southern Rock",
+      "Hard Rock",
+      "Blues Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b0/Lynyrdskynyrd.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1078,
+    "title": "State of Confusion",
+    "artists": [
+      "The Kinks"
+    ],
+    "year": 1983,
+    "recorded": null,
+    "genres": [
+      "Pop",
+      "Hard Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/96/KinksStateofConfusion.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1077,
+    "title": "Everybody's in Show-biz",
+    "artists": [
+      "The Kinks"
+    ],
+    "year": 1972,
+    "recorded": null,
+    "genres": [
+      "Rock"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/3d/Kinksshowbiz.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1076,
+    "title": "Face to Face",
+    "artists": [
+      "The Kinks"
+    ],
+    "year": 1966,
+    "recorded": null,
+    "genres": [
+      "Rock",
+      "Baroque Pop",
+      "Garage Pop",
+      "Art Pop"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/21/Face_to_Face_%28The_Kinks_album%29_coverart.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1075,
+    "title": "Something Else by the Kinks",
+    "artists": [
+      "The Kinks"
+    ],
+    "year": 1967,
+    "recorded": null,
+    "genres": [
+      "Pop",
+      "Art Pop",
+      "Rock",
+      "Psychedelia",
+      "Folk",
+      "Music Hall"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/ff/SomethingElseKinksCover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1074,
+    "title": "The Kinks Are the Village Green Preservation Society",
+    "artists": [
+      "The Kinks"
+    ],
+    "year": 1968,
+    "recorded": null,
+    "genres": [
+      "Pop",
+      "Rock",
+      "Baroque Pop",
+      "Folk-pop"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/cb/TheKinksVillageGreenPreservationSociety.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1073,
+    "title": "Muswell Hillbillies",
+    "artists": [
+      "The Kinks"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Country Rock",
+      "Music Hall"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b8/The_Kinks_-_Muswell_Hillbillies.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1072,
+    "title": "Lola Versus Powerman and the Moneygoround, Part One",
+    "artists": [
+      "The Kinks"
+    ],
+    "year": 1970,
+    "recorded": null,
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/ea/The_kinks_lola_versus_powerman_album.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1071,
+    "title": "Sunstorm",
+    "artists": [
+      "Zo!"
+    ],
+    "year": 2010,
+    "recorded": null,
+    "genres": [
+      "Hip Hop",
+      "Neo Soul",
+      "Soul",
+      "Funk"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://i.discogs.com/uLklrvfqbbexSBhe2163eM_REQE_t8UwpmaNuniDboQ/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ3MDAz/OTUtMTUzNTc0MzIz/OS0xMzI0LmpwZWc.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1070,
+    "title": "La Futura",
+    "artists": [
+      "Zz Top"
+    ],
+    "year": 2012,
+    "recorded": null,
+    "genres": [
+      "Blues-rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/7c/Zz_top_la_futura_album.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1069,
+    "title": "Eliminator",
+    "artists": [
+      "Zz Top"
+    ],
+    "year": 1983,
+    "recorded": null,
+    "genres": [
+      "Hard Rock",
+      "Blues Rock",
+      "New Wave",
+      "Synth-rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1d/ZZ_Top_-_Eliminator.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1068,
+    "title": "Degüello",
+    "artists": [
+      "Zz Top"
+    ],
+    "year": 1979,
+    "recorded": null,
+    "genres": [
+      "Blues",
+      "Boogie Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/67/ZZ_Top_-_Deg%C3%BCello.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1067,
+    "title": "Tejas",
+    "artists": [
+      "Zz Top"
+    ],
+    "year": 1976,
+    "recorded": null,
+    "genres": [
+      "Southern Rock",
+      "Blues Rock",
+      "Boogie Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/21/ZZ_Top_-_Tejas.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1066,
+    "title": "Fandango!",
+    "artists": [
+      "Zz Top"
+    ],
+    "year": 1975,
+    "recorded": null,
+    "genres": [
+      "Blues Rock",
+      "Southern Rock",
+      "Boogie Rock",
+      "Hard Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/40/ZZ_Top_-_Fandango.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1065,
+    "title": "Tres Hombres",
+    "artists": [
+      "Zz Top"
+    ],
+    "year": 1973,
+    "recorded": null,
+    "genres": [
+      "Southern Rock",
+      "Blues Rock",
+      "Boogie Rock",
+      "Texas Blues"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/dd/ZZ_Top_-_Tres_Hombres.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1064,
+    "title": "Rio Grande Mud",
+    "artists": [
+      "Zz Top"
+    ],
+    "year": 1972,
+    "recorded": null,
+    "genres": [
+      "Blues",
+      "Blues Rock",
+      "Hard Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b4/ZZ_Top_-_Rio_Grande_Mud.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1063,
+    "title": "Zz Top's First Album",
+    "artists": [
+      "Zz Top"
+    ],
+    "year": 1971,
+    "recorded": null,
+    "genres": [
+      "Blues Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/bc/ZZ_Top_-_ZZ_Top%27s_First_Album.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1062,
+    "title": "Odessey and Oracle",
+    "artists": [
+      "The Zombies"
+    ],
+    "year": 1968,
+    "recorded": null,
+    "genres": [
+      "Baroque Pop",
+      "Chamber Pop",
+      "Psychedelic Pop",
+      "Pop Rock",
+      "Avant-pop"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/6a/Odessey_and_Oracle.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1061,
+    "title": "The Zombies",
+    "artists": [
+      "The Zombies"
+    ],
+    "year": 1965,
+    "recorded": null,
+    "genres": [
+      "Beat",
+      "R&b",
+      "Pop"
+    ],
+    "countries": [
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f2/The_zombies_parrot.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1060,
+    "title": "Zephyr",
+    "artists": [
+      "Zephyr"
+    ],
+    "year": 1969,
+    "recorded": null,
+    "genres": [
+      "Hard Rock",
+      "Blues Rock"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/eb/Zephyr_Cover_69.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1059,
+    "title": "Zeal & Ardor",
+    "artists": [
+      "Zeal & Ardor"
+    ],
+    "year": 2022,
+    "recorded": null,
+    "genres": [
+      "Black Metal",
+      "Industrial Metal",
+      "Blackgaze"
+    ],
+    "countries": [
+      "Suisse",
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/15/Zeal_and_ardor_self_titled.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1058,
+    "title": "Call of the Valley",
+    "artists": [
+      "Hariprasad Chaurasia",
+      "Brij Bhushan Kabra",
+      "Shivkumar Sharma"
+    ],
+    "year": 1968,
+    "recorded": null,
+    "genres": [
+      "Hindustani Classical Music"
+    ],
+    "countries": [
+      "Inde"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/5d/Call_of_the_Valley.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1057,
+    "title": "Zakir Hussain",
+    "artists": [
+      "Zakir Hussain"
+    ],
+    "year": 1987,
+    "recorded": null,
+    "genres": [
+      "Jazz",
+      "World Jazz",
+      "Indo Jazz"
+    ],
+    "countries": [
+      "Inde"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/97/Making_Music_%28album%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1056,
+    "title": "Oyun Havalari",
+    "artists": [
+      "Zafer Dilek"
+    ],
+    "year": 1977,
+    "recorded": null,
+    "genres": [
+      "Folk",
+      "Country"
+    ],
+    "countries": [
+      "Turquie"
+    ],
+    "cover": "https://i.discogs.com/pCiOfvqDNO3sBsL5DDqGhrPLAweSZWe_dIGPPkXAuLw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NjEz/NDI1LTE2ODk2Nzc2/NzEtMjczNC5qcGVn.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1055,
+    "title": "Welcome",
+    "artists": [
+      "Sbb"
+    ],
+    "year": 1979,
+    "recorded": null,
+    "genres": [
+      "Prog Rock",
+      "Classic Rock"
+    ],
+    "countries": [
+      "Pologne"
+    ],
+    "cover": "https://i.discogs.com/AZiTiPzUFmA4JFNud9_rqEmk_M7WtexrVGD-ncuJ06w/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3NjAw/MzUtMTI2MTQzMDI5/My5qcGVn.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1054,
+    "title": "Zvezda Po Imeni Solntse",
+    "artists": [
+      "Kino"
+    ],
+    "year": 1989,
+    "recorded": null,
+    "genres": [
+      "Gothic Rock",
+      "Alternative Rock",
+      "Post-punk",
+      "New Wave"
+    ],
+    "countries": [
+      "Russie"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/d8/Zvezda_po_imeni_Solntse_1989_magnitizdat.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1053,
+    "title": "Nachalnik Kamchatki",
+    "artists": [
+      "Kino"
+    ],
+    "year": 1984,
+    "recorded": null,
+    "genres": [
+      "New Wave",
+      "Post-punk",
+      "Synthpop",
+      "Synth Rock",
+      "New Romantic"
+    ],
+    "countries": [
+      "Russie"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c4/Nachalnik_Kamchatki_original_release.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1052,
+    "title": "Gruppa Krovi",
+    "artists": [
+      "Kino"
+    ],
+    "year": 1988,
+    "recorded": null,
+    "genres": [
+      "Post-punk",
+      "New Wave",
+      "Alternative Rock"
+    ],
+    "countries": [
+      "Russie"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/31/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0_%D0%BA%D1%80%D0%BE%D0%B2%D0%B8.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1051,
+    "title": "Memento Z Banalnym Tryptykiem",
+    "artists": [
+      "Sbb"
+    ],
+    "year": 1981,
+    "recorded": null,
+    "genres": [
+      "Prog Rock",
+      "Jazz-rock",
+      "Symphonic Rock"
+    ],
+    "countries": [
+      "Pologne"
+    ],
+    "cover": "https://i.discogs.com/tbrNZa8A2Ej5jWD0MUQnRd6KBxG11dge-rZqPQdfmlA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxOTc3/OTM1LTE3Mjg3MjU4/OTMtMjYxOS5qcGVn.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1050,
+    "title": "Follow My Dream",
+    "artists": [
+      "Sbb"
+    ],
+    "year": 1978,
+    "recorded": null,
+    "genres": [
+      "Jazz-rock",
+      "Prog Rock"
+    ],
+    "countries": [
+      "Pologne"
+    ],
+    "cover": "https://i.discogs.com/-egajoAPxJ4qdCduK9OBQAZwjfz59jTR-cpIsBKZl-o/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2NDc3/NzAtMTM5ODg4ODA1/NS0xODQzLmpwZWc.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1049,
+    "title": "Sbb",
+    "artists": [
+      "Sbb"
+    ],
+    "year": 1978,
+    "recorded": null,
+    "genres": [
+      "Prog Rock",
+      "Jazz-rock",
+      "Symphonic Rock"
+    ],
+    "countries": [
+      "Pologne"
+    ],
+    "cover": "https://i.discogs.com/YW53EIUpOD_oMdkh7QJ4s1VoE6xpFs0EqxC1Tq8E38k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMDIx/Ny0xNTQxNTg1NDE5/LTcxMjQuanBlZw.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1048,
+    "title": "Ze Słowem Biegnę Do Ciebie. Sbb (4)",
+    "artists": [
+      "Sbb"
+    ],
+    "year": 1977,
+    "recorded": null,
+    "genres": [
+      "Progressive Rock",
+      "Electronic",
+      "Jazz-rock"
+    ],
+    "countries": [
+      "Pologne"
+    ],
+    "cover": "https://i.discogs.com/wZqxStj1O5YuPaMj0X00NqeW01N00TO6W3NCFhDB5Mo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjAw/NTYxLTE2MDUxNzM1/NDQtOTkwOC5qcGVn.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1047,
+    "title": "Sbb (3) Pamięć",
+    "artists": [
+      "Sbb"
+    ],
+    "year": 1976,
+    "recorded": null,
+    "genres": [
+      "Prog Rock",
+      "Jazz-rock",
+      "Psychedelic Rock"
+    ],
+    "countries": [
+      "Pologne"
+    ],
+    "cover": "https://i.discogs.com/yR9DSCQnAlHVhbC4XXjfRYW-8dkUCZZpoVFjhXENDJc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyODI0/MS0xMjYxNDQ2NDg4/LmpwZWc.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1046,
+    "title": "Nowy Horyzont",
+    "artists": [
+      "Sbb"
+    ],
+    "year": 1975,
+    "recorded": null,
+    "genres": [
+      "Progressive Rock",
+      "Psychedelic Rock",
+      "Jazz-rock",
+      "Hard Rock"
+    ],
+    "countries": [
+      "Pologne"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/38/Nowy_horyzont.webp",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1045,
+    "title": "Sbb",
+    "artists": [
+      "Sbb"
+    ],
+    "year": 1974,
+    "recorded": null,
+    "genres": [
+      "Prog Rock",
+      "Jazz-rock",
+      "Psychedelic Rock"
+    ],
+    "countries": [
+      "Pologne"
+    ],
+    "cover": "https://i.discogs.com/J-pfdDxsRJs64A9x4sop0gBpTf7W4CNA3qV1KJ4rlPI/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5MTIy/NDgtMTMwNjk0NTQ3/Ni5qcGVn.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1044,
+    "title": "Forgotten Legends",
+    "artists": [
+      "Drudkh"
+    ],
+    "year": 2003,
+    "recorded": null,
+    "genres": [
+      "Black Metal",
+      "Pagan Metal"
+    ],
+    "countries": [
+      "Ukraine"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/84/Drudkh_-_Forgotten_Legends.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1043,
+    "title": "Autumn Aurora",
+    "artists": [
+      "Drudkh"
+    ],
+    "year": 2004,
+    "recorded": null,
+    "genres": [
+      "Atmospheric Black Metal"
+    ],
+    "countries": [
+      "Ukraine"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/d7/Drudkh_-_Autumn_Aurora.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1042,
+    "title": "Songs of Grief and Solitude",
+    "artists": [
+      "Drudkh"
+    ],
+    "year": 2006,
+    "recorded": null,
+    "genres": [
+      "Folk",
+      "Ambient"
+    ],
+    "countries": [
+      "Ukraine"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/Drudkh_-_Songs_of_Grief_and_Solitude.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1041,
+    "title": "Blood in Our Wells",
+    "artists": [
+      "Drudkh"
+    ],
+    "year": 2006,
+    "recorded": null,
+    "genres": [
+      "Black Metal",
+      "Pagan Metal"
+    ],
+    "countries": [
+      "Ukraine"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/32/Blood_in_our_Wells.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1040,
+    "title": "Together for the First Time",
+    "artists": [
+      "B. B. King",
+      "Bobby Bland"
+    ],
+    "year": 1974,
+    "recorded": null,
+    "genres": [
+      "Blues"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/fa/Together_for_the_First_Time_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1039,
+    "title": "Blues on the Bayou",
+    "artists": [
+      "B. B. King"
+    ],
+    "year": 1998,
+    "recorded": null,
+    "genres": [
+      "Blues"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/af/Blues_on_the_Bayou_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1038,
+    "title": "L. A. Midnight",
+    "artists": [
+      "B. B. King"
+    ],
+    "year": 1972,
+    "recorded": null,
+    "genres": [
+      "Blues"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0c/L.A._Midnight.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1037,
+    "title": "Riding With the King",
+    "artists": [
+      "B. B. King",
+      "Eric Clapton"
+    ],
+    "year": 2000,
+    "recorded": null,
+    "genres": [
+      "Blues"
+    ],
+    "countries": [
+      "États-unis",
+      "Royaume-uni"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f6/Claptonridingwiththeking.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1036,
+    "title": "Live in Japan",
+    "artists": [
+      "B. B. King"
+    ],
+    "year": 1999,
+    "recorded": "1971",
+    "genres": [
+      "Blues"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/52/Live_in_Japan_%28B.B._King_album%29_cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1035,
+    "title": "Live in Cook County Jail",
+    "artists": [
+      "B. B. King"
+    ],
+    "year": 1971,
+    "recorded": "1970",
+    "genres": [
+      "Blues"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/41/Liveincookcountyjail.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1034,
+    "title": "Live at the Regal",
+    "artists": [
+      "B. B. King"
+    ],
+    "year": 1965,
+    "recorded": "1964",
+    "genres": [
+      "Blues"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/2f/BB_King-Live_at_the_Regal_%28album_cover%29.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1033,
+    "title": "One Kind Favor",
+    "artists": [
+      "B. B. King"
+    ],
+    "year": 2008,
+    "recorded": null,
+    "genres": [
+      "Blues"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/db/One_Kind_favor_BB_King.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1032,
+    "title": "Indianola Mississippi Seeds",
+    "artists": [
+      "B. B. King"
+    ],
+    "year": 1970,
+    "recorded": null,
+    "genres": [
+      "Blues"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/36/King_BB-Indianola-Mississippi-Seeds.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1031,
+    "title": "Completely Well",
+    "artists": [
+      "B. B. King"
+    ],
+    "year": 1969,
+    "recorded": null,
+    "genres": [
+      "Blues"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/bd/B.B._King_Completely_Well.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1030,
+    "title": "My Kind of Blues",
+    "artists": [
+      "B. B. King"
+    ],
+    "year": 1960,
+    "recorded": null,
+    "genres": [
+      "Blues"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/22/My_Kind_of_Blues.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1029,
+    "title": "The Blues",
+    "artists": [
+      "B. B. King"
+    ],
+    "year": 1958,
+    "recorded": "1951-1958",
+    "genres": [
+      "Blues"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b4/The_Blues_Album_Cover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1028,
+    "title": "Singin' the Blues",
+    "artists": [
+      "B. B. King"
+    ],
+    "year": 1957,
+    "recorded": null,
+    "genres": [
+      "1951–1956"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/12/Singin%27_the_blues_small.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1027,
+    "title": "C:\\>chkdsk /f",
+    "artists": [
+      "Master Boot Record"
+    ],
+    "year": 2016,
+    "recorded": null,
+    "genres": [
+      "Metal"
+    ],
+    "countries": [
+      "Italie"
+    ],
+    "cover": "https://f4.bcbits.com/img/a1487480970_2.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1026,
+    "title": "C:\\>copy *.* A: /v",
+    "artists": [
+      "Master Boot Record"
+    ],
+    "year": 2017,
+    "recorded": null,
+    "genres": [
+      "Metal"
+    ],
+    "countries": [
+      "Italie"
+    ],
+    "cover": "https://f4.bcbits.com/img/a2157244285_2.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1025,
+    "title": "Realtime Execution",
+    "artists": [
+      "Master Boot Record"
+    ],
+    "year": 2026,
+    "recorded": null,
+    "genres": [
+      "Metal"
+    ],
+    "countries": [
+      "Italie"
+    ],
+    "cover": "https://f4.bcbits.com/img/a2952580121_2.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1024,
+    "title": "Interrupt Request",
+    "artists": [
+      "Master Boot Record"
+    ],
+    "year": 2017,
+    "recorded": null,
+    "genres": [
+      "Metal"
+    ],
+    "countries": [
+      "Italie"
+    ],
+    "cover": "https://f4.bcbits.com/img/a4244005369_2.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1023,
+    "title": "Floppy Disk Overdrive",
+    "artists": [
+      "Master Boot Record"
+    ],
+    "year": 2020,
+    "recorded": null,
+    "genres": [
+      "Metal"
+    ],
+    "countries": [
+      "Italie"
+    ],
+    "cover": "https://f4.bcbits.com/img/a1120298037_2.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1022,
+    "title": "Personal Computer",
+    "artists": [
+      "Master Boot Record"
+    ],
+    "year": 2022,
+    "recorded": null,
+    "genres": [
+      "Metal"
+    ],
+    "countries": [
+      "Italie"
+    ],
+    "cover": "https://f4.bcbits.com/img/a2560598250_2.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1021,
+    "title": "Hardwarez",
+    "artists": [
+      "Master Boot Record"
+    ],
+    "year": 2024,
+    "recorded": null,
+    "genres": [
+      "Metal"
+    ],
+    "countries": [
+      "Italie"
+    ],
+    "cover": "https://f4.bcbits.com/img/a3638647289_2.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1020,
+    "title": "Internet Protocol",
+    "artists": [
+      "Master Boot Record"
+    ],
+    "year": 2019,
+    "recorded": null,
+    "genres": [
+      "Metal"
+    ],
+    "countries": [
+      "Italie"
+    ],
+    "cover": "https://f4.bcbits.com/img/a1521867852_2.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1019,
+    "title": "Direct Memory Access",
+    "artists": [
+      "Master Boot Record"
+    ],
+    "year": 2018,
+    "recorded": null,
+    "genres": [
+      "Synthwave",
+      "Metal"
+    ],
+    "countries": [
+      "Italie"
+    ],
+    "cover": "https://f4.bcbits.com/img/a2224645738_2.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1018,
+    "title": "Io Sono Nato Libero",
+    "artists": [
+      "Banco Del Mutuo Soccorso"
+    ],
+    "year": 1973,
+    "recorded": null,
+    "genres": [
+      "Progressive rock"
+    ],
+    "countries": [
+      "Italie"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/bf/Banco_IoSonoNatoLibero.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1017,
+    "title": "Darwin!",
+    "artists": [
+      "Banco Del Mutuo Soccorso"
+    ],
+    "year": 1972,
+    "recorded": null,
+    "genres": [
+      "Progressive rock"
+    ],
+    "countries": [
+      "Italie"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/51/BdmsDarwincover.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1016,
+    "title": "Buena Vista Social Club",
+    "artists": [
+      "Buena Vista Social Club"
+    ],
+    "year": 1997,
+    "recorded": null,
+    "genres": [
+      "Son cubano",
+      "Bolero",
+      "Descarga",
+      "Danzón",
+      "Guajira",
+      "Criolla",
+      "Jazz"
+    ],
+    "countries": [
+      "Cuba"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/4a/Buenavistasocialclubalbumcover.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1015,
+    "title": "Belaya Polosa",
+    "artists": [
+      "Molchat Doma"
+    ],
+    "year": 2024,
+    "recorded": null,
+    "genres": [
+      "Post-punk",
+      "Cold wave",
+      "New wave",
+      "Synth-pop"
+    ],
+    "countries": [
+      "Biélorussie"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/35/Belaya_Polosa.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1014,
+    "title": "Monument",
+    "artists": [
+      "Molchat Doma"
+    ],
+    "year": 2020,
+    "recorded": null,
+    "genres": [
+      "Post-punk",
+      "Cold wave",
+      "New wave",
+      "Synth-pop"
+    ],
+    "countries": [
+      "Biélorussie"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/66/Molchat_Doma_-_Monument.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1013,
+    "title": "Etazhi",
+    "artists": [
+      "Molchat Doma"
+    ],
+    "year": 2018,
+    "recorded": null,
+    "genres": [
+      "Post-punk",
+      "Cold wave",
+      "New wave",
+      "Synth-pop"
+    ],
+    "countries": [
+      "Biélorussie"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/bc/Molchat_Doma_-_Etazhi.png",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1012,
+    "title": "2nd",
+    "artists": [
+      "Agitation Free"
+    ],
+    "year": 1973,
+    "recorded": null,
+    "genres": [
+      "Krautrock",
+      "Progressive rock"
+    ],
+    "countries": [
+      "Allemagne"
+    ],
+    "cover": "https://i.discogs.com/afehEBFackujSGqf46rPCfWyevfNmRV48aQcuhmjovY/rs:fit/g:sm/q:90/h:444/w:444/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNzQz/MTQtMTE5ODI2NzQw/NS5qcGVn.jpeg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1011,
+    "title": "Malesch",
+    "artists": [
+      "Agitation Free"
+    ],
+    "year": 1972,
+    "recorded": null,
+    "genres": [
+      "Space rock",
+      "Psychedelic rock"
+    ],
+    "countries": [
+      "Allemagne"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Agitation_Free_-_Malesch.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1010,
+    "title": "Par Les Fils De Mandrin",
+    "artists": [
+      "Ange"
+    ],
+    "year": 1976,
+    "recorded": null,
+    "genres": [
+      "Progressive rock"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/fa/Ange_par_les_fils_de_mandrin.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1009,
+    "title": "Emile Jacotey",
+    "artists": [
+      "Ange"
+    ],
+    "year": 1975,
+    "recorded": null,
+    "genres": [
+      "Progressive rock"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c8/Ange_emile_jacotey.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1008,
+    "title": "Au-delà Du Délire",
+    "artists": [
+      "Ange"
+    ],
+    "year": 1974,
+    "recorded": null,
+    "genres": [
+      "Progressive rock"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/79/Ange_au_dela_du_delire.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1007,
+    "title": "Le Cimetière Des Arlequins",
+    "artists": [
+      "Ange"
+    ],
+    "year": 1973,
+    "recorded": null,
+    "genres": [
+      "Progressive rock"
+    ],
+    "countries": [
+      "France"
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f1/Ange_le_cimetiere_des_arlequins.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
+    "id": 1006,
+    "title": "A Love Supreme and Meditations",
+    "artists": [
+      "Vinny Golia",
+      "John Hanrahan",
+      "Henry Kaiser",
+      "Wayne Peet",
+      "Mike Watt"
+    ],
+    "year": 2020,
+    "recorded": null,
+    "genres": [
+      "Jazz"
+    ],
+    "countries": [
+      "États-unis"
+    ],
+    "cover": "https://f4.bcbits.com/img/a2965952424_2.jpg",
+    "yt": "",
+    "rating": ""
+  },
+  {
     "id": 1005,
     "title": "Saturday Night Fever",
     "artists": [
@@ -36,8 +2011,8 @@
     "year": 1992,
     "recorded": null,
     "genres": [
-      "Groove Metal",
-      "Alternative Metal"
+      "Groove metal",
+      "Alternative metal"
     ],
     "countries": [
       "États-unis"
@@ -74,7 +2049,7 @@
     "year": 1972,
     "recorded": null,
     "genres": [
-      "Jazz Fusion"
+      "Jazz fusion"
     ],
     "countries": [
       "États-unis"
@@ -92,7 +2067,7 @@
     "year": 1979,
     "recorded": "1978",
     "genres": [
-      "Jazz Fusion"
+      "Jazz fusion"
     ],
     "countries": [
       "États-unis"
@@ -483,9 +2458,11 @@
       "Blues",
       "Folk",
       "World",
-      "& country"
+      "Country"
     ],
-    "countries": [],
+    "countries": [
+      "États-unis"
+    ],
     "cover": "https://i.discogs.com/EIYOLe0yDahXjmWTYgJSr-kfOJgLNsS6EijL5EP7lrM/rs:fit/g:sm/q:90/h:478/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzNTM1/OTMtMTY3MjYwOTg3/NS0xODExLmpwZWc.jpeg",
     "yt": "",
     "rating": ""
@@ -1079,7 +3056,7 @@
       "Krautrock"
     ],
     "countries": [
-      "Finland"
+      "Finlande"
     ],
     "cover": "https://www.gutsofdarkness.com/images/pochettes_700/168_23348.jpg",
     "yt": "",
@@ -3804,7 +5781,9 @@
       "Fusion",
       "City pop"
     ],
-    "countries": [],
+    "countries": [
+      "Japon"
+    ],
     "cover": "https://i.discogs.com/sKxaoOnefwpHiCMkW6EyJKotMZKouji-RbxBO-U7aSA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1Njg5/Mzc1LTE1OTU5NTY3/MDktODUwNS5qcGVn.jpeg",
     "yt": "",
     "rating": ""
@@ -6941,7 +8920,7 @@
     "id": 645,
     "title": "Unknown Soldier",
     "artists": [
-      "Fela Ransome-kuti and the Afrika 70"
+      "Fela Ransome-kuti and the Africa '70"
     ],
     "year": 1979,
     "recorded": null,
@@ -7031,7 +9010,7 @@
     "id": 640,
     "title": "Expensive Shit",
     "artists": [
-      "Fela Ransome-kuti and the Afrika 70"
+      "Fela Ransome-kuti and the Africa '70"
     ],
     "year": 1975,
     "recorded": null,
@@ -7049,7 +9028,7 @@
     "id": 639,
     "title": "Confusion",
     "artists": [
-      "Fela Ransome-kuti and the Africa 70"
+      "Fela Ransome-kuti and the Africa '70"
     ],
     "year": 1975,
     "recorded": null,
@@ -7067,7 +9046,7 @@
     "id": 638,
     "title": "Gentleman",
     "artists": [
-      "Fela Ransome-kuti and the Afrika 70"
+      "Fela Ransome-kuti and the Africa '70"
     ],
     "year": 1973,
     "recorded": null,
@@ -16135,7 +18114,9 @@
       "États-unis"
     ],
     "cover": "https://upload.wikimedia.org/wikipedia/en/f/f5/Elvis_Presley_LPM-1254_Album_Cover.jpg",
-    "yt": ""
+    "yt": "",
+    "recorded": "1954-1956",
+    "rating": ""
   },
   {
     "id": 154,
