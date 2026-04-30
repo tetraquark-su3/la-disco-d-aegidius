@@ -139,6 +139,8 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   font-size:12px;color:var(--t2);cursor:pointer;
   transition:background .1s,color .1s;
 }
+.dd-item-label{flex:1;min-width:0}
+.dd-count{font-size:11px;color:var(--t3);flex-shrink:0;font-variant-numeric:tabular-nums}
 .dd-item:hover{background:var(--s2);color:var(--t1)}
 .dd-item.on{color:var(--ca);font-weight:700}
 .dd-item .dd-check{
@@ -665,6 +667,24 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     openDropdown = null;
   }
 
+  function countForValue(key, val) {
+    // Compte les albums qui matcheraient si on ajoutait ce filtre,
+    // en tenant compte des autres filtres actifs mais pas de celui-ci
+    return albums.filter(a => {
+      if (key !== 'genres'    && activeGenres.size    && !a.genres.some(x => activeGenres.has(x)))       return false;
+      if (key !== 'countries' && activeCountries.size && !a.countries.some(x => activeCountries.has(x))) return false;
+      if (key !== 'year'      && activeYears.size     && !recordedYears(a).some(y => activeYears.has(y))) return false;
+      if (key !== 'artists'   && activeArtists.size   && !a.artists.some(x => activeArtists.has(x)))      return false;
+      if (key !== 'rating'    && activeRatings.size   && !activeRatings.has(a.rating || ''))              return false;
+      // check this key
+      if (key === 'genres')    return a.genres.some(x => x === val);
+      if (key === 'countries') return a.countries.some(x => x === val);
+      if (key === 'year')      return recordedYears(a).includes(val);
+      if (key === 'artists')   return a.artists.includes(val);
+      return true;
+    }).length;
+  }
+
   function makeDropdown(label, key, cls, set) {
     const items = uniq(key);
     if (!items.length) return null;
@@ -706,9 +726,11 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
         list.appendChild(e); return;
       }
       filtered.forEach(val => {
+        const count = countForValue(key, val);
         const item = document.createElement('div');
         item.className = 'dd-item' + (set.has(val) ? ' on' : '');
-        item.innerHTML = `<span class="dd-check"></span><span>${key === 'countries' ? (countryFlag(String(val)) ? countryFlag(String(val)) + ' ' : '') : ''}${val}</span>`;
+        const flag = key === 'countries' ? (countryFlag(String(val)) ? countryFlag(String(val)) + ' ' : '') : '';
+        item.innerHTML = `<span class="dd-check"></span><span class="dd-item-label">${flag}${val}</span><span class="dd-count">${count}</span>`;
         item.addEventListener('click', e => {
           e.stopPropagation();
           set.has(val) ? set.delete(val) : set.add(val);
