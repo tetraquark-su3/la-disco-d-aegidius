@@ -486,7 +486,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     'afrique du sud':'🇿🇦','nigeria':'🇳🇬','éthiopie':'🇪🇹','ethiopie':'🇪🇹',
     'inde':'🇮🇳','chine':'🇨🇳','corée du sud':'🇰🇷','coree du sud':'🇰🇷',
     'iran':'🇮🇷','turquie':'🇹🇷','jamaïque':'🇯🇲','jamaique':'🇯🇲','cuba':'🇨🇺',
-    'arabie saoudite':'🇸🇦',
+    'arabie saoudite':'🇸🇦','biélorussie':'🇧🇾','bielorussie':'🇧🇾',
   };
   function countryFlag(name) {
     return FLAG_MAP[name.toLowerCase()] || '';
@@ -708,7 +708,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       filtered.forEach(val => {
         const item = document.createElement('div');
         item.className = 'dd-item' + (set.has(val) ? ' on' : '');
-        item.innerHTML = `<span class="dd-check"></span><span>${val}</span>`;
+        item.innerHTML = `<span class="dd-check"></span><span>${key === 'countries' ? (countryFlag(String(val)) ? countryFlag(String(val)) + ' ' : '') : ''}${val}</span>`;
         item.addEventListener('click', e => {
           e.stopPropagation();
           set.has(val) ? set.delete(val) : set.add(val);
