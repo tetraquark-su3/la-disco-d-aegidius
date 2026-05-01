@@ -278,7 +278,39 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .toast{position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%);background:var(--s3);color:var(--t1);border:1px solid var(--s2);font-family:'Cantarell',sans-serif;font-size:13px;padding:9px 18px;border-radius:var(--r);opacity:0;pointer-events:none;transition:opacity .2s;z-index:200;white-space:nowrap}
 .toast.show{opacity:1}
 
-/* ── REVIEW MODE ── */
+/* ── VIEW TOGGLE ── */
+.view-toggle{display:flex;gap:2px;border:1px solid var(--s2);border-radius:var(--r);overflow:hidden;flex-shrink:0}
+.view-btn{width:34px;height:38px;display:flex;align-items:center;justify-content:center;background:transparent;border:none;cursor:pointer;transition:background .12s}
+.view-btn svg{width:14px;height:14px;stroke:var(--t2);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.view-btn:hover{background:var(--s2)}
+.view-btn:hover svg{stroke:var(--t1)}
+.view-btn.active{background:var(--s2)}
+.view-btn.active svg{stroke:var(--ca)}
+
+/* ── CLEAR FILTERS ── */
+.clear-btn{font-size:11px;color:var(--cp);background:none;border:none;cursor:pointer;padding:2px 6px;border-radius:4px;font-family:'Cantarell',sans-serif;white-space:nowrap}
+.clear-btn:hover{background:rgba(233,69,96,.1)}
+
+/* ── ARTIST VIEW ── */
+.artist-grid{display:flex;flex-direction:column;gap:2rem;padding-bottom:3rem}
+.artist-section{}
+.artist-header{display:flex;align-items:baseline;gap:10px;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid var(--s2)}
+.artist-name{font-size:1rem;font-weight:700;color:var(--t1);cursor:pointer}
+.artist-name:hover{color:var(--ca)}
+.artist-count{font-size:11px;color:var(--t3)}
+.artist-albums{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}
+@media(min-width:1280px){.artist-albums{grid-template-columns:repeat(7,1fr)}}
+@media(min-width:1060px) and (max-width:1279px){.artist-albums{grid-template-columns:repeat(6,1fr)}}
+@media(min-width:860px)  and (max-width:1059px){.artist-albums{grid-template-columns:repeat(5,1fr)}}
+
+/* ── RANDOM MODAL ── */
+.random-modal{max-width:360px;text-align:center}
+.random-cover{width:180px;height:180px;object-fit:cover;border-radius:var(--r);margin:0 auto 1rem;display:block}
+.random-cover-fb{width:180px;height:180px;border-radius:var(--r);margin:0 auto 1rem;display:flex;align-items:center;justify-content:center;font-size:48px;font-weight:700}
+.random-title{font-size:1.1rem;font-weight:700;color:var(--t1);margin-bottom:4px}
+.random-artist{font-size:13px;color:var(--ca);margin-bottom:10px}
+.random-pills{display:flex;gap:4px;flex-wrap:wrap;justify-content:center;margin-bottom:1.25rem}
+.random-btns{display:flex;gap:8px;justify-content:center}
 .review-modal{max-width:520px}
 .review-header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:1.25rem;gap:1rem}
 .review-progress{font-size:12px;color:var(--t3);margin-top:4px}
@@ -376,6 +408,18 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       <button class="lock-btn" id="btn-lock" title="Mode admin">
         <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
       </button>
+      <!-- vue toggle -->
+      <div class="view-toggle">
+        <button class="view-btn active" id="btn-view-grid" title="Vue grille">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        </button>
+        <button class="view-btn" id="btn-view-artist" title="Vue par artiste">
+          <svg viewBox="0 0 24 24"><circle cx="9" cy="7" r="4"/><path d="M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/><line x1="16" y1="11" x2="22" y2="11"/><line x1="19" y1="8" x2="19" y2="14"/></svg>
+        </button>
+        <button class="view-btn" id="btn-random" title="Album aléatoire 🎲">
+          <svg viewBox="0 0 24 24"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/></svg>
+        </button>
+      </div>
       <select class="sort-select" id="sort-select">
         <option value="title">Titre A→Z</option>
         <option value="title-desc">Titre Z→A</option>
@@ -388,6 +432,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     <div class="filters-block" id="filters"></div>
     <div class="count-bar" id="count"></div>
     <div class="grid" id="grid"></div>
+    <div class="artist-grid" id="artist-grid" style="display:none"></div>
     <div class="pagination" id="pagination"></div>
   </div>
 
@@ -397,6 +442,12 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     <div class="faq-list" id="faq-list"></div>
   </div>
 </main>
+
+<div class="overlay" id="random-overlay">
+  <div class="modal random-modal">
+    <div id="random-content"></div>
+  </div>
+</div>
 
 <div class="overlay" id="review-overlay">
   <div class="modal review-modal">
@@ -594,6 +645,15 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   }
 
   let currentSort = 'title';
+  let currentView = 'grid'; // 'grid' | 'artist'
+
+  function clearAllFilters() {
+    activeGenres.clear(); activeYears.clear();
+    activeArtists.clear(); activeCountries.clear(); activeRatings.clear();
+    document.getElementById('search').value = '';
+    currentPage = 1;
+    render();
+  }
 
   // Parse "1982, 1985" → [1982,1985]  |  "1969-1979" → [1969,1979]  |  "1955" → [1955]
   function recordedYears(a) {
@@ -940,12 +1000,110 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     renderFilters();
     const results    = getFiltered();
     const total      = results.length;
-    const totalPages = Math.ceil(total / PAGE_SIZE) || 1;
-    currentPage      = Math.min(currentPage, totalPages);
-    document.getElementById('count').textContent = total + ' album' + (total > 1 ? 's' : '');
-    const start = (currentPage - 1) * PAGE_SIZE;
-    renderGrid(results.slice(start, start + PAGE_SIZE));
-    renderPagination(total, totalPages);
+    const hasFilters = activeGenres.size || activeYears.size || activeArtists.size || activeCountries.size || activeRatings.size || document.getElementById('search').value.trim();
+
+    // count bar with optional clear button
+    const countEl = document.getElementById('count');
+    countEl.innerHTML = '';
+    const countTxt = document.createElement('span');
+    countTxt.textContent = total + ' album' + (total > 1 ? 's' : '');
+    countEl.appendChild(countTxt);
+    if (hasFilters) {
+      const clearBtn = document.createElement('button');
+      clearBtn.className = 'clear-btn';
+      clearBtn.textContent = '✕ Effacer les filtres';
+      clearBtn.addEventListener('click', clearAllFilters);
+      countEl.appendChild(clearBtn);
+    }
+
+    if (currentView === 'artist') {
+      document.getElementById('grid').style.display = 'none';
+      document.getElementById('pagination').style.display = 'none';
+      document.getElementById('artist-grid').style.display = 'flex';
+      renderArtistView(results);
+    } else {
+      document.getElementById('grid').style.display = 'grid';
+      document.getElementById('pagination').style.display = '';
+      document.getElementById('artist-grid').style.display = 'none';
+      const totalPages = Math.ceil(total / PAGE_SIZE) || 1;
+      currentPage = Math.min(currentPage, totalPages);
+      const start = (currentPage - 1) * PAGE_SIZE;
+      renderGrid(results.slice(start, start + PAGE_SIZE));
+      renderPagination(total, totalPages);
+    }
+  }
+
+  function renderArtistView(results) {
+    const ag = document.getElementById('artist-grid');
+    ag.innerHTML = '';
+    if (!results.length) {
+      ag.innerHTML = '<div class="empty"><strong>Aucun résultat</strong></div>';
+      return;
+    }
+    // Group by first artist, sorted alpha
+    const map = new Map();
+    results.forEach(a => {
+      const key = a.artists[0];
+      if (!map.has(key)) map.set(key, []);
+      map.get(key).push(a);
+    });
+    const sorted = [...map.entries()].sort((a,b) => a[0].localeCompare(b[0], 'fr', {sensitivity:'base'}));
+    sorted.forEach(([artist, artistAlbums]) => {
+      const section = document.createElement('div');
+      section.className = 'artist-section';
+      const header = document.createElement('div');
+      header.className = 'artist-header';
+      const name = document.createElement('span');
+      name.className = 'artist-name';
+      name.textContent = artist;
+      name.addEventListener('click', () => {
+        activeArtists.add(artist);
+        currentView = 'grid';
+        document.getElementById('btn-view-grid').classList.add('active');
+        document.getElementById('btn-view-artist').classList.remove('active');
+        currentPage = 1; render(); window.scrollTo({top:0,behavior:'smooth'});
+      });
+      const count = document.createElement('span');
+      count.className = 'artist-count';
+      count.textContent = artistAlbums.length + ' album' + (artistAlbums.length > 1 ? 's' : '');
+      header.appendChild(name); header.appendChild(count);
+      const albumsGrid = document.createElement('div');
+      albumsGrid.className = 'artist-albums';
+      // Sort albums by year within artist
+      const sorted2 = [...artistAlbums].sort((a,b) => firstYear(a) - firstYear(b));
+      sorted2.forEach(a => {
+        const [bg, fg] = colorFor(a.id);
+        const ratingBadge = a.rating === 'crown' ? '👑' : a.rating === 'star' ? '⭐' : '';
+        const ytBtn = a.yt ? `<a class="yt-btn" href="${a.yt}" target="_blank" title="Écouter sur YouTube">${SVG.yt}</a>` : '';
+        const coverHtml = a.cover
+          ? `<div class="cover-wrap"><img class="cover-img" src="${a.cover}" alt="${a.title}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="cover-fallback" style="display:none;background:${bg};color:${fg}">${initials(a.title)}</div>${ratingBadge?`<span class="card-rating">${ratingBadge}</span>`:''}<div class="card-actions">${ytBtn}<button class="edit-btn" title="Modifier">${SVG.edit}</button><button class="del-btn" title="Supprimer">${SVG.trash}</button></div></div>`
+          : `<div class="cover-wrap"><div class="cover-fallback" style="background:${bg};color:${fg}">${initials(a.title)}</div>${ratingBadge?`<span class="card-rating">${ratingBadge}</span>`:''}<div class="card-actions">${ytBtn}<button class="edit-btn" title="Modifier">${SVG.edit}</button><button class="del-btn" title="Supprimer">${SVG.trash}</button></div></div>`;
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `${coverHtml}<div class="card-body"><div class="card-title" title="${a.title}">${a.title}</div><div class="card-foot"><div class="card-pills"><span class="pill pill-y">${a.recorded||a.year}</span></div></div></div>`;
+        card.querySelector('.edit-btn').addEventListener('click', () => openModal(a.id));
+        card.querySelector('.del-btn').addEventListener('click', () => {
+          if (confirm(`Supprimer "${a.title}" ?`)) { albums = albums.filter(x=>x.id!==a.id); persist(); render(); }
+        });
+        card.querySelector('.card-pills').addEventListener('click', e => {
+          const pill = e.target.closest('.pill');
+          if (!pill) return;
+          if (pill.classList.contains('pill-y')) {
+            const val = parseInt(pill.childNodes[0].textContent.trim());
+            if (!isNaN(val)) activeYears.add(val);
+          } else if (pill.classList.contains('pill-c')) {
+            a.countries.forEach(c => activeCountries.add(c));
+          }
+          currentPage = 1; currentView = 'grid';
+          document.getElementById('btn-view-grid').classList.add('active');
+          document.getElementById('btn-view-artist').classList.remove('active');
+          render(); window.scrollTo({top:0,behavior:'smooth'});
+        });
+        albumsGrid.appendChild(card);
+      });
+      section.appendChild(header); section.appendChild(albumsGrid);
+      ag.appendChild(section);
+    });
   }
 
   /* ── MODAL ── */
@@ -1276,7 +1434,56 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     });
   }
 
+  function openRandom() {
+    const results = getFiltered();
+    if (!results.length) { showToast('Aucun album dans la sélection actuelle'); return; }
+    showRandomAlbum(results);
+    document.getElementById('random-overlay').classList.add('open');
+  }
+
+  function showRandomAlbum(pool) {
+    const a = pool[Math.floor(Math.random() * pool.length)];
+    const [bg, fg] = colorFor(a.id);
+    const genreList = Array.isArray(a.genres) ? a.genres : [];
+    const coverHtml = a.cover
+      ? `<img class="random-cover" src="${a.cover}" alt="${a.title}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="random-cover-fb" style="display:none;background:${bg};color:${fg}">${initials(a.title)}</div>`
+      : `<div class="random-cover-fb" style="background:${bg};color:${fg}">${initials(a.title)}</div>`;
+    const ytBtn = a.yt ? `<a class="yt-btn" href="${a.yt}" target="_blank" title="Écouter sur YouTube" style="text-decoration:none">${SVG.yt}</a>` : '';
+    document.getElementById('random-content').innerHTML = `
+      ${coverHtml}
+      <div class="random-title">${a.title}</div>
+      <div class="random-artist">${a.artists.join(', ')}</div>
+      <div class="random-pills">
+        ${genreList.map(g=>`<span class="pill pill-g">${g}</span>`).join('')}
+        <span class="pill pill-y">${a.recorded||a.year}</span>
+        ${a.countries.length?`<span class="pill pill-c">${a.countries.map(c=>(countryFlag(c)?countryFlag(c)+'\u00a0':'')+c).join(' · ')}</span>`:''}
+      </div>
+      <div class="random-btns">
+        ${ytBtn}
+        <button class="btn-next" id="random-again">🎲 Encore</button>
+        <button class="btn-cancel" id="random-close">Fermer</button>
+      </div>`;
+    document.getElementById('random-again').addEventListener('click', () => showRandomAlbum(pool));
+    document.getElementById('random-close').addEventListener('click', () => document.getElementById('random-overlay').classList.remove('open'));
+  }
+
   /* ── EVENTS ── */
+  document.getElementById('btn-view-grid').addEventListener('click', () => {
+    currentView = 'grid';
+    document.getElementById('btn-view-grid').classList.add('active');
+    document.getElementById('btn-view-artist').classList.remove('active');
+    render();
+  });
+  document.getElementById('btn-view-artist').addEventListener('click', () => {
+    currentView = 'artist';
+    document.getElementById('btn-view-artist').classList.add('active');
+    document.getElementById('btn-view-grid').classList.remove('active');
+    render();
+  });
+  document.getElementById('btn-random').addEventListener('click', openRandom);
+  document.getElementById('random-overlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('random-overlay')) document.getElementById('random-overlay').classList.remove('open');
+  });
   document.getElementById('btn-review').addEventListener('click', openReview);
   document.getElementById('review-close').addEventListener('click', closeReview);
   document.querySelectorAll('.rating-opt').forEach(btn => {
