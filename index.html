@@ -193,10 +193,12 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 }
 .card-body{padding:9px 11px 11px;border-top:1px solid var(--s2)}
 .card-title{font-size:13px;font-weight:700;line-height:1.3;margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--t1)}
-.card-artist{font-size:11px;color:var(--ca);margin-bottom:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.card-foot{display:flex;align-items:center;justify-content:space-between;gap:5px}
-.card-pills{display:flex;gap:3px;flex-wrap:wrap;flex:1;min-width:0}
-.pill{font-size:10px;padding:2px 6px;border-radius:999px;font-weight:700}
+.card-artist{font-size:11px;color:var(--ca);margin-bottom:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
+.card-artist:hover{text-decoration:underline}
+.card-foot{display:flex;align-items:flex-start;gap:4px;flex-wrap:wrap}
+.card-pills{display:flex;gap:3px;flex-wrap:wrap;width:100%}
+.pill{font-size:10px;padding:2px 6px;border-radius:999px;font-weight:700;cursor:pointer;transition:opacity .12s}
+.pill:hover{opacity:.75}
 .pill-g{background:rgba(233,69,96,.18);color:#f08090}
 .pill-y{background:rgba(168,192,255,.14);color:var(--ca)}
 .pill-release{opacity:.55;font-size:9px;font-weight:400}
@@ -212,15 +214,21 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .rating-opt.selected{border-color:rgba(168,192,255,.4);background:rgba(168,192,255,.12);color:var(--ca);font-weight:700}
 .card-rating{position:absolute;top:7px;right:7px;font-size:18px;line-height:1;filter:drop-shadow(0 1px 3px rgba(0,0,0,.6))}
 .pill-c{background:rgba(100,180,255,.12);color:#90c8ff}
-.card-actions{display:flex;gap:3px;flex-shrink:0}
+/* actions en overlay sur la pochette */
+.card-actions{
+  position:absolute;top:7px;left:7px;
+  display:flex;gap:3px;
+  opacity:0;transition:opacity .15s;
+}
+.card:hover .card-actions{opacity:1}
 .yt-btn{display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:var(--cp);text-decoration:none;border:none;cursor:pointer;transition:opacity .15s}
 .yt-btn:hover{opacity:.8}
 .yt-btn svg{width:13px;height:13px;fill:#fff}
-.edit-btn,.del-btn{display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:transparent;border:1px solid var(--s2);cursor:pointer;transition:all .12s}
+.edit-btn,.del-btn{display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:rgba(20,20,30,.75);border:1px solid rgba(255,255,255,.12);cursor:pointer;transition:all .12s;backdrop-filter:blur(4px)}
 .edit-btn svg,.del-btn svg{width:12px;height:12px;stroke:var(--t2);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.edit-btn:hover{background:rgba(168,192,255,.12);border-color:rgba(168,192,255,.3)}
+.edit-btn:hover{background:rgba(168,192,255,.25);border-color:rgba(168,192,255,.4)}
 .edit-btn:hover svg{stroke:var(--ca)}
-.del-btn:hover{background:rgba(233,69,96,.12);border-color:rgba(233,69,96,.3)}
+.del-btn:hover{background:rgba(233,69,96,.25);border-color:rgba(233,69,96,.4)}
 .del-btn:hover svg{stroke:var(--cp)}
 
 .empty{grid-column:1/-1;text-align:center;padding:4rem 1rem;color:var(--t3);font-size:13px}
@@ -841,11 +849,11 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       const card = document.createElement('div');
       card.className = 'card';
       const ratingBadge = a.rating === 'crown' ? '👑' : a.rating === 'star' ? '⭐' : '';
-      const coverHtml = a.cover
-        ? `<div class="cover-wrap"><img class="cover-img" src="${a.cover}" alt="${a.title}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="cover-fallback" style="display:none;background:${bg};color:${fg}">${initials(a.title)}</div>${ratingBadge ? `<span class="card-rating">${ratingBadge}</span>` : ''}</div>`
-        : `<div class="cover-wrap"><div class="cover-fallback" style="background:${bg};color:${fg}">${initials(a.title)}</div>${ratingBadge ? `<span class="card-rating">${ratingBadge}</span>` : ''}</div>`;
-      const genreList = Array.isArray(a.genres) ? a.genres : (a.genres ? [a.genres] : []);
       const ytBtn = a.yt ? `<a class="yt-btn" href="${a.yt}" target="_blank" title="Écouter sur YouTube">${SVG.yt}</a>` : '';
+      const coverHtml = a.cover
+        ? `<div class="cover-wrap"><img class="cover-img" src="${a.cover}" alt="${a.title}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="cover-fallback" style="display:none;background:${bg};color:${fg}">${initials(a.title)}</div>${ratingBadge ? `<span class="card-rating">${ratingBadge}</span>` : ''}<div class="card-actions">${ytBtn}<button class="edit-btn" title="Modifier">${SVG.edit}</button><button class="del-btn" title="Supprimer">${SVG.trash}</button></div></div>`
+        : `<div class="cover-wrap"><div class="cover-fallback" style="background:${bg};color:${fg}">${initials(a.title)}</div>${ratingBadge ? `<span class="card-rating">${ratingBadge}</span>` : ''}<div class="card-actions">${ytBtn}<button class="edit-btn" title="Modifier">${SVG.edit}</button><button class="del-btn" title="Supprimer">${SVG.trash}</button></div></div>`;
+      const genreList = Array.isArray(a.genres) ? a.genres : (a.genres ? [a.genres] : []);
       card.innerHTML = `${coverHtml}
         <div class="card-body">
           <div class="card-title" title="${a.title}">${a.title}</div>
@@ -858,11 +866,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
                 : `<span class="pill pill-y">${a.year}</span>`}
               ${a.countries.length ? `<span class="pill pill-c">${a.countries.map(c => (countryFlag(c) ? countryFlag(c)+'\u00a0' : '') + c).join(' · ')}</span>` : ''}
             </div>
-            <div class="card-actions">
-              ${ytBtn}
-              <button class="edit-btn" title="Modifier">${SVG.edit}</button>
-              <button class="del-btn"  title="Supprimer">${SVG.trash}</button>
-            </div>
           </div>
         </div>`;
       card.querySelector('.edit-btn').addEventListener('click', () => openModal(a.id));
@@ -872,6 +875,27 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
           persist();
           render();
         }
+      });
+      card.querySelector('.card-artist').addEventListener('click', () => {
+        a.artists.forEach(x => activeArtists.add(x));
+        currentPage = 1; render(); window.scrollTo({top:0, behavior:'smooth'});
+      });
+      card.querySelector('.card-pills').addEventListener('click', e => {
+        const pill = e.target.closest('.pill');
+        if (!pill) return;
+        if (pill.classList.contains('pill-g')) {
+          const val = pill.textContent.trim();
+          activeGenres.add(val);
+        } else if (pill.classList.contains('pill-y')) {
+          const val = parseInt(pill.childNodes[0].textContent.trim());
+          if (!isNaN(val)) activeYears.add(val);
+        } else if (pill.classList.contains('pill-c')) {
+          // un seul pays par pill ou plusieurs séparés par · — on prend le pays cliqué
+          a.countries.forEach(c => activeCountries.add(c));
+        }
+        currentPage = 1;
+        render();
+        window.scrollTo({top: 0, behavior: 'smooth'});
       });
       g.appendChild(card);
     });
@@ -998,7 +1022,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     const blob   = new Blob([JSON.stringify(albums, null, 2)], {type:'application/json'});
     const url    = URL.createObjectURL(blob);
     const anchor = document.createElement('a');
-    anchor.href = url; anchor.download = 'albums.json'; anchor.click();
+    anchor.href = url; anchor.download = 'mes-albums.json'; anchor.click();
     URL.revokeObjectURL(url);
     // Propose de vider les éditions locales après export
     setTimeout(() => {
