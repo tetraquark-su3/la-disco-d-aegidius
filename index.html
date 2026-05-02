@@ -589,23 +589,31 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   }
   const ARRAY_KEYS = new Set(['artists','genres','countries']);
 
-  const EDIT_KEY = 'mes-albums-edits-v1'; // localStorage = éditions locales non encore pushées
+  const EDIT_KEY   = 'mes-albums-edits-v1';
+  const BACKUP_KEY = 'mes-albums-backup-v1';
 
   async function load() {
-    // 1. D'abord on essaie le localStorage (éditions locales en attente)
+    // 1. Éditions locales en attente
     try {
       const raw = localStorage.getItem(EDIT_KEY);
       if (raw) { albums = JSON.parse(raw).map(migrateAlbum); return; }
     } catch {}
-    // 2. Sinon on charge albums.json depuis le repo
+    // 2. Fetch depuis GitHub
     try {
       const res = await fetch('mes-albums.json?v=' + Date.now());
       if (!res.ok) throw new Error();
       const data = await res.json();
       albums = data.map(migrateAlbum);
-    } catch {
-      albums = defaultAlbums();
-    }
+      localStorage.setItem(BACKUP_KEY, JSON.stringify(albums));
+      return;
+    } catch {}
+    // 3. Backup local (offline / file://)
+    try {
+      const raw = localStorage.getItem(BACKUP_KEY);
+      if (raw) { albums = JSON.parse(raw).map(migrateAlbum); return; }
+    } catch {}
+    // 4. Démos
+    albums = defaultAlbums();
   }
 
   function persist() {
@@ -682,6 +690,11 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     return String(a.recorded).trim();
   }
 
+  const ARTICLES = /^(the|les|le|la|l'|los|las|die|der|das|gli|le|i|an|a)\s+/i;
+  function sortKey(str) {
+    return str.replace(ARTICLES, '').trim();
+  }
+
   function getSorted(arr) {
     return [...arr].sort((a, b) => {
       const ya = firstYear(a);
@@ -691,7 +704,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
         case 'title-desc': return b.title.localeCompare(a.title, 'fr', {sensitivity:'base'});
         case 'year-asc':   return ya - yb;
         case 'year-desc':  return yb - ya;
-        case 'artist':     return a.artists[0].localeCompare(b.artists[0], 'fr', {sensitivity:'base'});
+        case 'artist':     return sortKey(a.artists[0]).localeCompare(sortKey(b.artists[0]), 'fr', {sensitivity:'base'});
         default:           return 0;
       }
     });
@@ -1047,7 +1060,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       if (!map.has(key)) map.set(key, []);
       map.get(key).push(a);
     });
-    const sorted = [...map.entries()].sort((a,b) => a[0].localeCompare(b[0], 'fr', {sensitivity:'base'}));
+    const sorted = [...map.entries()].sort((a,b) => sortKey(a[0]).localeCompare(sortKey(b[0]), 'fr', {sensitivity:'base'}));
     sorted.forEach(([artist, artistAlbums]) => {
       const section = document.createElement('div');
       section.className = 'artist-section';
