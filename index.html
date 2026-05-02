@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mes albums</title>
+<title>La Discothèque d'Aegidius</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
@@ -34,11 +34,11 @@ body{font-family:'Cantarell',sans-serif;background:var(--cf);color:var(--t1);min
 
 header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .site-title{
-  font-size:2.6rem;line-height:1;letter-spacing:-.02em;margin-bottom:.25rem;font-weight:700;
+  font-size:3rem;line-height:1.15;letter-spacing:-.02em;margin-bottom:.25rem;font-weight:700;padding-bottom:.1em;
   background:linear-gradient(90deg,var(--cp),var(--ca));
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
 }
-.site-sub{font-size:12px;color:var(--t3);margin-bottom:1.75rem;letter-spacing:.04em;text-transform:uppercase}
+.site-sub{font-size:13px;color:var(--t3);margin-bottom:1.75rem;letter-spacing:.04em;text-transform:uppercase}
 
 .main{max-width:1200px;margin:0 auto;padding:1.5rem 2rem 0}
 
@@ -48,7 +48,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .search-wrap svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:15px;height:15px;stroke:var(--t3);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
 #search{
   width:100%;height:38px;border:1px solid var(--s2);border-radius:var(--r);
-  padding:0 14px 0 36px;font-size:13px;font-family:'Cantarell',sans-serif;
+  padding:0 14px 0 36px;font-size:15px;font-family:'Cantarell',sans-serif;
   background:var(--s1);color:var(--t1);outline:none;transition:border-color .15s,background .15s;
 }
 #search::placeholder{color:var(--t3)}
@@ -56,7 +56,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 
 .add-btn{
   height:38px;padding:0 16px;border:none;border-radius:var(--r);
-  font-family:'Cantarell',sans-serif;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap;
+  font-family:'Cantarell',sans-serif;font-size:15px;font-weight:700;cursor:pointer;white-space:nowrap;
   background:linear-gradient(135deg,var(--cp),var(--ca));color:#fff;
   transition:opacity .15s;
 }
@@ -65,7 +65,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   height:38px;padding:0 10px;
   border:1px solid var(--s2);border-radius:var(--r);
   background:var(--s1);color:var(--t2);
-  font-family:'Cantarell',sans-serif;font-size:12px;
+  font-family:'Cantarell',sans-serif;font-size:14px;
   cursor:pointer;outline:none;transition:border-color .15s;
   appearance:none;-webkit-appearance:none;
   padding-right:28px;
@@ -90,7 +90,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .filter-group-label{font-size:10px;color:var(--t3);font-weight:700;letter-spacing:.08em;text-transform:uppercase;min-width:52px;flex-shrink:0}
 .tags{display:flex;gap:5px;flex-wrap:wrap}
 .tag{
-  font-size:11px;padding:3px 10px;border-radius:999px;
+  font-size:13px;padding:4px 12px;border-radius:999px;
   border:1px solid var(--s2);background:var(--s1);color:var(--t2);
   cursor:pointer;transition:all .12s;user-select:none;font-family:'Cantarell',sans-serif;
 }
@@ -105,7 +105,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   height:30px;padding:0 12px;
   border:1px solid var(--s2);border-radius:var(--rs);
   background:var(--s1);color:var(--t2);
-  font-family:'Cantarell',sans-serif;font-size:12px;
+  font-family:'Cantarell',sans-serif;font-size:14px;
   cursor:pointer;display:flex;align-items:center;gap:6px;
   transition:all .12s;white-space:nowrap;
 }
@@ -128,7 +128,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .dd-search{
   width:100%;height:32px;border:none;border-bottom:1px solid var(--s2);
   background:transparent;color:var(--t1);
-  font-family:'Cantarell',sans-serif;font-size:12px;
+  font-family:'Cantarell',sans-serif;font-size:14px;
   padding:0 10px;outline:none;
 }
 .dd-search::placeholder{color:var(--t3)}
@@ -136,11 +136,11 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .dd-item{
   display:flex;align-items:center;gap:8px;
   padding:6px 8px;border-radius:6px;
-  font-size:12px;color:var(--t2);cursor:pointer;
+  font-size:14px;color:var(--t2);cursor:pointer;
   transition:background .1s,color .1s;
 }
 .dd-item-label{flex:1;min-width:0}
-.dd-count{font-size:11px;color:var(--t3);flex-shrink:0;font-variant-numeric:tabular-nums}
+.dd-count{font-size:13px;color:var(--t3);flex-shrink:0;font-variant-numeric:tabular-nums}
 .dd-item:hover{background:var(--s2);color:var(--t1)}
 .dd-item.on{color:var(--ca);font-weight:700}
 .dd-item .dd-check{
@@ -152,7 +152,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .dd-empty{font-size:11px;color:var(--t3);padding:10px 8px;text-align:center}
 .dd-clear{
   display:block;width:100%;padding:6px;border:none;border-top:1px solid var(--s2);
-  background:transparent;color:var(--t3);font-family:'Cantarell',sans-serif;font-size:11px;
+  background:transparent;color:var(--t3);font-family:'Cantarell',sans-serif;font-size:13px;
   cursor:pointer;text-align:center;transition:color .1s;
 }
 .dd-clear:hover{color:var(--cp)}
@@ -160,11 +160,12 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .active-chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px;margin-bottom:2px;min-height:0}
 .chip{
   display:inline-flex;align-items:center;gap:4px;
-  font-size:11px;padding:2px 8px 2px 10px;border-radius:999px;
+  font-size:13px;padding:3px 10px 3px 12px;border-radius:999px;
   font-family:'Cantarell',sans-serif;cursor:default;
 }
 .chip-genre  {background:rgba(233,69,96,.15);color:#f08090}
 .chip-country{background:rgba(100,180,255,.15);color:#90c8ff}
+.chip-composer{background:rgba(125,211,176,.15);color:#7dd3b0}
 .chip-artist {background:rgba(168,192,255,.12);color:#c0d4ff}
 .chip-year   {background:rgba(253,240,220,.12);color:#c8a86a}
 .chip-x{cursor:pointer;opacity:.7;font-size:13px;line-height:1}
@@ -173,7 +174,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .tag.on-country{background:rgba(100,180,255,.12);border-color:rgba(100,180,255,.3);color:#90c8ff;font-weight:700}
 .tag.on-artist {background:rgba(168,192,255,.10);border-color:rgba(168,192,255,.25);color:#c0d4ff;font-weight:700}
 
-.count-bar{font-size:11px;color:var(--t3);margin-bottom:1rem;letter-spacing:.04em}
+.count-bar{font-size:13px;color:var(--t3);margin-bottom:1rem;letter-spacing:.04em}
 
 /* grid */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:14px}
@@ -192,13 +193,15 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   font-size:34px;font-weight:700;letter-spacing:-1px;color:var(--t3);
 }
 .card-body{padding:9px 11px 11px;border-top:1px solid var(--s2)}
-.card-title{font-size:13px;font-weight:700;line-height:1.3;margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--t1)}
-.card-artist{font-size:11px;color:var(--ca);margin-bottom:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
+.card-title{font-size:15px;font-weight:700;line-height:1.3;margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--t1)}
+.card-artist{font-size:13px;color:var(--ca);margin-bottom:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
 .card-artist:hover{text-decoration:underline}
 .card-foot{display:flex;align-items:flex-start;gap:4px;flex-wrap:wrap}
 .card-pills{display:flex;gap:3px;flex-wrap:wrap;width:100%}
-.pill{font-size:10px;padding:2px 6px;border-radius:999px;font-weight:700;cursor:pointer;transition:opacity .12s}
+.pill{font-size:12px;padding:3px 8px;border-radius:999px;font-weight:700;cursor:pointer;transition:opacity .12s}
 .pill:hover{opacity:.75}
+.card-composer{font-size:12px;color:var(--comp-color,#7dd3b0);margin-bottom:7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
+.card-composer:hover{text-decoration:underline}
 .pill-g{background:rgba(233,69,96,.18);color:#f08090}
 .pill-y{background:rgba(168,192,255,.14);color:var(--ca)}
 .pill-release{opacity:.55;font-size:9px;font-weight:400}
@@ -207,7 +210,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   height:32px;padding:0 12px;
   border:1px solid var(--s2);border-radius:var(--rs);
   background:transparent;color:var(--t2);
-  font-family:'Cantarell',sans-serif;font-size:12px;cursor:pointer;
+  font-family:'Cantarell',sans-serif;font-size:14px;cursor:pointer;
   transition:all .12s;
 }
 .rating-opt:hover{border-color:var(--s3);color:var(--t1)}
@@ -242,7 +245,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   min-width:30px;height:30px;padding:0 6px;
   border:1px solid var(--s2);border-radius:var(--rs);
   background:var(--s1);color:var(--t2);
-  font-family:'Cantarell',sans-serif;font-size:12px;cursor:pointer;transition:all .12s;
+  font-family:'Cantarell',sans-serif;font-size:13px;cursor:pointer;transition:all .12s;
 }
 .page-btn:hover:not(:disabled){border-color:var(--s3);background:var(--s2);color:var(--t1)}
 .page-btn:disabled{opacity:.3;cursor:default}
@@ -340,7 +343,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 
 /* ── TABS ── */
 .tabs{display:flex;gap:2px;margin-bottom:1.5rem;border-bottom:1px solid var(--s2);padding-bottom:0}
-.tab-btn{height:36px;padding:0 18px;border:none;background:transparent;color:var(--t3);font-family:'Cantarell',sans-serif;font-size:13px;font-weight:700;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .15s,border-color .15s}
+.tab-btn{height:36px;padding:0 18px;border:none;background:transparent;color:var(--t3);font-family:'Cantarell',sans-serif;font-size:15px;font-weight:700;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .15s,border-color .15s}
 .tab-btn:hover{color:var(--t2)}
 .tab-btn.active{color:var(--ca);border-bottom-color:var(--cp)}
 .tab-panel{display:none}
@@ -375,7 +378,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 <div class="toast" id="toast"></div>
 
 <header>
-  <h1 class="site-title">Mes albums</h1>
+  <h1 class="site-title">La Discothèque d'Aegidius</h1>
   <p class="site-sub">Une sélection personnelle</p>
 </header>
 
@@ -480,6 +483,11 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       <input id="f-artist" placeholder="Miles Davis, John Coltrane">
       <div class="hint">Plusieurs artistes ? Sépare-les par une virgule.</div>
     </div>
+    <div class="field">
+      <label>Compositeur(s)</label>
+      <input id="f-composer" placeholder="Beethoven, Schubert">
+      <div class="hint">Optionnel — pour le classique. Plusieurs compositeurs ? Virgule.</div>
+    </div>
     <div class="form-row">
       <div class="field"><label>Genre(s) *</label><input id="f-genre" placeholder="Jazz, Soul">
         <div class="hint">Plusieurs genres ? Sépare-les par une virgule.</div>
@@ -534,6 +542,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   let activeArtists  = new Set();
   let activeCountries = new Set();
   let activeRatings  = new Set();
+  let activeComposers = new Set();
   let toastTimer = null;
 
   const FLAG_MAP = {
@@ -567,7 +576,8 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     // countries → array
     if (typeof a.countries === 'string')   a.countries = a.countries ? a.countries.split(',').map(x => x.trim()).filter(Boolean) : [];
     else if (!Array.isArray(a.countries))  a.countries = a.country ? [a.country] : [];
-    delete a.genre; delete a.country;
+    if (!Array.isArray(a.composers)) a.composers = a.composer ? [a.composer] : [];
+    delete a.composer;
     return a;
   }
 
@@ -587,7 +597,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   function parseTags(s) {
     return s.split(',').map(x => toTitleCase(x.trim())).filter(Boolean);
   }
-  const ARRAY_KEYS = new Set(['artists','genres','countries']);
+  const ARRAY_KEYS = new Set(['artists','genres','countries','composers']);
 
   const EDIT_KEY   = 'mes-albums-edits-v1';
   const BACKUP_KEY = 'mes-albums-backup-v1';
@@ -657,7 +667,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 
   function clearAllFilters() {
     activeGenres.clear(); activeYears.clear();
-    activeArtists.clear(); activeCountries.clear(); activeRatings.clear();
+    activeArtists.clear(); activeCountries.clear(); activeRatings.clear(); activeComposers.clear();
     document.getElementById('search').value = '';
     currentPage = 1;
     render();
@@ -717,7 +727,8 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       if (activeCountries.size && !a.countries.some(x => activeCountries.has(x))) return false;
       if (activeYears.size     && !recordedYears(a).some(y => activeYears.has(y)))  return false;
       if (activeRatings.size   && !activeRatings.has(a.rating || ''))              return false;
-      if (activeArtists.size   && !a.artists.some(x => activeArtists.has(x)))      return false;
+      if (activeComposers.size  && !a.composers.some(x => activeComposers.has(x)))   return false;
+      if (activeArtists.size   && !a.artists.some(x => activeArtists.has(x)))        return false;
       if (q && !a.title.toLowerCase().includes(q) && !a.artists.join(' ').toLowerCase().includes(q)) return false;
       return true;
     });
@@ -850,6 +861,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       {set: activeGenres,    cls:'chip-genre'},
       {set: activeCountries, cls:'chip-country'},
       {set: activeArtists,   cls:'chip-artist'},
+      {set: activeComposers, cls:'chip-composer'},
       {set: activeYears,     cls:'chip-year'},
     ];
     groups.forEach(({set, cls}) => {
@@ -873,10 +885,11 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     // Tous les filtres en dropdowns
     const ddRow = document.createElement('div'); ddRow.className = 'dropdown-row';
     [
-      {label:'Genre',   key:'genres',    set:activeGenres},
-      {label:'Pays',    key:'countries', set:activeCountries},
-      {label:'Artiste', key:'artists',   set:activeArtists},
-      {label:'Année',   key:'year',      set:activeYears},
+      {label:'Genre',       key:'genres',    set:activeGenres},
+      {label:'Pays',        key:'countries', set:activeCountries},
+      {label:'Artiste',     key:'artists',   set:activeArtists},
+      {label:'Compositeur', key:'composers', set:activeComposers},
+      {label:'Année',       key:'year',      set:activeYears},
     ].forEach(({label, key, set}) => {
       const dd = makeDropdown(label, key, null, set);
       if (dd) ddRow.appendChild(dd);
@@ -931,6 +944,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
         <div class="card-body">
           <div class="card-title" title="${a.title}">${a.title}</div>
           <div class="card-artist" title="${artistStr}">${artistStr}</div>
+          ${a.composers && a.composers.length ? `<div class="card-composer" title="${a.composers.join(', ')}">${a.composers.join(', ')}</div>` : ''}
           <div class="card-foot">
             <div class="card-pills">
               ${genreList.map(g => `<span class="pill pill-g">${g}</span>`).join('')}
@@ -951,6 +965,11 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       });
       card.querySelector('.card-artist').addEventListener('click', () => {
         a.artists.forEach(x => activeArtists.add(x));
+        currentPage = 1; render(); window.scrollTo({top:0, behavior:'smooth'});
+      });
+      const compEl = card.querySelector('.card-composer');
+      if (compEl) compEl.addEventListener('click', () => {
+        a.composers.forEach(x => activeComposers.add(x));
         currentPage = 1; render(); window.scrollTo({top:0, behavior:'smooth'});
       });
       card.querySelector('.card-pills').addEventListener('click', e => {
@@ -1130,6 +1149,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       const a = albums.find(x => x.id === editingId);
       document.getElementById('f-title').value   = a.title;
       document.getElementById('f-artist').value   = a.artists.join(', ');
+      document.getElementById('f-composer').value = (a.composers||[]).join(', ');
       document.getElementById('f-year').value     = a.year;
       document.getElementById('f-recorded').value  = a.recorded || '';
       document.getElementById('f-genre').value    = a.genres.join(', ');
@@ -1138,7 +1158,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       document.getElementById('f-yt').value      = a.yt || '';
       setRating(a.rating || '');
     } else {
-      ['f-title','f-artist','f-year','f-recorded','f-genre','f-country','f-cover','f-yt']
+      ['f-title','f-artist','f-composer','f-year','f-recorded','f-genre','f-country','f-cover','f-yt']
         .forEach(fid => { document.getElementById(fid).value = ''; });
       setRating('');
     }
@@ -1160,6 +1180,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   function submitModal() {
     const title     = toTitleCase(document.getElementById('f-title').value);
     const artists   = parseTags(document.getElementById('f-artist').value);
+    const composers = parseTags(document.getElementById('f-composer').value);
     const year      = parseInt(document.getElementById('f-year').value);
     const recorded  = document.getElementById('f-recorded').value.trim() || null;
     const genres    = parseTags(document.getElementById('f-genre').value);
@@ -1172,10 +1193,10 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       return;
     }
     if (editingId !== null) {
-      albums = albums.map(a => a.id === editingId ? {...a, title, artists, year, recorded, genres, countries, cover, yt, rating} : a);
+      albums = albums.map(a => a.id === editingId ? {...a, title, artists, composers, year, recorded, genres, countries, cover, yt, rating} : a);
     } else {
       const id = albums.length ? Math.max(...albums.map(a => a.id)) + 1 : 1;
-      albums.unshift({id, title, artists, year, recorded, genres, countries, cover, yt, rating});
+      albums.unshift({id, title, artists, composers, year, recorded, genres, countries, cover, yt, rating});
     }
     persist();
     closeModal();
