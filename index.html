@@ -407,6 +407,9 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
         <button class="icon-btn" id="btn-review" title="Mode révision">
           <svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
         </button>
+        <button class="icon-btn" id="btn-comp-dict" title="Nationalités des compositeurs">
+          <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </button>
       </div>
       <button class="lock-btn" id="btn-lock" title="Mode admin">
         <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
@@ -449,6 +452,20 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 <div class="overlay" id="random-overlay">
   <div class="modal random-modal">
     <div id="random-content"></div>
+  </div>
+</div>
+
+<div class="overlay" id="comp-dict-overlay">
+  <div class="modal" style="max-width:520px">
+    <div class="review-header">
+      <div>
+        <div class="modal-title">Nationalités des compositeurs</div>
+        <div class="review-progress" id="comp-dict-progress"></div>
+      </div>
+      <button class="btn-cancel" id="comp-dict-close">✕ Fermer</button>
+    </div>
+    <div id="comp-dict-list" style="max-height:420px;overflow-y:auto;margin-bottom:1rem"></div>
+    <div style="font-size:12px;color:var(--t3)">Les pays renseignés ici enrichissent le filtre Pays — filtrer "Finlande" remonte aussi les albums joués par un orchestre non finlandais mais composés par Sibelius.</div>
   </div>
 </div>
 
@@ -562,6 +579,31 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     return FLAG_MAP[name.toLowerCase()] || '';
   }
 
+  // Dictionnaire compositeur → pays (persisté en localStorage)
+  const COMP_DICT_KEY = 'mes-albums-composers-v1';
+  let compDict = {}; // { "Sibelius": "Finlande", ... }
+
+  function loadCompDict() {
+    try { compDict = JSON.parse(localStorage.getItem(COMP_DICT_KEY) || '{}'); } catch { compDict = {}; }
+  }
+  function saveCompDict() {
+    localStorage.setItem(COMP_DICT_KEY, JSON.stringify(compDict));
+  }
+
+  function composerCountry(name) {
+    return compDict[name] || '';
+  }
+
+  // Pays principal d'un artiste déduit de ses albums
+  function artistCountry(artistName) {
+    const artistAlbums = albums.filter(a => a.artists.includes(artistName));
+    if (!artistAlbums.length) return '';
+    // prend le pays le plus fréquent
+    const counts = {};
+    artistAlbums.forEach(a => (a.countries||[]).forEach(c => { counts[c] = (counts[c]||0) + 1; }));
+    return Object.entries(counts).sort((a,b)=>b[1]-a[1])[0]?.[0] || '';
+  }
+
   /* ── STORAGE ── */
   function migrateAlbum(a) {
     // title case
@@ -652,6 +694,10 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
         const years = recordedYears(a);
         years.forEach(y => { if (!all.includes(y)) all.push(y); });
         return;
+      } else if (key === 'countries') {
+        const compC = (a.composers||[]).map(c => composerCountry(c)).filter(Boolean);
+        [...(a.countries||[]),...compC].forEach(x => { if (!all.includes(x)) all.push(x); });
+        return;
       } else {
         val = a[key];
       }
@@ -724,7 +770,11 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     const q = document.getElementById('search').value.toLowerCase().trim();
     const filtered = albums.filter(a => {
       if (activeGenres.size    && !a.genres.some(x => activeGenres.has(x)))       return false;
-      if (activeCountries.size && !a.countries.some(x => activeCountries.has(x))) return false;
+      if (activeCountries.size) {
+        const albumCountries = a.countries || [];
+        const compCountries = (a.composers||[]).map(c => composerCountry(c)).filter(Boolean);
+        if (![...albumCountries,...compCountries].some(x => activeCountries.has(x))) return false;
+      }
       if (activeYears.size     && !recordedYears(a).some(y => activeYears.has(y)))  return false;
       if (activeRatings.size   && !activeRatings.has(a.rating || ''))              return false;
       if (activeComposers.size  && !a.composers.some(x => activeComposers.has(x)))   return false;
@@ -770,7 +820,10 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       if (key !== 'rating'    && activeRatings.size   && !activeRatings.has(a.rating || ''))              return false;
       // check this key
       if (key === 'genres')    return a.genres.some(x => x === val);
-      if (key === 'countries') return a.countries.some(x => x === val);
+      if (key === 'countries') {
+        const compC = (a.composers||[]).map(c => composerCountry(c)).filter(Boolean);
+        return [...(a.countries||[]),...compC].some(x => x === val);
+      }
       if (key === 'year')      return recordedYears(a).includes(val);
       if (key === 'artists')   return a.artists.includes(val);
       return true;
@@ -1087,7 +1140,9 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       header.className = 'artist-header';
       const name = document.createElement('span');
       name.className = 'artist-name';
-      name.textContent = artist;
+      const ac = artistCountry(artist);
+      const af = ac ? countryFlag(ac) : '';
+      name.textContent = (af ? af + ' ' : '') + artist;
       name.addEventListener('click', () => {
         activeArtists.add(artist);
         currentView = 'grid';
@@ -1518,6 +1573,53 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   document.getElementById('random-overlay').addEventListener('click', e => {
     if (e.target === document.getElementById('random-overlay')) document.getElementById('random-overlay').classList.remove('open');
   });
+  function openCompDict() {
+    const overlay = document.getElementById('comp-dict-overlay');
+    const list = document.getElementById('comp-dict-list');
+    // collect all unique composers from albums
+    const allComposers = [];
+    albums.forEach(a => (a.composers||[]).forEach(c => { if (!allComposers.includes(c)) allComposers.push(c); }));
+    allComposers.sort((a,b) => a.localeCompare(b, 'fr', {sensitivity:'base'}));
+    const total = allComposers.length;
+    const filled = allComposers.filter(c => compDict[c]).length;
+    document.getElementById('comp-dict-progress').textContent = `${filled} / ${total} renseignés`;
+    list.innerHTML = '';
+    if (!total) {
+      list.innerHTML = '<div style="color:var(--t3);font-size:13px;padding:1rem 0">Aucun compositeur renseigné dans vos albums.</div>';
+    }
+    allComposers.forEach(composer => {
+      const row = document.createElement('div');
+      row.style.cssText = 'display:flex;align-items:center;gap:10px;padding:6px 0;border-bottom:1px solid var(--s2)';
+      const flag = compDict[composer] ? (countryFlag(compDict[composer]) + ' ') : '🌐 ';
+      const label = document.createElement('span');
+      label.style.cssText = 'flex:1;font-size:13px;color:var(--t1)';
+      label.textContent = flag + composer;
+      const inp = document.createElement('input');
+      inp.style.cssText = 'width:160px;height:30px;border:1px solid var(--s2);border-radius:var(--rs);padding:0 8px;font-size:12px;font-family:\'Cantarell\',sans-serif;background:var(--cf);color:var(--t1);outline:none';
+      inp.placeholder = 'ex: Finlande';
+      inp.value = compDict[composer] || '';
+      inp.addEventListener('change', () => {
+        const val = inp.value.trim();
+        if (val) compDict[composer] = val; else delete compDict[composer];
+        saveCompDict();
+        const f = val ? (countryFlag(val) + ' ') : '🌐 ';
+        label.textContent = f + composer;
+        const filled2 = allComposers.filter(c => compDict[c]).length;
+        document.getElementById('comp-dict-progress').textContent = `${filled2} / ${total} renseignés`;
+        render();
+      });
+      inp.addEventListener('focus', () => inp.style.borderColor = 'var(--cp)');
+      inp.addEventListener('blur', () => inp.style.borderColor = 'var(--s2)');
+      row.appendChild(label); row.appendChild(inp);
+      list.appendChild(row);
+    });
+    overlay.classList.add('open');
+  }
+
+  document.getElementById('btn-comp-dict').addEventListener('click', openCompDict);
+  document.getElementById('comp-dict-close').addEventListener('click', () => document.getElementById('comp-dict-overlay').classList.remove('open'));
+  document.getElementById('comp-dict-overlay').addEventListener('click', e => { if (e.target === document.getElementById('comp-dict-overlay')) document.getElementById('comp-dict-overlay').classList.remove('open'); });
+
   document.getElementById('btn-review').addEventListener('click', openReview);
   document.getElementById('review-close').addEventListener('click', closeReview);
   document.querySelectorAll('.rating-opt').forEach(btn => {
@@ -1544,6 +1646,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   initFAQ();
   initTabs();
   initAdmin();
+  loadCompDict();
   load().then(() => render());
 })();
 </script>
