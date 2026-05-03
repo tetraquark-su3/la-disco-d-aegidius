@@ -584,14 +584,35 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   let compDict = {}; // { "Sibelius": "Finlande", ... }
 
   function loadCompDict() {
-    try { compDict = JSON.parse(localStorage.getItem(COMP_DICT_KEY) || '{}'); } catch { compDict = {}; }
+    // Priorité 1 : localStorage (cache rapide)
+    try {
+      const raw = localStorage.getItem(COMP_DICT_KEY);
+      if (raw) { compDict = JSON.parse(raw); return; }
+    } catch {}
+    compDict = {};
   }
+
   function saveCompDict() {
     localStorage.setItem(COMP_DICT_KEY, JSON.stringify(compDict));
   }
 
   function composerCountry(name) {
     return compDict[name] || '';
+  }
+
+  // Extrait compDict depuis le JSON importé/fetché
+  function extractCompDict(data) {
+    if (data && data._composerDict && typeof data._composerDict === 'object') {
+      compDict = data._composerDict;
+      saveCompDict();
+      return Array.isArray(data.albums) ? data.albums : data;
+    }
+    return Array.isArray(data) ? data : [];
+  }
+
+  // JSON export inclut _composerDict
+  function buildExportData() {
+    return { _composerDict: compDict, albums: albums };
   }
 
   // Pays principal d'un artiste déduit de ses albums
@@ -648,28 +669,39 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     // 1. Éditions locales en attente
     try {
       const raw = localStorage.getItem(EDIT_KEY);
-      if (raw) { albums = JSON.parse(raw).map(migrateAlbum); return; }
+      if (raw) {
+        const data = JSON.parse(raw);
+        const arr = extractCompDict(data);
+        albums = arr.map(migrateAlbum);
+        return;
+      }
     } catch {}
     // 2. Fetch depuis GitHub
     try {
       const res = await fetch('mes-albums.json?v=' + Date.now());
       if (!res.ok) throw new Error();
       const data = await res.json();
-      albums = data.map(migrateAlbum);
-      localStorage.setItem(BACKUP_KEY, JSON.stringify(albums));
+      const arr = extractCompDict(data);
+      albums = arr.map(migrateAlbum);
+      localStorage.setItem(BACKUP_KEY, JSON.stringify(buildExportData()));
       return;
     } catch {}
     // 3. Backup local (offline / file://)
     try {
       const raw = localStorage.getItem(BACKUP_KEY);
-      if (raw) { albums = JSON.parse(raw).map(migrateAlbum); return; }
+      if (raw) {
+        const data = JSON.parse(raw);
+        const arr = extractCompDict(data);
+        albums = arr.map(migrateAlbum);
+        return;
+      }
     } catch {}
     // 4. Démos
     albums = defaultAlbums();
   }
 
   function persist() {
-    localStorage.setItem(EDIT_KEY, JSON.stringify(albums));
+    localStorage.setItem(EDIT_KEY, JSON.stringify(buildExportData()));
     updateEditBadge();
   }
 
@@ -810,15 +842,16 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   }
 
   function countForValue(key, val) {
-    // Compte les albums qui matcheraient si on ajoutait ce filtre,
-    // en tenant compte des autres filtres actifs mais pas de celui-ci
     return albums.filter(a => {
-      if (key !== 'genres'    && activeGenres.size    && !a.genres.some(x => activeGenres.has(x)))       return false;
-      if (key !== 'countries' && activeCountries.size && !a.countries.some(x => activeCountries.has(x))) return false;
-      if (key !== 'year'      && activeYears.size     && !recordedYears(a).some(y => activeYears.has(y))) return false;
-      if (key !== 'artists'   && activeArtists.size   && !a.artists.some(x => activeArtists.has(x)))      return false;
-      if (key !== 'rating'    && activeRatings.size   && !activeRatings.has(a.rating || ''))              return false;
-      // check this key
+      if (key !== 'genres'     && activeGenres.size    && !a.genres.some(x => activeGenres.has(x)))        return false;
+      if (key !== 'countries'  && activeCountries.size) {
+        const compC = (a.composers||[]).map(c => composerCountry(c)).filter(Boolean);
+        if (![...(a.countries||[]),...compC].some(x => activeCountries.has(x))) return false;
+      }
+      if (key !== 'year'       && activeYears.size     && !recordedYears(a).some(y => activeYears.has(y)))  return false;
+      if (key !== 'artists'    && activeArtists.size   && !a.artists.some(x => activeArtists.has(x)))       return false;
+      if (key !== 'composers'  && activeComposers.size && !a.composers.some(x => activeComposers.has(x)))   return false;
+      if (key !== 'rating'     && activeRatings.size   && !activeRatings.has(a.rating || ''))               return false;
       if (key === 'genres')    return a.genres.some(x => x === val);
       if (key === 'countries') {
         const compC = (a.composers||[]).map(c => composerCountry(c)).filter(Boolean);
@@ -826,6 +859,8 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       }
       if (key === 'year')      return recordedYears(a).includes(val);
       if (key === 'artists')   return a.artists.includes(val);
+      if (key === 'composers') return (a.composers||[]).includes(val);
+      if (key === 'rating')    return (a.rating||'') === val;
       return true;
     }).length;
   }
@@ -997,7 +1032,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
         <div class="card-body">
           <div class="card-title" title="${a.title}">${a.title}</div>
           <div class="card-artist" title="${artistStr}">${artistStr}</div>
-          ${a.composers && a.composers.length ? `<div class="card-composer" title="${a.composers.join(', ')}">${a.composers.join(', ')}</div>` : ''}
+          ${a.composers && a.composers.length ? `<div class="card-composer" title="${a.composers.join(', ')}">${a.composers.map(c => { const cc = composerCountry(c); const cf = cc ? countryFlag(cc) : ''; return (cf ? cf + '\u00a0' : '') + c; }).join(', ')}</div>` : ''}
           <div class="card-foot">
             <div class="card-pills">
               ${genreList.map(g => `<span class="pill pill-g">${g}</span>`).join('')}
@@ -1266,12 +1301,12 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     btn.style.color = hasPending ? 'var(--cp)' : '';
   }
   function exportJSON() {
-    const blob   = new Blob([JSON.stringify(albums, null, 2)], {type:'application/json'});
+    const exportData = buildExportData();
+    const blob   = new Blob([JSON.stringify(exportData, null, 2)], {type:'application/json'});
     const url    = URL.createObjectURL(blob);
     const anchor = document.createElement('a');
     anchor.href = url; anchor.download = 'mes-albums.json'; anchor.click();
     URL.revokeObjectURL(url);
-    // Propose de vider les éditions locales après export
     setTimeout(() => {
       if (localStorage.getItem(EDIT_KEY) && confirm('Éditions locales exportées ✓\n\nVider le brouillon local ? (recommandé après avoir pushé albums.json sur GitHub)')) {
         clearLocalEdits();
@@ -1287,9 +1322,11 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     reader.onload = e => {
       try {
         const data = JSON.parse(e.target.result);
-        if (!Array.isArray(data)) throw new Error();
-        if (!confirm(`Importer ${data.length} albums ? Cela remplacera ta collection actuelle (${albums.length} albums).`)) return;
-        albums = data;
+        const arr = extractCompDict(data);
+        if (!arr.length && !Array.isArray(data)) throw new Error();
+        const count = arr.length || (Array.isArray(data) ? data.length : 0);
+        if (!confirm(`Importer ${count} albums ? Cela remplacera ta collection actuelle (${albums.length} albums).`)) return;
+        albums = arr.map(migrateAlbum);
         persist();
         render();
         showToast(`${albums.length} albums importés ✓`);
@@ -1599,7 +1636,9 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       inp.placeholder = 'ex: Finlande';
       inp.value = compDict[composer] || '';
       inp.addEventListener('change', () => {
-        const val = inp.value.trim();
+        const raw = inp.value.trim();
+        const val = raw ? capitalize(raw) : '';
+        inp.value = val;
         if (val) compDict[composer] = val; else delete compDict[composer];
         saveCompDict();
         const f = val ? (countryFlag(val) + ' ') : '🌐 ';
