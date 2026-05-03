@@ -603,10 +603,12 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   // Extrait compDict depuis le JSON importé/fetché
   function extractCompDict(data) {
     if (data && data._composerDict && typeof data._composerDict === 'object') {
-      compDict = data._composerDict;
+      // Merge : le JSON a priorité mais on garde les entrées locales non présentes dans le JSON
+      compDict = Object.assign({}, compDict, data._composerDict);
       saveCompDict();
-      return Array.isArray(data.albums) ? data.albums : data;
+      return Array.isArray(data.albums) ? data.albums : [];
     }
+    // Ancien format = simple array, on garde le compDict local existant
     return Array.isArray(data) ? data : [];
   }
 
