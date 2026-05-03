@@ -6,6 +6,763 @@
   },
   "albums": [
     {
+      "id": 1768,
+      "title": "Gunesh",
+      "artists": [
+        "Gunesh"
+      ],
+      "composers": [],
+      "year": 1980,
+      "recorded": null,
+      "genres": [
+        "Jazz-fusion",
+        "Progressive Rock",
+        "Folk"
+      ],
+      "countries": [
+        "Turkménistan"
+      ],
+      "cover": "https://f4.bcbits.com/img/a2084522979_2.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1767,
+      "title": "B.b. King's Blues Summit 100 (celebrating the King of the Blues)",
+      "artists": [
+        "Joe Bonamassa"
+      ],
+      "composers": [],
+      "year": 2026,
+      "recorded": null,
+      "genres": [
+        "Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://i.discogs.com/PPYEpb0v-dnO3XbecDbNuxoPW4TVtNV6vSblb4f8Ke0/rs:fit/g:sm/q:90/h:573/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2NDg1/MTA0LTE3NzE0MzEw/MjMtOTIwOC5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1766,
+      "title": "A New Day Yesterday",
+      "artists": [
+        "Joe Bonamassa"
+      ],
+      "composers": [],
+      "year": 2000,
+      "recorded": null,
+      "genres": [
+        "Blues-rock",
+        "Hard Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/89/Joe_Bonamassa_A_New_Day_Yesterday.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1765,
+      "title": "Royal Tea",
+      "artists": [
+        "Joe Bonamassa"
+      ],
+      "composers": [],
+      "year": 2020,
+      "recorded": null,
+      "genres": [
+        "Blues-rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f2/Royal-Tea.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1764,
+      "title": "Breakthrough",
+      "artists": [
+        "Joe Bonamassa"
+      ],
+      "composers": [],
+      "year": 2025,
+      "recorded": null,
+      "genres": [
+        "Blues-rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6f/Joe_Bonamassa_-_Breakthrough_album_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1763,
+      "title": "Live From the Royal Albert Hall",
+      "artists": [
+        "Joe Bonamassa"
+      ],
+      "composers": [],
+      "year": 2009,
+      "recorded": null,
+      "genres": [
+        "Blues-rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/be/JoeBonamassaRAH.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1762,
+      "title": "Dust Bowl",
+      "artists": [
+        "Joe Bonamassa"
+      ],
+      "composers": [],
+      "year": 2011,
+      "recorded": null,
+      "genres": [
+        "Blues-rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/27/Bonamasa_Dust_Bowl_Cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1761,
+      "title": "The Ballad of John Henry",
+      "artists": [
+        "Joe Bonamassa"
+      ],
+      "composers": [],
+      "year": 2009,
+      "recorded": null,
+      "genres": [
+        "Blues-rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0f/Theballadofjohnhenry.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1760,
+      "title": "Sloe Gin",
+      "artists": [
+        "Joe Bonamass"
+      ],
+      "composers": [],
+      "year": 2007,
+      "recorded": null,
+      "genres": [
+        "Blues-rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/ba/Sloe_Gin_%28Joe_Bonamassa_album_-_cover_art%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1759,
+      "title": "Blues Deluxe",
+      "artists": [
+        "Joe Bonamassa"
+      ],
+      "composers": [],
+      "year": 2003,
+      "recorded": null,
+      "genres": [
+        "Blues-rock",
+        "Hard Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/04/JoeBonamassaBluesDeluxe.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1758,
+      "title": "Tour De Force: Live in London",
+      "artists": [
+        "Joe Bonamassa"
+      ],
+      "composers": [],
+      "year": 2014,
+      "recorded": "2013",
+      "genres": [
+        "Blues-rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/cc/JoeBonamassaTourDeForce.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1757,
+      "title": "Black Magic",
+      "artists": [
+        "Magic Sam"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Electric Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b5/Magic_Sam_-_Black_Magic.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1756,
+      "title": "West Side Soul",
+      "artists": [
+        "Magic Sam"
+      ],
+      "composers": [],
+      "year": 1967,
+      "recorded": null,
+      "genres": [
+        "Chicago Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/56/Magic_Sam-West_Side_Soul.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1755,
+      "title": "Ordinary Beats",
+      "artists": [
+        "Klaus Veen"
+      ],
+      "composers": [],
+      "year": 2017,
+      "recorded": null,
+      "genres": [
+        "Electronic"
+      ],
+      "countries": [
+        "Pays-bas"
+      ],
+      "cover": "https://archive.org/download/mbid-b87eaf64-40b7-4858-8202-2bdc27278bf6/mbid-b87eaf64-40b7-4858-8202-2bdc27278bf6-39123405227_thumb250.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1754,
+      "title": "Die Urkatastrophe",
+      "artists": [
+        "Kanonenfieber"
+      ],
+      "composers": [],
+      "year": 2024,
+      "recorded": null,
+      "genres": [
+        "Atmospheric Black Metal",
+        "Black Metal",
+        "Death Metal",
+        "Post Black Metal",
+        "Melodic Death Metal",
+        "Doom Metal",
+        "War Metal"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "cover": "https://f4.bcbits.com/img/a3600376846_2.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1753,
+      "title": "Soldatenschicksale",
+      "artists": [
+        "Kanonenfieber"
+      ],
+      "composers": [],
+      "year": 2026,
+      "recorded": null,
+      "genres": [
+        "Atmospheric Black Metal",
+        "Black Metal",
+        "Death Metal",
+        "Post Black Metal",
+        "Melodic Death Metal",
+        "Doom Metal",
+        "War Metal"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "cover": "https://f4.bcbits.com/img/a4211206473_2.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1752,
+      "title": "Menschenmühle",
+      "artists": [
+        "Kanonenfieber"
+      ],
+      "composers": [],
+      "year": 2021,
+      "recorded": null,
+      "genres": [
+        "Atmospheric Black Metal",
+        "Black Metal",
+        "Death Metal",
+        "Post Black Metal",
+        "Melodic Death Metal",
+        "Doom Metal",
+        "War Metal"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "cover": "https://f4.bcbits.com/img/a3048292810_2.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1751,
+      "title": "Rituals",
+      "artists": [
+        "Neon"
+      ],
+      "composers": [],
+      "year": 1985,
+      "recorded": null,
+      "genres": [
+        "New Wave",
+        "Darkwave"
+      ],
+      "countries": [
+        "Italie"
+      ],
+      "cover": "https://i.discogs.com/UFXaOQKsRZB9dOAoEAtUm2mXp8js7WQ8l0TtIEGt_5k/rs:fit/g:sm/q:90/h:399/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0Mzkz/Mi0xMTk1ODkyMjQy/LmpwZWc.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1750,
+      "title": "Complete Recordings 1929 - 1934",
+      "artists": [
+        "Charlie Patton"
+      ],
+      "composers": [],
+      "year": 2010,
+      "recorded": "1929-1934",
+      "genres": [
+        "Delta Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://i.discogs.com/P0uNJZetTKhY0XSKjpgsWSKTVY3wmUww2GXiq6b-8ME/rs:fit/g:sm/q:90/h:568/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyODY3/MTU5LTE3NjUwMjk5/NTQtNzEzOC5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1749,
+      "title": "Out From Out Where",
+      "artists": [
+        "Amon Tobin"
+      ],
+      "composers": [],
+      "year": 2002,
+      "recorded": null,
+      "genres": [
+        "Breakbeat",
+        "Drum and Bass"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0e/Amon_Tobin-Out_From_Out_Where.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1748,
+      "title": "Supermodified",
+      "artists": [
+        "Amon Tobin"
+      ],
+      "composers": [],
+      "year": 2000,
+      "recorded": null,
+      "genres": [
+        "Breakbeat",
+        "Downtempo",
+        "Future Jazz",
+        "Drum and Bass",
+        "Idm"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/af/Amon_Tobin-Supermodified.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1747,
+      "title": "Permutation",
+      "artists": [
+        "Amon Tobin"
+      ],
+      "composers": [],
+      "year": 1998,
+      "recorded": null,
+      "genres": [
+        "Drum and Bass",
+        "Idm"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e9/Amon_Tobin-Permutation.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1746,
+      "title": "Bricolage",
+      "artists": [
+        "Amon Tobin"
+      ],
+      "composers": [],
+      "year": 1997,
+      "recorded": null,
+      "genres": [
+        "Drum and Bass",
+        "Jazz",
+        "Trip Hop"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/eb/Amon_Tobin-Bricolage.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1745,
+      "title": "Os Mutantes",
+      "artists": [
+        "Os Mutantes"
+      ],
+      "composers": [],
+      "year": 1968,
+      "recorded": null,
+      "genres": [
+        "Tropicália",
+        "Psychedelic Pop",
+        "Psychedelic Rock"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/26/Os_Mutantes_album.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1744,
+      "title": "Milton",
+      "artists": [
+        "Milton Nascimento"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Mpb"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/1e/Milton_A%26M_1976.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1743,
+      "title": "Geraes",
+      "artists": [
+        "Milton Nascimento"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Mpb"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/1f/Geraes_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1742,
+      "title": "Milagre Dos Peixes",
+      "artists": [
+        "Milton Nascimento"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Mpb"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2f/Milagre_dos_peixes.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1741,
+      "title": "Milton",
+      "artists": [
+        "Milton Nascimento"
+      ],
+      "composers": [],
+      "year": 1970,
+      "recorded": null,
+      "genres": [
+        "Mpb",
+        "Jazz",
+        "Psychedelic Rock",
+        "Progressive Rock"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6b/Milton_%281970%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1740,
+      "title": "Minas",
+      "artists": [
+        "Milton Nascimento"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": null,
+      "genres": [
+        "Mpb"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/66/Milton_Nascimento_-_Minas_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1739,
+      "title": "The Astrud Gilberto Album",
+      "artists": [
+        "Astrud Gilberto"
+      ],
+      "composers": [],
+      "year": 1965,
+      "recorded": null,
+      "genres": [
+        "Bossa Nova"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e3/The_Astrud_Gilberto_Album.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1738,
+      "title": "The Mouse and the Mask",
+      "artists": [
+        "Danger Doom"
+      ],
+      "composers": [],
+      "year": 2005,
+      "recorded": null,
+      "genres": [
+        "Underground hip-hop"
+      ],
+      "countries": [
+        "États-unis",
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/1e/Dangerdoom.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1737,
+      "title": "Madvillainy",
+      "artists": [
+        "Madvillainy"
+      ],
+      "composers": [],
+      "year": 2004,
+      "recorded": null,
+      "genres": [
+        "Alternative Hip-hop",
+        "Jazz Rap",
+        "Experimental Hip-hop",
+        "Psychedelic Rap",
+        "Abstract Hip-hop",
+        "Lofi",
+        "Hip-hop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/5e/Madvillainy_cover.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1736,
+      "title": "Mm..food",
+      "artists": [
+        "Mf Doom"
+      ],
+      "composers": [],
+      "year": 2004,
+      "recorded": null,
+      "genres": [
+        "Alternative hip-hop"
+      ],
+      "countries": [
+        "États-unis",
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Mmfood.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1735,
+      "title": "Vaudeville Villain",
+      "artists": [
+        "Mf Doom"
+      ],
+      "composers": [],
+      "year": 2003,
+      "recorded": null,
+      "genres": [
+        "Underground hip-hop"
+      ],
+      "countries": [
+        "États-unis",
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/48/Vaudevillevillain.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1734,
+      "title": "Operation: Doomsday",
+      "artists": [
+        "Mf Doom"
+      ],
+      "composers": [],
+      "year": 1999,
+      "recorded": null,
+      "genres": [
+        "Underground hip-hop",
+        "Alternative hip-hop",
+        "Lo-fi",
+        "Hip-hop",
+        "Jazz rap"
+      ],
+      "countries": [
+        "États-unis",
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/03/MF-DOOM-Operation.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1733,
+      "title": "Art Millenium",
+      "artists": [
+        "Elabjer"
+      ],
+      "composers": [],
+      "year": 1999,
+      "recorded": null,
+      "genres": [
+        "Jungle",
+        "Drum n bass",
+        "Trip hop",
+        "Breakbeat"
+      ],
+      "countries": [
+        "Slovénie"
+      ],
+      "cover": "https://i.discogs.com/bUpje8GHm8n00e0Fyah0uAzq_qjeB6A7j__nwfCOnzI/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMzM2/OTIxLTE3MjIxNDE3/MTEtMjkwMi5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1732,
+      "title": "Roots",
+      "artists": [
+        "Sepultura"
+      ],
+      "composers": [],
+      "year": 1996,
+      "recorded": null,
+      "genres": [
+        "Groove metal",
+        "Nu metal"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/cf/Sepultura_-_Roots.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
       "id": 1731,
       "title": "João Gilberto",
       "artists": [
@@ -3244,7 +4001,7 @@
       "recorded": null,
       "genres": [
         "Folk rock",
-        "Country rock["
+        "Country rock"
       ],
       "countries": [
         "États-unis"
@@ -4396,7 +5153,7 @@
         "Avant-garde metal",
         "Post-metal",
         "Chamber rock",
-        "Black metal["
+        "Black metal"
       ],
       "countries": [
         "États-unis"
@@ -9143,7 +9900,7 @@
         "Progressive rock",
         "Hard rock",
         "Jazz fusion",
-        "Folk rock["
+        "Folk rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -12732,7 +13489,8 @@
       "recorded": null,
       "genres": [
         "Lo-fi",
-        "Psychedelia[4][5]avant-garde",
+        "Psychedelia",
+        "Avant-garde",
         "Bedroom pop",
         "Minimal"
       ],
@@ -19904,7 +20662,8 @@
       "year": 1985,
       "recorded": null,
       "genres": [
-        "Thrash metal[2]black metal",
+        "Thrash metal",
+        "Black metal",
         "Doom metal",
         "Death metal"
       ],
