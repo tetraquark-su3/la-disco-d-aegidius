@@ -6,6 +6,1304 @@
   },
   "albums": [
     {
+      "id": 1832,
+      "title": "Jupiter",
+      "artists": [
+        "Cave-in"
+      ],
+      "composers": [],
+      "year": 2000,
+      "recorded": null,
+      "genres": [
+        "Alternative Rock",
+        "Space Rock",
+        "]progressive Rock",
+        "Post-hardcore"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/13/Jupiter_%28Cave_In_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1831,
+      "title": "Metaphysics: the Lost Atlantic Album",
+      "artists": [
+        "Hasaan Ibn Ali"
+      ],
+      "composers": [],
+      "year": 2021,
+      "recorded": "1965",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/29/Metaphysics_The_Lost_Atlantic_Album.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1830,
+      "title": "The Max Roach Trio Featuring the Legendary Hasaan",
+      "artists": [
+        "Max Roach Trio"
+      ],
+      "composers": [],
+      "year": 1965,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/01/The_Max_Roach_Trio_featuring_the_Legendary_Hasaan.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1829,
+      "title": "The (complete) Session – Recorded in London With Great Guest Artists",
+      "artists": [
+        "Jerry Lee Lewis"
+      ],
+      "composers": [],
+      "year": 2006,
+      "recorded": "1973",
+      "genres": [
+        "Rock and Roll"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6d/The_%28Complete%29_Session_-_Recorded_in_London_with_Great_Artists.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1828,
+      "title": "Last Man Standing",
+      "artists": [
+        "Jerry Lee Lewis"
+      ],
+      "composers": [],
+      "year": 2006,
+      "recorded": null,
+      "genres": [
+        "Rock and Roll"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c4/Last_Man_Standing_%28Jerry_Lee_Lewis_album%29_coverart.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1827,
+      "title": "Live at the Star Club, Hamburg",
+      "artists": [
+        "Jerry Lee Lewis"
+      ],
+      "composers": [],
+      "year": 1964,
+      "recorded": null,
+      "genres": [
+        "Rock and Roll"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b4/Live_at_the_Star_Club%2C_Hamburg.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1826,
+      "title": "The Great Twenty-eight",
+      "artists": [
+        "Chuck Berry"
+      ],
+      "composers": [],
+      "year": 1982,
+      "recorded": null,
+      "genres": [
+        "Rock and Roll"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4c/ChuckBerry_TheGreatTwentyEight.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1825,
+      "title": "St. Louis to Liverpool",
+      "artists": [
+        "Chuck Berry"
+      ],
+      "composers": [],
+      "year": 1964,
+      "recorded": null,
+      "genres": [
+        "Rock and Roll"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e1/Chuck_Berry_-_St._Louis_To_Liverpool.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1824,
+      "title": "Berry is on Top",
+      "artists": [
+        "Chuck Berry"
+      ],
+      "composers": [],
+      "year": 1959,
+      "recorded": null,
+      "genres": [
+        "Rock and Roll"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/3d/Chuck_Berry_Is_on_Top_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1823,
+      "title": "One Dozen Berrys",
+      "artists": [
+        "Chuck Berry"
+      ],
+      "composers": [],
+      "year": 1958,
+      "recorded": null,
+      "genres": [
+        "Rock and Roll"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2f/Chuck_Berry_-_One_Dozen_Berry%27s.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1822,
+      "title": "After School Session",
+      "artists": [
+        "Chuck Berry"
+      ],
+      "composers": [],
+      "year": 1957,
+      "recorded": null,
+      "genres": [
+        "Rock and Roll"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/28/Chuck_Berry_-_After_School_Session.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1821,
+      "title": "The London Muddy Waters Sessions",
+      "artists": [
+        "Muddy Waters"
+      ],
+      "composers": [],
+      "year": 1972,
+      "recorded": null,
+      "genres": [
+        "Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/23/The-London-Muddy-Waters-Sessions.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1820,
+      "title": "The London Howlin' Wolf Sessions",
+      "artists": [
+        "Howlin' Wolf"
+      ],
+      "composers": [],
+      "year": 1971,
+      "recorded": null,
+      "genres": [
+        "Chicago Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6d/The_London_Howlin%27_Wolf_Sessions.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1819,
+      "title": "The Best of Muddy Waters",
+      "artists": [
+        "Muddy Waters"
+      ],
+      "composers": [],
+      "year": 1958,
+      "recorded": "1948-1954",
+      "genres": [
+        "Chicago Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/51/Best_of_Muddy_Waters_1958_Chess_Records.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1818,
+      "title": "Muddy Waters Sings \"big Bill\"",
+      "artists": [
+        "Muddy Waters"
+      ],
+      "composers": [],
+      "year": 1960,
+      "recorded": null,
+      "genres": [
+        "Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b3/Muddy_Waters_Sings_Big_Bill.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1817,
+      "title": "Muddy \"mississippi\" Waters – Live",
+      "artists": [
+        "Muddy Waters"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Electric Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/21/Muddy_mississippi_waters.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1816,
+      "title": "At Newport 1960",
+      "artists": [
+        "Muddy Waters"
+      ],
+      "composers": [],
+      "year": 1960,
+      "recorded": null,
+      "genres": [
+        "Chicago Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/af/Muddywatersnewport.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1815,
+      "title": "Hard Again",
+      "artists": [
+        "Muddy Waters"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Chicago Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/ee/Hard_Again_LP%2C_Muddy_Waters.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1814,
+      "title": "Fathers and Sons",
+      "artists": [
+        "Muddy Waters"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Chicago Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/71/Fathers_and_Sons_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1813,
+      "title": "Folk Singer",
+      "artists": [
+        "Muddy Waters"
+      ],
+      "composers": [],
+      "year": 1964,
+      "recorded": null,
+      "genres": [
+        "Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/98/Muddywatersfolksinger.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1812,
+      "title": "More Real Folk Blues",
+      "artists": [
+        "Howlin' Wolf"
+      ],
+      "composers": [],
+      "year": 1967,
+      "recorded": "1953-1956",
+      "genres": [
+        "Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/cb/More_Real_Folk_Blues_%28Howlin%27_Wolf_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1811,
+      "title": "Live and Cookin'",
+      "artists": [
+        "Howlin' Wolf"
+      ],
+      "composers": [],
+      "year": 1972,
+      "recorded": null,
+      "genres": [
+        "Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/be/Live_and_Cookin%27.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1810,
+      "title": "Howling Wolf Sings the Blues",
+      "artists": [
+        "Howlin' Wolf"
+      ],
+      "composers": [],
+      "year": 1962,
+      "recorded": "1951-1952",
+      "genres": [
+        "Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/3f/Howling_Wolf_Sings_the_Blues.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1809,
+      "title": "The Real Folk Blues",
+      "artists": [
+        "Howlin' Wolf"
+      ],
+      "composers": [],
+      "year": 1965,
+      "recorded": null,
+      "genres": [
+        "Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/95/The_Real_Folk_Blues_%28Howlin%27_Wolf_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1808,
+      "title": "Howlin' Wolf",
+      "artists": [
+        "Howlin' Wolf"
+      ],
+      "composers": [],
+      "year": 1962,
+      "recorded": null,
+      "genres": [
+        "Chicago Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/10/HowlinWolfRockinChair.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1807,
+      "title": "Moanin' in the Moonlight",
+      "artists": [
+        "Howlin' Wolf"
+      ],
+      "composers": [],
+      "year": 1959,
+      "recorded": null,
+      "genres": [
+        "Chicago Blues",
+        "Electric Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/Howlin%27_Wolf_Moanin%27_in_the_Moonlight.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1806,
+      "title": "Trouble in Mind",
+      "artists": [
+        "Big Bill Broonzy"
+      ],
+      "composers": [],
+      "year": 2000,
+      "recorded": "1956-1957",
+      "genres": [
+        "Country Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f1/Trouble_in_Mind_2000_album.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1805,
+      "title": "In-a-gadda-da-vida",
+      "artists": [
+        "Iron Butterfly"
+      ],
+      "composers": [],
+      "year": 1968,
+      "recorded": null,
+      "genres": [
+        "Acid Rock",
+        "Psychedelic Rock",
+        "Hard Rock",
+        "Proto-metal"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/07/In-A-Gadda-Da-Vida.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1804,
+      "title": "S.u.s.a.r.",
+      "artists": [
+        "Indukti"
+      ],
+      "composers": [],
+      "year": 2004,
+      "recorded": null,
+      "genres": [
+        "Progressive Metal"
+      ],
+      "countries": [
+        "Pologne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/85/Indukti_-_SUSAR.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1803,
+      "title": "Empire",
+      "artists": [
+        "Kasabian"
+      ],
+      "composers": [],
+      "year": 2006,
+      "recorded": null,
+      "genres": [
+        "Indie Rock",
+        "Psychedelic Rock",
+        "Electronic Rock",
+        "Glam Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b9/Kasabian_-_Empire.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1802,
+      "title": "Kasabian",
+      "artists": [
+        "Kasabian"
+      ],
+      "composers": [],
+      "year": 2004,
+      "recorded": null,
+      "genres": [
+        "Electronic Rock",
+        "Space Rock",
+        "Alternative Rock",
+        "Baggy"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/54/Kasabian-album.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1801,
+      "title": "K",
+      "artists": [
+        "Kula Shaker"
+      ],
+      "composers": [],
+      "year": 1996,
+      "recorded": null,
+      "genres": [
+        "Psychedelic Rock",
+        "Raga Rock",
+        "Britpop"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/1b/KulaShaker_K.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1800,
+      "title": "Yanqui U.x.o.",
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "composers": [],
+      "year": 2002,
+      "recorded": null,
+      "genres": [
+        "Post-rock"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2b/Gybeyanquiuxo.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1799,
+      "title": "Lift Your Skinny Fists Like Antennas to Heaven",
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "composers": [],
+      "year": 2000,
+      "recorded": null,
+      "genres": [
+        "Post-rock"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/19/Lift_Your_Skinny_Fists_like_Antennas_to_Heaven_original_cover.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1798,
+      "title": "Forever Howlong",
+      "artists": [
+        "Black Country",
+        "New Road"
+      ],
+      "composers": [],
+      "year": 2025,
+      "recorded": null,
+      "genres": [
+        "Alternative Rock",
+        "Indie Rock",
+        "Progressive Folk",
+        "Baroque Pop"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/89/Forever_Howlong_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1797,
+      "title": "Ants From up There",
+      "artists": [
+        "Black Country",
+        "New Road"
+      ],
+      "composers": [],
+      "year": 2022,
+      "recorded": null,
+      "genres": [
+        "Indie Rock",
+        "Chamber Pop",
+        "Post-rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d7/Ants_from_Up_There_-_Black_Country%2C_New_Road.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1796,
+      "title": "For the First Time",
+      "artists": [
+        "Black Country",
+        "New Road"
+      ],
+      "composers": [],
+      "year": 2021,
+      "recorded": null,
+      "genres": [
+        "Experimental Rock",
+        "Post-punk",
+        "Math Rock",
+        "Post-rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/For_the_First_Time_Black_Country_New_Road_album_cover.png/250px-For_the_First_Time_Black_Country_New_Road_album_cover.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1795,
+      "title": "Hellfire",
+      "artists": [
+        "Black Midi"
+      ],
+      "composers": [],
+      "year": 2022,
+      "recorded": null,
+      "genres": [
+        "Experimental Rock",
+        "Progressive Rock",
+        "Jazz Fusion",
+        "Post-punk",
+        "Avant-prog",
+        "Brutal Prog"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/12/Black_Midi_-_Hellfire.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1794,
+      "title": "Cavalcade",
+      "artists": [
+        "Black Midi"
+      ],
+      "composers": [],
+      "year": 2021,
+      "recorded": null,
+      "genres": [
+        "Progressive Rock",
+        "Experimental Rock",
+        "Jazz Fusion",
+        "Math Rock",
+        "Avant-prog",
+        "Post-punk",
+        "Brutal Prog"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/da/Black_Midi_-_Cavalcade_cover_art.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1793,
+      "title": "O Monolith",
+      "artists": [
+        "Squid"
+      ],
+      "composers": [],
+      "year": 2023,
+      "recorded": null,
+      "genres": [
+        "Post-punk",
+        "Art Punk"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7b/Squid_-_O_Monolith.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1792,
+      "title": "Cowards",
+      "artists": [
+        "Squid"
+      ],
+      "composers": [],
+      "year": 2025,
+      "recorded": null,
+      "genres": [
+        "Post-rock",
+        "Art Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/11/Squid_-_Cowards.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1791,
+      "title": "Bright Green Field",
+      "artists": [
+        "Squid"
+      ],
+      "composers": [],
+      "year": 2021,
+      "recorded": null,
+      "genres": [
+        "Post-punk",
+        "Krautrock",
+        "New Wave"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/3f/Bright_Green_Field_-_Squid.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1790,
+      "title": "Brighter Than a Thousand Suns",
+      "artists": [
+        "Killing Joke"
+      ],
+      "composers": [],
+      "year": 1986,
+      "recorded": null,
+      "genres": [
+        "Post-punk",
+        "Gothic Rock",
+        "New Wave"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/00/Killing_Joke_Brighter_Than_A_Thousand_Suns_Cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1789,
+      "title": "Absolute Dissent",
+      "artists": [
+        "Killing Joke"
+      ],
+      "composers": [],
+      "year": 2010,
+      "recorded": null,
+      "genres": [
+        "Post-punk",
+        "Industrial Rock",
+        "Industrial Metal"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d4/Absolute_Dissent_2010_Cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1788,
+      "title": "Hosannas From the Basements of Hell",
+      "artists": [
+        "Killing Joke"
+      ],
+      "composers": [],
+      "year": 2006,
+      "recorded": null,
+      "genres": [
+        "Industrial Metal",
+        "Post-punk"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/59/Hosannas_from_the_Basements_of_Hell.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1787,
+      "title": "Extremities, Dirt and Various Repressed Emotions",
+      "artists": [
+        "Killing Joke"
+      ],
+      "composers": [],
+      "year": 1990,
+      "recorded": null,
+      "genres": [
+        "Industrial Rock",
+        "Post-punk",
+        "Industrial Metal",
+        "Gothic Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d2/Killing_scene_Extremeties_Dirt_%26_Various_Repressed_Emotions.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1786,
+      "title": "Pandemonium",
+      "artists": [
+        "Killing Joke"
+      ],
+      "composers": [],
+      "year": 1994,
+      "recorded": null,
+      "genres": [
+        "Industrial Metal",
+        "Post-punk"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/fc/Killing_Joke_-_Pandemonium.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1785,
+      "title": "Revelations",
+      "artists": [
+        "Killing Joke"
+      ],
+      "composers": [],
+      "year": 1982,
+      "recorded": null,
+      "genres": [
+        "Post-punk",
+        "Industrial Rock",
+        "Gothic Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/ef/Killing_Joke_-_Revelations-cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1784,
+      "title": "Fire Dances",
+      "artists": [
+        "Killing Joke"
+      ],
+      "composers": [],
+      "year": 1983,
+      "recorded": null,
+      "genres": [
+        "Post-punk",
+        "Gothic Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bc/Fire_Dances_Killing_Joke.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1783,
+      "title": "Night Time",
+      "artists": [
+        "Killing Joke"
+      ],
+      "composers": [],
+      "year": 1985,
+      "recorded": null,
+      "genres": [
+        "Gothic Rock",
+        "Post-punk"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/17/Killing_Joke_night_time.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1782,
+      "title": "What's This For...!",
+      "artists": [
+        "Killing Joke"
+      ],
+      "composers": [],
+      "year": 1981,
+      "recorded": null,
+      "genres": [
+        "Post-punk",
+        "Industrial Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/1f/Whats_this_for...%21.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1781,
+      "title": "Killing Joke",
+      "artists": [
+        "Killing Joke"
+      ],
+      "composers": [],
+      "year": 1980,
+      "recorded": null,
+      "genres": [
+        "Post-punk",
+        "Industrial Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/01/Killing_Joke_album.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1780,
+      "title": "The Raven",
+      "artists": [
+        "The Stranglers"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Post-punk",
+        "New Wave"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e1/Stranglers_-_The_Raven_album_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1779,
+      "title": "Black and White",
+      "artists": [
+        "The Stranglers"
+      ],
+      "composers": [],
+      "year": 1978,
+      "recorded": null,
+      "genres": [
+        "Post-punk",
+        "Punk Rock",
+        "New Wave",
+        "Art Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/cb/Stranglers_-_Black-White_album_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1778,
+      "title": "No More Heroes",
+      "artists": [
+        "The Stranglers"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Punk Rock",
+        "New Wave",
+        "Art Punk"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f6/Stranglers_-_No_More_Heroes_album_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1777,
+      "title": "Rattus Norvegicus",
+      "artists": [
+        "The Stranglers"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Punk Rock",
+        "New Wave",
+        "Pub Rock",
+        "Art Punk"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/eb/Stranglers_-_Rattus_Norvegicus_album_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1776,
+      "title": "Damned Damned Damned",
+      "artists": [
+        "The Damned"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Punk Rock",
+        "Garage Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/9d/Damned_-_Damned_damned_damned_album_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1775,
+      "title": "Machine Gun Etiquette",
+      "artists": [
+        "The Damned"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Punk Rock",
+        "New Wave",
+        "Proto-hardcore",
+        "Neo-psychedelia"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/14/Damned_machine_gun_etiquette.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1774,
+      "title": "Phantasmagoria",
+      "artists": [
+        "The Damned"
+      ],
+      "composers": [],
+      "year": 1985,
+      "recorded": null,
+      "genres": [
+        "Gothic Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f4/Phantasmagoria.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1773,
+      "title": "Strawberries",
+      "artists": [
+        "The Damned"
+      ],
+      "composers": [],
+      "year": 1982,
+      "recorded": null,
+      "genres": [
+        "Punk Rock",
+        "Gothic Rock",
+        "Psychedelic Pop"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/40/Damned_Strawberries_Cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1772,
+      "title": "The Black Album",
+      "artists": [
+        "The Damned"
+      ],
+      "composers": [],
+      "year": 1980,
+      "recorded": null,
+      "genres": [
+        "Gothic Rock",
+        "Punk Rock",
+        "Psychedelia"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/84/Thedamnedblackalbum.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1771,
+      "title": "Introducing...rubén González",
+      "artists": [
+        "Rubén González"
+      ],
+      "composers": [],
+      "year": 1997,
+      "recorded": null,
+      "genres": [
+        "Danzón",
+        "Cha-cha-chá",
+        "Canción",
+        "Guaracha",
+        "Son",
+        "Bolero"
+      ],
+      "countries": [
+        "Cuba"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/12/Rub%C3%A9ngonz%C3%A1lez.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1770,
+      "title": "Looking at the Earth",
+      "artists": [
+        "Gunesh"
+      ],
+      "composers": [],
+      "year": 1984,
+      "recorded": null,
+      "genres": [
+        "Jazz-fusion",
+        "Progressive Rock",
+        "Folk"
+      ],
+      "countries": [
+        "Turkménistan"
+      ],
+      "cover": "https://i.discogs.com/yuQ9hlOO5QTBhkt-i9ybvwavVyFIfAffKJC1omSPoSM/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzcw/NDI3LTE1NjA3NDQ2/MDktNDkxMi5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1769,
+      "title": "Live in Amsterdam",
+      "artists": [
+        "Beth Hart",
+        "Joe Bonamassa"
+      ],
+      "composers": [],
+      "year": 2014,
+      "recorded": null,
+      "genres": [
+        "Blues-rock",
+        "Soul"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "",
+      "yt": "",
+      "rating": ""
+    },
+    {
       "id": 1768,
       "title": "Gunesh",
       "artists": [
@@ -56,7 +1354,7 @@
       "recorded": null,
       "genres": [
         "Blues-rock",
-        "Hard Rock"
+        "Hard rock"
       ],
       "countries": [
         "États-unis"
@@ -190,7 +1488,7 @@
       "recorded": null,
       "genres": [
         "Blues-rock",
-        "Hard Rock"
+        "Hard rock"
       ],
       "countries": [
         "États-unis"
@@ -228,7 +1526,7 @@
       "year": 1969,
       "recorded": null,
       "genres": [
-        "Electric Blues"
+        "Electric blues"
       ],
       "countries": [
         "États-unis"
@@ -247,7 +1545,7 @@
       "year": 1967,
       "recorded": null,
       "genres": [
-        "Chicago Blues"
+        "Chicago blues"
       ],
       "countries": [
         "États-unis"
@@ -285,13 +1583,13 @@
       "year": 2024,
       "recorded": null,
       "genres": [
-        "Atmospheric Black Metal",
-        "Black Metal",
-        "Death Metal",
-        "Post Black Metal",
-        "Melodic Death Metal",
-        "Doom Metal",
-        "War Metal"
+        "Atmospheric black metal",
+        "Black metal",
+        "Death metal",
+        "Post black metal",
+        "Melodic death metal",
+        "Doom metal",
+        "War metal"
       ],
       "countries": [
         "Allemagne"
@@ -310,13 +1608,13 @@
       "year": 2026,
       "recorded": null,
       "genres": [
-        "Atmospheric Black Metal",
-        "Black Metal",
-        "Death Metal",
-        "Post Black Metal",
-        "Melodic Death Metal",
-        "Doom Metal",
-        "War Metal"
+        "Atmospheric black metal",
+        "Black metal",
+        "Death metal",
+        "Post black metal",
+        "Melodic death metal",
+        "Doom metal",
+        "War metal"
       ],
       "countries": [
         "Allemagne"
@@ -335,13 +1633,13 @@
       "year": 2021,
       "recorded": null,
       "genres": [
-        "Atmospheric Black Metal",
-        "Black Metal",
-        "Death Metal",
-        "Post Black Metal",
-        "Melodic Death Metal",
-        "Doom Metal",
-        "War Metal"
+        "Atmospheric black metal",
+        "Black metal",
+        "Death metal",
+        "Post black metal",
+        "Melodic death metal",
+        "Doom metal",
+        "War metal"
       ],
       "countries": [
         "Allemagne"
@@ -360,7 +1658,7 @@
       "year": 1985,
       "recorded": null,
       "genres": [
-        "New Wave",
+        "New wave",
         "Darkwave"
       ],
       "countries": [
@@ -380,7 +1678,7 @@
       "year": 2010,
       "recorded": "1929-1934",
       "genres": [
-        "Delta Blues"
+        "Delta blues"
       ],
       "countries": [
         "États-unis"
@@ -400,7 +1698,7 @@
       "recorded": null,
       "genres": [
         "Breakbeat",
-        "Drum and Bass"
+        "Drum and bass"
       ],
       "countries": [
         "Brésil"
@@ -421,8 +1719,8 @@
       "genres": [
         "Breakbeat",
         "Downtempo",
-        "Future Jazz",
-        "Drum and Bass",
+        "Future jazz",
+        "Drum and bass",
         "Idm"
       ],
       "countries": [
@@ -442,7 +1740,7 @@
       "year": 1998,
       "recorded": null,
       "genres": [
-        "Drum and Bass",
+        "Drum and bass",
         "Idm"
       ],
       "countries": [
@@ -462,9 +1760,9 @@
       "year": 1997,
       "recorded": null,
       "genres": [
-        "Drum and Bass",
+        "Drum and bass",
         "Jazz",
-        "Trip Hop"
+        "Trip hop"
       ],
       "countries": [
         "Brésil"
@@ -484,8 +1782,8 @@
       "recorded": null,
       "genres": [
         "Tropicália",
-        "Psychedelic Pop",
-        "Psychedelic Rock"
+        "Psychedelic pop",
+        "Psychedelic rock"
       ],
       "countries": [
         "Brésil"
@@ -563,8 +1861,8 @@
       "genres": [
         "Mpb",
         "Jazz",
-        "Psychedelic Rock",
-        "Progressive Rock"
+        "Psychedelic rock",
+        "Progressive rock"
       ],
       "countries": [
         "Brésil"
@@ -602,7 +1900,7 @@
       "year": 1965,
       "recorded": null,
       "genres": [
-        "Bossa Nova"
+        "Bossa nova"
       ],
       "countries": [
         "Brésil"
@@ -641,11 +1939,11 @@
       "year": 2004,
       "recorded": null,
       "genres": [
-        "Alternative Hip-hop",
-        "Jazz Rap",
-        "Experimental Hip-hop",
-        "Psychedelic Rap",
-        "Abstract Hip-hop",
+        "Alternative hip-hop",
+        "Jazz rap",
+        "Experimental hip-hop",
+        "Psychedelic rap",
+        "Abstract hip-hop",
         "Lofi",
         "Hip-hop"
       ],
@@ -13160,7 +14458,9 @@
       "year": 2013,
       "recorded": null,
       "genres": [
-        "Darkthrone"
+        "Heavy Metal",
+        "Speed Metal",
+        "Thrash Metal"
       ],
       "countries": [
         "Norvège"
@@ -17163,7 +18463,11 @@
       "year": 2014,
       "recorded": null,
       "genres": [
-        "Electronic mallsoft plunderphonics post-internet sound collage",
+        "Electronic",
+        "Mallsoft",
+        "Plunderphonics",
+        "Post-internet",
+        "Sound Collage",
         "Vaporwave"
       ],
       "countries": [
@@ -17183,7 +18487,11 @@
       "year": 2016,
       "recorded": null,
       "genres": [
-        "Electronic mallsoft plunderphonics post-internet sound collage",
+        "Electronic",
+        "Mallsoft",
+        "Plunderphonics",
+        "Post-internet",
+        "Sound Collage",
         "Vaporwave"
       ],
       "countries": [
@@ -19292,7 +20600,7 @@
       "recorded": null,
       "genres": [
         "Rock",
-        "Had rock"
+        "Hard Rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -26758,7 +28066,8 @@
       "year": 1974,
       "recorded": null,
       "genres": [
-        "Hard rockglam rock"
+        "Hard Rock",
+        "Glam Rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -27771,11 +29080,11 @@
       "year": 1967,
       "recorded": null,
       "genres": [
-        "Art rock",
-        "Proto-pun",
-        "Kexperimental rock",
+        "Art Rock",
+        "Proto-punk",
+        "Experimental Rock",
         "Avant-pop",
-        "Garage rock"
+        "Garage Rock"
       ],
       "countries": [
         "États-unis",
@@ -28790,7 +30099,7 @@
       "year": 1976,
       "recorded": null,
       "genres": [
-        "Van der graaf generator"
+        "Progressive Rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -29273,9 +30582,10 @@
       "year": 2016,
       "recorded": null,
       "genres": [
-        "Progressive metalgroove metal",
+        "Progressive Metal",
+        "Groove Metal",
         "Post-metal",
-        "Experimental metal"
+        "Experimental Metal"
       ],
       "countries": [
         "France"
