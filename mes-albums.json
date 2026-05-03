@@ -2,7 +2,7 @@
   "_composerDict": {
     "Gustav Mahler": "Allemagne",
     "Ludwig Van Beethoven": "Allemagne",
-    "Antonio Vivaldi": "italie"
+    "Antonio Vivaldi": "Italie"
   },
   "albums": [
     {
@@ -15,7 +15,7 @@
       "year": 1973,
       "recorded": null,
       "genres": [
-        "Bossa Nova"
+        "Bossa nova"
       ],
       "countries": [
         "Brésil"
@@ -36,7 +36,7 @@
       "recorded": null,
       "genres": [
         "Jazz",
-        "Bossa Nova"
+        "Bossa nova"
       ],
       "countries": [
         "États-unis",
@@ -56,7 +56,7 @@
       "year": 1960,
       "recorded": null,
       "genres": [
-        "Bossa Nova"
+        "Bossa nova"
       ],
       "countries": [
         "Brésil"
@@ -75,7 +75,7 @@
       "year": 1959,
       "recorded": null,
       "genres": [
-        "Bossa Nova",
+        "Bossa nova",
         "Samba",
         "Jazz"
       ],
@@ -98,7 +98,7 @@
       "recorded": null,
       "genres": [
         "Mpb",
-        "Baroque Pop",
+        "Baroque pop",
         "Folk",
         "Jazz",
         "Pop"
@@ -197,9 +197,9 @@
       "year": 1976,
       "recorded": null,
       "genres": [
-        "Bossa Nova",
+        "Bossa nova",
         "Jazz",
-        "Classical Music"
+        "Classical music"
       ],
       "countries": [
         "Brésil"
@@ -219,7 +219,7 @@
       "year": 1974,
       "recorded": null,
       "genres": [
-        "Bossa Nova"
+        "Bossa nova"
       ],
       "countries": [
         "Brésil"
@@ -239,7 +239,7 @@
       "recorded": null,
       "genres": [
         "Jazz",
-        "Bossa Nova"
+        "Bossa nova"
       ],
       "countries": [
         "Brésil"
@@ -259,7 +259,7 @@
       "recorded": null,
       "genres": [
         "Jazz",
-        "Bossa Nova"
+        "Bossa nova"
       ],
       "countries": [
         "Brésil"
@@ -278,8 +278,8 @@
       "year": 1965,
       "recorded": null,
       "genres": [
-        "Latin Jazz",
-        "Bossa Nova"
+        "Latin jazz",
+        "Bossa nova"
       ],
       "countries": [
         "Brésil"
@@ -299,7 +299,7 @@
       "recorded": null,
       "genres": [
         "Mpb",
-        "Latin Music"
+        "Latin music"
       ],
       "countries": [
         "Brésil"
@@ -377,7 +377,7 @@
       "recorded": null,
       "genres": [
         "Mpb",
-        "Folk Music"
+        "Folk music"
       ],
       "countries": [
         "Brésil"
@@ -438,7 +438,7 @@
       "genres": [
         "Tropicália",
         "Mpb",
-        "Psychedelic Rock"
+        "Psychedelic rock"
       ],
       "countries": [
         "Brésil"
@@ -537,7 +537,7 @@
       "recorded": null,
       "genres": [
         "Mpb",
-        "Psychedelic Rock"
+        "Psychedelic rock"
       ],
       "countries": [
         "Brésil"
@@ -576,7 +576,7 @@
       "recorded": null,
       "genres": [
         "Tropicália",
-        "Psychedelic Rock"
+        "Psychedelic rock"
       ],
       "countries": [
         "Brésil"
@@ -596,9 +596,9 @@
       "recorded": null,
       "genres": [
         "Tropicália",
-        "Psychedelic Pop",
-        "Art Pop",
-        "Bossa Nova"
+        "Psychedelic pop",
+        "Art pop",
+        "Bossa nova"
       ],
       "countries": [
         "Brésil"
@@ -618,7 +618,7 @@
       "year": 1967,
       "recorded": null,
       "genres": [
-        "Bossa Nova",
+        "Bossa nova",
         "Mpb"
       ],
       "countries": [
@@ -644,7 +644,7 @@
       "recorded": null,
       "genres": [
         "Tropicália",
-        "Baroque Pop",
+        "Baroque pop",
         "Art-pop"
       ],
       "countries": [
@@ -668,7 +668,7 @@
       "recorded": null,
       "genres": [
         "Mpb",
-        "Bossa Nova"
+        "Bossa nova"
       ],
       "countries": [
         "Brésil"
@@ -687,7 +687,7 @@
       "year": 1977,
       "recorded": null,
       "genres": [
-        "Bossa Nova"
+        "Bossa nova"
       ],
       "countries": [
         "Brésil"
@@ -708,7 +708,7 @@
       "genres": [
         "Tropicália",
         "Mpb",
-        "Psychedelic Rock",
+        "Psychedelic rock",
         "Experimental"
       ],
       "countries": [
@@ -749,8 +749,8 @@
       "recorded": null,
       "genres": [
         "Mpb",
-        "Samba Rock",
-        "Samba Funk"
+        "Samba rock",
+        "Samba funk"
       ],
       "countries": [
         "Brésil"
@@ -790,7 +790,7 @@
       "year": 1972,
       "recorded": null,
       "genres": [
-        "Samba Rock",
+        "Samba rock",
         "Samba"
       ],
       "countries": [
@@ -810,7 +810,7 @@
       "year": 1969,
       "recorded": null,
       "genres": [
-        "Samba Rock",
+        "Samba rock",
         "Tropicália",
         "Psychedelia",
         "Soul"
@@ -832,8 +832,8 @@
       "year": 1967,
       "recorded": null,
       "genres": [
-        "Samba Rock",
-        "Jovem Guarda"
+        "Samba rock",
+        "Jovem guarda"
       ],
       "countries": [
         "Brésil"
