@@ -6,6 +6,5488 @@
   },
   "albums": [
     {
+      "id": 2105,
+      "title": "Georgian Microjamz",
+      "artists": [
+        "Giorgi Mikadze"
+      ],
+      "composers": [],
+      "year": 2020,
+      "recorded": null,
+      "genres": [
+        "Jazz",
+        "Folk",
+        "Jazz-rock",
+        "Microtonal Jazz"
+      ],
+      "countries": [
+        "Géorgie"
+      ],
+      "cover": "https://f4.bcbits.com/img/a2690245819_2.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2104,
+      "title": "Sand",
+      "artists": [
+        "Allan Holdsworth"
+      ],
+      "composers": [],
+      "year": 1987,
+      "recorded": null,
+      "genres": [
+        "Jazz Fusion"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/54/Allan_Holdsworth_-_1987_-_Sand.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2103,
+      "title": "Perpetual Burn",
+      "artists": [
+        "Jason Becker"
+      ],
+      "composers": [],
+      "year": 1988,
+      "recorded": null,
+      "genres": [
+        "Neoclassical Metal",
+        "Instrumental Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b4/PerpetualBurn.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2102,
+      "title": "Dragon's Kiss",
+      "artists": [
+        "Marty Friedman"
+      ],
+      "composers": [],
+      "year": 1988,
+      "recorded": null,
+      "genres": [
+        "Instrumental Rock",
+        "Neoclassical Metal"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4b/Dragonskiss.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2101,
+      "title": "Secrets",
+      "artists": [
+        "Allan Holdsworth"
+      ],
+      "composers": [],
+      "year": 1989,
+      "recorded": null,
+      "genres": [
+        "Jazz Fusion"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/ea/Allan_Holdsworth_-_1989_-_Secrets.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2100,
+      "title": "Hard Hat Area",
+      "artists": [
+        "Allan Holdsworth"
+      ],
+      "composers": [],
+      "year": 1993,
+      "recorded": null,
+      "genres": [
+        "Jazz Fusion"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bf/Allan_Holdsworth_-_Hard_Hat_Area_album_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2099,
+      "title": "Flat Tire: Music for a Non-existent Movie",
+      "artists": [
+        "Allan Holdsworth"
+      ],
+      "composers": [],
+      "year": 2001,
+      "recorded": null,
+      "genres": [
+        "Jazz Fusion"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/59/Allan_Holdsworth_-_2001_-_Flat_Tire.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2098,
+      "title": "The Sixteen Men of Tain",
+      "artists": [
+        "Allan Holdsworth"
+      ],
+      "composers": [],
+      "year": 2000,
+      "recorded": null,
+      "genres": [
+        "Jazz Fusion"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/3d/Allan_Holdsworth_-_1999_-_The_Sixteen_Men_of_Tain.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2097,
+      "title": "Then!",
+      "artists": [
+        "Allan Holdsworth"
+      ],
+      "composers": [],
+      "year": 2003,
+      "recorded": "1990",
+      "genres": [
+        "Jazz Fusion"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/cf/Allan_Holdsworth_-_2004_-_Then%21.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2096,
+      "title": "Metal Fatigue",
+      "artists": [
+        "Allan Holdsworth"
+      ],
+      "composers": [],
+      "year": 1985,
+      "recorded": null,
+      "genres": [
+        "Jazz Fusion"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/88/Allan_Holdsworth_-_1985_-_Metal_Fatigue_%28original%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2095,
+      "title": "I.o.u.",
+      "artists": [
+        "Allan Holdsworth"
+      ],
+      "composers": [],
+      "year": 1982,
+      "recorded": "1979",
+      "genres": [
+        "Jazz Fusion"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4c/Allan_Holdworth_-_1982_-_I.O.U..jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2094,
+      "title": "Live in Japan 1984",
+      "artists": [
+        "Allan Holdsworth"
+      ],
+      "composers": [],
+      "year": 2018,
+      "recorded": "1984",
+      "genres": [
+        "Jazz Fusion"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/37/Allan_Holdsworth_IOU_Live_in_Japan_1984.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2093,
+      "title": "Let's Dance",
+      "artists": [
+        "David Bowie"
+      ],
+      "composers": [],
+      "year": 1983,
+      "recorded": null,
+      "genres": [
+        "Post-disco",
+        "Dance-rock",
+        "New Wave",
+        "Dance-pop"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8d/David-bowie-lets-dance.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2092,
+      "title": "Scary Monsters (and Super Creeps)",
+      "artists": [
+        "David Bowie"
+      ],
+      "composers": [],
+      "year": 1980,
+      "recorded": null,
+      "genres": [
+        "Art Rock",
+        "New Wave",
+        "Post-punk"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0e/DavidBowieScaryMonstersCover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2091,
+      "title": "Stage",
+      "artists": [
+        "David Bowie"
+      ],
+      "composers": [],
+      "year": 2017,
+      "recorded": "1978",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e1/Stage_album_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2090,
+      "title": "Lodger",
+      "artists": [
+        "David Bowie"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Art Rock",
+        "Experimental Rock",
+        "Avant-popworld",
+        "New Wave"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/12/Bowie-lodger.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2089,
+      "title": "\"heroes\"",
+      "artists": [
+        "David Bowie"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Art Rock",
+        "Experimental Rock",
+        "Electronic",
+        "Ambient"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7b/David_Bowie_-_Heroes.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2088,
+      "title": "Low",
+      "artists": [
+        "David Bowie"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Art Rock",
+        "Avant-pop",
+        "Electronic",
+        "Ambient",
+        "Experimental Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/93/Low_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2087,
+      "title": "Station to Station",
+      "artists": [
+        "David Bowie"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Art Rock",
+        "Funk",
+        "R&b"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/97/Station_to_Station_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2086,
+      "title": "Young Americans",
+      "artists": [
+        "David Bowie"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": null,
+      "genres": [
+        "Blue-eyed",
+        "Soul",
+        "R&b",
+        "Funk"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b5/Young_americans.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2085,
+      "title": "Aladdin Sane",
+      "artists": [
+        "David Bowie"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Glam Rock",
+        "Hard Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6e/DavisBowieAladdinSane.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2084,
+      "title": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+      "artists": [
+        "David Bowie"
+      ],
+      "composers": [],
+      "year": 1972,
+      "recorded": null,
+      "genres": [
+        "Glam Rock",
+        "Proto-punk"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/01/ZiggyStardust.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2083,
+      "title": "Hunky Dory",
+      "artists": [
+        "David Bowie"
+      ],
+      "composers": [],
+      "year": 1971,
+      "recorded": null,
+      "genres": [
+        "Art Rock",
+        "Pop Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/40/David_Bowie_-_Hunky_Dory.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2082,
+      "title": "The Man Who Sold the World",
+      "artists": [
+        "David Bowie"
+      ],
+      "composers": [],
+      "year": 1970,
+      "recorded": null,
+      "genres": [
+        "Hard Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/da/MWSTWUS2.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2081,
+      "title": "David Bowie",
+      "artists": [
+        "David Bowie"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Folk Rock",
+        "Psychedelic Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b9/DavidBowiePhilips.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2080,
+      "title": "Blackstar",
+      "artists": [
+        "David Bowie"
+      ],
+      "composers": [],
+      "year": 2016,
+      "recorded": null,
+      "genres": [
+        "Art Rock",
+        "Jazz Rock",
+        "Experimental Jazz",
+        "Experimental Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Blackstar_%28Front_Cover%29.svg/250px-Blackstar_%28Front_Cover%29.svg.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2079,
+      "title": "Gong Live Etc.",
+      "artists": [
+        "Gong"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": "1973-1975",
+      "genres": [
+        "Progressive Rock",
+        "Space Rock",
+        "Psychedelic Rock"
+      ],
+      "countries": [
+        "Royaume-uni",
+        "France"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a3/Gong_Gong_Live_Etc.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2078,
+      "title": "Downwind",
+      "artists": [
+        "Pierre Moerlen's Gong"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Jazz Fusion"
+      ],
+      "countries": [
+        "France"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/45/PMGongDownwind.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2077,
+      "title": "Expresso Ii",
+      "artists": [
+        "Gong"
+      ],
+      "composers": [],
+      "year": 1978,
+      "recorded": null,
+      "genres": [
+        "Jazz Rock"
+      ],
+      "countries": [
+        "Royaume-uni",
+        "France"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/3c/Gong.Expresso.II.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2076,
+      "title": "Gazeuse!",
+      "artists": [
+        "Gong"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Progressive Rock",
+        "Jazz Fusion"
+      ],
+      "countries": [
+        "Royaume-uni",
+        "France"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/60/Gong_-_Gazeuse%21.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2075,
+      "title": "Shamal",
+      "artists": [
+        "Gong"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Progressive Rock",
+        "Jazz Fusion"
+      ],
+      "countries": [
+        "Royaume-uni",
+        "France"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f2/Gong_Shamal.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2074,
+      "title": "You",
+      "artists": [
+        "Gong"
+      ],
+      "composers": [],
+      "year": 1974,
+      "recorded": null,
+      "genres": [
+        "Progressive Rock",
+        "Jazz Rock",
+        "Psychedelic Rock",
+        "Space Rock"
+      ],
+      "countries": [
+        "Royaume-uni",
+        "France"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/86/Gong_You_1974.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2073,
+      "title": "Angel's Egg",
+      "artists": [
+        "Gong"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Progressive Rock",
+        "Space Rock",
+        "Psychedelic Rock"
+      ],
+      "countries": [
+        "Royaume-uni",
+        "France"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c6/AngelsEggGong.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2072,
+      "title": "Flying Teapot",
+      "artists": [
+        "Gong"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Progressive Rock",
+        "Space Rock"
+      ],
+      "countries": [
+        "Royaume-uni",
+        "France"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6b/Gong_Flying_Teapot.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2071,
+      "title": "Camembert Electrique",
+      "artists": [
+        "Gong"
+      ],
+      "composers": [],
+      "year": 1971,
+      "recorded": null,
+      "genres": [
+        "Progressive Rock",
+        "Psychedelic Rock",
+        "Space Rock",
+        "Proto-punk"
+      ],
+      "countries": [
+        "Royaume-uni",
+        "France"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/12/Camembert_electrique.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2070,
+      "title": "The Private Press",
+      "artists": [
+        "Dj Shadow"
+      ],
+      "composers": [],
+      "year": 2002,
+      "recorded": null,
+      "genres": [
+        "Instrumental Hip Hop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/07/The_Private_Press.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2069,
+      "title": "Endtroducing.....",
+      "artists": [
+        "Dj Shadow"
+      ],
+      "composers": [],
+      "year": 1996,
+      "recorded": null,
+      "genres": [
+        "Instrumental Hip Hop",
+        "Trip Hop",
+        "Plunderphonics",
+        "Sampledelia"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c1/Endtroducingcover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2068,
+      "title": "Selected Ambient Works 85–92",
+      "artists": [
+        "Aphex Twin"
+      ],
+      "composers": [],
+      "year": 1992,
+      "recorded": null,
+      "genres": [
+        "Ambient",
+        "Techno",
+        "Idm",
+        "Electronica"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/82/Selected_Ambient_Works_85-92.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2067,
+      "title": "All Together Now",
+      "artists": [
+        "Argent"
+      ],
+      "composers": [],
+      "year": 1972,
+      "recorded": null,
+      "genres": [
+        "Progressive Rock",
+        "Hard Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7e/All_Together_Now_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2066,
+      "title": "Mental Funeral",
+      "artists": [
+        "Autopsy"
+      ],
+      "composers": [],
+      "year": 1991,
+      "recorded": null,
+      "genres": [
+        "Death Metal"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/3c/Autopsy_mental_funeral.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2065,
+      "title": "Severed Survival",
+      "artists": [
+        "Autopsy"
+      ],
+      "composers": [],
+      "year": 1989,
+      "recorded": null,
+      "genres": [
+        "Death Metal"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/20/Autopsy_severed_survival.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2064,
+      "title": "Roadhouse Rules",
+      "artists": [
+        "Lonnie Brooks"
+      ],
+      "composers": [],
+      "year": 1996,
+      "recorded": null,
+      "genres": [
+        "Blues",
+        "R&b"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/cb/Roadhouse_Rules.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2063,
+      "title": "Stain",
+      "artists": [
+        "Living Colour"
+      ],
+      "composers": [],
+      "year": 1993,
+      "recorded": null,
+      "genres": [
+        "Heavy Metal",
+        "Funk Metal",
+        "Hard Rock",
+        "Alternative Metal",
+        "Funk Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bf/Living_Colour_Stain.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2062,
+      "title": "Time's up",
+      "artists": [
+        "Living Colour"
+      ],
+      "composers": [],
+      "year": 1990,
+      "recorded": null,
+      "genres": [
+        "Hard Rock",
+        "Heavy Metal",
+        "Funk Metal",
+        "Art Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0f/Living_Colour_Time%27s_Up.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2061,
+      "title": "Vivid",
+      "artists": [
+        "Living Colour"
+      ],
+      "composers": [],
+      "year": 1988,
+      "recorded": null,
+      "genres": [
+        "Hard Rock",
+        "Heavy Metal",
+        "Funk Metal",
+        "Alternative Metal",
+        "Funk Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0e/Living_Colour-Vivid.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2060,
+      "title": "Jurassic Shift",
+      "artists": [
+        "Ozric Tentacles"
+      ],
+      "composers": [],
+      "year": 1993,
+      "recorded": null,
+      "genres": [
+        "Psychedelic Rock",
+        "Space Rock",
+        "Progressive Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/67/Jurassic_Shift_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2059,
+      "title": "Strangeitude",
+      "artists": [
+        "Ozric Tentacles"
+      ],
+      "composers": [],
+      "year": 1991,
+      "recorded": null,
+      "genres": [
+        "Psychedelic Rock",
+        "Space Rock",
+        "Progressive Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/77/Ozric_Tentacles_-_Strangeitude.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2058,
+      "title": "Erpland",
+      "artists": [
+        "Ozric Tentacles"
+      ],
+      "composers": [],
+      "year": 1990,
+      "recorded": null,
+      "genres": [
+        "Psychedelic Rock",
+        "Space Rock",
+        "Progressive Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f6/OT-Erp.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2057,
+      "title": "Pungent Effulgent",
+      "artists": [
+        "Ozric Tentacles"
+      ],
+      "composers": [],
+      "year": 1989,
+      "recorded": null,
+      "genres": [
+        "Psychedelic Rock",
+        "Space Rock",
+        "Progressive Rock",
+        "World Music",
+        "Instrumental Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b7/Pungenteffulgent.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2056,
+      "title": "In Sides",
+      "artists": [
+        "Orbital"
+      ],
+      "composers": [],
+      "year": 1996,
+      "recorded": null,
+      "genres": [
+        "Electronica"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/ea/Orbitalinsides.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2055,
+      "title": "Conversations",
+      "artists": [
+        "L. Subramaniam",
+        "Stephane Grappelli"
+      ],
+      "composers": [],
+      "year": 1984,
+      "recorded": null,
+      "genres": [
+        "Hindustani",
+        "Jazz"
+      ],
+      "countries": [
+        "Inde",
+        "France"
+      ],
+      "cover": "https://i.discogs.com/9hXTHh1VbjHd454RIj4XS7QDSNcDIVGyAsla4O_eRBg/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1OTY2/NDUtMTMzNjc1OTk4/OS03NTk0LmpwZWc.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2054,
+      "title": "Now!!",
+      "artists": [
+        "Masaru Imada Quartet"
+      ],
+      "composers": [],
+      "year": 1970,
+      "recorded": null,
+      "genres": [
+        "Modal",
+        "Free improvisation",
+        "Post bop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://i.discogs.com/mrpgwV3dPTv7r1cc6zuX9FL-zGJohp5_o_-I1HVQIik/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODc5/OTEzLTE3NTc2OTcz/MzktODg1MC5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2053,
+      "title": "Green Caterpillar",
+      "artists": [
+        "Masaru Imada Trio"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Jazz-funk",
+        "Contemporary jazz"
+      ],
+      "countries": [
+        "Japon"
+      ],
+      "cover": "https://i.discogs.com/BIhCepT7jYpPFkys6BfR6_GjZ53h_y7Kc_7EhV1hJBM/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjY1/NDAyLTE2NDk0MzY4/MjItNDYwMS5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2052,
+      "title": "Almanach",
+      "artists": [
+        "Malicorne"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Folk",
+        "Progressive rock",
+        "Traditional folk"
+      ],
+      "countries": [
+        "France"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c9/Malicorne_Almanach.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2051,
+      "title": "Malicorne 2",
+      "artists": [
+        "Malicorne"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": null,
+      "genres": [
+        "Folk"
+      ],
+      "countries": [
+        "France"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/10/La_Mariage_Anglais.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2050,
+      "title": "Malicorne 1",
+      "artists": [
+        "Malicorne"
+      ],
+      "composers": [],
+      "year": 1974,
+      "recorded": null,
+      "genres": [
+        "Folk",
+        "Celtic"
+      ],
+      "countries": [
+        "France"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/28/Malicorne1.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2049,
+      "title": "Malo",
+      "artists": [
+        "Malo"
+      ],
+      "composers": [],
+      "year": 1972,
+      "recorded": null,
+      "genres": [
+        "Latin rock",
+        "Funk"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d2/Malo_-_Malo.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2048,
+      "title": "Sorry",
+      "artists": [
+        "Mai Yamane"
+      ],
+      "composers": [],
+      "year": 1981,
+      "recorded": null,
+      "genres": [
+        "Jazz-funk",
+        "Soul",
+        "City pop"
+      ],
+      "countries": [
+        "Japon"
+      ],
+      "cover": "https://i.discogs.com/SypomD8jnDKBRo7kOM5gz5ujhisTP270M-Y9gG_Kq9c/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1Mjg0/MzQxLTE3NjU1NDg0/MDQtOTA2Ni5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2047,
+      "title": "Tasogare",
+      "artists": [
+        "Mai Yamane"
+      ],
+      "composers": [],
+      "year": 1980,
+      "recorded": null,
+      "genres": [
+        "Jazz-funk",
+        "City pop",
+        "Kayōkyoku"
+      ],
+      "countries": [
+        "Japon"
+      ],
+      "cover": "https://i.discogs.com/qxb257DxxHGYy1gYwbFoCqZmBs-AXA_FFjS-m1rE_Ak/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NzY0/MDg4LTE3MDA4MzM2/NDktMjkxNy5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2046,
+      "title": "Disco Jazz",
+      "artists": [
+        "Rupa Biswas"
+      ],
+      "composers": [],
+      "year": 1982,
+      "recorded": null,
+      "genres": [
+        "Disco",
+        "Funk",
+        "Fusion"
+      ],
+      "countries": [
+        "Inde"
+      ],
+      "cover": "https://i.discogs.com/PbhmGLrw6L3gWUDRp15_2_DKjEnu7WnTDSzSld3rJww/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzE2/MTcwLTE2ODYxOTY1/NDQtODc1NC5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2045,
+      "title": "Histoire De Melody Nelson",
+      "artists": [
+        "Serge Gainsbourg"
+      ],
+      "composers": [],
+      "year": 1971,
+      "recorded": null,
+      "genres": [
+        "Chanson française",
+        "Avant-funk"
+      ],
+      "countries": [
+        "France"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4e/MelodyComment.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2044,
+      "title": "Nowa Aleksandria",
+      "artists": [
+        "Siekiera"
+      ],
+      "composers": [],
+      "year": 1986,
+      "recorded": null,
+      "genres": [
+        "Post-punk",
+        "Cold wave"
+      ],
+      "countries": [
+        "Pologne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0e/Nowa_Aleksandria.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2043,
+      "title": "Draining Love Story",
+      "artists": [
+        "Sewerslvt"
+      ],
+      "composers": [],
+      "year": 2020,
+      "recorded": null,
+      "genres": [
+        "Drum & bass",
+        "Electronic",
+        "Experimental",
+        "Ambient",
+        "Atmospheric drum & bass",
+        "Breakcore",
+        "Jungle",
+        "Rave",
+        "Vaporwave"
+      ],
+      "countries": [
+        "Australie"
+      ],
+      "cover": "https://f4.bcbits.com/img/a1813761517_2.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2042,
+      "title": "Them Again",
+      "artists": [
+        "Them"
+      ],
+      "composers": [],
+      "year": 1966,
+      "recorded": null,
+      "genres": [
+        "Rock",
+        "Rhythm and blues",
+        "Garage rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c0/Them_Again.uk.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2041,
+      "title": "The Angry Young Them",
+      "artists": [
+        "Them"
+      ],
+      "composers": [],
+      "year": 1965,
+      "recorded": null,
+      "genres": [
+        "Blues rock",
+        "Garage rock",
+        "Rhythm and blues",
+        "Proto-punk"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/19/Angry-young-them.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2040,
+      "title": "Dedicato a Frazz",
+      "artists": [
+        "Semiramis"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Italian progressive rock"
+      ],
+      "countries": [
+        "Italie"
+      ],
+      "cover": "https://i.discogs.com/83xJT7rSh1EgRvXUe8Yuiw9j2uxdOcuc-s41NKvJcpw/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1Mzcz/NTAzLTE2NzAyMjQ5/NTgtMTI5NS5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2039,
+      "title": "Your Favorite Toy",
+      "artists": [
+        "Foo Fighters"
+      ],
+      "composers": [],
+      "year": 2026,
+      "recorded": null,
+      "genres": [
+        "Alternative rock",
+        "Post-grunge",
+        "Arena rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/36/Your_Favorite_Toy.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2038,
+      "title": "But Here We Are",
+      "artists": [
+        "Foo Fighters"
+      ],
+      "composers": [],
+      "year": 2023,
+      "recorded": null,
+      "genres": [
+        "Alternative rock",
+        "Post-grunge",
+        "Arena rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a8/Foo_Fighters_-_But_Here_We_Are.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2037,
+      "title": "Wasting Light",
+      "artists": [
+        "Foo Fighters"
+      ],
+      "composers": [],
+      "year": 2011,
+      "recorded": null,
+      "genres": [
+        "Alternative rock",
+        "Post-grunge",
+        "Hard rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/05/Foo_Fighters_Wasting_Light_Album_Cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2036,
+      "title": "One by One",
+      "artists": [
+        "Foo Fighters"
+      ],
+      "composers": [],
+      "year": 2002,
+      "recorded": null,
+      "genres": [
+        "Alternative rock",
+        "Post-grunge",
+        "Hard rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/06/Foo_Fighters_-_One_by_One.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2035,
+      "title": "Echoes, Silence, Patience & Grace",
+      "artists": [
+        "Foo Fighters"
+      ],
+      "composers": [],
+      "year": 2007,
+      "recorded": null,
+      "genres": [
+        "Alternative rock",
+        "Post-grunge",
+        "Hard rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/68/Foos-ESPG.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2034,
+      "title": "There is Nothing Left to Lose",
+      "artists": [
+        "Foo Fighters"
+      ],
+      "composers": [],
+      "year": 1999,
+      "recorded": null,
+      "genres": [
+        "Alternative rock",
+        "Post-grunge",
+        "Heartland rock",
+        "Grunge"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8b/Foo_Fighters_-_There_Is_Nothing_Left_to_Lose.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2033,
+      "title": "The Colour and the Shape",
+      "artists": [
+        "Foo Fighters"
+      ],
+      "composers": [],
+      "year": 1997,
+      "recorded": null,
+      "genres": [
+        "Alternative rock",
+        "Post-grunge",
+        "Hard rock",
+        "Grunge",
+        "Punk rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0d/FooFighters-TheColourAndTheShape.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2032,
+      "title": "Foo Fighters",
+      "artists": [
+        "Foo Fighters"
+      ],
+      "composers": [],
+      "year": 1995,
+      "recorded": null,
+      "genres": [
+        "Punk rock",
+        "Grunge",
+        "Alternative rock",
+        "Melodic hardcore",
+        "Post-grunge"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0d/FooFighters-FooFighters.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2031,
+      "title": "In Times New Roman...",
+      "artists": [
+        "Queens of the Stone Age"
+      ],
+      "composers": [],
+      "year": 2023,
+      "recorded": null,
+      "genres": [
+        "Alternative rock",
+        "Stoner rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8f/Queens_of_the_Stone_Age_-_In_Times_New_Roman....png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2030,
+      "title": "Villains",
+      "artists": [
+        "Queens of the Stone Age"
+      ],
+      "composers": [],
+      "year": 2017,
+      "recorded": null,
+      "genres": [
+        "Alternative rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/72/Villains_cover_artwork.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2029,
+      "title": "...like Clockwork",
+      "artists": [
+        "Queens of the Stone Age"
+      ],
+      "composers": [],
+      "year": 2013,
+      "recorded": null,
+      "genres": [
+        "Alternative rock",
+        "Hard rock",
+        "Desert rock",
+        "Stoner rock",
+        "Experimental rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/16/Queens_of_the_Stone_Age_-_%E2%80%A6Like_Clockwork.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2028,
+      "title": "Songs for the Deaf",
+      "artists": [
+        "Queens of the Stone Age"
+      ],
+      "composers": [],
+      "year": 2002,
+      "recorded": null,
+      "genres": [
+        "Stoner rock",
+        "Hard rock",
+        "Desert rock",
+        "Alternative metal",
+        "Progressive grunge"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/01/Queens_of_the_Stone_Age_-_Songs_for_the_Deaf.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2027,
+      "title": "Rated R",
+      "artists": [
+        "Queens of the Stone Age"
+      ],
+      "composers": [],
+      "year": 2000,
+      "recorded": null,
+      "genres": [
+        "Stoner rock",
+        "Alternative rock",
+        "Hard rock",
+        "Alternative metal"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Queens_of_the_Stone_Age_-_Rated_R.png/250px-Queens_of_the_Stone_Age_-_Rated_R.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2026,
+      "title": "Queens of the Stone Age",
+      "artists": [
+        "Queens of the Stone Age"
+      ],
+      "composers": [],
+      "year": 1998,
+      "recorded": null,
+      "genres": [
+        "Desert rock",
+        "Stoner rock",
+        "Hard rock",
+        "]alternative metal"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f0/Queens_of_the_Stone_Age_%28Queens_of_the_Stone_Age_album_-_cover_art%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2025,
+      "title": "Live at the Fillmore East 10/3/70",
+      "artists": [
+        "Johnny Winter"
+      ],
+      "composers": [],
+      "year": 2010,
+      "recorded": "1970",
+      "genres": [
+        "Blues-rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/51/Johnny-Winter-And-Live-at-the-Fillmore-East-10-3-70.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2024,
+      "title": "In Concert",
+      "artists": [
+        "Big Brother and the Holding Company",
+        "Janis Joplin and the Full Tilt Boogie Band"
+      ],
+      "composers": [],
+      "year": 1972,
+      "recorded": "1968, 1970",
+      "genres": [
+        "Blues rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a0/Janis_Joplin_-_In_Concert.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2023,
+      "title": "They Only Come Out at Night",
+      "artists": [
+        "The Edgar Winter Group"
+      ],
+      "composers": [],
+      "year": 1972,
+      "recorded": null,
+      "genres": [
+        "Rock",
+        "Hard rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/49/Ewgroup.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2022,
+      "title": "Roadwork",
+      "artists": [
+        "Edgar Winter's White Trash"
+      ],
+      "composers": [],
+      "year": 1972,
+      "recorded": null,
+      "genres": [
+        "Blues rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/cb/Roadwork_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2021,
+      "title": "Edgar Winter's White Trash",
+      "artists": [
+        "Edgar Winter's White Trash"
+      ],
+      "composers": [],
+      "year": 1971,
+      "recorded": null,
+      "genres": [
+        "Rock and roll",
+        "Boogie-woogie",
+        "Blues",
+        "Funk",
+        "R&b"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e1/Edgar_Winter%27s_White_Trash_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2020,
+      "title": "Entrance",
+      "artists": [
+        "Edgar Winter"
+      ],
+      "composers": [],
+      "year": 1970,
+      "recorded": null,
+      "genres": [
+        "Blues rock",
+        "Jazz rock",
+        "Rock and roll",
+        "Progressive rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/eb/Entrance%281%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2019,
+      "title": "Together",
+      "artists": [
+        "Johnny Winter",
+        "Edgar Winter"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Rock and roll",
+        "Soul"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a9/Johnny_and_Edgar_Winter_-_Together_Live.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2018,
+      "title": "Captured Live!",
+      "artists": [
+        "Johnny Winter"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Rock and roll"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/18/Captured_live.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2017,
+      "title": "Live Johnny Winter and",
+      "artists": [
+        "Johnny Winter"
+      ],
+      "composers": [],
+      "year": 1971,
+      "recorded": null,
+      "genres": [
+        "Rock and roll"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/33/Live_Johnny_Winter_And_album.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2016,
+      "title": "Hey, Where's Your Brother?",
+      "artists": [
+        "Johnny Winter"
+      ],
+      "composers": [],
+      "year": 1992,
+      "recorded": null,
+      "genres": [
+        "Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b6/HeyWheresYourBrother.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2015,
+      "title": "Let Me in",
+      "artists": [
+        "Johnny Winter"
+      ],
+      "composers": [],
+      "year": 1991,
+      "recorded": null,
+      "genres": [
+        "Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/58/Let-Me-In.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2014,
+      "title": "Third Degree",
+      "artists": [
+        "Johnny Winter"
+      ],
+      "composers": [],
+      "year": 1986,
+      "recorded": null,
+      "genres": [
+        "Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/cd/Third_Degree.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2013,
+      "title": "Serious Business",
+      "artists": [
+        "Johnny Winter"
+      ],
+      "composers": [],
+      "year": 1985,
+      "recorded": null,
+      "genres": [
+        "Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c2/Serious-Business.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2012,
+      "title": "Guitar Slinger",
+      "artists": [
+        "Johnny Winter"
+      ],
+      "composers": [],
+      "year": 1984,
+      "recorded": null,
+      "genres": [
+        "Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/fd/JohnnyWinterGuitarSlinger.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2011,
+      "title": "Nothin' but the Blues",
+      "artists": [
+        "Johnny Winter"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Chicago blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a6/Nothin%27_But_the_Blues_%28Johnny_Winter_album%29_cover_art.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2010,
+      "title": "Still Alive and Well",
+      "artists": [
+        "Johnny Winter"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/32/Johnny_Winter_-_Still_Alive_and_Well_Coverart.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2009,
+      "title": "Johnny Winter and",
+      "artists": [
+        "Johnny Winter"
+      ],
+      "composers": [],
+      "year": 1970,
+      "recorded": null,
+      "genres": [
+        "Hard rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/06/Johnny_Winter_And.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2008,
+      "title": "Second Winter",
+      "artists": [
+        "Johnny Winter"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Blues rock",
+        "Psychedelic rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/1d/Johnny_Winter_-_Second_Winter.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2007,
+      "title": "Johnny Winter",
+      "artists": [
+        "Johnny Winter"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Blues rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/de/Johnny_Winter_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2006,
+      "title": "The Progressive Blues Experiment",
+      "artists": [
+        "Johnny Winter"
+      ],
+      "composers": [],
+      "year": 1968,
+      "recorded": null,
+      "genres": [
+        "Blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/17/Progressive.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2005,
+      "title": "Festivál",
+      "artists": [
+        "Santana"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Jazz fusion",
+        "Chicano rock",
+        "Latin rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/9b/FestivalAlbum.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2004,
+      "title": "Amigos",
+      "artists": [
+        "Santana"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Jazz fusion",
+        "Funk rock",
+        "Latin rock",
+        "Rock en español"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/29/Santana_Amigos.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2003,
+      "title": "Carlos Santana & Buddy Miles! Live!",
+      "artists": [
+        "Carlos Santana",
+        "Buddy Miles"
+      ],
+      "composers": [],
+      "year": 1971,
+      "recorded": null,
+      "genres": [
+        "Psychedelic rock",
+        "Jam rock",
+        "Jazz rock",
+        "Blues rock",
+        "Jazz funk",
+        "Funk rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/fa/Carlos_Santana_%26_Buddy_Miles%21_Live%21.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2002,
+      "title": "Love Devotion Surrender",
+      "artists": [
+        "Carlos Santana",
+        "John Mclaughlin"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Jazz fusion"
+      ],
+      "countries": [
+        "États-unis",
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/44/LoveDevotionSurrender.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2001,
+      "title": "Caravanserai",
+      "artists": [
+        "Santana"
+      ],
+      "composers": [],
+      "year": 1972,
+      "recorded": null,
+      "genres": [
+        "Jazz fusion",
+        "Latin rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8d/Caravanserai_album_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2000,
+      "title": "Welcome",
+      "artists": [
+        "Santana"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Jazz fusion"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d0/Welcome_Album.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1999,
+      "title": "Greatest Hits",
+      "artists": [
+        "Sly and the Family Stone"
+      ],
+      "composers": [],
+      "year": 1970,
+      "recorded": null,
+      "genres": [
+        "Psychedelic soul",
+        "Funk",
+        "Pop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/90/Slyfam-ghits-1970.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1998,
+      "title": "Fresh",
+      "artists": [
+        "Sly and the Family Stone"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Funk",
+        "Deep funk",
+        "Progressive soul"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/73/Slyfamstone-fresh.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1997,
+      "title": "There's a Riot Goin' on",
+      "artists": [
+        "Sly and the Family Stone"
+      ],
+      "composers": [],
+      "year": 1971,
+      "recorded": null,
+      "genres": [
+        "Psychedelic funk",
+        "Avant-soul",
+        "Avant-pop",
+        "Deep funk",
+        "Psychedelic soul"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c9/Slyfam-riot1.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1996,
+      "title": "Stand!",
+      "artists": [
+        "Sly and the Family Stone"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Psychedelic soul",
+        "Funk rock",
+        "Funk",
+        "Progressive soul",
+        "Psychedelic funk"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/ce/Stand-slyfam.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1995,
+      "title": "Life",
+      "artists": [
+        "Sly and the Family Stone"
+      ],
+      "composers": [],
+      "year": 1968,
+      "recorded": null,
+      "genres": [
+        "Psychedelic soul",
+        "Psychedelic funk"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4c/Slyfamstone-life.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1994,
+      "title": "Dance to the Music",
+      "artists": [
+        "Sly and the Family Stone"
+      ],
+      "composers": [],
+      "year": 1968,
+      "recorded": null,
+      "genres": [
+        "Psychedelic funk"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/54/Slyfamstone-dance.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1993,
+      "title": "Pearl",
+      "artists": [
+        "Janis Joplin and the Full Tilt Boogie Band"
+      ],
+      "composers": [],
+      "year": 1971,
+      "recorded": null,
+      "genres": [
+        "Blues",
+        "Soul",
+        "R&b"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/61/Janis_Joplin-Pearl_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1992,
+      "title": "I Got Dem Ol' Kozmic Blues Again Mama!",
+      "artists": [
+        "Janis Joplin"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Blues rock",
+        "Psychedelic rock",
+        "Soul"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a4/I_got_dem_ol%27_kozmic_album_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1991,
+      "title": "Cheap Thrills",
+      "artists": [
+        "Big Brother and the Holding Company"
+      ],
+      "composers": [],
+      "year": 1968,
+      "recorded": null,
+      "genres": [
+        "Blues rock",
+        "Acid rock",
+        "Psychedelic rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/9e/Cheapthrills.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1990,
+      "title": "Thirty Seconds Over Winterland",
+      "artists": [
+        "Jefferson Airplane"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/92/ThirtySecondsOverWinterland.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1989,
+      "title": "Bless Its Pointed Little Head",
+      "artists": [
+        "Jefferson Airplane"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Psychedelic rock",
+        "Acid rock",
+        "Hard rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0f/BlessItsPointedLittleHead.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1988,
+      "title": "Volunteers",
+      "artists": [
+        "Jefferson Airplane"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Psychedelic rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b7/Jefferson_Airplane-Volunteers_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1987,
+      "title": "Crown of Creation",
+      "artists": [
+        "Jefferson Airplane"
+      ],
+      "composers": [],
+      "year": 1968,
+      "recorded": null,
+      "genres": [
+        "Rock",
+        "Psychedelic rock",
+        "Acid rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f4/JA_Crown-Of-Creation.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1986,
+      "title": "After Bathing at Baxter's",
+      "artists": [
+        "Jefferson Airplane"
+      ],
+      "composers": [],
+      "year": 1967,
+      "recorded": null,
+      "genres": [
+        "Psychedelic rock",
+        "Experimental rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/48/After_bathing_at_baxters.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1985,
+      "title": "Surrealistic Pillow",
+      "artists": [
+        "Jefferson Airplane"
+      ],
+      "composers": [],
+      "year": 1967,
+      "recorded": null,
+      "genres": [
+        "Folk rock",
+        "Acid rock",
+        "Psychedelic rock",
+        "Blues rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/58/Jeffair.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1984,
+      "title": "Jefferson Airplane Takes Off",
+      "artists": [
+        "Jefferson Airplane"
+      ],
+      "composers": [],
+      "year": 1966,
+      "recorded": null,
+      "genres": [
+        "Folk Rock",
+        "Psychedelic Rock",
+        "Psychedelic Folk"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/dc/Jefferson_airplane_takes_off.JPG",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1983,
+      "title": "The Woodstock Experience",
+      "artists": [
+        "Santana",
+        "Janis Joplin",
+        "Sly and the Family Stone",
+        "Jefferson Airplane",
+        "Johnny Winter"
+      ],
+      "composers": [],
+      "year": 2009,
+      "recorded": "1969",
+      "genres": [
+        "Psychedelic rock",
+        "Blues rock",
+        "Soul"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8c/JAWoodstock.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1982,
+      "title": "Quicksilver Messenger Service",
+      "artists": [
+        "Quicksilver Messenger Service"
+      ],
+      "composers": [],
+      "year": 1968,
+      "recorded": null,
+      "genres": [
+        "Psychedelic rock",
+        "Acid rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b6/Quicksilver_Messenger_Service_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1981,
+      "title": "Happy Trails",
+      "artists": [
+        "Quicksilver Messenger Service"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Psychedelic rock",
+        "Acid rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/58/Quicksilver_Messenger_Service-Happy_Trails_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1980,
+      "title": "96 Tears",
+      "artists": [
+        "? and the Mysterians"
+      ],
+      "composers": [],
+      "year": 1966,
+      "recorded": null,
+      "genres": [
+        "Garage rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c2/96tearsalbum.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1979,
+      "title": "The Oberlin College Concert",
+      "artists": [
+        "Son House"
+      ],
+      "composers": [],
+      "year": 1991,
+      "recorded": "1965",
+      "genres": [
+        "Delta blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://i.discogs.com/wfR6vdwmaIb-qmkMAmMqoxN2hAQPR8EBQ8xCmHt1Sf8/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4ODIy/MjAtMTUzNTMwNDk4/Mi05ODI3LmpwZWc.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1978,
+      "title": "Today!",
+      "artists": [
+        "Skip James"
+      ],
+      "composers": [],
+      "year": 1966,
+      "recorded": null,
+      "genres": [
+        "Delta blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c2/Skip_James_Today.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1977,
+      "title": "She Lyin'",
+      "artists": [
+        "Skip James"
+      ],
+      "composers": [],
+      "year": 1993,
+      "recorded": "1964",
+      "genres": [
+        "Delta blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d5/She_Lyin_Skip_James.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1976,
+      "title": "Greatest of the Delta Blues Singers",
+      "artists": [
+        "Skip James"
+      ],
+      "composers": [],
+      "year": 1965,
+      "recorded": null,
+      "genres": [
+        "Delta blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/79/Greatest_of_the_Delta_Blues_Singers.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1975,
+      "title": "The Complete 1931 Session",
+      "artists": [
+        "Skip James"
+      ],
+      "composers": [],
+      "year": 2022,
+      "recorded": "1931",
+      "genres": [
+        "Delta blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://img14.shop-pro.jp/PA01306/842/product/128761653.jpg?cmsp_timestamp=20180227165834",
+      "yt": "https://www.youtube.com/playlist?list=PLQWWcaJIL_akJzH2OX_DLOZVs9FJUhpp6",
+      "rating": ""
+    },
+    {
+      "id": 1974,
+      "title": "The Complete Library of Congress Sessions, 1941-1942",
+      "artists": [
+        "Son House"
+      ],
+      "composers": [],
+      "year": 1990,
+      "recorded": null,
+      "genres": [
+        "1941-1942"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://i.discogs.com/g3Bmvgn8BYz_P8FOZVVWXk1yAm8UmpeMlS4ZyNZE1XE/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ0Mzgy/MjItMTM2NDg4Njg5/MC0zODM4LmpwZWc.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1973,
+      "title": "Father of the Delta Blues: the Complete 1965 Sessions",
+      "artists": [
+        "Son House"
+      ],
+      "composers": [],
+      "year": 1992,
+      "recorded": "1965",
+      "genres": [
+        "Delta blues"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/b2/58/11/mzi.xbnwxpfc.jpg/316x316bb.webp",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1972,
+      "title": "2014-07-27 - Merriweather Post Pavilion Columbia, Md",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2014,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://www.nugs.net/dw/image/v2/BCHN_PRD/on/demandware.static/-/Sites-nugs-master/default/dw66426c3b/images/hi-res/phish140727_01.jpg?sw=800&sh=800",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1971,
+      "title": "2015-12-31 - Madison Square Garden - New York, Ny",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2015,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://www.nugs.net/dw/image/v2/BCHN_PRD/on/demandware.static/-/Sites-nugs-master/default/dw30290561/images/hi-res/phish151231_01.jpg?sw=800&sh=800",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1970,
+      "title": "2015-08-22 - Magnaball - Watkins Glen, Ny",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2015,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://www.livephish.com/dw/image/v2/BCHN_PRD/on/demandware.static/-/Sites-livephish-master/default/dw0b803342/images/hi-res/ph150822_01.jpg?sw=800&sh=800",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1969,
+      "title": "2014-10-31 - Mgm Grand Garden Arena - Las Vegas, Nv",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2014,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://www.nugs.net/dw/image/v2/BCHN_PRD/on/demandware.static/-/Sites-nugs-master/default/dw99b8ae0a/images/hi-res/phish141031_01.jpg?sw=800&sh=800",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1968,
+      "title": "2013-10-20 - Hampton Coliseum - Hampton, Va",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2013,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://www.livephish.com/dw/image/v2/BCHN_PRD/on/demandware.static/-/Sites-livephish-master/default/dwc9a88357/images/hi-res/ph131020_01.jpg?sw=800&sh=800",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1967,
+      "title": "2017-12-30 - Madison Square Garden - New York, Ny",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2017,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://www.nugs.net/dw/image/v2/BCHN_PRD/on/demandware.static/-/Sites-nugs-master/default/dw028032e5/images/hi-res/phish171230_01.jpg?sw=800&sh=800",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1966,
+      "title": "2019-12-30 - Madison Square Garden - New York, Ny",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2019,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://www.nugs.net/dw/image/v2/BCHN_PRD/on/demandware.static/-/Sites-nugs-master/default/dw8b64be0a/images/hi-res/phish191230_01.jpg?sw=800&sh=800",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1965,
+      "title": "2024-08-17 - Mondegreen - the Woodlands - Dover, De",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2024,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://www.nugs.net/dw/image/v2/BCHN_PRD/on/demandware.static/-/Sites-nugs-master/default/dw45d88770/images/hi-res/phish240817_01.jpg?sw=800&sh=800",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1964,
+      "title": "Mambo Birdland",
+      "artists": [
+        "Tito Puente"
+      ],
+      "composers": [],
+      "year": 1999,
+      "recorded": null,
+      "genres": [
+        "Latin jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bb/Mambo_Birdland.webp",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1963,
+      "title": "Dance Mania",
+      "artists": [
+        "Tito Puente"
+      ],
+      "composers": [],
+      "year": 1958,
+      "recorded": null,
+      "genres": [
+        "Mambo"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7e/Dance_Mania_%28album%29.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1962,
+      "title": "Silent Flight",
+      "artists": [
+        "Tomomi Sano"
+      ],
+      "composers": [],
+      "year": 2005,
+      "recorded": null,
+      "genres": [
+        "Pop"
+      ],
+      "countries": [
+        "Japon"
+      ],
+      "cover": "https://i.discogs.com/E1ugLx8Kp3SOIpy-Xuit84h-mfNmD0esAji1bRO_o-I/rs:fit/g:sm/q:90/h:400/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMTAy/MTg0LTE2Mzc3NDU2/NDUtMzUyMy5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1961,
+      "title": "Mama Africa",
+      "artists": [
+        "Peter Tosh"
+      ],
+      "composers": [],
+      "year": 1983,
+      "recorded": null,
+      "genres": [
+        "Reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6e/Peter_tosh_mama_africa.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1960,
+      "title": "Jimmy Cliff",
+      "artists": [
+        "Jimmy Cliff"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6d/Jimmy_Cliff_Jimmy_Cliff.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1959,
+      "title": "The Harder They Come",
+      "artists": [
+        "Jimmy Cliff"
+      ],
+      "composers": [],
+      "year": 1972,
+      "recorded": null,
+      "genres": [
+        "Rocksteady",
+        "Ska",
+        "Reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/80/JimmyCliffTheHarderTheyComealbumcover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1958,
+      "title": "Reggae Got Soul",
+      "artists": [
+        "Toots & the Maytals"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/aa/Reggae_got_soul.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1957,
+      "title": "In the Dark",
+      "artists": [
+        "Toots & the Maytals"
+      ],
+      "composers": [],
+      "year": 1974,
+      "recorded": null,
+      "genres": [
+        "Roots reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f0/Tootsinthedark.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1956,
+      "title": "Sweet and Dandy",
+      "artists": [
+        "Toots and the Maytals"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Reggae",
+        "Rocksteady"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://i.discogs.com/CzLxtqVFC553EzpM2GssNvdKB3iZ-epmHZp7ti0cuDg/rs:fit/g:sm/q:90/h:350/w:350/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNjUz/NTgtMTMzMjkzNDYw/Mi5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1955,
+      "title": "Funky Kingston (usa Version)",
+      "artists": [
+        "Toots and the Maytals"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": null,
+      "genres": [
+        "Reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bc/Funky_Kingston_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1954,
+      "title": "Blackheart Man",
+      "artists": [
+        "Bunny Wailer"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/cb/Blackheartmanbw.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1953,
+      "title": "Equal Rights",
+      "artists": [
+        "Peter Tosh"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/67/PeterTosh-EqualRights.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1952,
+      "title": "Legalize it",
+      "artists": [
+        "Peter Tosh"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f2/PeterTosh-LegalizeIt.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1951,
+      "title": "Soul Rebels",
+      "artists": [
+        "The Wailers"
+      ],
+      "composers": [],
+      "year": 1970,
+      "recorded": null,
+      "genres": [
+        "Reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/9e/SoulRebelsCDCover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1950,
+      "title": "Soul Revolution Ii",
+      "artists": [
+        "The Wailers"
+      ],
+      "composers": [],
+      "year": 1970,
+      "recorded": null,
+      "genres": [
+        "Reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/94/SoulRevolutionII.JPG",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1949,
+      "title": "Uprising",
+      "artists": [
+        "Bob Marley & the Wailers"
+      ],
+      "composers": [],
+      "year": 1980,
+      "recorded": null,
+      "genres": [
+        "Reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0a/BobMarley%26theWailersUprising.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1948,
+      "title": "Babylon by Bus",
+      "artists": [
+        "Bob Marley and the Wailers"
+      ],
+      "composers": [],
+      "year": 1978,
+      "recorded": null,
+      "genres": [
+        "Reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/ca/BobMarley-BabylonByBus.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1947,
+      "title": "Exodus",
+      "artists": [
+        "Bob Marley and the Wailers"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b8/Bob_Marley_and_the_Wailers_-_Exodus.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1946,
+      "title": "Rastaman Vibration",
+      "artists": [
+        "Bob Marley and the Wailers"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Reggae",
+        "Roots reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/66/BobMarley-RastamanVibration.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1945,
+      "title": "Natty Dread",
+      "artists": [
+        "Bob Marley and the Wailers"
+      ],
+      "composers": [],
+      "year": 1974,
+      "recorded": null,
+      "genres": [
+        "Reggae",
+        "Reggae rock"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4f/BobMarley-Live%21.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1944,
+      "title": "Burnin'",
+      "artists": [
+        "The Wailers"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/69/TheWailersBurnin%27.JPG",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1943,
+      "title": "Catch a Fire",
+      "artists": [
+        "The Wailers"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Reggae",
+        "Reggae rock",
+        "Roots reggae"
+      ],
+      "countries": [
+        "Jamaïque"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bf/BobMarleyCatchAFire.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1942,
+      "title": "Native Heart",
+      "artists": [
+        "Tony Williams"
+      ],
+      "composers": [],
+      "year": 1990,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/af/Native_Heart.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1941,
+      "title": "Life Time",
+      "artists": [
+        "Tony Williams"
+      ],
+      "composers": [],
+      "year": 1965,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c0/Life_Time_%28Tony_Williams_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1940,
+      "title": "Believe it",
+      "artists": [
+        "Tony Williams"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": null,
+      "genres": [
+        "Jazz fusion"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/28/Believe_It.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1939,
+      "title": "Turn it Over",
+      "artists": [
+        "The Tony Williams Lifetime"
+      ],
+      "composers": [],
+      "year": 1970,
+      "recorded": null,
+      "genres": [
+        "Jazz fusion",
+        "Jazz-rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/The_Tony_Williams_Lifetime_Turn_It_Over_album_cover.png/250px-The_Tony_Williams_Lifetime_Turn_It_Over_album_cover.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1938,
+      "title": "Emergency!",
+      "artists": [
+        "The Tony Williams Lifetime"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Jazz fusion",
+        "Jazz-rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/be/Lifetime-Emergency.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1937,
+      "title": "Man Bites Harmonica!",
+      "artists": [
+        "Toots Thielemans"
+      ],
+      "composers": [],
+      "year": 1958,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "Belgique"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/86/Man_Bites_Harmonica%21.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1936,
+      "title": "A Matter of Life...and Death",
+      "artists": [
+        "David Allan Coe"
+      ],
+      "composers": [],
+      "year": 1987,
+      "recorded": null,
+      "genres": [
+        "Country"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/94/DACoe_LifeDeath.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1935,
+      "title": "Invictus (means) Unconquered",
+      "artists": [
+        "David Allan Coe"
+      ],
+      "composers": [],
+      "year": 1981,
+      "recorded": null,
+      "genres": [
+        "Country"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/dc/DACoe_Invictus.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1934,
+      "title": "Spectrum Vii",
+      "artists": [
+        "David Allan Coe"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Country"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7a/DACoe_Spectrum.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1933,
+      "title": "Tattoo",
+      "artists": [
+        "David Allan Coe"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Country"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0c/DACoe_Tattoo.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1932,
+      "title": "Longhaired Redneck",
+      "artists": [
+        "David Allan Coe"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Outlaw coutry"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a5/Daclonghairedredneck.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1931,
+      "title": "Compass Point",
+      "artists": [
+        "David Allan Coe"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Country"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/87/DACoe_compass.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1930,
+      "title": "Once Upon a Rhyme",
+      "artists": [
+        "David Allan Coe"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": null,
+      "genres": [
+        "Country",
+        "Outlaw country"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/43/DACoe_OnceUpon.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1929,
+      "title": "Grand Funk",
+      "artists": [
+        "Grand Funk Railroad"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Hard rock",
+        "Blues rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6d/Grand_Funk_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1928,
+      "title": "The Mysterious Rhinestone Cowboy",
+      "artists": [
+        "David Allan Coe"
+      ],
+      "composers": [],
+      "year": 1974,
+      "recorded": null,
+      "genres": [
+        "Progressive country",
+        "Outlaw country"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/82/DACoe_mysterious.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1927,
+      "title": "Clouds",
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Folk"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/72/Joni_Clouds.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1926,
+      "title": "For the Roses",
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "composers": [],
+      "year": 1972,
+      "recorded": null,
+      "genres": [
+        "Folk rock",
+        "Soft rock",
+        "Jazz"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/07/Joni_Mitchell_-_For_the_Roses.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1925,
+      "title": "The Distance",
+      "artists": [
+        "Bob Seger & the Silver Bullet Band"
+      ],
+      "composers": [],
+      "year": 1982,
+      "recorded": null,
+      "genres": [
+        "Heartland rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8d/Bob_Seger_-_The_Distance.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1924,
+      "title": "In Square Circle",
+      "artists": [
+        "Stevie Wonder"
+      ],
+      "composers": [],
+      "year": 1985,
+      "recorded": null,
+      "genres": [
+        "R&bsoul"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2f/Stevie_Wonder_In_Square_Circle_CD_cover.JPG",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1923,
+      "title": "Beautiful Loser",
+      "artists": [
+        "Bob Seger"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d5/Bob_Seger_-_Beautiful_Loser.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1922,
+      "title": "Against the Wind",
+      "artists": [
+        "Bob Seger & the Silver Bullet Band"
+      ],
+      "composers": [],
+      "year": 1980,
+      "recorded": null,
+      "genres": [
+        "Heartland rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/ef/Bob_Seger_-_Against_the_Wind.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1921,
+      "title": "Stranger in Town",
+      "artists": [
+        "Bob Seger & the Silver Bullet Band"
+      ],
+      "composers": [],
+      "year": 1978,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6e/Bob_Seger_-_Stranger_in_Town.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1920,
+      "title": "Night Moves",
+      "artists": [
+        "Bob Seger & the Silver Bullet Band"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Heartland rock",
+        "Rock and roll"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/00/Bob_Seger_-_Night_Moves.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1919,
+      "title": "Ramblin' Gamblin' Man",
+      "artists": [
+        "The Bob Seger System"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Hard rock",
+        "Psychedelic rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d6/Ramblin%27_Gamblin%27_Man.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1918,
+      "title": "Nine Tonight",
+      "artists": [
+        "Bob Seger & the Silver Bullet Band"
+      ],
+      "composers": [],
+      "year": 1981,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/dc/Bob_Seger_-_Nine_Tonight.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1917,
+      "title": "Live Bullet",
+      "artists": [
+        "Bob Seger & the Silver Bullet Band"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e5/BobSegerLiveBullet.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1916,
+      "title": "Seven",
+      "artists": [
+        "Bob Seger"
+      ],
+      "composers": [],
+      "year": 1974,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f2/Bob_Seger_-_Seven.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1915,
+      "title": "The Rising",
+      "artists": [
+        "Bruce Springsteen and the E Street Band"
+      ],
+      "composers": [],
+      "year": 2002,
+      "recorded": null,
+      "genres": [
+        "Rock",
+        "Heartland rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b6/Springsteen_The_Rising.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1914,
+      "title": "Hammersmith Odeon, London '75",
+      "artists": [
+        "Bruce Springsteen and the E Street Band"
+      ],
+      "composers": [],
+      "year": 2006,
+      "recorded": "1975",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/85/Hammersmith_Odeon%2C_London_%2775.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1913,
+      "title": "The Legendary 1979 No Nukes Concerts",
+      "artists": [
+        "Bruce Springsteen and the E Street Band"
+      ],
+      "composers": [],
+      "year": 2021,
+      "recorded": "1979",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/28/Bruce_Springsteen_-_The_Legendary_1979_No_Nukes_Concerts.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1912,
+      "title": "The Ghost of Tom Joad",
+      "artists": [
+        "Bruce Springsteen"
+      ],
+      "composers": [],
+      "year": 1995,
+      "recorded": null,
+      "genres": [
+        "Folk",
+        "Folk rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/ea/The_Ghost_of_Tom_Joad.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1911,
+      "title": "Tunnel of Love",
+      "artists": [
+        "Bruce Springsteen"
+      ],
+      "composers": [],
+      "year": 1987,
+      "recorded": null,
+      "genres": [
+        "Poop",
+        "Pop rock",
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/23/Bruce_Springsteen_-_Tunnel_of_Love.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1910,
+      "title": "Live 1975–85",
+      "artists": [
+        "Bruce Springsteen and the E Street Band"
+      ],
+      "composers": [],
+      "year": 1986,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/04/Bruce_Springsteen_Live_75-85.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1909,
+      "title": "Born in the U.s.a.",
+      "artists": [
+        "Bruce Springsteen and the E Street Band"
+      ],
+      "composers": [],
+      "year": 1984,
+      "recorded": null,
+      "genres": [
+        "Rock and roll",
+        "Heartland rock",
+        "Pop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/31/BruceBorn1984.JPG",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1908,
+      "title": "Nebraska",
+      "artists": [
+        "Bruce Springsteen"
+      ],
+      "composers": [],
+      "year": 1982,
+      "recorded": null,
+      "genres": [
+        "Folk"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/94/Bruce_Springsteen_-_Nebraska.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1907,
+      "title": "The River",
+      "artists": [
+        "Bruce Springsteen and the E Street Band"
+      ],
+      "composers": [],
+      "year": 1980,
+      "recorded": null,
+      "genres": [
+        "Heartland rock",
+        "Rock and roll",
+        "R&b",
+        "Folk",
+        "Country",
+        "Pop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/cc/The_River_%28Bruce_Springsteen%29_%28Front_Cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1906,
+      "title": "Darkness on the Edge of Town",
+      "artists": [
+        "Bruce Springsteen and the E Street Band"
+      ],
+      "composers": [],
+      "year": 1978,
+      "recorded": null,
+      "genres": [
+        "Rock",
+        "Hard rock",
+        "Heartland rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/af/BruceSpringsteenDarknessontheEdgeofTown.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1905,
+      "title": "Born to Run",
+      "artists": [
+        "Bruce Springsteen and the E Street Band"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": null,
+      "genres": [
+        "Rock and roll",
+        "Pop rock",
+        "R&b",
+        "Folk rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7a/Born_to_Run_%28Front_Cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1904,
+      "title": "The Wild, the Innocent & the E Street Shuffle",
+      "artists": [
+        "Bruce Springsteen and the E Street Band"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/1f/TheWildTheInnocent.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1903,
+      "title": "Greetings From Asbury Park, N.j.",
+      "artists": [
+        "Bruce Springsteen and the E Street Band"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2f/Greetings_from_Asbury_Park_NJ.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1902,
+      "title": "River: the Joni Letters",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 2007,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/1a/Herbie_hancock_River_the_joni_letters_front_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1901,
+      "title": "Hotter Than July",
+      "artists": [
+        "Stevie Wonder"
+      ],
+      "composers": [],
+      "year": 1980,
+      "recorded": null,
+      "genres": [
+        "Pop",
+        "Soul",
+        "R&b",
+        "Funk",
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/11/Hotter_July.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1900,
+      "title": "Peter Gabriel",
+      "artists": [
+        "Peter Gabriel"
+      ],
+      "composers": [],
+      "year": 1982,
+      "recorded": null,
+      "genres": [
+        "Art rock",
+        "Art pop",
+        "Worldbeat",
+        "Post-punk",
+        "Progressive rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4e/Security_-_Peter_Gabriel.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1899,
+      "title": "Peter Gabriel",
+      "artists": [
+        "Peter Gabriel"
+      ],
+      "composers": [],
+      "year": 1980,
+      "recorded": null,
+      "genres": [
+        "Art rock",
+        "Post-punk",
+        "Post-progressive",
+        "Progressive pop"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/89/Peter_Gabriel_%28self-titled_album%2C_1980_-_cover_art%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1898,
+      "title": "Peter Gabriel",
+      "artists": [
+        "Peter Gabriel"
+      ],
+      "composers": [],
+      "year": 1978,
+      "recorded": null,
+      "genres": [
+        "Rock",
+        "Art rock",
+        "Progressive rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/55/Peter_Gabriel_%28self-titled_album%2C_1978_-_cover_art%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1897,
+      "title": "Peter Gabriel",
+      "artists": [
+        "Peter Gabriel"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Art rock",
+        "Pop",
+        "Progressive rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f8/Peter_Gabriel_%28self-titled_album%2C_1977_-_cover_art%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1896,
+      "title": "So",
+      "artists": [
+        "Peter Gabriel"
+      ],
+      "composers": [],
+      "year": 1986,
+      "recorded": null,
+      "genres": [
+        "Art pop",
+        "Art rock",
+        "Progressive pop",
+        "Worldbeat"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a4/So_%28album%29.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1895,
+      "title": "Music of My Mind",
+      "artists": [
+        "Stevie Wonder"
+      ],
+      "composers": [],
+      "year": 1972,
+      "recorded": null,
+      "genres": [
+        "Progressive soul"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/96/Stevie_Wonder_-_Music_of_My_Mind.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1894,
+      "title": "Songs in the Key of Life",
+      "artists": [
+        "Stevie Wonder"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "R&b",
+        "Soul",
+        "Pop",
+        "Progressive soul",
+        "Soul jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8e/Stevie_Wonder_-_Songs_in_the_Key_of_Life_cover.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1893,
+      "title": "Fulfillingness' First Finale",
+      "artists": [
+        "Stevie Wonder"
+      ],
+      "composers": [],
+      "year": 1974,
+      "recorded": null,
+      "genres": [
+        "Progressive soul"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/20/Fulfillingness%27_First_Finale.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1892,
+      "title": "Innervisions",
+      "artists": [
+        "Stevie Wonder"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Progressive soul",
+        "Funk",
+        "Soul",
+        "Rock",
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/3b/Steviewonder_innervisions.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1891,
+      "title": "Talking Book",
+      "artists": [
+        "Stevie Wonder"
+      ],
+      "composers": [],
+      "year": 1972,
+      "recorded": null,
+      "genres": [
+        "Progressive soul",
+        "Funk",
+        "Soul",
+        "Rock",
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/25/Talking_Book.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1890,
+      "title": "Up-tight",
+      "artists": [
+        "Stevie Wonder"
+      ],
+      "composers": [],
+      "year": 1966,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d8/Uptightsteviewonder.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1889,
+      "title": "The Piano",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/da/The_Piano_%28Herbie_Hancock_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1888,
+      "title": "Quartet",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1983,
+      "recorded": "1981",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/40/Herbie_Hancock_quartet.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1887,
+      "title": "The Prisoner",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1970,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f5/The_Prisoner_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1886,
+      "title": "The New Standard",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1996,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6d/The_New_Standard_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1885,
+      "title": "Mr. Hands",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1980,
+      "recorded": null,
+      "genres": [
+        "Jazz fusion"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e3/Hancock_Hands.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1884,
+      "title": "Gershwin's World",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1998,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/dc/Gershwin%27s_World.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1883,
+      "title": "Future Shock",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1983,
+      "recorded": null,
+      "genres": [
+        "Electro-funk",
+        "Instrumental hip-hop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/df/Future_Shock_%28Herbie_Hancock_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1882,
+      "title": "Flood",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": null,
+      "genres": [
+        "Jazz",
+        "Jazz-funk",
+        "Funk",
+        "Jazz fusion"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/53/Herbiehancockflood.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1881,
+      "title": "Herbie Hancock Trio",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a0/Herbie_Hancock_Trio_%281977_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1880,
+      "title": "Third Plane",
+      "artists": [
+        "Ron Carter"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/04/ThirdPlane.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1879,
+      "title": "Sextant",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Jazz fusion",
+        "Avant-funk",
+        "Jazz-rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/dc/Herbie_Hancock_Sextant.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1878,
+      "title": "Thrust",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1974,
+      "recorded": null,
+      "genres": [
+        "Jazz funk"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/10/Herbie_hancock_Thrust.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1877,
+      "title": "Head Hunters",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Jazz-funk",
+        "Jazz fusion"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/54/Herbie-Hancock-Head-Hunters.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1876,
+      "title": "Speak Like a Child",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1968,
+      "recorded": null,
+      "genres": [
+        "Hard bop",
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0c/Herbie_Hancock_-_Speak_Like_a_Child.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1875,
+      "title": "Maiden Voyage",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1965,
+      "recorded": null,
+      "genres": [
+        "Modal jazz",
+        "Post-bop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7a/Maiden_Voyage_%28Hancock%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1874,
+      "title": "Empyrean Isles",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1964,
+      "recorded": null,
+      "genres": [
+        "Hard bop",
+        "Modal jazz",
+        "Soul jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c0/Empisle_hancock.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1873,
+      "title": "Takin' Off",
+      "artists": [
+        "Herbie Hancock"
+      ],
+      "composers": [],
+      "year": 1962,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Takin%27_Off_%281962%29%2C_by_Herbie_Hancock.jpg/250px-Takin%27_Off_%281962%29%2C_by_Herbie_Hancock.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1872,
+      "title": "The Peel Sessions",
+      "artists": [
+        "Thin Lizzy"
+      ],
+      "composers": [],
+      "year": 1994,
+      "recorded": "1972-1977",
+      "genres": [
+        "Hard rock",
+        "Blues rock"
+      ],
+      "countries": [
+        "Irlande"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/be/Peellizzy.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1871,
+      "title": "Live and Dangerous",
+      "artists": [
+        "Thin Lizzy"
+      ],
+      "composers": [],
+      "year": 1978,
+      "recorded": null,
+      "genres": [
+        "Hard rock",
+        "Blues-rock"
+      ],
+      "countries": [
+        "Irlande"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2e/Thin_Lizzy_-_Live_and_Dangerous.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1870,
+      "title": "Black Rose: a Rock Legend",
+      "artists": [
+        "Thin Lizzy"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Hard rock",
+        "Blues-rock"
+      ],
+      "countries": [
+        "Irlande"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7d/Thin_Lizzy_-_Black_Rose_A_Rock_Legend.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1869,
+      "title": "Bad Reputation",
+      "artists": [
+        "Thin Lizzy"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Hard rock",
+        "Blues-rock"
+      ],
+      "countries": [
+        "Irlande"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/70/Thin_Lizzy_-_Bad_Reputation.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1868,
+      "title": "Johnny the Fox",
+      "artists": [
+        "Thin Lizzy"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Hard rock",
+        "Blues rock"
+      ],
+      "countries": [
+        "Irlande"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7a/Thin_Lizzy_-_Johnny_the_Fox.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1867,
+      "title": "Jailbreak",
+      "artists": [
+        "Thin Lizzy"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Hard rock",
+        "Blues rock"
+      ],
+      "countries": [
+        "Irlande"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/33/Thin_Lizzy_-_Jailbreak.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1866,
+      "title": "Fighting",
+      "artists": [
+        "Thin Lizzy"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": null,
+      "genres": [
+        "Hard rock",
+        "Blues rock"
+      ],
+      "countries": [
+        "Irlande"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b1/ThinLizzyFighting.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1865,
+      "title": "Nightlife",
+      "artists": [
+        "Thin Lizzy"
+      ],
+      "composers": [],
+      "year": 1974,
+      "recorded": null,
+      "genres": [
+        "Hard rock",
+        "Blues rock",
+        "Soft rock"
+      ],
+      "countries": [
+        "Irlande"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4b/Thin_Lizzy_-_Night_Life.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1864,
+      "title": "Vagabonds of the Western World",
+      "artists": [
+        "Thin Lizzy"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "Irlande"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/77/Vagabonds_of_the_Western_World.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1863,
+      "title": "Thunder and Lightning",
+      "artists": [
+        "Thin Lizzy"
+      ],
+      "composers": [],
+      "year": 1983,
+      "recorded": null,
+      "genres": [
+        "Heavy metal"
+      ],
+      "countries": [
+        "Irlande"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/dd/Thin_Lizzy_-_Thunder_and_Lightning.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1862,
+      "title": "2012-08-31 - Dick's Sporting Goods Park - Denver, Co",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2012,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://www.nugs.net/dw/image/v2/BCHN_PRD/on/demandware.static/-/Sites-nugs-master/default/dw49bf120d/images/hi-res/phish120831_01.jpg?sw=800&sh=800",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1861,
+      "title": "2025-27-07 - Broadview Stage at Spac - Saratoga Springs, Ny",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2025,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://www.livephish.com/dw/image/v2/BCHN_PRD/on/demandware.static/-/Sites-livephish-master/default/dwdf102807/images/hi-res/ph250727_01.jpg?sw=800&sh=800",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1860,
+      "title": "1993-12-31 - Worcester Centrum - Worcester, Ma",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2026,
+      "recorded": "1993",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://www.livephish.com/dw/image/v2/BCHN_PRD/on/demandware.static/-/Sites-livephish-master/default/dwc9590070/images/hi-res/ph931231_01.jpg?sw=800&sh=800",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1859,
+      "title": "2019-07-14 - Alpine Valley Music Theater - East Troy, Wi",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2019,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://i.discogs.com/h2RGWNxLdODx08Y4uPWO5rnhQdUVTftvunNFt6V5U8c/rs:fit/g:sm/q:90/h:412/w:412/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzOTI5/MzIzLTE1NjQyODkz/MzgtNjc4Ni5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1858,
+      "title": "The Clifford Ball",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2009,
+      "recorded": "1996",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/89/Phish-The_Clifford_Ball.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1857,
+      "title": "It",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2003,
+      "recorded": null,
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/13/PhishItVid.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1856,
+      "title": "Live Phish Vol. 11",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2002,
+      "recorded": "1997",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f8/Phish_-_Live_Phish_Volume_11.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1855,
+      "title": "Live Phish Vol. 9",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2002,
+      "recorded": "1989",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f1/Live_Phish_Volume_9_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1854,
+      "title": "Live Phish Vol. 16",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2002,
+      "recorded": "1996",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7f/Phish_-_Live_Phish_Volume_15.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1853,
+      "title": "Live Phish Vol. 14",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2002,
+      "recorded": "1995",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e4/Live_Phish_Volume_14%28Phish_album%29_coverart.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1852,
+      "title": "At the Roxy",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2008,
+      "recorded": "1993",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4a/At_the_Roxy.JPG",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1851,
+      "title": "Live Phish Volume 4",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2001,
+      "recorded": "2000",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/50/Live_Phish_Volume_4_%28cover_art%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1850,
+      "title": "Live Phish Vol. 13",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2002,
+      "recorded": "1994",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/34/Live_Phish_Volume_13%28Phish%29_coverart.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1849,
+      "title": "Live Phish 04.05.98",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2005,
+      "recorded": "1998",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/10/Live_Phish_4-5-98_%28album_cover_art%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1848,
+      "title": "Live Phish 04.04.98",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2005,
+      "recorded": "1998",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Live_Phish_4-4-98_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1847,
+      "title": "Live Phish 04.03.98",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2005,
+      "recorded": "1998",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/ea/Live_Phish_04.03.98_%28album_cover_art%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1846,
+      "title": "Live Phish 04.02.98",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2005,
+      "recorded": "1998",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Live_Phish_4-2-98_%28cover_art%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1845,
+      "title": "The Baker's Dozen: Live at Madison Square Garden",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2018,
+      "recorded": "2017",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d8/The_Baker%27s_Dozen_Three_Disc_Version_Cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1844,
+      "title": "St. Louis '93",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2017,
+      "recorded": "1993",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/df/Phish-St-Louis-93.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1843,
+      "title": "The Gorge '98",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2022,
+      "recorded": "1998",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/1d/Phish_the_gorge_98.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1842,
+      "title": "Amsterdam",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2015,
+      "recorded": "1997",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f5/Phish_-_Amsterdam.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1841,
+      "title": "Hampton Comes Alive",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 1999,
+      "recorded": "1998",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a4/Hamptoncomesalive.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1840,
+      "title": "Phish: New Year's Eve 1995 – Live at Madison Square Garden",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2005,
+      "recorded": "1995",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/34/Phishnye.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1839,
+      "title": "Niagara Falls",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2013,
+      "recorded": "1995",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/1d/PhishNiagaraFalls.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1838,
+      "title": "Ventura",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2013,
+      "recorded": "1997-1998",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c2/PhishVentura.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1837,
+      "title": "Chicago '94",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2012,
+      "recorded": "1994",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/36/PhishChicago94CD.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1836,
+      "title": "Hampton/winston-salem '97",
+      "artists": [
+        "Phish"
+      ],
+      "composers": [],
+      "year": 2011,
+      "recorded": "1997",
+      "genres": [
+        "Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0a/Phish_HWS97.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1835,
+      "title": "The Fragile Art of Existence",
+      "artists": [
+        "Control Denied"
+      ],
+      "composers": [],
+      "year": 1999,
+      "recorded": null,
+      "genres": [
+        "Progressive metal",
+        "Power metal"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bc/Control_Denied_-_The_Fragile_Art_of_Existence_%281999%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1834,
+      "title": "Неизвестный Arsenal",
+      "artists": [
+        "Arsenal"
+      ],
+      "composers": [],
+      "year": 2005,
+      "recorded": "1974, 1978-1979",
+      "genres": [
+        "Jazz-fusion"
+      ],
+      "countries": [
+        "Russie"
+      ],
+      "cover": "https://i.discogs.com/1YkunZcnvY4QpvlsdH8gMWBydB6i3oMkEgkQEP4xb3I/rs:fit/g:sm/q:90/h:520/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2MzQ2/NTEtMTYxODc2MDIy/NS0yMzc0LmpwZWc.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 1833,
+      "title": "Джаз-рок Ансамбль Арсенал",
+      "artists": [
+        "Arsenal"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Jazz-rock"
+      ],
+      "countries": [
+        "Russie"
+      ],
+      "cover": "https://i.discogs.com/H3WoMmczNT0cabdB97pDuTzXE4M5iqHm22iZdtCA5Z0/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4NzA2/NjUtMTM3Nzc2NTIy/OC0xMzM5LmpwZWc.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
       "id": 1832,
       "title": "Jupiter",
       "artists": [
@@ -15,9 +5497,9 @@
       "year": 2000,
       "recorded": null,
       "genres": [
-        "Alternative Rock",
-        "Space Rock",
-        "]progressive Rock",
+        "Alternative rock",
+        "Space rock",
+        "]progressive rock",
         "Post-hardcore"
       ],
       "countries": [
@@ -75,7 +5557,7 @@
       "year": 2006,
       "recorded": "1973",
       "genres": [
-        "Rock and Roll"
+        "Rock and roll"
       ],
       "countries": [
         "États-unis"
@@ -94,7 +5576,7 @@
       "year": 2006,
       "recorded": null,
       "genres": [
-        "Rock and Roll"
+        "Rock and roll"
       ],
       "countries": [
         "États-unis"
@@ -113,7 +5595,7 @@
       "year": 1964,
       "recorded": null,
       "genres": [
-        "Rock and Roll"
+        "Rock and roll"
       ],
       "countries": [
         "États-unis"
@@ -132,7 +5614,7 @@
       "year": 1982,
       "recorded": null,
       "genres": [
-        "Rock and Roll"
+        "Rock and roll"
       ],
       "countries": [
         "États-unis"
@@ -151,7 +5633,7 @@
       "year": 1964,
       "recorded": null,
       "genres": [
-        "Rock and Roll"
+        "Rock and roll"
       ],
       "countries": [
         "États-unis"
@@ -170,7 +5652,7 @@
       "year": 1959,
       "recorded": null,
       "genres": [
-        "Rock and Roll"
+        "Rock and roll"
       ],
       "countries": [
         "États-unis"
@@ -189,7 +5671,7 @@
       "year": 1958,
       "recorded": null,
       "genres": [
-        "Rock and Roll"
+        "Rock and roll"
       ],
       "countries": [
         "États-unis"
@@ -208,7 +5690,7 @@
       "year": 1957,
       "recorded": null,
       "genres": [
-        "Rock and Roll"
+        "Rock and roll"
       ],
       "countries": [
         "États-unis"
@@ -246,7 +5728,7 @@
       "year": 1971,
       "recorded": null,
       "genres": [
-        "Chicago Blues"
+        "Chicago blues"
       ],
       "countries": [
         "États-unis"
@@ -265,7 +5747,7 @@
       "year": 1958,
       "recorded": "1948-1954",
       "genres": [
-        "Chicago Blues"
+        "Chicago blues"
       ],
       "countries": [
         "États-unis"
@@ -303,7 +5785,7 @@
       "year": 1979,
       "recorded": null,
       "genres": [
-        "Electric Blues"
+        "Electric blues"
       ],
       "countries": [
         "États-unis"
@@ -322,7 +5804,7 @@
       "year": 1960,
       "recorded": null,
       "genres": [
-        "Chicago Blues"
+        "Chicago blues"
       ],
       "countries": [
         "États-unis"
@@ -341,7 +5823,7 @@
       "year": 1977,
       "recorded": null,
       "genres": [
-        "Chicago Blues"
+        "Chicago blues"
       ],
       "countries": [
         "États-unis"
@@ -360,7 +5842,7 @@
       "year": 1969,
       "recorded": null,
       "genres": [
-        "Chicago Blues"
+        "Chicago blues"
       ],
       "countries": [
         "États-unis"
@@ -474,7 +5956,7 @@
       "year": 1962,
       "recorded": null,
       "genres": [
-        "Chicago Blues"
+        "Chicago blues"
       ],
       "countries": [
         "États-unis"
@@ -493,8 +5975,8 @@
       "year": 1959,
       "recorded": null,
       "genres": [
-        "Chicago Blues",
-        "Electric Blues"
+        "Chicago blues",
+        "Electric blues"
       ],
       "countries": [
         "États-unis"
@@ -513,7 +5995,7 @@
       "year": 2000,
       "recorded": "1956-1957",
       "genres": [
-        "Country Blues"
+        "Country blues"
       ],
       "countries": [
         "États-unis"
@@ -532,9 +6014,9 @@
       "year": 1968,
       "recorded": null,
       "genres": [
-        "Acid Rock",
-        "Psychedelic Rock",
-        "Hard Rock",
+        "Acid rock",
+        "Psychedelic rock",
+        "Hard rock",
         "Proto-metal"
       ],
       "countries": [
@@ -554,7 +6036,7 @@
       "year": 2004,
       "recorded": null,
       "genres": [
-        "Progressive Metal"
+        "Progressive metal"
       ],
       "countries": [
         "Pologne"
@@ -573,10 +6055,10 @@
       "year": 2006,
       "recorded": null,
       "genres": [
-        "Indie Rock",
-        "Psychedelic Rock",
-        "Electronic Rock",
-        "Glam Rock"
+        "Indie rock",
+        "Psychedelic rock",
+        "Electronic rock",
+        "Glam rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -595,9 +6077,9 @@
       "year": 2004,
       "recorded": null,
       "genres": [
-        "Electronic Rock",
-        "Space Rock",
-        "Alternative Rock",
+        "Electronic rock",
+        "Space rock",
+        "Alternative rock",
         "Baggy"
       ],
       "countries": [
@@ -617,8 +6099,8 @@
       "year": 1996,
       "recorded": null,
       "genres": [
-        "Psychedelic Rock",
-        "Raga Rock",
+        "Psychedelic rock",
+        "Raga rock",
         "Britpop"
       ],
       "countries": [
@@ -677,10 +6159,10 @@
       "year": 2025,
       "recorded": null,
       "genres": [
-        "Alternative Rock",
-        "Indie Rock",
-        "Progressive Folk",
-        "Baroque Pop"
+        "Alternative rock",
+        "Indie rock",
+        "Progressive folk",
+        "Baroque pop"
       ],
       "countries": [
         "Royaume-uni"
@@ -700,8 +6182,8 @@
       "year": 2022,
       "recorded": null,
       "genres": [
-        "Indie Rock",
-        "Chamber Pop",
+        "Indie rock",
+        "Chamber pop",
         "Post-rock"
       ],
       "countries": [
@@ -722,9 +6204,9 @@
       "year": 2021,
       "recorded": null,
       "genres": [
-        "Experimental Rock",
+        "Experimental rock",
         "Post-punk",
-        "Math Rock",
+        "Math rock",
         "Post-rock"
       ],
       "countries": [
@@ -744,12 +6226,12 @@
       "year": 2022,
       "recorded": null,
       "genres": [
-        "Experimental Rock",
-        "Progressive Rock",
-        "Jazz Fusion",
+        "Experimental rock",
+        "Progressive rock",
+        "Jazz fusion",
         "Post-punk",
         "Avant-prog",
-        "Brutal Prog"
+        "Brutal prog"
       ],
       "countries": [
         "Royaume-uni"
@@ -768,13 +6250,13 @@
       "year": 2021,
       "recorded": null,
       "genres": [
-        "Progressive Rock",
-        "Experimental Rock",
-        "Jazz Fusion",
-        "Math Rock",
+        "Progressive rock",
+        "Experimental rock",
+        "Jazz fusion",
+        "Math rock",
         "Avant-prog",
         "Post-punk",
-        "Brutal Prog"
+        "Brutal prog"
       ],
       "countries": [
         "Royaume-uni"
@@ -794,7 +6276,7 @@
       "recorded": null,
       "genres": [
         "Post-punk",
-        "Art Punk"
+        "Art punk"
       ],
       "countries": [
         "Royaume-uni"
@@ -814,7 +6296,7 @@
       "recorded": null,
       "genres": [
         "Post-rock",
-        "Art Rock"
+        "Art rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -835,7 +6317,7 @@
       "genres": [
         "Post-punk",
         "Krautrock",
-        "New Wave"
+        "New wave"
       ],
       "countries": [
         "Royaume-uni"
@@ -855,8 +6337,8 @@
       "recorded": null,
       "genres": [
         "Post-punk",
-        "Gothic Rock",
-        "New Wave"
+        "Gothic rock",
+        "New wave"
       ],
       "countries": [
         "Royaume-uni"
@@ -876,8 +6358,8 @@
       "recorded": null,
       "genres": [
         "Post-punk",
-        "Industrial Rock",
-        "Industrial Metal"
+        "Industrial rock",
+        "Industrial metal"
       ],
       "countries": [
         "Royaume-uni"
@@ -896,7 +6378,7 @@
       "year": 2006,
       "recorded": null,
       "genres": [
-        "Industrial Metal",
+        "Industrial metal",
         "Post-punk"
       ],
       "countries": [
@@ -916,10 +6398,10 @@
       "year": 1990,
       "recorded": null,
       "genres": [
-        "Industrial Rock",
+        "Industrial rock",
         "Post-punk",
-        "Industrial Metal",
-        "Gothic Rock"
+        "Industrial metal",
+        "Gothic rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -938,7 +6420,7 @@
       "year": 1994,
       "recorded": null,
       "genres": [
-        "Industrial Metal",
+        "Industrial metal",
         "Post-punk"
       ],
       "countries": [
@@ -959,8 +6441,8 @@
       "recorded": null,
       "genres": [
         "Post-punk",
-        "Industrial Rock",
-        "Gothic Rock"
+        "Industrial rock",
+        "Gothic rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -980,7 +6462,7 @@
       "recorded": null,
       "genres": [
         "Post-punk",
-        "Gothic Rock"
+        "Gothic rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -999,7 +6481,7 @@
       "year": 1985,
       "recorded": null,
       "genres": [
-        "Gothic Rock",
+        "Gothic rock",
         "Post-punk"
       ],
       "countries": [
@@ -1020,7 +6502,7 @@
       "recorded": null,
       "genres": [
         "Post-punk",
-        "Industrial Rock"
+        "Industrial rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -1040,7 +6522,7 @@
       "recorded": null,
       "genres": [
         "Post-punk",
-        "Industrial Rock"
+        "Industrial rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -1060,7 +6542,7 @@
       "recorded": null,
       "genres": [
         "Post-punk",
-        "New Wave"
+        "New wave"
       ],
       "countries": [
         "Royaume-uni"
@@ -1080,9 +6562,9 @@
       "recorded": null,
       "genres": [
         "Post-punk",
-        "Punk Rock",
-        "New Wave",
-        "Art Rock"
+        "Punk rock",
+        "New wave",
+        "Art rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -1101,9 +6583,9 @@
       "year": 1977,
       "recorded": null,
       "genres": [
-        "Punk Rock",
-        "New Wave",
-        "Art Punk"
+        "Punk rock",
+        "New wave",
+        "Art punk"
       ],
       "countries": [
         "Royaume-uni"
@@ -1122,10 +6604,10 @@
       "year": 1977,
       "recorded": null,
       "genres": [
-        "Punk Rock",
-        "New Wave",
-        "Pub Rock",
-        "Art Punk"
+        "Punk rock",
+        "New wave",
+        "Pub rock",
+        "Art punk"
       ],
       "countries": [
         "Royaume-uni"
@@ -1144,8 +6626,8 @@
       "year": 1977,
       "recorded": null,
       "genres": [
-        "Punk Rock",
-        "Garage Rock"
+        "Punk rock",
+        "Garage rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -1164,8 +6646,8 @@
       "year": 1979,
       "recorded": null,
       "genres": [
-        "Punk Rock",
-        "New Wave",
+        "Punk rock",
+        "New wave",
         "Proto-hardcore",
         "Neo-psychedelia"
       ],
@@ -1186,7 +6668,7 @@
       "year": 1985,
       "recorded": null,
       "genres": [
-        "Gothic Rock"
+        "Gothic rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -1205,9 +6687,9 @@
       "year": 1982,
       "recorded": null,
       "genres": [
-        "Punk Rock",
-        "Gothic Rock",
-        "Psychedelic Pop"
+        "Punk rock",
+        "Gothic rock",
+        "Psychedelic pop"
       ],
       "countries": [
         "Royaume-uni"
@@ -1226,8 +6708,8 @@
       "year": 1980,
       "recorded": null,
       "genres": [
-        "Gothic Rock",
-        "Punk Rock",
+        "Gothic rock",
+        "Punk rock",
         "Psychedelia"
       ],
       "countries": [
@@ -1272,7 +6754,7 @@
       "recorded": null,
       "genres": [
         "Jazz-fusion",
-        "Progressive Rock",
+        "Progressive rock",
         "Folk"
       ],
       "countries": [
@@ -1314,7 +6796,7 @@
       "recorded": null,
       "genres": [
         "Jazz-fusion",
-        "Progressive Rock",
+        "Progressive rock",
         "Folk"
       ],
       "countries": [
@@ -9447,8 +14929,8 @@
         "Techno",
         "Progressive house",
         "Progressive trance",
-        "Ambien",
-        "Tdowntempo"
+        "Ambient",
+        "Downtempo"
       ],
       "countries": [
         "Royaume-uni"
@@ -14458,9 +19940,9 @@
       "year": 2013,
       "recorded": null,
       "genres": [
-        "Heavy Metal",
-        "Speed Metal",
-        "Thrash Metal"
+        "Heavy metal",
+        "Speed metal",
+        "Thrash metal"
       ],
       "countries": [
         "Norvège"
@@ -18467,7 +23949,7 @@
         "Mallsoft",
         "Plunderphonics",
         "Post-internet",
-        "Sound Collage",
+        "Sound collage",
         "Vaporwave"
       ],
       "countries": [
@@ -18491,7 +23973,7 @@
         "Mallsoft",
         "Plunderphonics",
         "Post-internet",
-        "Sound Collage",
+        "Sound collage",
         "Vaporwave"
       ],
       "countries": [
@@ -20600,7 +26082,7 @@
       "recorded": null,
       "genres": [
         "Rock",
-        "Hard Rock"
+        "Hard rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -28066,8 +33548,8 @@
       "year": 1974,
       "recorded": null,
       "genres": [
-        "Hard Rock",
-        "Glam Rock"
+        "Hard rock",
+        "Glam rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -29080,11 +34562,11 @@
       "year": 1967,
       "recorded": null,
       "genres": [
-        "Art Rock",
+        "Art rock",
         "Proto-punk",
-        "Experimental Rock",
+        "Experimental rock",
         "Avant-pop",
-        "Garage Rock"
+        "Garage rock"
       ],
       "countries": [
         "États-unis",
@@ -30099,7 +35581,7 @@
       "year": 1976,
       "recorded": null,
       "genres": [
-        "Progressive Rock"
+        "Progressive rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -30582,10 +36064,10 @@
       "year": 2016,
       "recorded": null,
       "genres": [
-        "Progressive Metal",
-        "Groove Metal",
+        "Progressive metal",
+        "Groove metal",
         "Post-metal",
-        "Experimental Metal"
+        "Experimental metal"
       ],
       "countries": [
         "France"
