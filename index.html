@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>La Discothèque d'Aegidius</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400&family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 :root {
   /* — palette tirée de style.py — */
@@ -24,7 +24,7 @@
   --r: 10px; --rs: 6px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Cantarell','Noto Color Emoji',sans-serif;background:var(--cf);color:var(--t1);min-height:100vh;font-size:14px}
+body{font-family:'Cantarell',sans-serif;background:var(--cf);color:var(--t1);min-height:100vh;font-size:14px}
 
 /* scrollbar fine comme dans style.py */
 ::-webkit-scrollbar{width:4px;height:4px}
@@ -177,14 +177,13 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .count-bar{font-size:13px;color:var(--t3);margin-bottom:1rem;letter-spacing:.04em}
 
 /* grid */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:14px;align-items:stretch}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:14px}
 @media(min-width:1280px){.grid{grid-template-columns:repeat(7,1fr)}}
 @media(min-width:1060px) and (max-width:1279px){.grid{grid-template-columns:repeat(6,1fr)}}
 @media(min-width:860px)  and (max-width:1059px){.grid{grid-template-columns:repeat(5,1fr)}}
 .card{
   background:var(--s1);border:1px solid var(--s2);border-radius:var(--r);
   overflow:hidden;transition:border-color .15s,transform .15s,box-shadow .15s;
-  display:flex;flex-direction:column;
 }
 .card:hover{border-color:var(--s3);transform:translateY(-3px);box-shadow:0 8px 28px rgba(0,0,0,.4)}
 .cover-wrap{position:relative;width:100%;aspect-ratio:1}
@@ -193,18 +192,17 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   width:100%;height:100%;display:flex;align-items:center;justify-content:center;
   font-size:34px;font-weight:700;letter-spacing:-1px;color:var(--t3);
 }
-.card-body{padding:9px 11px 11px;border-top:1px solid var(--s2);flex:1;display:flex;flex-direction:column;min-height:90px}
+.card-body{padding:9px 11px 11px;border-top:1px solid var(--s2)}
 .card-title{font-size:15px;font-weight:700;line-height:1.3;margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--t1)}
 .card-artist{font-size:13px;color:var(--ca);margin-bottom:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
 .card-artist:hover{text-decoration:underline}
-.card-foot{display:flex;align-items:flex-start;gap:4px;flex-wrap:wrap;margin-top:auto}
-.card-pills{display:flex;gap:3px;flex-wrap:wrap;width:100%;overflow:hidden;max-height:4.5rem}
+.card-foot{display:flex;align-items:flex-start;gap:4px;flex-wrap:wrap}
+.card-pills{display:flex;gap:3px;flex-wrap:wrap;width:100%}
 .pill{font-size:12px;padding:3px 8px;border-radius:999px;font-weight:700;cursor:pointer;transition:opacity .12s}
 .pill:hover{opacity:.75}
 .card-composer{font-size:12px;color:var(--comp-color,#7dd3b0);margin-bottom:7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
 .card-composer:hover{text-decoration:underline}
 .pill-g{background:rgba(233,69,96,.18);color:#f08090}
-.pill-more{background:rgba(255,255,255,.08);color:var(--t3);font-size:10px}
 .pill-y{background:rgba(168,192,255,.14);color:var(--ca)}
 .pill-release{opacity:.55;font-size:9px;font-weight:400}
 .rating-btns{display:flex;gap:6px;flex-wrap:wrap}
@@ -575,7 +573,9 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     'afrique du sud':'🇿🇦','nigeria':'🇳🇬','éthiopie':'🇪🇹','ethiopie':'🇪🇹',
     'inde':'🇮🇳','chine':'🇨🇳','corée du sud':'🇰🇷','coree du sud':'🇰🇷',
     'iran':'🇮🇷','turquie':'🇹🇷','jamaïque':'🇯🇲','jamaique':'🇯🇲','cuba':'🇨🇺',
-    'arabie saoudite':'🇸🇦','biélorussie':'🇧🇾','bielorussie':'🇧🇾','mali':'🇲🇱','sénégal':'🇸🇳','senegal':'🇸🇳','colombie':'🇨🇴','slovénie':'🇸🇮','slovenie':'🇸🇮','turkménistan':'🇹🇲','turkmenistan':'🇹🇲','géorgie':'🇬🇪','georgie':'🇬🇪','arménie':'🇦🇲','armenie':'🇦🇲','pérou':'🇵🇪','perou':'🇵🇪',
+    'arabie saoudite':'🇸🇦','biélorussie':'🇧🇾','bielorussie':'🇧🇾','mali':'🇲🇱',
+    'sénégal':'🇸🇳','senegal':'🇸🇳','colombie':'🇨🇴','slovénie':'🇸🇮','turkménistan':'🇹🇲', 'géorgie':'🇬🇪',
+    'arménie':'🇦🇲', 'pérou':'🇵🇪',
   };
   function countryFlag(name) {
     return FLAG_MAP[name.toLowerCase()] || '';
@@ -663,9 +663,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   function capitalize(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1).toLowerCase() : ''; }
   function parseTags(s) {
     return s.split(',').map(x => toTitleCase(x.trim())).filter(Boolean);
-  }
-  function parseGenres(s) {
-    return s.split(',').map(x => capitalize(x.trim())).filter(Boolean);
   }
   const ARRAY_KEYS = new Set(['artists','genres','countries','composers']);
 
@@ -1042,7 +1039,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
           ${a.composers && a.composers.length ? `<div class="card-composer" title="${a.composers.join(', ')}">${a.composers.map(c => { const cc = composerCountry(c); const cf = cc ? countryFlag(cc) : ''; return (cf ? cf + '\u00a0' : '') + c; }).join(', ')}</div>` : ''}
           <div class="card-foot">
             <div class="card-pills">
-              ${(() => { const max=3; const shown=genreList.slice(0,max); const rest=genreList.length-max; return shown.map(g=>`<span class="pill pill-g">${g}</span>`).join('')+(rest>0?`<span class="pill pill-more">+${rest}</span>`:''); })()}
+              ${genreList.map(g => `<span class="pill pill-g">${g}</span>`).join('')}
               ${a.recorded
                 ? `<span class="pill pill-y">${a.recorded}<span class="pill-release"> · éd. ${a.year}</span></span>`
                 : `<span class="pill pill-y">${a.year}</span>`}
@@ -1280,7 +1277,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     const composers = parseTags(document.getElementById('f-composer').value);
     const year      = parseInt(document.getElementById('f-year').value);
     const recorded  = document.getElementById('f-recorded').value.trim() || null;
-    const genres    = parseGenres(document.getElementById('f-genre').value);
+    const genres    = parseTags(document.getElementById('f-genre').value);
     const countries = parseTags(document.getElementById('f-country').value);
     const cover     = document.getElementById('f-cover').value.trim();
     const yt        = document.getElementById('f-yt').value.trim();
