@@ -6,6 +6,4584 @@
   },
   "albums": [
     {
+      "id": 2714,
+      "title": "Main Street People",
+      "artists": [
+        "Four Top"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "R&b"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8f/Main_Street_People_Four_Tops.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2713,
+      "title": "Reach Out",
+      "artists": [
+        "Four Top"
+      ],
+      "composers": [],
+      "year": 1967,
+      "recorded": null,
+      "genres": [
+        "Soul",
+        "R&b",
+        "Pop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/68/Fourtops-reachout-album.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2712,
+      "title": "Four Tops Second Album",
+      "artists": [
+        "Four Tops"
+      ],
+      "composers": [],
+      "year": 1965,
+      "recorded": null,
+      "genres": [
+        "Soul",
+        "R&b",
+        "Pop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/31/Secondalbum.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2711,
+      "title": "Four Tops",
+      "artists": [
+        "Four Tops"
+      ],
+      "composers": [],
+      "year": 1965,
+      "recorded": null,
+      "genres": [
+        "Soul",
+        "R&b",
+        "Pop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/5e/Four_Tops_%28album%29.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2710,
+      "title": "Diablo Canyon",
+      "artists": [
+        "Outlaws"
+      ],
+      "composers": [],
+      "year": 1994,
+      "recorded": null,
+      "genres": [
+        "Southern Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b8/The_Outlaws_-_Diablo_Canyon.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2709,
+      "title": "Outlaws",
+      "artists": [
+        "Outlaws"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": null,
+      "genres": [
+        "Southern Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4f/The_Outlaw_-_Outlaws.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2708,
+      "title": "Ghost Riders",
+      "artists": [
+        "Outlaws"
+      ],
+      "composers": [],
+      "year": 1980,
+      "recorded": null,
+      "genres": [
+        "Southern Rock",
+        "Country Rock",
+        "Hard Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e2/The_Outlaws_-_Ghost_Riders.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2707,
+      "title": "Yeah Whatever",
+      "artists": [
+        "Owane"
+      ],
+      "composers": [],
+      "year": 2018,
+      "recorded": null,
+      "genres": [
+        "Alternative Rock",
+        "Progressive Rock",
+        "Jazz Fusion",
+        "Instrumental"
+      ],
+      "countries": [
+        "Norvège"
+      ],
+      "cover": "https://f4.bcbits.com/img/a1873419779_2.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2706,
+      "title": "Twelve-string Guitar",
+      "artists": [
+        "Fred Gerlach"
+      ],
+      "composers": [],
+      "year": 1962,
+      "recorded": null,
+      "genres": [
+        "Delta Blues",
+        "Bluegrass",
+        "Folk"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://i.discogs.com/wTKHcFeNDcHbHCR72R4WFyEOg4Nh12EvalQSziOOBv8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODYy/NjktMTI5NjU0NDgw/NC5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2705,
+      "title": "Fetch the Bolt Cutters",
+      "artists": [
+        "Fiona Apple"
+      ],
+      "composers": [],
+      "year": 2020,
+      "recorded": null,
+      "genres": [
+        "Art Pop",
+        "Bedroom Pop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/00/Fiona_Apple_-_Fetch_the_Bolt_Cutters.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2704,
+      "title": "The Idler Wheel...",
+      "artists": [
+        "Fiona Apple"
+      ],
+      "composers": [],
+      "year": 2012,
+      "recorded": null,
+      "genres": [
+        "Art Pop",
+        "Experimental Pop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7d/TheIdlerWheel....jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2703,
+      "title": "Extraordinary Machine",
+      "artists": [
+        "Fiona Apple"
+      ],
+      "composers": [],
+      "year": 2005,
+      "recorded": null,
+      "genres": [
+        "Art Pop",
+        "Chamber Pop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/ed/Extraordinary_Machine.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2702,
+      "title": "When the Pawn...",
+      "artists": [
+        "Fiona Apple"
+      ],
+      "composers": [],
+      "year": 1999,
+      "recorded": null,
+      "genres": [
+        "Alternative Pop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/24/Fiona_apple_when_the_pawn.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2701,
+      "title": "Tidal",
+      "artists": [
+        "Fiona Apple"
+      ],
+      "composers": [],
+      "year": 1996,
+      "recorded": null,
+      "genres": [
+        "Chamber Pop",
+        "Jazz Pop",
+        "Alternative Pop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b5/FionaAppleTidal.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2700,
+      "title": "Burrito Deluxe",
+      "artists": [
+        "The Flying Burrito Brothers"
+      ],
+      "composers": [],
+      "year": 1970,
+      "recorded": null,
+      "genres": [
+        "Country Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/3d/Burrito_Deluxe.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2699,
+      "title": "The Gilded Palace of Sin",
+      "artists": [
+        "The Flying Burrito Brothers"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Country Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d7/The_Gilded_Palace_of_Sin.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2698,
+      "title": "Fire and Water",
+      "artists": [
+        "Free"
+      ],
+      "composers": [],
+      "year": 1970,
+      "recorded": null,
+      "genres": [
+        "Blues Rock",
+        "Hard Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c6/Fireandwater_albumcover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2697,
+      "title": "Free",
+      "artists": [
+        "Free"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Blues Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bd/Free_albumcover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2696,
+      "title": "Tons of Sobs",
+      "artists": [
+        "Free"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Blues Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/52/Tons_Of_Sobs.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2695,
+      "title": "Album of the Year",
+      "artists": [
+        "Faith No More"
+      ],
+      "composers": [],
+      "year": 1997,
+      "recorded": null,
+      "genres": [
+        "Alternative Metal"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a4/Fnm_aoty.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2694,
+      "title": "King for a Day... Fool for a Lifetime",
+      "artists": [
+        "Faith No More"
+      ],
+      "composers": [],
+      "year": 1995,
+      "recorded": null,
+      "genres": [
+        "Alternative Metal"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/ed/Faith_No_More_-_King_for_a_Day..._Fool_for_a_Lifetime.png",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2693,
+      "title": "Angel Dust",
+      "artists": [
+        "Faith No More"
+      ],
+      "composers": [],
+      "year": 1992,
+      "recorded": null,
+      "genres": [
+        "Alternative Metal",
+        "Experimental Metal"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/24/Faith_no_more_angel_dust.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2692,
+      "title": "The Real Thing",
+      "artists": [
+        "Faith No More"
+      ],
+      "composers": [],
+      "year": 1989,
+      "recorded": null,
+      "genres": [
+        "Alternative Metal",
+        "Funk Metal",
+        "Rap Metal"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/ef/The_Real_Thing_vinyl_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2691,
+      "title": "A Small Deadly Space",
+      "artists": [
+        "Fight"
+      ],
+      "composers": [],
+      "year": 1995,
+      "recorded": null,
+      "genres": [
+        "Groove Metal"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/58/A_Small_Deadly_Space.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2690,
+      "title": "Rock and Roll Outlaws",
+      "artists": [
+        "Foghat"
+      ],
+      "composers": [],
+      "year": 1974,
+      "recorded": null,
+      "genres": [
+        "Blues Rock",
+        "Hard Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4b/Rock-and-roll-outlaws.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2689,
+      "title": "Fool for the City",
+      "artists": [
+        "Foghat"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": null,
+      "genres": [
+        "Hard Rock",
+        "Blues Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/36/Fool_for_the_City.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2688,
+      "title": "Night Shift",
+      "artists": [
+        "Foghat"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Rock",
+        "Hard Rock",
+        "Rock and Roll",
+        "Proto-metal"
+      ],
+      "countries": [],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/1c/Foghatnightshiftalbum.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2687,
+      "title": "Foghat Live",
+      "artists": [
+        "Foghat"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Rock",
+        "Blues Rock",
+        "Hard Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/ff/Foghat-LIVE.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2686,
+      "title": "Deran",
+      "artists": [
+        "Bombino"
+      ],
+      "composers": [],
+      "year": 2018,
+      "recorded": null,
+      "genres": [
+        "Saharan Rock",
+        "Blues",
+        "Tuareg Music"
+      ],
+      "countries": [
+        "Niger"
+      ],
+      "cover": "https://i.discogs.com/bmVX2CVwKCqMaTqgW2_0zJ_3D3rl41LKake583BG_L0/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1ODUw/MTgwLTE2MDE5NTc1/ODItMTcxNi5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2685,
+      "title": "Nomad",
+      "artists": [
+        "Bombino"
+      ],
+      "composers": [],
+      "year": 2013,
+      "recorded": null,
+      "genres": [
+        "Saharan Rock",
+        "Blues",
+        "Tuareg Music"
+      ],
+      "countries": [
+        "Niger"
+      ],
+      "cover": "https://i.discogs.com/v76wfTqLXTDWs9wDil0umRvKX0oSzrdq9iKlaez2j5Q/rs:fit/g:sm/q:90/h:550/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyODQ5/MjM1LTE3MzY5NDMw/NTEtODkwMi5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2684,
+      "title": "Agadez",
+      "artists": [
+        "Bombino"
+      ],
+      "composers": [],
+      "year": 2011,
+      "recorded": null,
+      "genres": [
+        "Saharan Rock",
+        "Blues",
+        "Tuareg Music"
+      ],
+      "countries": [
+        "Niger"
+      ],
+      "cover": "https://i.discogs.com/EMkYruPsAGaTiUULNMLL3YS9VUnlg9AeVhBHLgd0xlk/rs:fit/g:sm/q:90/h:314/w:350/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NDY1/NDMtMTMwMzc0MTAx/Ny5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2683,
+      "title": "Azel",
+      "artists": [
+        "Bombino"
+      ],
+      "composers": [],
+      "year": 2016,
+      "recorded": null,
+      "genres": [
+        "Saharan Rock",
+        "Blues",
+        "Tuareg Music"
+      ],
+      "countries": [
+        "Niger"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b0/Azel_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2682,
+      "title": "Meet You There",
+      "artists": [
+        "The Beefeaters"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Garage Rock",
+        "Blues Rock"
+      ],
+      "countries": [
+        "Danemark"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f2/Meet_You_There_Album_Cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2681,
+      "title": "Beefeaters",
+      "artists": [
+        "The Beefeaters"
+      ],
+      "composers": [],
+      "year": 1967,
+      "recorded": null,
+      "genres": [
+        "Garage Rock"
+      ],
+      "countries": [
+        "Danemark"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b3/Beefeaters_%28album%29_cover_artwork.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2680,
+      "title": "Mask",
+      "artists": [
+        "Bauhaus"
+      ],
+      "composers": [],
+      "year": 1981,
+      "recorded": null,
+      "genres": [
+        "Post-punk",
+        "Hothic Rock",
+        "Experimental"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/75/Bauhaus-Mask.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2679,
+      "title": "In the Flat Field",
+      "artists": [
+        "Bauhaus"
+      ],
+      "composers": [],
+      "year": 1980,
+      "recorded": null,
+      "genres": [
+        "Post-punk",
+        "Gothic Rock"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Intheflatfield.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2678,
+      "title": "The Bela Session",
+      "artists": [
+        "Bauhaus"
+      ],
+      "composers": [],
+      "year": 2018,
+      "recorded": "1979",
+      "genres": [
+        "Post-punk",
+        "Gothic Rock",
+        "Dub Reggae"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Bauhaus_-_The_Bela_Session_%282018%29_cover_art.jpg/250px-Bauhaus_-_The_Bela_Session_%282018%29_cover_art.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2677,
+      "title": "Different Light",
+      "artists": [
+        "The Bangles"
+      ],
+      "composers": [],
+      "year": 1986,
+      "recorded": null,
+      "genres": [
+        "Pop Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/The_Bangles_-_Different_Light.jpg/250px-The_Bangles_-_Different_Light.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2676,
+      "title": "Anatomical Venus",
+      "artists": [
+        "Black Moth"
+      ],
+      "composers": [],
+      "year": 2018,
+      "recorded": null,
+      "genres": [
+        "Hard Rock",
+        "Stoner"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://i.discogs.com/tVrbyRpNin1pp-kj5WGOMn1q7POSNz0iShWCScPKFnI/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNjc1/ODQ4LTE1MjA1MDkx/MTktNTcyMC5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2675,
+      "title": "Condemned to Hope",
+      "artists": [
+        "Black Moth"
+      ],
+      "composers": [],
+      "year": 2014,
+      "recorded": null,
+      "genres": [
+        "Doom Metal",
+        "Sludge Metal"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://i.discogs.com/hG3aiQKZEXhjirxm0xsAFQ2bp7TDUJJyvo5uducFmQs/rs:fit/g:sm/q:90/h:225/w:225/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxMDk4/NzktMTQxMTMxMTQ3/OC02NjEwLmpwZWc.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2674,
+      "title": "The Killing Jar",
+      "artists": [
+        "Black Moth"
+      ],
+      "composers": [],
+      "year": 2012,
+      "recorded": null,
+      "genres": [
+        "Stoner"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://i.discogs.com/npkTtWPE4bz8zBbSIvz3jhKh5EieEeFfTAOSJobbUWA/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzEz/MzktMTM0MjEwODE1/NC04ODg2LmpwZWc.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2673,
+      "title": "Shiny Battles",
+      "artists": [
+        "The Bonaparte's"
+      ],
+      "composers": [],
+      "year": 1985,
+      "recorded": null,
+      "genres": [
+        "New Wave",
+        "Synth-pop"
+      ],
+      "countries": [
+        "France"
+      ],
+      "cover": "https://i.discogs.com/Br10dUYcE4DwwrNPej-fZax0XW8PXkVe3WUIrHdV5-4/rs:fit/g:sm/q:90/h:472/w:472/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMjI0/OTgtMTIxOTU3OTYz/Ny5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2672,
+      "title": "Welcome to the Isle of Dogs",
+      "artists": [
+        "The Bonaparte's"
+      ],
+      "composers": [],
+      "year": 1986,
+      "recorded": null,
+      "genres": [
+        "New Wave",
+        "Coldwave",
+        "Post-punk"
+      ],
+      "countries": [
+        "France"
+      ],
+      "cover": "https://i.discogs.com/4mCosBdk81sCa6ZZYqN3-Th52FVBr4O74J3xmTMfyQs/rs:fit/g:sm/q:90/h:281/w:280/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1ODYx/OTgtMTIzNTE3Mjk0/My5qcGVn.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2671,
+      "title": "They Say I'm Different",
+      "artists": [
+        "Betty Davis"
+      ],
+      "composers": [],
+      "year": 1974,
+      "recorded": null,
+      "genres": [
+        "Funk Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/82/TheySayDifferent.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2670,
+      "title": "Betty Davis",
+      "artists": [
+        "Betty Davis"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Funk Rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c8/Betty-Davis-Betty-Davis.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2669,
+      "title": "Doomed Blues",
+      "artists": [
+        "The Black Furs"
+      ],
+      "composers": [],
+      "year": 2016,
+      "recorded": null,
+      "genres": [
+        "Garage Rock",
+        "Stoner"
+      ],
+      "countries": [
+        "Argentine"
+      ],
+      "cover": "https://f4.bcbits.com/img/a1660437947_2.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2668,
+      "title": "Hawkins! Eldridge! Hodges! Alive! at the Village Gate!",
+      "artists": [
+        "Coleman Hawkins",
+        "Roy Eldridge",
+        "Johnny Hodges"
+      ],
+      "composers": [],
+      "year": 1962,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/63/Hawkins%21_Eldridge%21_Hodges%21_Alive%21_At_the_Village_Gate%21.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2667,
+      "title": "The Hawk Relaxes",
+      "artists": [
+        "Coleman Hawkins"
+      ],
+      "composers": [],
+      "year": 1961,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e8/The_Hawk_Relaxes.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2666,
+      "title": "Night Hawk",
+      "artists": [
+        "Coleman Hawkins",
+        "Eddie \"lockjaw\" Davis"
+      ],
+      "composers": [],
+      "year": 1961,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8b/Night_Hawk_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2665,
+      "title": "Bean Bags",
+      "artists": [
+        "Coleman Hawkins"
+      ],
+      "composers": [],
+      "year": 1959,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d6/Bean_Bags_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2664,
+      "title": "Air Play",
+      "artists": [
+        "Benny Goodman"
+      ],
+      "composers": [],
+      "year": 1985,
+      "recorded": "1936-1938",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c6/Air_Play.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2663,
+      "title": "Body and Soul",
+      "artists": [
+        "Coleman Hawkins"
+      ],
+      "composers": [],
+      "year": 1996,
+      "recorded": "1939-1956",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/9e/Body_and_Soul_%28Coleman_Hawkins_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2662,
+      "title": "Today and Now",
+      "artists": [
+        "Coleman Hawkins"
+      ],
+      "composers": [],
+      "year": 1963,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/35/Today_and_Now.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2661,
+      "title": "Duke Ellington Meets Coleman Hawkins",
+      "artists": [
+        "Duke Ellington",
+        "Coleman Hawkins"
+      ],
+      "composers": [],
+      "year": 1963,
+      "recorded": "1962",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c3/DukeEllingtonMeetsColemanHawkins.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2660,
+      "title": "The High and Mighty Hawk",
+      "artists": [
+        "Coleman Hawkins"
+      ],
+      "composers": [],
+      "year": 1958,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f7/The_High_and_Mighty_Hawk.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2659,
+      "title": "The Genius of Coleman Hawkins",
+      "artists": [
+        "Coleman Hawkins"
+      ],
+      "composers": [],
+      "year": 1957,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Genius_of_Coleman_Hawkins.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2658,
+      "title": "Coleman Hawkins Encounters Ben Webster",
+      "artists": [
+        "Coleman Hawkins",
+        "Ben Webster"
+      ],
+      "composers": [],
+      "year": 1959,
+      "recorded": "1957",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/52/HawkinsWebster.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2657,
+      "title": "The Hawk in Paris",
+      "artists": [
+        "Coleman Hawkins"
+      ],
+      "composers": [],
+      "year": 1957,
+      "recorded": "1956",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/05/The_Hawk_in_Paris.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2656,
+      "title": "Rainbow Mist",
+      "artists": [
+        "Coleman Hawkins"
+      ],
+      "composers": [],
+      "year": 1992,
+      "recorded": "1944",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/10/Rainbow_Mist.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2655,
+      "title": "Inner Fires",
+      "artists": [
+        "Bud Powell"
+      ],
+      "composers": [],
+      "year": 1982,
+      "recorded": "1953",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/dd/Inner_Fires.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2654,
+      "title": "The Essen Jazz Festival Concert",
+      "artists": [
+        "Bud Powell"
+      ],
+      "composers": [],
+      "year": 1988,
+      "recorded": "1960",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/ab/The_Essen_Jazz_Festival_Concert.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2653,
+      "title": "Early Years of a Genius, 44–48",
+      "artists": [
+        "Bud Powell"
+      ],
+      "composers": [],
+      "year": 1989,
+      "recorded": "1944-1948",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/fc/Earl_Bud_Powell_Vol._1_-_Early_Years_of_a_Genius%2C_44-48_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2652,
+      "title": "Jazz at Massey Hall",
+      "artists": [
+        "Dizzy Gillespie",
+        "Charlie Parker",
+        "Bud Powell",
+        "Charles Mingus",
+        "Max Roach"
+      ],
+      "composers": [],
+      "year": 1953,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6e/Jazz_at_Massey_Hall.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2651,
+      "title": "Piano Interpretations by Bud Powell",
+      "artists": [
+        "Bud Powell"
+      ],
+      "composers": [],
+      "year": 1956,
+      "recorded": "1955",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a5/Bud_Powell_-_Piano_Interpretations_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2650,
+      "title": "The Genius of Bud Powell",
+      "artists": [
+        "Bud Powell"
+      ],
+      "composers": [],
+      "year": 1956,
+      "recorded": "1950-1951",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/84/Bud_Powell_-_The_Genius_of_Bud_Powell_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2649,
+      "title": "Bud Powell's Moods",
+      "artists": [
+        "Bud Powell"
+      ],
+      "composers": [],
+      "year": 1956,
+      "recorded": "1955",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a0/Bud_Powell%27s_Moods_MGN_1064_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2648,
+      "title": "Jazz Original",
+      "artists": [
+        "Bud Powell"
+      ],
+      "composers": [],
+      "year": 1955,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0f/Bud_Powell_-_Jazz_Original_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2647,
+      "title": "Jazz Giant",
+      "artists": [
+        "Bud Powell"
+      ],
+      "composers": [],
+      "year": 1950,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/15/Bud_Powell_-_Jazz_Giant_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2646,
+      "title": "Bud Plays Bird",
+      "artists": [
+        "Bud Powell"
+      ],
+      "composers": [],
+      "year": 1996,
+      "recorded": "1956-1957",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d7/Bud_Plays_Bird_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2645,
+      "title": "The Scene Changes",
+      "artists": [
+        "Bud Powell"
+      ],
+      "composers": [],
+      "year": 1959,
+      "recorded": "1958",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/47/The_Amazing_Bud_Powell%2C_Vol_5_-_The_Scene_Changes_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2644,
+      "title": "Bud!",
+      "artists": [
+        "Bud Powell"
+      ],
+      "composers": [],
+      "year": 1957,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/61/The_Amazing_Bud_Powell%2C_Vol_3_-_Bud%21_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2643,
+      "title": "Bud Powell Trio",
+      "artists": [
+        "Bud Powell"
+      ],
+      "composers": [],
+      "year": 1957,
+      "recorded": "1947, 1953",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/30/Bud_Powell_Trio_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2642,
+      "title": "The Amazing Bud Powell, Vol. 2",
+      "artists": [
+        "Bud Powell"
+      ],
+      "composers": [],
+      "year": 1956,
+      "recorded": "1951, 1953",
+      "genres": [
+        "Bebop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2e/The_Amazing_Bud_Powell_Vol_2_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2641,
+      "title": "The Amazing Bud Powell, Vol. 1",
+      "artists": [
+        "Bud Powell"
+      ],
+      "composers": [],
+      "year": 1956,
+      "recorded": "1949,1951",
+      "genres": [
+        "Bebop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b3/AmazingBudPowell.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2640,
+      "title": "Nothing but the Blues",
+      "artists": [
+        "Herb Ellis"
+      ],
+      "composers": [],
+      "year": 1958,
+      "recorded": "1957",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/74/Album_cover_for_Herb_Ellis%27s_Nothing_But_the_Blues.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2639,
+      "title": "The Man From Barcelona",
+      "artists": [
+        "Tete Montoliu"
+      ],
+      "composers": [],
+      "year": 1991,
+      "recorded": "1990",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/03/The_Man_from_Barcelona.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2638,
+      "title": "Bluesine",
+      "artists": [
+        "Martial Solal"
+      ],
+      "composers": [],
+      "year": 1983,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "France"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bb/Bluesine.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2637,
+      "title": "The Music I Like to Play Vol. 4",
+      "artists": [
+        "Tete Montoliu"
+      ],
+      "composers": [],
+      "year": 1992,
+      "recorded": "1990",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/64/The_Music_I_Like_to_Play_Vol._4.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2636,
+      "title": "The Music I Like to Play Vol. 3",
+      "artists": [
+        "Tete Montoliu"
+      ],
+      "composers": [],
+      "year": 1991,
+      "recorded": "1990",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/fa/The_Music_I_Like_to_Play_Vol._3.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2635,
+      "title": "The Music I Like to Play Vol. 2",
+      "artists": [
+        "Tete Montoliu"
+      ],
+      "composers": [],
+      "year": 1989,
+      "recorded": "1986",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/fc/The_Music_I_Like_to_Play_Vol._2.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2634,
+      "title": "The Music I Like to Play Vol. 1",
+      "artists": [
+        "Tete Montoliu"
+      ],
+      "composers": [],
+      "year": 1987,
+      "recorded": "1986",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/40/The_Music_I_Like_to_Play_Vol._1.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2633,
+      "title": "Catalonian Nights Vol. 3",
+      "artists": [
+        "Tete Montoliu"
+      ],
+      "composers": [],
+      "year": 1989,
+      "recorded": "1980",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/53/Catalonian_Nights_Vol._3.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2632,
+      "title": "Catalonian Nights Vol. 2",
+      "artists": [
+        "Tete Montoliu"
+      ],
+      "composers": [],
+      "year": 1989,
+      "recorded": "1980",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6b/Catalonian_Nights_Vol._2.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2631,
+      "title": "Catalonian Nights Vol. 1",
+      "artists": [
+        "Tete Montoliu"
+      ],
+      "composers": [],
+      "year": 1981,
+      "recorded": "1980",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/11/Catalonian_Nights_Vol._1.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2630,
+      "title": "Music for Perla",
+      "artists": [
+        "Tete Montoliu"
+      ],
+      "composers": [],
+      "year": 1974,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4a/Music_for_Perla.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2629,
+      "title": "Meditation",
+      "artists": [
+        "George Coleman",
+        "Tete Montoliu"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis",
+        "Espagne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7e/Meditation_%28George_Coleman_and_Tete_Montiliu_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2628,
+      "title": "Tete!",
+      "artists": [
+        "Tete Montoliu"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": "1974",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/24/Tete%21.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2627,
+      "title": "Catalonian Fire",
+      "artists": [
+        "Tete Montoliu Trio"
+      ],
+      "composers": [],
+      "year": 1974,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/23/Catalonian_Fire.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2626,
+      "title": "A Tot Jazz",
+      "artists": [
+        "Tete Montoliu"
+      ],
+      "composers": [],
+      "year": 1965,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2f/A_Tot_Jazz.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2625,
+      "title": "Body & Soul",
+      "artists": [
+        "Tete Montoliu"
+      ],
+      "composers": [],
+      "year": 1983,
+      "recorded": "1971",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/58/Body_%26_Soul_%28Tete_Montoliu_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2624,
+      "title": "Resonance",
+      "artists": [
+        "Joe Pass"
+      ],
+      "composers": [],
+      "year": 2000,
+      "recorded": "1974",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/be/Resonance_Joe_Pass.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2623,
+      "title": "Songs for Ellen",
+      "artists": [
+        "Joe Pass"
+      ],
+      "composers": [],
+      "year": 1994,
+      "recorded": "1992",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b1/Songs_For_Ellen.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2622,
+      "title": "Unforgettable",
+      "artists": [
+        "Joe Pass"
+      ],
+      "composers": [],
+      "year": 1994,
+      "recorded": "1992",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2e/UnforgettableJoePassAlbum.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2621,
+      "title": "Live at Yoshi's",
+      "artists": [
+        "Joe Pass"
+      ],
+      "composers": [],
+      "year": 1992,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a8/Live_at_Yoshis_Joe_Pass.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2620,
+      "title": "For Django",
+      "artists": [
+        "Joe Pass"
+      ],
+      "composers": [],
+      "year": 1964,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b7/ForDjango.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2619,
+      "title": "Tivoli Gardens, Copenhagen, Denmark",
+      "artists": [
+        "Stéphane Grappelli",
+        "Joe Pass",
+        "Niels-henning Ørsted Pedersen"
+      ],
+      "composers": [],
+      "year": 1980,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "France",
+        "États-unis",
+        "Danemark"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/14/Tivoli_Gardens%2C_Copenhagen%2C_Denmark_album.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2618,
+      "title": "Skol",
+      "artists": [
+        "Oscar Peterson",
+        "Stéphane Grappelli"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis",
+        "France"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b7/Skol.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2617,
+      "title": "I Remember Charlie Parker",
+      "artists": [
+        "Joe Pass"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6f/Iremembercharlieparker.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2616,
+      "title": "Virtuoso No. 2",
+      "artists": [
+        "Joe Pass"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4e/VirtuosoNo2.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2615,
+      "title": "The Big 3",
+      "artists": [
+        "Milt Jackson",
+        "Joe Pass",
+        "Ray Brown"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/1d/The_Big_3_%28Milt_Jackson_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2614,
+      "title": "Joe Pass at the Montreux Jazz Festival 1975",
+      "artists": [
+        "Joe Pass"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/50/Joe_Pass_at_the_Montreux_Jazz_Festival_1975.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2613,
+      "title": "The Giants",
+      "artists": [
+        "Oscar Peterson",
+        "Joe Pass",
+        "Ray Brown"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": "1974",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d0/TheGiantsJazz.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2612,
+      "title": "Portraits of Duke Ellington",
+      "artists": [
+        "Joe Pass"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f0/Portraitsofdukeellington.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2611,
+      "title": "Live at Donte's",
+      "artists": [
+        "Joe Pass"
+      ],
+      "composers": [],
+      "year": 1981,
+      "recorded": "1974",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f0/Joe_Pass_Live_at_Dontes.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2610,
+      "title": "Virtuoso",
+      "artists": [
+        "Joe Pass"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8e/JoePassVirtuoso.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2609,
+      "title": "Catch Me!",
+      "artists": [
+        "Joe Pass"
+      ],
+      "composers": [],
+      "year": 1963,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d3/Catch_Me_Joe_Pass.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2608,
+      "title": "Sounds of Synanon",
+      "artists": [
+        "Joe Pass"
+      ],
+      "composers": [],
+      "year": 1962,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f8/Sounds_of_Synanon.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2607,
+      "title": "Dancing on the Tables",
+      "artists": [
+        "Niels-henning Ørsted Pedersen"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "Danemark"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8d/Dancing_on_the_Tables.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2606,
+      "title": "Looking at Bird",
+      "artists": [
+        "Archie Shepp",
+        "Niels-henning Ørsted Pedersen"
+      ],
+      "composers": [],
+      "year": 1981,
+      "recorded": "1980",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis",
+        "Danemark"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/98/Looking_at_Bird.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2605,
+      "title": "Chops",
+      "artists": [
+        "Joe Pass",
+        "Niels-henning Ørsted Pedersen"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": "1978",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis",
+        "Danemark"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a2/ChopsJoePass.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2604,
+      "title": "Four Keys",
+      "artists": [
+        "Martial Solal",
+        "Lee Konitz",
+        "John Scofield",
+        "Niels-henning Ørsted Pedersen"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "France",
+        "États-unis",
+        "Danemark"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/50/Four_Keys.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2603,
+      "title": "Down Home",
+      "artists": [
+        "Sam Jones"
+      ],
+      "composers": [],
+      "year": 1962,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bd/Down_Home_%28Sam_Jones_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2602,
+      "title": "The Soul Society",
+      "artists": [
+        "Sam Jones"
+      ],
+      "composers": [],
+      "year": 1960,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Soul_Society.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2601,
+      "title": "Something in Common",
+      "artists": [
+        "Sam Jones"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6d/SAM_JONES_--_SOMETHING_IN_COMMON.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2600,
+      "title": "Something New",
+      "artists": [
+        "Sam Jones' 12 Piece Band"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/3d/Something_New_%28Sam_Jones_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2599,
+      "title": "Double Bass",
+      "artists": [
+        "Niels-henning Ørsted Pedersen",
+        "Sam Jones"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/Double_Bass_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2598,
+      "title": "Duo",
+      "artists": [
+        "Kenny Drew",
+        "Niels-henning Ørsted Pedersen"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis",
+        "Danemark"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/3d/Duo_%28Kenny_Drew_and_Niels-Henning_%C3%98rsted_Pedersen_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2597,
+      "title": "Paul Bley/nhøp",
+      "artists": [
+        "Paul Bley",
+        "Niels-henning Ørsted Pedersen"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis",
+        "Danemark"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/08/Paul_Bley-NH%C3%98P.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2596,
+      "title": "The Lionel Hampton Quintet",
+      "artists": [
+        "Lionel Hampton"
+      ],
+      "composers": [],
+      "year": 1954,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/14/Lionel_Hampton_Quintet.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2595,
+      "title": "The Lionel Hampton Art Tatum Buddy Rich Trio",
+      "artists": [
+        "Lionel Hampton",
+        "Art Tatum",
+        "Buddy Rich"
+      ],
+      "composers": [],
+      "year": 1955,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/25/LionelHamptonArtTatumBuddyRich_Trio_Clef.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2594,
+      "title": "From Spirituals to Swing. Complete Legendary 1938-1939 Carnegie Hall Concerts",
+      "artists": [
+        "Count Basie",
+        "Benny Goodman",
+        "Big Joe Turner and Pete Johnson",
+        "Helen Humes",
+        "Meade Lux Lewis",
+        "Albert Ammons",
+        "Mitchell's Christian Singers",
+        "The Golden Gate Quartet",
+        "James P. Johnson",
+        "Big Bill Broonzy",
+        "Sonny Terry"
+      ],
+      "composers": [],
+      "year": 1959,
+      "recorded": "1938-1939",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://i.discogs.com/fzhzap4Xl1-ucyCz7DAEYScypQK6-0cM4tBZNmjT6mY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ3Njcw/MTYtMTc2MDQ5NjMy/OS04ODc3LmpwZWc.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2593,
+      "title": "The Benny Goodman Sextet Featuring Charlie Christian: 1939–1941",
+      "artists": [
+        "Benny Goodman",
+        "Charlie Christian"
+      ],
+      "composers": [],
+      "year": 1989,
+      "recorded": "1939-1941",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/77/The_Benny_Goodman_Sextet_Featuring_Charlie_Christian_19391941.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2592,
+      "title": "The Complete Rca Victor Small Group Recordings",
+      "artists": [
+        "Benny Goodman"
+      ],
+      "composers": [],
+      "year": 1997,
+      "recorded": "1935-1939",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/65/The_Complete_RCA_Victor_Small_Group_Recordings.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2591,
+      "title": "The Famous 1938 Carnegie Hall Jazz Concert",
+      "artists": [
+        "Benny Goodman"
+      ],
+      "composers": [],
+      "year": 1950,
+      "recorded": "1938",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e3/Goodman_carnegie_f2.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2590,
+      "title": "Mr. Guitar",
+      "artists": [
+        "Charlie Byrd"
+      ],
+      "composers": [],
+      "year": 1960,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/22/Mr_Guitar_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2589,
+      "title": "Blue Byrd",
+      "artists": [
+        "Charlie Byrd"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/75/Charlie_Byrd_-_Bluebyrd_Cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2588,
+      "title": "People Time: the Complete Recordings",
+      "artists": [
+        "Stan Getz",
+        "Kenny Barron"
+      ],
+      "composers": [],
+      "year": 2009,
+      "recorded": "1991",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/9a/People_Time_the_Complete_Recordings_album_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2587,
+      "title": "Stan Getz Quartet Live in Paris",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1996,
+      "recorded": "1982",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/22/Stan_Getz_Quartet_Live_in_Paris.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2586,
+      "title": "The Song is You",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1996,
+      "recorded": "1969",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/67/The_Song_Is_You_%28Stan_Getz_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2585,
+      "title": "Serenity",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1991,
+      "recorded": "1987",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/44/Serenity_%28Stan_Getz_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2584,
+      "title": "Anniversary!",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1989,
+      "recorded": "1987",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c7/Anniversary%21_%28Stan_Getz_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2583,
+      "title": "Voyage",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1986,
+      "recorded": null,
+      "genres": [
+        "Hazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2d/Voyage_%28Stan_Getz_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2582,
+      "title": "Pure Getz",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1982,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/Pure_Getz.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2581,
+      "title": "Live at Montmartre",
+      "artists": [
+        "Stan Getz Quartet",
+        "Niels-henning Ørsted Pedersen"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis",
+        "Danemark"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/ea/Live_at_Montmatre_%28Stan_Getz_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2580,
+      "title": "Stan Getz Plays Music From the Soundtrack of Mickey One",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1965,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f0/Stan_Getz_Mickey_One.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2579,
+      "title": "The Complete Roost Recordings",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1997,
+      "recorded": "1951-1952, 1954",
+      "genres": [
+        "Jazz",
+        "Bebop",
+        "Latin Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d8/The_Complete_Roost_Recordings.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2578,
+      "title": "The Peacocks",
+      "artists": [
+        "Jimmy Rowles",
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": "1975",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2d/The_Peacocks_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2577,
+      "title": "Captain Marvel",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": "1972",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6d/Stan_Getz_Captain_Marvel.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2576,
+      "title": "Dynasty",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1971,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/24/Dynasty_%28Stan_Getz_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2575,
+      "title": "Big Band Bossa Nova",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1962,
+      "recorded": null,
+      "genres": [
+        "Bossa Nova",
+        "Cool Jazz",
+        "Jazzz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/38/BigBandBossaNovaStanGetz.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2574,
+      "title": "Stan Getz and J. J. Johnson at the Opera House",
+      "artists": [
+        "Stan Getz",
+        "J. J. Johnson"
+      ],
+      "composers": [],
+      "year": 1957,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/33/StanGetzAndJJJohnson_AtTheOperaHouse_MGV8265.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2573,
+      "title": "West Coast Live",
+      "artists": [
+        "Chet Baker",
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1997,
+      "recorded": "1953, 1954",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7c/West_Coast_Live_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2572,
+      "title": "Blue Skies",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1995,
+      "recorded": "1982",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0f/Blue_Skies_%28Stan_Getz_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2571,
+      "title": "Change of Scenes",
+      "artists": [
+        "Stan Getz",
+        "Francy Boland",
+        "The Kenny Clarke/francy Boland Big Band"
+      ],
+      "composers": [],
+      "year": 1971,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7f/Change_of_Scenes.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2570,
+      "title": "Sweet Rain",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1967,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/3e/Sweet_Rain.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2569,
+      "title": "Stan Getz With Guest Artist Laurindo Almeida",
+      "artists": [
+        "Stan Getz",
+        "Laurindo Almeida"
+      ],
+      "composers": [],
+      "year": 1966,
+      "recorded": "1963",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis",
+        "Brésil"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/1e/Stan_Getz_With_Guest_Artist.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2568,
+      "title": "Jazz Samba",
+      "artists": [
+        "Stan Getz",
+        "Charlie Byrd"
+      ],
+      "composers": [],
+      "year": 1962,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/38/Stan_Getz_Charlie_Byrd-Jazz_Samba_%28album_cover%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2567,
+      "title": "Recorded Fall 1961",
+      "artists": [
+        "Bob Brookmeyer",
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1961,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/db/Fall61.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2566,
+      "title": "Focus",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1962,
+      "recorded": null,
+      "genres": [
+        "Cool Jazz",
+        "Third Stream"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8b/Focus_%28Stan_Getz%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2565,
+      "title": "Jazz Giants '58",
+      "artists": [
+        "Stan Getz",
+        "Gerry Mulligan",
+        "Harry \"sweets\" Edison",
+        "Oscar Peterson"
+      ],
+      "composers": [],
+      "year": 1958,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/66/JazzGiants58.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2564,
+      "title": "The Steamer",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1957,
+      "recorded": "1956",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/9e/The_Steamer.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2563,
+      "title": "West Coast Jazz",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1955,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bb/West_Coast_Getz.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2562,
+      "title": "For Musicians Only",
+      "artists": [
+        "Dizzy Gillespie",
+        "Stan Getz",
+        "Sonny Stitt"
+      ],
+      "composers": [],
+      "year": 1957,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/64/Stan_Getz_-_For_Musicians_Only.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2561,
+      "title": "Hamp and Getz",
+      "artists": [
+        "Lionel Hampton",
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1955,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/cf/Hamp_and_Getz.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2560,
+      "title": "Diz and Getz",
+      "artists": [
+        "Dizzy Gillepsie",
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1955,
+      "recorded": "1953",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bf/Diz_and_Getz.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2559,
+      "title": "Stan Getz Plays",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1955,
+      "recorded": "1952",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f9/Stan_Getz_Plays.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2558,
+      "title": "Stan Getz Quartets",
+      "artists": [
+        "Stan Getz"
+      ],
+      "composers": [],
+      "year": 1955,
+      "recorded": "1949-1950",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8b/Stan_Getz_Quartets.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2557,
+      "title": "Warm Tenor",
+      "artists": [
+        "Zoot Sims",
+        "Jimmy Rowles"
+      ],
+      "composers": [],
+      "year": 1979,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7a/Warm_Tenor.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2556,
+      "title": "For Lady Day",
+      "artists": [
+        "Zoot Sims"
+      ],
+      "composers": [],
+      "year": 1991,
+      "recorded": "1978",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f9/For_Lady_Day.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2555,
+      "title": "No Problem",
+      "artists": [
+        "Al Cohn"
+      ],
+      "composers": [],
+      "year": 1980,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/02/No_Problem_%28Al_Cohn_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2554,
+      "title": "Heavy Love",
+      "artists": [
+        "Al Cohn",
+        "Jimmy Rowles"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/97/Heavy_Love_%28Al_Cohn_and_Jimmy_Rowles_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2553,
+      "title": "Al Cohn's America",
+      "artists": [
+        "Al Cohn"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/15/AlCohn.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2552,
+      "title": "The Sax Section",
+      "artists": [
+        "Al Cohn"
+      ],
+      "composers": [],
+      "year": 1956,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/51/The_Sax_Section.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2551,
+      "title": "Body and Soul",
+      "artists": [
+        "Al Cohn",
+        "Zoot Sims"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/15/Body_and_Soul_%28Al_Cohn_%26_Zoot_Sims_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2550,
+      "title": "Basie & Zoot",
+      "artists": [
+        "Count Basie",
+        "Zoot Sims"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/80/Basiezoot.jpeg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2549,
+      "title": "The Greatest Jazz Concert in the World",
+      "artists": [
+        "Duke Ellington and His Orchestra",
+        "Ella Fitzgerald",
+        "Oscar Peterson",
+        "T-bone Walker",
+        "Coleman Hawkins",
+        "Clark Terry",
+        "Zoot Sims"
+      ],
+      "composers": [],
+      "year": 1975,
+      "recorded": "1967",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/11/GreatestJazzConcertintheWorld.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2548,
+      "title": "Inter-action",
+      "artists": [
+        "Sonny Stitt",
+        "Zoot Sims"
+      ],
+      "composers": [],
+      "year": 1965,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8b/Inter-Action.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2547,
+      "title": "Two Jims and Zoot",
+      "artists": [
+        "Jimmy Raney",
+        "Zoot Sims",
+        "Jim Hall"
+      ],
+      "composers": [],
+      "year": 1964,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/ce/Two_Jims_and_Zoot.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2546,
+      "title": "Down Home",
+      "artists": [
+        "Zoot Sims"
+      ],
+      "composers": [],
+      "year": 1960,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/43/Down_Home_-_Zoot_Sims_album.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2545,
+      "title": "Either Way",
+      "artists": [
+        "Zoot Sims",
+        "Al Cohn"
+      ],
+      "composers": [],
+      "year": 1961,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a5/Either_Way_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2544,
+      "title": "Jazz Alive! a Night at the Half Note",
+      "artists": [
+        "Zoot Sims",
+        "Al Cohn",
+        "Phil Woods"
+      ],
+      "composers": [],
+      "year": 1959,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bd/Jazz_Alive%21_A_Night_at_the_Half_Note.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2543,
+      "title": "The Four Brothers... Together Again!",
+      "artists": [
+        "Herbie Steward",
+        "Al Cohn",
+        "Zoot Sims",
+        "Serge Chaloff"
+      ],
+      "composers": [],
+      "year": 1957,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f4/The_Four_Brothers_Together_Again%21.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2542,
+      "title": "Whooeeee",
+      "artists": [
+        "Zoot Sims",
+        "Bob Brookmeyer"
+      ],
+      "composers": [],
+      "year": 1956,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b2/Whooeeee.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2541,
+      "title": "Tonite's Music Today",
+      "artists": [
+        "Zoot Sims",
+        "Bob Brookmeyer"
+      ],
+      "composers": [],
+      "year": 1956,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/58/Tonite%27s_Music_Today.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2540,
+      "title": "The Modern Art of Jazz by Zoot Sims",
+      "artists": [
+        "Zoot Sims"
+      ],
+      "composers": [],
+      "year": 1956,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/79/The_Modern_Art_of_Jazz_by_Zoot_Sims.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2539,
+      "title": "Opening Night",
+      "artists": [
+        "Thad Jones/mel Lewis Jazz Orchestra"
+      ],
+      "composers": [],
+      "year": 2000,
+      "recorded": "1966",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e5/OpeningNight_ThadJonesMelLewisAndTheJazzOrchestra.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2537,
+      "title": "Consummation",
+      "artists": [
+        "Thad Jones/mel Lewis Jazz Orchestra"
+      ],
+      "composers": [],
+      "year": 1970,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/77/Consummation_ThadJonesMelLewisOrchestra.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2536,
+      "title": "Central Park North",
+      "artists": [
+        "Thad Jones/mel Lewis Jazz Orchestra"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d2/CentralParkNorth_ThadJonesMelLewis.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2535,
+      "title": "Presenting Joe Williams and Thad Jones/mel Lewis, the Jazz Orchestra",
+      "artists": [
+        "Joe Williams",
+        "Thad Jones/mel Lewis Jazz Orchestra"
+      ],
+      "composers": [],
+      "year": 1966,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b9/PresentingJoeWilliams_ThadJonesMelLewis.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2534,
+      "title": "The Thad Jones Mel Lewis Quartet",
+      "artists": [
+        "Thad Jones",
+        "Mel Lewis"
+      ],
+      "composers": [],
+      "year": 1978,
+      "recorded": "1977",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/06/The_Thad_Jones_Mel_Lewis_Quartet.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2533,
+      "title": "Olio",
+      "artists": [
+        "Thads Jones",
+        "Frank Wess",
+        "Teddy Charles",
+        "Mal Waldron",
+        "Doug Watkins"
+      ],
+      "composers": [],
+      "year": 1957,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e4/Olio_%28Thad_Jones_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2532,
+      "title": "The Magnificent Thad Jones",
+      "artists": [
+        "Thad Jones"
+      ],
+      "composers": [],
+      "year": 1956,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/44/The_Magnificent_Thad_Jones.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2531,
+      "title": "Detroit–new York Junction",
+      "artists": [
+        "Thad Jones"
+      ],
+      "composers": [],
+      "year": 1956,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/5f/Detroit-New_York_Junction.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2530,
+      "title": "The Fabulous Thad Jones",
+      "artists": [
+        "Thad Jones"
+      ],
+      "composers": [],
+      "year": 1954,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/47/Album_cover_for_The_Fabulous_Thad_Jones%2C_Debut_Records%27_DLP_12.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2529,
+      "title": "Urban Dreams",
+      "artists": [
+        "Pepper Adams"
+      ],
+      "composers": [],
+      "year": 1981,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bd/Urban_Dreams.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2528,
+      "title": "10 to 4 at the 5 Spot",
+      "artists": [
+        "Pepper Adams"
+      ],
+      "composers": [],
+      "year": 1958,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4b/10_to_4_at_the_5_Spot.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2527,
+      "title": "Julian",
+      "artists": [
+        "Pepper Adams"
+      ],
+      "composers": [],
+      "year": 1976,
+      "recorded": "1975",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/92/Julian_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2526,
+      "title": "Conjuration: Fat Tuesday's Session",
+      "artists": [
+        "Pepper Adams"
+      ],
+      "composers": [],
+      "year": 1984,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/39/Conjuration_Fat_Tuesday%27s_Session.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2525,
+      "title": "Encounter!",
+      "artists": [
+        "Pepper Adams"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": "1968",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8d/Encounter%21.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2524,
+      "title": "Mean What You Say",
+      "artists": [
+        "Thad Jones",
+        "Pepper Adams"
+      ],
+      "composers": [],
+      "year": 1966,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/3d/Mean_What_You_Say_%28Thad_Jones_Pepper_Adams_Quintet_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2523,
+      "title": "Out of This World",
+      "artists": [
+        "Pepper Adams",
+        "Donald Byrd"
+      ],
+      "composers": [],
+      "year": 1961,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/37/Out_of_This_World_%28Pepper_Adams_Donald_Byrd_Quintet_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2522,
+      "title": "Pepper Adams Plays the Compositions of Charlie Mingus",
+      "artists": [
+        "Pepper Adams"
+      ],
+      "composers": [],
+      "year": 1964,
+      "recorded": "1963",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f5/Pepper_Adams_Plays_the_Compositions_of_Charlie_Mingus.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2521,
+      "title": "The Pepper-knepper Quintet",
+      "artists": [
+        "Pepper Adams",
+        "Jimmy Knepper"
+      ],
+      "composers": [],
+      "year": 1958,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/73/The_Pepper-Knepper_Quintet.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2520,
+      "title": "Look Stop Listen",
+      "artists": [
+        "Philly Joe Jones' Dameronia"
+      ],
+      "composers": [],
+      "year": 1983,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f0/Look_Stop_Listen.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2519,
+      "title": "Drum Song",
+      "artists": [
+        "Philly Joe Jones"
+      ],
+      "composers": [],
+      "year": 1985,
+      "recorded": "1978",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2e/Drum_Song.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2518,
+      "title": "Mean What You Say",
+      "artists": [
+        "Philly Joe Jones"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/22/Mean_What_You_Say_%28Philly_Joe_Jones_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2517,
+      "title": "Showcase",
+      "artists": [
+        "Philly Joe Jones"
+      ],
+      "composers": [],
+      "year": 1959,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/db/Showcase_%28Philly_Joe_Jones_album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2516,
+      "title": "Blue's Moods",
+      "artists": [
+        "Blue Mitchell"
+      ],
+      "composers": [],
+      "year": 1960,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/ad/Blue%27s_Moods.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2515,
+      "title": "Smooth as the Wind",
+      "artists": [
+        "Blue Mitchell"
+      ],
+      "composers": [],
+      "year": 1961,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d5/Smooth_as_the_Wind.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2514,
+      "title": "The Cup Bearers",
+      "artists": [
+        "Blue Mitchell"
+      ],
+      "composers": [],
+      "year": 1962,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7a/The_Cup_Bearers.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2513,
+      "title": "Step Lightly",
+      "artists": [
+        "Blue Mitchell"
+      ],
+      "composers": [],
+      "year": 1963,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d6/Step_Lightly.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2512,
+      "title": "Boss Horn",
+      "artists": [
+        "Blue Mitchell"
+      ],
+      "composers": [],
+      "year": 1967,
+      "recorded": "1966",
+      "genres": [
+        "Hard bop"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7c/Boss_Horn.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2511,
+      "title": "Mapenzi",
+      "artists": [
+        "Harold Land",
+        "Blue Mitchell"
+      ],
+      "composers": [],
+      "year": 1977,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/20/Mapenzi_%28Harold_Land-Blue_Mitchell_Quintet_album_-_cover_art%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2510,
+      "title": "The Thing to Do",
+      "artists": [
+        "Blue Mitchell"
+      ],
+      "composers": [],
+      "year": 1965,
+      "recorded": "1964",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/78/The_Thing_to_Do_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2509,
+      "title": "Blue Soul",
+      "artists": [
+        "Blue Mitchell"
+      ],
+      "composers": [],
+      "year": 1959,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8f/Blue_Soul.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2508,
+      "title": "Get Those Elephants Out'a Here",
+      "artists": [
+        "Whitey Mitchell",
+        "Red Mitchell",
+        "Blue Mitchell",
+        "André Previn"
+      ],
+      "composers": [],
+      "year": 1959,
+      "recorded": "1958",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis",
+        "Allemagne"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/Get_Those_Elephants_Out%27a_Here.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2507,
+      "title": "Big 6",
+      "artists": [
+        "Blue Mitchell"
+      ],
+      "composers": [],
+      "year": 1958,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8c/Big_6_%28album%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2506,
+      "title": "Nine High a Pallet",
+      "artists": [
+        "Brute."
+      ],
+      "composers": [],
+      "year": 1995,
+      "recorded": "1993",
+      "genres": [
+        "Rock",
+        "Southern rock",
+        "Jam"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/fd/Brute-NHaP.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2505,
+      "title": "Co-balt",
+      "artists": [
+        "Brute."
+      ],
+      "composers": [],
+      "year": 2002,
+      "recorded": null,
+      "genres": [
+        "Rock",
+        "Southern rock",
+        "Jam"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7a/Brute-CB.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2504,
+      "title": "Ahead Rings Out",
+      "artists": [
+        "Blodwyn Pig"
+      ],
+      "composers": [],
+      "year": 1969,
+      "recorded": null,
+      "genres": [
+        "Blues rock",
+        "Progressive blues",
+        "Progressive pop"
+      ],
+      "countries": [
+        "Royaume-uni"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/68/Blodwyn_Ahead.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2503,
+      "title": "Blood, Sweat & Tears",
+      "artists": [
+        "Blood",
+        "Sweat & Tears"
+      ],
+      "composers": [],
+      "year": 1968,
+      "recorded": null,
+      "genres": [
+        "Rock",
+        "Jazz rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0a/BS%26T_cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2502,
+      "title": "Outsideinside",
+      "artists": [
+        "Blue Cheer"
+      ],
+      "composers": [],
+      "year": 1968,
+      "recorded": null,
+      "genres": [
+        "Hard rock",
+        "Psychedelic rock",
+        "Acid rock",
+        "Heavy metal"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2c/Blue_cheer_outsideinside.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2501,
+      "title": "Vincebus Eruptum",
+      "artists": [
+        "Blue Cheer"
+      ],
+      "composers": [],
+      "year": 1968,
+      "recorded": null,
+      "genres": [
+        "Hard rock",
+        "Blues rock",
+        "Psychedelic rock",
+        "Acid rock",
+        "Heavy metal"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/5a/BlueCheerVincebusEruptum.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2500,
+      "title": "Child is Father to the Man",
+      "artists": [
+        "Blood",
+        "Sweat & Tears"
+      ],
+      "composers": [],
+      "year": 1968,
+      "recorded": null,
+      "genres": [
+        "Jazz rock"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a4/Blood%2CSweat%26TearsChildIsFathertotheMan.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2499,
+      "title": "Live at Newport '58",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 2008,
+      "recorded": "1958",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/de/HSilver_Newport58_cover001.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2498,
+      "title": "Live 1964",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1984,
+      "recorded": "1964",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bc/Live_1964.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2497,
+      "title": "Doin' the Thing",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1961,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/63/Doin%27_the_Thing.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2496,
+      "title": "Rockin' With Rachmaninoff",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 2003,
+      "recorded": "1991",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/ca/Rockin%27_with_Rachmaninoff.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2495,
+      "title": "Jazz Has a Sense of Humor",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1999,
+      "recorded": "1998",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/74/Jazz_Has_a_Sense_of_Humor.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2494,
+      "title": "A Prescription for the Blues",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1997,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/00/A_Prescription_for_the_Blues.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2493,
+      "title": "The Hardbop Grandpop",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1996,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bf/The_Hardbop_Grandpop.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2492,
+      "title": "In Pursuit of the 27th Man",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1973,
+      "recorded": "1972",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6b/In_Pursuit_of_the_27th_Man.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2491,
+      "title": "Serenade to a Soul Sister",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1968,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/3c/Serenade_to_a_Soul_Sister.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2490,
+      "title": "The Jody Grind",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1967,
+      "recorded": "1966",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8e/The_Jody_Grind_Cover.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2489,
+      "title": "The Cape Verdean Blues",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1966,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/df/Cape_Verdean_Blues.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2488,
+      "title": "Song for My Father",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1965,
+      "recorded": "1963-1964",
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/03/Song_for_My_Father_%28Horace_Silver_album_-_cover_art%29.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2487,
+      "title": "Horace-scope",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1960,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/12/Horace-Scope.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2486,
+      "title": "The Tokyo Blues",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1962,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/84/The_Tokyo_Blues.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2485,
+      "title": "Blowin' the Blues Away",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1959,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7a/Blowin%27_the_Blues_Away.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2484,
+      "title": "Finger Poppin' With the Horace Silver Quintet",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1959,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/58/Finger_Poppin%27.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2483,
+      "title": "Further Explorations by the Horace Silver Quintet",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1958,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2e/Further_Explorations.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
+      "id": 2482,
+      "title": "6 Pieces of Silver",
+      "artists": [
+        "Horace Silver"
+      ],
+      "composers": [],
+      "year": 1956,
+      "recorded": null,
+      "genres": [
+        "Jazz"
+      ],
+      "countries": [
+        "États-unis"
+      ],
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/ca/6_Pieces_of_Silver.jpg",
+      "yt": "",
+      "rating": ""
+    },
+    {
       "id": 2481,
       "title": "Sounds of Sound L.t.d",
       "artists": [
@@ -35,7 +4613,7 @@
       "year": 2007,
       "recorded": "1981-1982",
       "genres": [
-        "Heavy Metal"
+        "Heavy metal"
       ],
       "countries": [
         "États-unis"
@@ -52,9 +4630,9 @@
       ],
       "composers": [],
       "year": 2005,
-      "recorded": "1976,1977197919821990",
+      "recorded": "1976,1977,1979,1982,1990",
       "genres": [
-        "Blues Rock"
+        "Blues rock"
       ],
       "countries": [
         "Irlande"
@@ -6868,9 +11446,9 @@
       "year": 1970,
       "recorded": null,
       "genres": [
-        "Hard Rock",
-        "Blues Rock",
-        "Heavy Metal"
+        "Hard rock",
+        "Blues rock",
+        "Heavy metal"
       ],
       "countries": [
         "États-unis"
@@ -9272,7 +13850,7 @@
         "Desert rock",
         "Stoner rock",
         "Hard rock",
-        "]alternative metal"
+        "Alternative metal"
       ],
       "countries": [
         "États-unis"
@@ -13106,7 +17684,7 @@
       "genres": [
         "Alternative rock",
         "Space rock",
-        "]progressive rock",
+        "Progressive rock",
         "Post-hardcore"
       ],
       "countries": [
@@ -13765,10 +18343,10 @@
       "year": 2025,
       "recorded": null,
       "genres": [
-        "Alternative Rock",
-        "Indie Rock",
-        "Progressive Folk",
-        "Baroque Pop"
+        "Alternative rock",
+        "Indie rock",
+        "Progressive folk",
+        "Baroque pop"
       ],
       "countries": [
         "Royaume-uni"
@@ -13787,8 +18365,8 @@
       "year": 2022,
       "recorded": null,
       "genres": [
-        "Indie Rock",
-        "Chamber Pop",
+        "Indie rock",
+        "Chamber pop",
         "Post-rock"
       ],
       "countries": [
@@ -13808,9 +18386,9 @@
       "year": 2021,
       "recorded": null,
       "genres": [
-        "Experimental Rock",
+        "Experimental rock",
         "Post-punk",
-        "Math Rock",
+        "Math rock",
         "Post-rock"
       ],
       "countries": [
@@ -19041,9 +23619,9 @@
       "year": 1971,
       "recorded": null,
       "genres": [
-        "Hard Rock",
-        "Progressive Rock",
-        "Heavy Metal"
+        "Hard rock",
+        "Progressive rock",
+        "Heavy metal"
       ],
       "countries": [
         "Royaume-uni"
@@ -38303,7 +42881,7 @@
       "year": 2025,
       "recorded": null,
       "genres": [
-        "Psychedelic Rock"
+        "Psychedelic rock"
       ],
       "countries": [
         "Australie"
@@ -39498,8 +44076,8 @@
       "year": 1989,
       "recorded": null,
       "genres": [
-        "West Coast Hip-hop",
-        "Gangsta Rap"
+        "West coast hip-hop",
+        "Gangsta rap"
       ],
       "countries": [
         "États-unis"
@@ -43280,7 +47858,7 @@
       "year": 1973,
       "recorded": null,
       "genres": [
-        "Progressive Rock"
+        "Progressive rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -43627,7 +48205,7 @@
       "year": 1983,
       "recorded": null,
       "genres": [
-        "Heavy Metal"
+        "Heavy metal"
       ],
       "countries": [
         "Danemark"
@@ -49471,7 +54049,7 @@
       ],
       "year": 1971,
       "genres": [
-        "Progressive Rock"
+        "Progressive rock"
       ],
       "countries": [
         "Royaume-uni"
@@ -49490,7 +54068,7 @@
       ],
       "year": 1970,
       "genres": [
-        "Progressive Rock"
+        "Progressive rock"
       ],
       "countries": [
         "Royaume-uni"
