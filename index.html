@@ -8,30 +8,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 :root {
-  /* — palette tirée de style.py — */
-  --cp: #e94560;          /* primary accent */
-  --ca: #a8c0ff;          /* secondary accent */
-  --cf: #0e0e16;          /* base background */
-  --s1: #16161f;          /* cards / panels  (+8) */
-  --s2: #1e1e2a;          /* hover           (+16) */
-  --s3: #292938;          /* pressed         (+28) */
-  --t1: #f0f0f8;          /* primary text */
-  --t2: #9098b0;          /* muted text */
-  --t3: #50586a;          /* very muted */
-  --cs: #3a3a6a;          /* selection */
-  --yt: #e94560;          /* YouTube reprend l'accent */
+  --cp: #e94560;
+  --ca: #a8c0ff;
+  --cf: #0e0e16;
+  --s1: #16161f;
+  --s2: #1e1e2a;
+  --s3: #292938;
+  --t1: #f0f0f8;
+  --t2: #9098b0;
+  --t3: #50586a;
+  --cs: #3a3a6a;
+  --yt: #e94560;
   --red: #e94560;
   --r: 10px; --rs: 6px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Cantarell',sans-serif;background:var(--cf);color:var(--t1);min-height:100vh;font-size:14px}
-
-/* scrollbar fine comme dans style.py */
 ::-webkit-scrollbar{width:4px;height:4px}
 ::-webkit-scrollbar-track{background:transparent}
 ::-webkit-scrollbar-thumb{background:var(--s3);border-radius:2px}
 ::-webkit-scrollbar-thumb:hover{background:var(--t3)}
-
 header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .site-title{
   font-size:3rem;line-height:1.15;letter-spacing:-.02em;margin-bottom:.25rem;font-weight:700;padding-bottom:.1em;
@@ -39,10 +35,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
 }
 .site-sub{font-size:13px;color:var(--t3);margin-bottom:1.75rem;letter-spacing:.04em;text-transform:uppercase}
-
 .main{max-width:1200px;margin:0 auto;padding:1.5rem 2rem 0}
-
-/* toolbar */
 .toolbar{display:flex;gap:8px;align-items:center;margin-bottom:1.25rem}
 .search-wrap{flex:1;position:relative}
 .search-wrap svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:15px;height:15px;stroke:var(--t3);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
@@ -53,7 +46,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 }
 #search::placeholder{color:var(--t3)}
 #search:focus{border-color:var(--cp);background:var(--s2)}
-
 .add-btn{
   height:38px;padding:0 16px;border:none;border-radius:var(--r);
   font-family:'Cantarell',sans-serif;font-size:15px;font-weight:700;cursor:pointer;white-space:nowrap;
@@ -82,10 +74,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .icon-btn:hover{border-color:var(--s3);background:var(--s2)}
 .icon-btn svg{width:15px;height:15px;stroke:var(--t2);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .icon-btn:hover svg{stroke:var(--ca)}
-
-/* filters */
 .filters-block{margin-bottom:1.25rem}
-/* genre pills row */
 .genre-row{display:flex;align-items:baseline;gap:8px;margin-bottom:10px;flex-wrap:wrap}
 .filter-group-label{font-size:10px;color:var(--t3);font-weight:700;letter-spacing:.08em;text-transform:uppercase;min-width:52px;flex-shrink:0}
 .tags{display:flex;gap:5px;flex-wrap:wrap}
@@ -98,7 +87,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .tag.on-genre  {background:rgba(233,69,96,.18);border-color:rgba(233,69,96,.4);color:#f08090;font-weight:700}
 .tag-more{border-style:dashed;color:var(--t3)}
 .tag-more:hover{color:var(--t1)}
-/* dropdown row */
 .dropdown-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:4px}
 .dd-wrap{position:relative}
 .dd-btn{
@@ -156,7 +144,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   cursor:pointer;text-align:center;transition:color .1s;
 }
 .dd-clear:hover{color:var(--cp)}
-/* active filter chips below dropdowns */
 .active-chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px;margin-bottom:2px;min-height:0}
 .chip{
   display:inline-flex;align-items:center;gap:4px;
@@ -168,15 +155,13 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .chip-composer{background:rgba(125,211,176,.15);color:#7dd3b0}
 .chip-artist {background:rgba(168,192,255,.12);color:#c0d4ff}
 .chip-year   {background:rgba(253,240,220,.12);color:#c8a86a}
+.chip-cycle  {background:rgba(180,140,255,.12);color:#c4a0f5}
 .chip-x{cursor:pointer;opacity:.7;font-size:13px;line-height:1}
 .chip-x:hover{opacity:1}
 .tag.on-year   {background:rgba(168,192,255,.14);border-color:rgba(168,192,255,.35);color:var(--ca);font-weight:700}
 .tag.on-country{background:rgba(100,180,255,.12);border-color:rgba(100,180,255,.3);color:#90c8ff;font-weight:700}
 .tag.on-artist {background:rgba(168,192,255,.10);border-color:rgba(168,192,255,.25);color:#c0d4ff;font-weight:700}
-
 .count-bar{font-size:13px;color:var(--t3);margin-bottom:1rem;letter-spacing:.04em}
-
-/* grid */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:14px}
 @media(min-width:1280px){.grid{grid-template-columns:repeat(7,1fr)}}
 @media(min-width:1060px) and (max-width:1279px){.grid{grid-template-columns:repeat(6,1fr)}}
@@ -202,6 +187,9 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .pill:hover{opacity:.75}
 .card-composer{font-size:12px;color:var(--comp-color,#7dd3b0);margin-bottom:7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
 .card-composer:hover{text-decoration:underline}
+/* ── PATCH: cycle ── */
+.card-cycle{font-size:11px;color:var(--t3);margin-bottom:6px;font-style:italic;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
+.card-cycle:hover{color:var(--t2);text-decoration:underline}
 .pill-g{background:rgba(233,69,96,.18);color:#f08090}
 .pill-y{background:rgba(168,192,255,.14);color:var(--ca)}
 .pill-release{opacity:.55;font-size:9px;font-weight:400}
@@ -217,7 +205,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .rating-opt.selected{border-color:rgba(168,192,255,.4);background:rgba(168,192,255,.12);color:var(--ca);font-weight:700}
 .card-rating{position:absolute;top:7px;right:7px;font-size:18px;line-height:1;filter:drop-shadow(0 1px 3px rgba(0,0,0,.6))}
 .pill-c{background:rgba(100,180,255,.12);color:#90c8ff}
-/* actions en overlay sur la pochette */
 .card-actions{
   position:absolute;top:7px;left:7px;
   display:flex;gap:3px;
@@ -233,11 +220,8 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .edit-btn:hover svg{stroke:var(--ca)}
 .del-btn:hover{background:rgba(233,69,96,.25);border-color:rgba(233,69,96,.4)}
 .del-btn:hover svg{stroke:var(--cp)}
-
 .empty{grid-column:1/-1;text-align:center;padding:4rem 1rem;color:var(--t3);font-size:13px}
 .empty strong{display:block;font-size:1.3rem;font-weight:700;color:var(--t2);margin-bottom:6px}
-
-/* pagination */
 .pagination{display:flex;align-items:center;justify-content:space-between;padding:1.5rem 0 3rem;gap:12px;flex-wrap:wrap}
 .page-info{font-size:11px;color:var(--t3)}
 .page-nav{display:flex;align-items:center;gap:4px}
@@ -251,8 +235,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .page-btn:disabled{opacity:.3;cursor:default}
 .page-btn.active{background:linear-gradient(135deg,var(--cp),var(--ca));border-color:transparent;color:#fff;font-weight:700;cursor:default}
 .page-dots{font-size:12px;color:var(--t3);padding:0 4px}
-
-/* modal */
 .overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:100;align-items:center;justify-content:center;padding:1rem;backdrop-filter:blur(3px)}
 .overlay.open{display:flex}
 .modal{background:var(--s1);border-radius:var(--r);border:1px solid var(--s2);padding:1.5rem;width:100%;max-width:460px;max-height:90vh;overflow-y:auto}
@@ -277,11 +259,8 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .btn-save:hover{opacity:.85}
 .modal-tip{font-size:10px;color:var(--t3);line-height:1.6;margin-top:1rem;border-top:1px solid var(--s2);padding-top:1rem}
 .modal-tip a{color:var(--ca)}
-
 .toast{position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%);background:var(--s3);color:var(--t1);border:1px solid var(--s2);font-family:'Cantarell',sans-serif;font-size:13px;padding:9px 18px;border-radius:var(--r);opacity:0;pointer-events:none;transition:opacity .2s;z-index:200;white-space:nowrap}
 .toast.show{opacity:1}
-
-/* ── VIEW TOGGLE ── */
 .view-toggle{display:flex;gap:2px;border:1px solid var(--s2);border-radius:var(--r);overflow:hidden;flex-shrink:0}
 .view-btn{width:34px;height:38px;display:flex;align-items:center;justify-content:center;background:transparent;border:none;cursor:pointer;transition:background .12s}
 .view-btn svg{width:14px;height:14px;stroke:var(--t2);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
@@ -289,12 +268,8 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .view-btn:hover svg{stroke:var(--t1)}
 .view-btn.active{background:var(--s2)}
 .view-btn.active svg{stroke:var(--ca)}
-
-/* ── CLEAR FILTERS ── */
 .clear-btn{font-size:11px;color:var(--cp);background:none;border:none;cursor:pointer;padding:2px 6px;border-radius:4px;font-family:'Cantarell',sans-serif;white-space:nowrap}
 .clear-btn:hover{background:rgba(233,69,96,.1)}
-
-/* ── ARTIST VIEW ── */
 .artist-grid{display:flex;flex-direction:column;gap:2rem;padding-bottom:3rem}
 .artist-section{}
 .artist-header{display:flex;align-items:baseline;gap:10px;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid var(--s2)}
@@ -305,8 +280,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 @media(min-width:1280px){.artist-albums{grid-template-columns:repeat(7,1fr)}}
 @media(min-width:1060px) and (max-width:1279px){.artist-albums{grid-template-columns:repeat(6,1fr)}}
 @media(min-width:860px)  and (max-width:1059px){.artist-albums{grid-template-columns:repeat(5,1fr)}}
-
-/* ── RANDOM MODAL ── */
 .random-modal{max-width:360px;text-align:center}
 .random-cover{width:180px;height:180px;object-fit:cover;border-radius:var(--r);margin:0 auto 1rem;display:block}
 .random-cover-fb{width:180px;height:180px;border-radius:var(--r);margin:0 auto 1rem;display:flex;align-items:center;justify-content:center;font-size:48px;font-weight:700}
@@ -340,15 +313,12 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .review-done-icon{font-size:2.5rem;margin-bottom:.5rem}
 .review-done-title{font-size:1.1rem;font-weight:700;color:var(--t1);margin-bottom:.3rem}
 .review-done-sub{font-size:13px;color:var(--t3)}
-
-/* ── TABS ── */
 .tabs{display:flex;gap:2px;margin-bottom:1.5rem;border-bottom:1px solid var(--s2);padding-bottom:0}
 .tab-btn{height:36px;padding:0 18px;border:none;background:transparent;color:var(--t3);font-family:'Cantarell',sans-serif;font-size:15px;font-weight:700;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .15s,border-color .15s}
 .tab-btn:hover{color:var(--t2)}
 .tab-btn.active{color:var(--ca);border-bottom-color:var(--cp)}
 .tab-panel{display:none}
 .tab-panel.active{display:block}
-/* ── FAQ ── */
 .faq-intro{font-size:14px;color:var(--t2);line-height:1.7;margin-bottom:2rem;max-width:680px}
 .faq-list{max-width:680px}
 .faq-item{border-bottom:1px solid var(--s2)}
@@ -359,7 +329,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .faq-a{display:none;font-size:13px;color:var(--t2);line-height:1.75;padding-bottom:1rem;max-width:620px}
 .faq-item.open .faq-a{display:block}
 .faq-a em{color:var(--ca);font-style:normal}
-/* ── ADMIN ── */
 .admin-btns{display:none}
 .admin-btns.visible{display:contents}
 .lock-btn{width:38px;height:38px;flex-shrink:0;display:flex;align-items:center;justify-content:center;border:1px solid var(--s2);border-radius:var(--r);background:var(--s1);cursor:pointer;transition:border-color .15s}
@@ -383,13 +352,11 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 </header>
 
 <main class="main">
-  <!-- TABS -->
   <div class="tabs">
     <button class="tab-btn active" data-tab="collection">Collection</button>
     <button class="tab-btn" data-tab="faq">FAQ</button>
   </div>
 
-  <!-- COLLECTION TAB -->
   <div class="tab-panel active" id="tab-collection">
     <div class="toolbar">
       <div class="search-wrap">
@@ -414,7 +381,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       <button class="lock-btn" id="btn-lock" title="Mode admin">
         <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
       </button>
-      <!-- vue toggle -->
       <div class="view-toggle">
         <button class="view-btn active" id="btn-view-grid" title="Vue grille">
           <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
@@ -442,7 +408,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     <div class="pagination" id="pagination"></div>
   </div>
 
-  <!-- FAQ TAB -->
   <div class="tab-panel" id="tab-faq">
     <div class="faq-intro">C'est un site qui référence tous les albums que j'estime qu'il faut avoir écoutés. Si des gens s'ennuient, veulent explorer le vaste monde musical, je le propose comme témoignage de tout ce que j'ai écouté. Vous trouverez forcément chaussure à votre pied peu importe vos goûts musicaux, j'en suis certain.</div>
     <div class="faq-list" id="faq-list"></div>
@@ -505,6 +470,11 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       <input id="f-composer" placeholder="Beethoven, Schubert">
       <div class="hint">Optionnel — pour le classique. Plusieurs compositeurs ? Virgule.</div>
     </div>
+    <div class="field">
+      <label>Cycle / Série</label>
+      <input id="f-cycle" placeholder="ex : Symphonies de Shostakovich – Rozhdestvensky">
+      <div class="hint">Optionnel — intégrale, coffret, série de concerts…</div>
+    </div>
     <div class="form-row">
       <div class="field"><label>Genre(s) *</label><input id="f-genre" placeholder="Jazz, Soul">
         <div class="hint">Plusieurs genres ? Sépare-les par une virgule.</div>
@@ -560,6 +530,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   let activeCountries = new Set();
   let activeRatings  = new Set();
   let activeComposers = new Set();
+  let activeCycles   = new Set(); // ── PATCH cycle ──
   let toastTimer = null;
 
   const FLAG_MAP = {
@@ -582,12 +553,10 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     return FLAG_MAP[name.toLowerCase()] || '';
   }
 
-  // Dictionnaire compositeur → pays (persisté en localStorage)
   const COMP_DICT_KEY = 'mes-albums-composers-v1';
-  let compDict = {}; // { "Sibelius": "Finlande", ... }
+  let compDict = {};
 
   function loadCompDict() {
-    // Priorité 1 : localStorage (cache rapide)
     try {
       const raw = localStorage.getItem(COMP_DICT_KEY);
       if (raw) { compDict = JSON.parse(raw); return; }
@@ -603,53 +572,42 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     return compDict[name] || '';
   }
 
-  // Extrait compDict depuis le JSON importé/fetché
   function extractCompDict(data) {
     if (data && data._composerDict && typeof data._composerDict === 'object') {
-      // Merge : le JSON a priorité mais on garde les entrées locales non présentes dans le JSON
       compDict = Object.assign({}, compDict, data._composerDict);
       saveCompDict();
       return Array.isArray(data.albums) ? data.albums : [];
     }
-    // Ancien format = simple array, on garde le compDict local existant
     return Array.isArray(data) ? data : [];
   }
 
-  // JSON export inclut _composerDict
   function buildExportData() {
     return { _composerDict: compDict, albums: albums };
   }
 
-  // Pays principal d'un artiste déduit de ses albums
   function artistCountry(artistName) {
     const artistAlbums = albums.filter(a => a.artists.includes(artistName));
     if (!artistAlbums.length) return '';
-    // prend le pays le plus fréquent
     const counts = {};
     artistAlbums.forEach(a => (a.countries||[]).forEach(c => { counts[c] = (counts[c]||0) + 1; }));
     return Object.entries(counts).sort((a,b)=>b[1]-a[1])[0]?.[0] || '';
   }
 
-  /* ── STORAGE ── */
   function migrateAlbum(a) {
-    // title case
     if (a.title) a.title = toTitleCase(a.title);
-    // artists title case
     if (Array.isArray(a.artists)) a.artists = a.artists.map(x => toTitleCase(x));
-    // genres → array, normalized
     if (!a.genres && a.genre)              a.genres = a.genre.split(',').map(x => capitalize(x.trim())).filter(Boolean);
     else if (typeof a.genres === 'string') a.genres = a.genres.split(',').map(x => capitalize(x.trim())).filter(Boolean);
     else if (Array.isArray(a.genres))      a.genres = a.genres.map(x => capitalize(x.trim()));
     else                                   a.genres = [];
-    // countries → array
     if (typeof a.countries === 'string')   a.countries = a.countries ? a.countries.split(',').map(x => x.trim()).filter(Boolean) : [];
     else if (!Array.isArray(a.countries))  a.countries = a.country ? [a.country] : [];
     if (!Array.isArray(a.composers)) a.composers = a.composer ? [a.composer] : [];
     delete a.composer;
+    // cycle: keep as-is (string or undefined)
     return a;
   }
 
-  /* ── HELPERS ── */
   function colorFor(id) { return COLORS[(id - 1) % COLORS.length]; }
   function initials(t)  { return t.split(' ').map(w => w[0]).slice(0,2).join('').toUpperCase(); }
   const LOWERCASE_WORDS = new Set(['a','an','the','and','but','or','for','nor','on','at','to','by','in','of','up','as','is','it']);
@@ -671,7 +629,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   const BACKUP_KEY = 'mes-albums-backup-v1';
 
   async function load() {
-    // 1. Éditions locales en attente
     try {
       const raw = localStorage.getItem(EDIT_KEY);
       if (raw) {
@@ -681,7 +638,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
         return;
       }
     } catch {}
-    // 2. Fetch depuis GitHub
     try {
       const res = await fetch('mes-albums.json?v=' + Date.now());
       if (!res.ok) throw new Error();
@@ -691,7 +647,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       localStorage.setItem(BACKUP_KEY, JSON.stringify(buildExportData()));
       return;
     } catch {}
-    // 3. Backup local (offline / file://)
     try {
       const raw = localStorage.getItem(BACKUP_KEY);
       if (raw) {
@@ -701,7 +656,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
         return;
       }
     } catch {}
-    // 4. Démos
     albums = defaultAlbums();
   }
 
@@ -735,6 +689,9 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
         const compC = (a.composers||[]).map(c => composerCountry(c)).filter(Boolean);
         [...(a.countries||[]),...compC].forEach(x => { if (!all.includes(x)) all.push(x); });
         return;
+      } else if (key === 'cycle') {
+        if (a.cycle && !all.includes(a.cycle)) all.push(a.cycle);
+        return;
       } else {
         val = a[key];
       }
@@ -746,29 +703,25 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   }
 
   let currentSort = 'title';
-  let currentView = 'grid'; // 'grid' | 'artist'
+  let currentView = 'grid';
 
   function clearAllFilters() {
     activeGenres.clear(); activeYears.clear();
-    activeArtists.clear(); activeCountries.clear(); activeRatings.clear(); activeComposers.clear();
+    activeArtists.clear(); activeCountries.clear(); activeRatings.clear(); activeComposers.clear(); activeCycles.clear();
     document.getElementById('search').value = '';
     currentPage = 1;
     render();
   }
 
-  // Parse "1982, 1985" → [1982,1985]  |  "1969-1979" → [1969,1979]  |  "1955" → [1955]
   function recordedYears(a) {
     if (!a.recorded) return [a.year];
     const str = String(a.recorded);
-    // virgules : "1982, 1985"
     if (str.includes(',')) return str.split(',').map(x => parseInt(x.trim())).filter(Boolean);
-    // plage : "1969-1979"
     const range = str.match(/^(\d{4})\s*[-–]\s*(\d{4})$/);
     if (range) {
       const s = parseInt(range[1]), e = parseInt(range[2]);
       return [s, e];
     }
-    // année simple
     const m = str.match(/\d{4}/);
     return m ? [parseInt(m[0])] : [a.year];
   }
@@ -777,7 +730,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     return recordedYears(a)[0];
   }
 
-  // Affichage lisible sur la card : [1982,1985] → "1982, 1985"  |  [1969,1979] → "1969-1979"
   function recordedDisplay(a) {
     if (!a.recorded) return null;
     return String(a.recorded).trim();
@@ -815,6 +767,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       if (activeYears.size     && !recordedYears(a).some(y => activeYears.has(y)))  return false;
       if (activeRatings.size   && !activeRatings.has(a.rating || ''))              return false;
       if (activeComposers.size  && !a.composers.some(x => activeComposers.has(x)))   return false;
+      if (activeCycles.size    && !activeCycles.has(a.cycle || ''))                 return false; // ── PATCH cycle ──
       if (activeArtists.size   && !a.artists.some(x => activeArtists.has(x)))        return false;
       if (q && !a.title.toLowerCase().includes(q) && !a.artists.join(' ').toLowerCase().includes(q)) return false;
       return true;
@@ -830,14 +783,12 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     toastTimer = setTimeout(() => t.classList.remove('show'), 2500);
   }
 
-  /* ── SVG ── */
   const SVG = {
     yt:    '<svg viewBox="0 0 24 24"><path d="M19.59 7a2.4 2.4 0 0 0-1.69-1.7C16.54 5 12 5 12 5s-4.54 0-5.9.3A2.4 2.4 0 0 0 4.41 7 25 25 0 0 0 4 12a25 25 0 0 0 .41 5 2.4 2.4 0 0 0 1.69 1.7C7.46 19 12 19 12 19s4.54 0 5.9-.3A2.4 2.4 0 0 0 19.59 17 25 25 0 0 0 20 12a25 25 0 0 0-.41-5zM10 15V9l5.2 3z"/></svg>',
     edit:  '<svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>',
     trash: '<svg viewBox="0 0 24 24"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6M14 11v6"/><path d="M9 6V4h6v2"/></svg>',
   };
 
-  /* ── RENDER ── */
   let openDropdown = null;
 
   function closeAllDropdowns() {
@@ -856,6 +807,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       if (key !== 'year'       && activeYears.size     && !recordedYears(a).some(y => activeYears.has(y)))  return false;
       if (key !== 'artists'    && activeArtists.size   && !a.artists.some(x => activeArtists.has(x)))       return false;
       if (key !== 'composers'  && activeComposers.size && !a.composers.some(x => activeComposers.has(x)))   return false;
+      if (key !== 'cycle'      && activeCycles.size   && !activeCycles.has(a.cycle||''))                    return false; // ── PATCH cycle ──
       if (key !== 'rating'     && activeRatings.size   && !activeRatings.has(a.rating || ''))               return false;
       if (key === 'genres')    return a.genres.some(x => x === val);
       if (key === 'countries') {
@@ -865,6 +817,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       if (key === 'year')      return recordedYears(a).includes(val);
       if (key === 'artists')   return a.artists.includes(val);
       if (key === 'composers') return (a.composers||[]).includes(val);
+      if (key === 'cycle')     return (a.cycle||'') === val; // ── PATCH cycle ──
       if (key === 'rating')    return (a.rating||'') === val;
       return true;
     }).length;
@@ -955,6 +908,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       {set: activeCountries, cls:'chip-country'},
       {set: activeArtists,   cls:'chip-artist'},
       {set: activeComposers, cls:'chip-composer'},
+      {set: activeCycles,    cls:'chip-cycle'}, // ── PATCH cycle ──
       {set: activeYears,     cls:'chip-year'},
     ];
     groups.forEach(({set, cls}) => {
@@ -975,20 +929,19 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     f.innerHTML = '';
     if (!albums.length) return;
 
-    // Tous les filtres en dropdowns
     const ddRow = document.createElement('div'); ddRow.className = 'dropdown-row';
     [
       {label:'Genre',       key:'genres',    set:activeGenres},
       {label:'Pays',        key:'countries', set:activeCountries},
       {label:'Artiste',     key:'artists',   set:activeArtists},
       {label:'Compositeur', key:'composers', set:activeComposers},
+      {label:'Cycle',       key:'cycle',     set:activeCycles}, // ── PATCH cycle ──
       {label:'Année',       key:'year',      set:activeYears},
     ].forEach(({label, key, set}) => {
       const dd = makeDropdown(label, key, null, set);
       if (dd) ddRow.appendChild(dd);
     });
 
-    // Appréciation : boutons directs (3 valeurs seulement)
     const RATING_LABELS = {'':'— Bon', 'star':'⭐ Très bon', 'crown':'👑 Incontournable'};
     Object.entries(RATING_LABELS).forEach(([val, lbl]) => {
       const btn = document.createElement('button');
@@ -1003,7 +956,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     });
     f.appendChild(ddRow);
 
-    // Chips des filtres actifs
     const chips = document.createElement('div');
     chips.className = 'active-chips'; chips.id = 'active-chips';
     f.appendChild(chips);
@@ -1037,6 +989,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
         <div class="card-body">
           <div class="card-title" title="${a.title}">${a.title}</div>
           <div class="card-artist" title="${artistStr}">${artistStr}</div>
+          ${a.cycle ? `<div class="card-cycle" title="${a.cycle}">${a.cycle}</div>` : ''}
           ${a.composers && a.composers.length ? `<div class="card-composer" title="${a.composers.join(', ')}">${a.composers.map(c => { const cc = composerCountry(c); const cf = cc ? countryFlag(cc) : ''; return (cf ? cf + '\u00a0' : '') + c; }).join(', ')}</div>` : ''}
           <div class="card-foot">
             <div class="card-pills">
@@ -1065,6 +1018,12 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
         a.composers.forEach(x => activeComposers.add(x));
         currentPage = 1; render(); window.scrollTo({top:0, behavior:'smooth'});
       });
+      // ── PATCH cycle: click on cycle label filters by cycle ──
+      const cycleEl = card.querySelector('.card-cycle');
+      if (cycleEl) cycleEl.addEventListener('click', () => {
+        activeCycles.add(a.cycle);
+        currentPage = 1; render(); window.scrollTo({top:0, behavior:'smooth'});
+      });
       card.querySelector('.card-pills').addEventListener('click', e => {
         const pill = e.target.closest('.pill');
         if (!pill) return;
@@ -1075,7 +1034,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
           const val = parseInt(pill.childNodes[0].textContent.trim());
           if (!isNaN(val)) activeYears.add(val);
         } else if (pill.classList.contains('pill-c')) {
-          // un seul pays par pill ou plusieurs séparés par · — on prend le pays cliqué
           a.countries.forEach(c => activeCountries.add(c));
         }
         currentPage = 1;
@@ -1125,9 +1083,8 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     renderFilters();
     const results    = getFiltered();
     const total      = results.length;
-    const hasFilters = activeGenres.size || activeYears.size || activeArtists.size || activeCountries.size || activeRatings.size || document.getElementById('search').value.trim();
+    const hasFilters = activeGenres.size || activeYears.size || activeArtists.size || activeCountries.size || activeRatings.size || activeCycles.size || document.getElementById('search').value.trim();
 
-    // count bar with optional clear button
     const countEl = document.getElementById('count');
     countEl.innerHTML = '';
     const countTxt = document.createElement('span');
@@ -1165,7 +1122,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       ag.innerHTML = '<div class="empty"><strong>Aucun résultat</strong></div>';
       return;
     }
-    // Group by first artist, sorted alpha
     const map = new Map();
     results.forEach(a => {
       const key = a.artists[0];
@@ -1196,7 +1152,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       header.appendChild(name); header.appendChild(count);
       const albumsGrid = document.createElement('div');
       albumsGrid.className = 'artist-albums';
-      // Sort albums by year within artist
       const sorted2 = [...artistAlbums].sort((a,b) => firstYear(a) - firstYear(b));
       sorted2.forEach(a => {
         const [bg, fg] = colorFor(a.id);
@@ -1207,10 +1162,19 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
           : `<div class="cover-wrap"><div class="cover-fallback" style="background:${bg};color:${fg}">${initials(a.title)}</div>${ratingBadge?`<span class="card-rating">${ratingBadge}</span>`:''}<div class="card-actions">${ytBtn}<button class="edit-btn" title="Modifier">${SVG.edit}</button><button class="del-btn" title="Supprimer">${SVG.trash}</button></div></div>`;
         const card = document.createElement('div');
         card.className = 'card';
-        card.innerHTML = `${coverHtml}<div class="card-body"><div class="card-title" title="${a.title}">${a.title}</div><div class="card-foot"><div class="card-pills"><span class="pill pill-y">${a.recorded||a.year}</span></div></div></div>`;
+        card.innerHTML = `${coverHtml}<div class="card-body"><div class="card-title" title="${a.title}">${a.title}</div>${a.cycle ? `<div class="card-cycle" title="${a.cycle}">${a.cycle}</div>` : ''}<div class="card-foot"><div class="card-pills"><span class="pill pill-y">${a.recorded||a.year}</span></div></div></div>`;
         card.querySelector('.edit-btn').addEventListener('click', () => openModal(a.id));
         card.querySelector('.del-btn').addEventListener('click', () => {
           if (confirm(`Supprimer "${a.title}" ?`)) { albums = albums.filter(x=>x.id!==a.id); persist(); render(); }
+        });
+        // ── PATCH cycle: click cycle in artist view ──
+        const cycleEl2 = card.querySelector('.card-cycle');
+        if (cycleEl2) cycleEl2.addEventListener('click', () => {
+          activeCycles.add(a.cycle);
+          currentView = 'grid';
+          document.getElementById('btn-view-grid').classList.add('active');
+          document.getElementById('btn-view-artist').classList.remove('active');
+          currentPage = 1; render(); window.scrollTo({top:0, behavior:'smooth'});
         });
         card.querySelector('.card-pills').addEventListener('click', e => {
           const pill = e.target.closest('.pill');
@@ -1233,7 +1197,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     });
   }
 
-  /* ── MODAL ── */
   function openModal(id) {
     editingId = (id !== undefined) ? id : null;
     const isEdit = editingId !== null;
@@ -1251,9 +1214,10 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       document.getElementById('f-country').value  = a.countries.join(', ');
       document.getElementById('f-cover').value   = a.cover || '';
       document.getElementById('f-yt').value      = a.yt || '';
+      document.getElementById('f-cycle').value   = a.cycle || ''; // ── PATCH cycle ──
       setRating(a.rating || '');
     } else {
-      ['f-title','f-artist','f-composer','f-year','f-recorded','f-genre','f-country','f-cover','f-yt']
+      ['f-title','f-artist','f-composer','f-year','f-recorded','f-genre','f-country','f-cover','f-yt','f-cycle']
         .forEach(fid => { document.getElementById(fid).value = ''; });
       setRating('');
     }
@@ -1282,16 +1246,17 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     const countries = parseTags(document.getElementById('f-country').value);
     const cover     = document.getElementById('f-cover').value.trim();
     const yt        = document.getElementById('f-yt').value.trim();
+    const cycle     = document.getElementById('f-cycle').value.trim() || null; // ── PATCH cycle ──
     const rating    = document.querySelector('.rating-opt.selected')?.dataset.value || '';
     if (!title || !artists.length || !year || !genres.length) {
       document.getElementById('form-err').textContent = 'Titre, artiste(s), année et genre sont requis.';
       return;
     }
     if (editingId !== null) {
-      albums = albums.map(a => a.id === editingId ? {...a, title, artists, composers, year, recorded, genres, countries, cover, yt, rating} : a);
+      albums = albums.map(a => a.id === editingId ? {...a, title, artists, composers, year, recorded, genres, countries, cover, yt, rating, cycle} : a);
     } else {
       const id = albums.length ? Math.max(...albums.map(a => a.id)) + 1 : 1;
-      albums.unshift({id, title, artists, composers, year, recorded, genres, countries, cover, yt, rating});
+      albums.unshift({id, title, artists, composers, year, recorded, genres, countries, cover, yt, rating, cycle});
     }
     persist();
     closeModal();
@@ -1305,6 +1270,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     btn.style.borderColor = hasPending ? 'rgba(233,69,96,.5)' : '';
     btn.style.color = hasPending ? 'var(--cp)' : '';
   }
+
   function exportJSON() {
     const exportData = buildExportData();
     const blob   = new Blob([JSON.stringify(exportData, null, 2)], {type:'application/json'});
@@ -1340,10 +1306,9 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     reader.readAsText(file);
   }
 
-  /* ── REVIEW MODE ── */
   let reviewQueue = [];
   let reviewIndex = 0;
-  let reviewPhase = 'yt'; // 'yt' then 'rating'
+  let reviewPhase = 'yt';
   let reviewRating = '';
 
   function buildReviewQueue() {
@@ -1375,7 +1340,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     const progress= document.getElementById('review-progress');
 
     if (reviewIndex >= reviewQueue.length) {
-      // Phase YT terminée → passer aux notations ?
       if (reviewPhase === 'yt') {
         const noRating = albums.filter(a => !a.rating);
         if (noRating.length) {
@@ -1391,7 +1355,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
           return;
         }
       }
-      // Tout terminé
       wrap.innerHTML = `<div class="review-done"><div class="review-done-icon">🎉</div><div class="review-done-title">Révision terminée !</div><div class="review-done-sub">Pense à exporter et pusher ton JSON.</div></div>`;
       actions.innerHTML = `<button class="btn-next" style="width:100%" onclick="closeReview()">Fermer</button>`;
       return;
@@ -1401,7 +1364,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     const [bg, fg] = colorFor(a.id);
     const phaseLabel = reviewPhase === 'yt' ? 'YouTube manquants' : 'Notations manquantes';
     title.textContent = 'Mode révision';
-    document.getElementById('review-phase-label') && (document.getElementById('review-phase-label').textContent = phaseLabel);
     progress.innerHTML = `<span style="color:var(--cp);font-weight:700;font-size:10px;letter-spacing:.06em;text-transform:uppercase">${phaseLabel}</span> — ${reviewIndex + 1} / ${reviewQueue.length}`;
 
     const coverHtml = a.cover
@@ -1454,7 +1416,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       }
 
     } else {
-      // Rating phase
       reviewRating = a.rating || '';
       const ratingRow = document.createElement('div'); ratingRow.className = 'review-rating-row';
       [['','— Bon'],['star','⭐ Très bon'],['crown','👑 Incontournable']].forEach(([val, lbl]) => {
@@ -1482,7 +1443,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     }
   }
 
-  /* ── FAQ ── */
   const FAQ = [
     {
       q: "À quoi correspondent les dates ?",
@@ -1522,7 +1482,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     });
   }
 
-  /* ── TABS ── */
   function initTabs() {
     document.querySelectorAll('.tab-btn').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -1534,7 +1493,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     });
   }
 
-  /* ── ADMIN LOCK ── */
   const ADMIN_KEY  = 'mes-albums-admin';
   const ADMIN_PASS = 'aegidius';
   let adminUnlocked = false;
@@ -1546,7 +1504,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     btns.classList.toggle('visible', unlocked);
     lock.classList.toggle('unlocked', unlocked);
     lock.title = unlocked ? 'Mode admin actif (cliquer pour verrouiller)' : 'Mode admin (cliquer pour déverrouiller)';
-    // verrou ouvert vs fermé
     lock.innerHTML = unlocked
       ? '<svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>'
       : '<svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>';
@@ -1555,7 +1512,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   }
 
   function initAdmin() {
-    // Restaurer session
     if (sessionStorage.getItem(ADMIN_KEY)) { setAdminMode(true); return; }
     document.getElementById('btn-lock').addEventListener('click', () => {
       if (adminUnlocked) { setAdminMode(false); return; }
@@ -1598,7 +1554,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     document.getElementById('random-close').addEventListener('click', () => document.getElementById('random-overlay').classList.remove('open'));
   }
 
-  /* ── EVENTS ── */
   document.getElementById('btn-view-grid').addEventListener('click', () => {
     currentView = 'grid';
     document.getElementById('btn-view-grid').classList.add('active');
@@ -1615,10 +1570,10 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   document.getElementById('random-overlay').addEventListener('click', e => {
     if (e.target === document.getElementById('random-overlay')) document.getElementById('random-overlay').classList.remove('open');
   });
+
   function openCompDict() {
     const overlay = document.getElementById('comp-dict-overlay');
     const list = document.getElementById('comp-dict-list');
-    // collect all unique composers from albums
     const allComposers = [];
     albums.forEach(a => (a.composers||[]).forEach(c => { if (!allComposers.includes(c)) allComposers.push(c); }));
     allComposers.sort((a,b) => a.localeCompare(b, 'fr', {sensitivity:'base'}));
@@ -1686,7 +1641,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeModal(); closeAllDropdowns(); } });
   document.addEventListener('click', () => closeAllDropdowns());
 
-  /* ── INIT ── */
   initFAQ();
   initTabs();
   initAdmin();
