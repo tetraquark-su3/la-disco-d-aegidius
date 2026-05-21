@@ -1246,7 +1246,8 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     const countries = parseTags(document.getElementById('f-country').value);
     const cover     = document.getElementById('f-cover').value.trim();
     const yt        = document.getElementById('f-yt').value.trim();
-    const cycle     = document.getElementById('f-cycle').value.trim() || null; // ── PATCH cycle ──
+    const rawCycle = document.getElementById('f-cycle').value.trim();
+    const cycle = rawCycle ? rawCycle.split(' - ').map(s => toTitleCase(s.trim())).join(' - ') : null;
     const rating    = document.querySelector('.rating-opt.selected')?.dataset.value || '';
     if (!title || !artists.length || !year || !genres.length) {
       document.getElementById('form-err').textContent = 'Titre, artiste(s), année et genre sont requis.';
