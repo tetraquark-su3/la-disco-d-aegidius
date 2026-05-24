@@ -1105,7 +1105,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   if (q)                    params.set('q', q);
   if (currentSort !== 'title') params.set('sort', currentSort);
   if (currentView !== 'grid')  params.set('view', currentView);
-  if (currentPage > 1)         params.set('page', currentPage);
+  if (currentPage > 1 && currentView !== 'artist') params.set('page', currentPage);
   return params;
 }
 
