@@ -1220,9 +1220,14 @@ function urlToState() {
     btn.textContent = l === '0–9' ? '#' : l;
     btn.href = '#';
     if (byLetter.has(l)) {
-      btn.addEventListener('click', e => {
+        btn.addEventListener('click', e => {
         e.preventDefault();
-        document.getElementById('letter-' + l)?.scrollIntoView({behavior:'smooth', block:'start'});
+        const target = document.getElementById('letter-' + l);
+        if (target) {
+          target.scrollIntoView({behavior:'smooth', block:'start'});
+          history.replaceState(null, '', window.location.search + '#letter-' + l);
+  }
+});
       });
     }
     nav.appendChild(btn);
@@ -1764,7 +1769,13 @@ body.className = 'letter-body';
   initTabs();
   initAdmin();
   loadCompDict();
-  load().then(() => { urlToState(); render('pagechange'); });
+  load().then(() => {
+  urlToState();
+  render('pagechange');
+  if (location.hash) {
+    setTimeout(() => document.querySelector(location.hash)?.scrollIntoView({block:'start'}), 100);
+  }
+});
 })();
 </script>
 </body>
