@@ -1225,7 +1225,8 @@ function urlToState() {
         const target = document.getElementById('letter-' + l);
         if (target) {
           target.scrollIntoView({behavior:'smooth', block:'start'});
-          history.replaceState(null, '', window.location.search + '#letter-' + l);
+          const base = window.location.pathname + window.location.search;
+          history.replaceState(null, '', base + '#letter-' + l);
   }
 });
       });
