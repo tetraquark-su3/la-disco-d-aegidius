@@ -277,6 +277,13 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 .artist-name{font-size:1rem;font-weight:700;color:var(--t1);cursor:pointer}
 .artist-name:hover{color:var(--ca)}
 .artist-count{font-size:11px;color:var(--t3)}
+.alpha-nav{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:1.5rem}
+.alpha-btn{width:28px;height:28px;display:flex;align-items:center;justify-content:center;border:1px solid var(--s2);border-radius:var(--rs);background:var(--s1);color:var(--t2);font-family:'Cantarell',sans-serif;font-size:12px;font-weight:700;cursor:pointer;transition:all .12s;text-decoration:none}
+.alpha-btn:hover{border-color:var(--s3);color:var(--t1);background:var(--s2)}
+.alpha-btn.active{border-color:rgba(168,192,255,.4);color:var(--ca)}
+.alpha-btn.disabled{opacity:.25;cursor:default;pointer-events:none}
+.letter-section{margin-bottom:2.5rem}
+.letter-heading{font-size:1.4rem;font-weight:700;color:var(--t3);margin-bottom:1rem;padding-bottom:6px;border-bottom:1px solid var(--s2)}
 .artist-albums{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}
 @media(min-width:1280px){.artist-albums{grid-template-columns:repeat(7,1fr)}}
 @media(min-width:1060px) and (max-width:1279px){.artist-albums{grid-template-columns:repeat(6,1fr)}}
@@ -1117,20 +1124,74 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   }
 
   function renderArtistView(results) {
-    const ag = document.getElementById('artist-grid');
-    ag.innerHTML = '';
-    if (!results.length) {
-      ag.innerHTML = '<div class="empty"><strong>Aucun résultat</strong></div>';
-      return;
+  const ag = document.getElementById('artist-grid');
+  ag.innerHTML = '';
+  if (!results.length) {
+    ag.innerHTML = '<div class="empty"><strong>Aucun résultat</strong></div>';
+    return;
+  }
+
+  // Grouper par artiste
+  const map = new Map();
+  results.forEach(a => {
+    const key = a.artists[0];
+    if (!map.has(key)) map.set(key, []);
+    map.get(key).push(a);
+  });
+
+  // Trier les artistes (articles ignorés)
+  const sortedArtists = [...map.entries()].sort((a,b) =>
+    sortKey(a[0]).localeCompare(sortKey(b[0]), 'fr', {sensitivity:'base'})
+  );
+
+  // Grouper par lettre
+  const byLetter = new Map();
+  sortedArtists.forEach(([artist, artistAlbums]) => {
+    const sk = sortKey(artist);
+    const first = sk[0].toUpperCase();
+    const letter = /[A-ZÀÂÄÉÈÊËÎÏÔÖÙÛÜÇ]/.test(first) ? first : '0–9';
+    if (!byLetter.has(letter)) byLetter.set(letter, []);
+    byLetter.get(letter).push([artist, artistAlbums]);
+  });
+
+  // Ordre : 0–9 puis A–Z
+  const letters = [...byLetter.keys()].sort((a,b) => {
+    if (a === '0–9') return -1;
+    if (b === '0–9') return 1;
+    return a.localeCompare(b, 'fr');
+  });
+
+  // Barre alphabétique
+  const allLetters = ['0–9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+  const nav = document.createElement('div');
+  nav.className = 'alpha-nav';
+  allLetters.forEach(l => {
+    const btn = document.createElement('a');
+    btn.className = 'alpha-btn' + (byLetter.has(l) ? '' : ' disabled');
+    btn.textContent = l === '0–9' ? '#' : l;
+    btn.href = '#';
+    if (byLetter.has(l)) {
+      btn.addEventListener('click', e => {
+        e.preventDefault();
+        document.getElementById('letter-' + l)?.scrollIntoView({behavior:'smooth', block:'start'});
+      });
     }
-    const map = new Map();
-    results.forEach(a => {
-      const key = a.artists[0];
-      if (!map.has(key)) map.set(key, []);
-      map.get(key).push(a);
-    });
-    const sorted = [...map.entries()].sort((a,b) => sortKey(a[0]).localeCompare(sortKey(b[0]), 'fr', {sensitivity:'base'}));
-    sorted.forEach(([artist, artistAlbums]) => {
+    nav.appendChild(btn);
+  });
+  ag.appendChild(nav);
+
+  // Sections par lettre
+  letters.forEach(letter => {
+    const letterSection = document.createElement('div');
+    letterSection.className = 'letter-section';
+    letterSection.id = 'letter-' + letter;
+
+    const heading = document.createElement('div');
+    heading.className = 'letter-heading';
+    heading.textContent = letter;
+    letterSection.appendChild(heading);
+
+    byLetter.get(letter).forEach(([artist, artistAlbums]) => {
       const section = document.createElement('div');
       section.className = 'artist-section';
       const header = document.createElement('div');
@@ -1168,7 +1229,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
         card.querySelector('.del-btn').addEventListener('click', () => {
           if (confirm(`Supprimer "${a.title}" ?`)) { albums = albums.filter(x=>x.id!==a.id); persist(); render(); }
         });
-        // ── PATCH cycle: click cycle in artist view ──
         const cycleEl2 = card.querySelector('.card-cycle');
         if (cycleEl2) cycleEl2.addEventListener('click', () => {
           activeCycles.add(a.cycle);
@@ -1194,9 +1254,12 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
         albumsGrid.appendChild(card);
       });
       section.appendChild(header); section.appendChild(albumsGrid);
-      ag.appendChild(section);
+      letterSection.appendChild(section);
     });
-  }
+
+    ag.appendChild(letterSection);
+  });
+}
 
   function openModal(id) {
     editingId = (id !== undefined) ? id : null;
