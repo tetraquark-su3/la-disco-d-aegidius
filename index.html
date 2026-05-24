@@ -724,7 +724,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     activeArtists.clear(); activeCountries.clear(); activeRatings.clear(); activeComposers.clear(); activeCycles.clear();
     document.getElementById('search').value = '';
     currentPage = 1;
-    render();
+    render('pagechange');
   }
 
   function recordedYears(a) {
@@ -1076,7 +1076,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       if (!disabled) b.addEventListener('click', () => { onClick(); window.scrollTo({top:0,behavior:'smooth'}); });
       return b;
     };
-    nav.appendChild(mkBtn('&#8592;', currentPage === 1, () => { currentPage--; render(); }));
+    nav.appendChild(mkBtn('&#8592;', currentPage === 1, () => { currentPage--; render('pagechange'); }));
     const pages = [...new Set([1, totalPages, currentPage, currentPage-1, currentPage+1].filter(p => p>=1 && p<=totalPages))].sort((a,b)=>a-b);
     let prev = null;
     pages.forEach(p => {
@@ -1084,17 +1084,60 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
       const b = document.createElement('button');
       b.className = 'page-btn' + (p === currentPage ? ' active' : '');
       b.textContent = p;
-      if (p !== currentPage) b.addEventListener('click', () => { currentPage = p; render(); window.scrollTo({top:0,behavior:'smooth'}); });
+      if (p !== currentPage) b.addEventListener('click', () => { currentPage = p; render('pagechange'); window.scrollTo({top:0,behavior:'smooth'}); });
       nav.appendChild(b);
       prev = p;
     });
-    nav.appendChild(mkBtn('&#8594;', currentPage === totalPages, () => { currentPage++; render(); }));
+    nav.appendChild(mkBtn('&#8594;', currentPage === totalPages, () => { currentPage++; render('pagechange'); }));
     el.appendChild(nav);
   }
+
+  function stateToUrl() {
+  const params = new URLSearchParams();
+  if (activeGenres.size)    params.set('genres',    [...activeGenres].join(','));
+  if (activeCountries.size) params.set('countries', [...activeCountries].join(','));
+  if (activeArtists.size)   params.set('artists',   [...activeArtists].join(','));
+  if (activeComposers.size) params.set('composers', [...activeComposers].join(','));
+  if (activeCycles.size)    params.set('cycles',    [...activeCycles].join(','));
+  if (activeYears.size)     params.set('years',     [...activeYears].join(','));
+  if (activeRatings.size)   params.set('ratings',   [...activeRatings].join(','));
+  const q = document.getElementById('search').value.trim();
+  if (q)                    params.set('q', q);
+  if (currentSort !== 'title') params.set('sort', currentSort);
+  if (currentView !== 'grid')  params.set('view', currentView);
+  if (currentPage > 1)         params.set('page', currentPage);
+  return params;
+}
+
+function urlToState() {
+  const params = new URLSearchParams(window.location.search);
+  activeGenres.clear();    (params.get('genres')    || '').split(',').filter(Boolean).forEach(x => activeGenres.add(x));
+  activeCountries.clear(); (params.get('countries') || '').split(',').filter(Boolean).forEach(x => activeCountries.add(x));
+  activeArtists.clear();   (params.get('artists')   || '').split(',').filter(Boolean).forEach(x => activeArtists.add(x));
+  activeComposers.clear(); (params.get('composers') || '').split(',').filter(Boolean).forEach(x => activeComposers.add(x));
+  activeCycles.clear();    (params.get('cycles')    || '').split(',').filter(Boolean).forEach(x => activeCycles.add(x));
+  activeYears.clear(); (params.get('years') || '').split(',').filter(Boolean).forEach(x => { const n = parseInt(x); if (!isNaN(n)) activeYears.add(n); });
+  activeRatings.clear();   (params.get('ratings')   || '').split(',').filter(Boolean).forEach(x => activeRatings.add(x));
+  const q = params.get('q') || '';
+  document.getElementById('search').value = q;
+  currentSort = params.get('sort') || 'title';
+  currentView = params.get('view') || 'grid';
+  currentPage = parseInt(params.get('page')) || 1;
+  document.getElementById('sort-select').value = currentSort;
+  document.getElementById('btn-view-grid').classList.toggle('active', currentView === 'grid');
+  document.getElementById('btn-view-artist').classList.toggle('active', currentView === 'artist');
+}
 
   function render() {
     updateEditBadge();
     renderFilters();
+    const isPageChange = arguments[0] === 'pagechange';
+    const params = stateToUrl();
+    if (isPageChange) {
+    history.replaceState(null, '', '?' + params.toString());
+    } else {
+    history.pushState(null, '', params.toString() ? '?' + params.toString() : location.pathname);
+    }
     const results    = getFiltered();
     const total      = results.length;
     const hasFilters = activeGenres.size || activeYears.size || activeArtists.size || activeCountries.size || activeRatings.size || activeCycles.size || document.getElementById('search').value.trim();
@@ -1194,9 +1237,6 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
 
     const heading = document.createElement('div');
     heading.className = 'letter-heading';
-    heading.textContent = letter;
-    letterSection.appendChild(heading);
-
     heading.className = 'letter-heading';
     heading.innerHTML = `<span>${letter}</span><span class="letter-chevron">▼</span>`;
     heading.addEventListener('click', () => letterSection.classList.toggle('open'));
@@ -1719,12 +1759,12 @@ body.className = 'letter-body';
   document.getElementById('search').addEventListener('input', () => { currentPage = 1; render(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeModal(); closeAllDropdowns(); } });
   document.addEventListener('click', () => closeAllDropdowns());
-
+  window.addEventListener('popstate', () => { urlToState(); render('pagechange'); });
   initFAQ();
   initTabs();
   initAdmin();
   loadCompDict();
-  load().then(() => render());
+  load().then(() => { urlToState(); render('pagechange'); });
 })();
 </script>
 </body>
