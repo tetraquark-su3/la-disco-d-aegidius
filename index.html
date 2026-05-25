@@ -546,6 +546,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
   let activeComposers = new Set();
   let activeCycles   = new Set(); // ── PATCH cycle ──
   let toastTimer = null;
+  let currentHash = '';
 
   const FLAG_MAP = {
     'allemagne':'🇩🇪','états-unis':'🇺🇸','etats-unis':'🇺🇸','royaume-uni':'🇬🇧','france':'🇫🇷',
@@ -724,6 +725,7 @@ header{padding:2.5rem 2rem 0;max-width:1200px;margin:0 auto}
     activeArtists.clear(); activeCountries.clear(); activeRatings.clear(); activeComposers.clear(); activeCycles.clear();
     document.getElementById('search').value = '';
     currentPage = 1;
+    currentHash = '';
     render('pagechange');
   }
 
@@ -1133,10 +1135,11 @@ function urlToState() {
     renderFilters();
     const isPageChange = arguments[0] === 'pagechange';
     const params = stateToUrl();
+    const hash = currentHash;
     if (isPageChange) {
-    history.replaceState(null, '', '?' + params.toString());
+    history.replaceState(null, '', '?' + params.toString() + hash);
     } else {
-    history.pushState(null, '', params.toString() ? '?' + params.toString() : location.pathname);
+    history.pushState(null, '', params.toString() ? '?' + params.toString() + hash : location.pathname + hash);
     }
     const results    = getFiltered();
     const total      = results.length;
@@ -1220,15 +1223,17 @@ function urlToState() {
     btn.textContent = l === '0–9' ? '#' : l;
     btn.href = '#';
     if (byLetter.has(l)) {
-        btn.addEventListener('click', e => {
-        e.preventDefault();
-        const target = document.getElementById('letter-' + l);
-        if (target) {
-          target.scrollIntoView({behavior:'smooth', block:'start'});
-          const base = window.location.pathname + window.location.search;
-          history.replaceState(null, '', base + '#letter-' + l);
-  }
-});
+      btn.addEventListener('click', e => {
+      e.preventDefault();
+      const target = document.getElementById('letter-' + l);
+      if (target) {
+        target.scrollIntoView({behavior:'smooth', block:'start'});
+        currentHash = '#letter-' + l;
+        const base = window.location.pathname + window.location.search;
+        history.replaceState(null, '', base + '#letter-' + l);
+      }
+      });
+      }
       });
     }
     nav.appendChild(btn);
@@ -1775,6 +1780,7 @@ body.className = 'letter-body';
   render('pagechange');
   if (location.hash) {
     setTimeout(() => document.querySelector(location.hash)?.scrollIntoView({block:'start'}), 100);
+
   }
 });
 })();
